@@ -6,7 +6,7 @@ config.google_drive.assets_folder_ids = ["1FeuS7TDJQJlYpIXGki7vOdr3TaMjIdWj"];
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/ae-app-content.git",
-  content_tag_latest: "0.1.2",
+  content_tag_latest: "0.1.3",
 };
 
 config.web.favicon_asset = "global/logos/idems.png";
