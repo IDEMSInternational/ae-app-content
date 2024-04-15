@@ -1,0 +1,37 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "soil_health",
+  "data_list_name": "soil_health",
+  "status": "released",
+  "rows": [
+    {
+      "id": "section_control",
+      "heading": "Controlling Erosion",
+      "description": "Soil erosion carries away the topsoil which contains nutrients and life thus degrading the overall health of your soil. Here are some erosion control methods.",
+      "illustration": "soil_health/erosion_1.png",
+      "template": "control_ersn_screen"
+    },
+    {
+      "id": "section_recycle",
+      "heading": "Recycling",
+      "description": "Improve the health of your soil by recycling and re-using farm waste products. Plants need carbon to grow healthy and strong and you can keep soil carbon levels high by recycling plant debris and manure.",
+      "illustration": "soil_health/recycling.png",
+      "template": "recycle_screen"
+    },
+    {
+      "id": "section_mixed",
+      "heading": "Mixed Farming",
+      "description": "Mixed farming is the integration of crops and livestock enterprises. Animal waste, that is urine and poop, are rich resources that improve soil fertility and so make crops thrive.",
+      "illustration": "soil_health/farm_integration.png",
+      "template": "mixed_farm_screen"
+    },
+    {
+      "id": "section_plant",
+      "heading": "Plant Diversity",
+      "description": "Incorporating different types of crops and practices on the farm helps improve overall crop production and soil health.",
+      "illustration": "soil_health/crop_rotation.PNG",
+      "template": "plant_div_screen"
+    }
+  ],
+  "_xlsxPath": "data_lists/soils/soil_data_lists.xlsx"
+}

@@ -1,0 +1,45 @@
+{
+  "flow_type": "tour",
+  "flow_name": "home_screen_tour",
+  "status": "released",
+  "rows": [
+    {
+      "type": "step",
+      "title": "Welcome to @global.app_name",
+      "_translations": {
+        "title": {},
+        "message_text": {}
+      },
+      "message_text": "<p>Discover the AE App! This app is designed to support farmers grow healthy crops using sustainable farming practices, also called agroecology (AE).</p>\n\n<p>@global.app_name is here to support you.</p>\n\n<p>Here is how to use the app:</p>",
+      "route": "template/home_screen"
+    },
+    {
+      "type": "step",
+      "message_text": "Click on Farming Topics to explore tips and learn more about soil health, managing pests and family nutrition.",
+      "_translations": {
+        "message_text": {}
+      },
+      "template_component_name": "dg_highlighted_module",
+      "route": "template/home_screen"
+    },
+    {
+      "type": "step",
+      "message_text": "Here are key ideas or principles to guide your farming activities.",
+      "_translations": {
+        "message_text": {}
+      },
+      "template_component_name": "dg_module_highlighted",
+      "route": "template/home_screen"
+    },
+    {
+      "type": "step",
+      "message_text": "Use the library to get extra information about pests ...",
+      "_translations": {
+        "message_text": {}
+      },
+      "template_component_name": "dg_module",
+      "route": "template/home_screen"
+    }
+  ],
+  "_xlsxPath": "tours/global/navigation_tours.xlsx"
+}

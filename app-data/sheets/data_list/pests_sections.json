@@ -1,0 +1,30 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "pests_sections",
+  "data_list_name": "pests_sections",
+  "status": "released",
+  "rows": [
+    {
+      "id": "section_insects",
+      "heading": "Natural enemies!",
+      "illustration": "pests/ants_beneficials_1.png",
+      "description": "Insects can have either a positive or negative effect on your farm. We want to attract beneficial insects to help protect our crops. Find out how and get to know what types of pest there are.",
+      "template": "attract_enemies_scrn"
+    },
+    {
+      "id": "section_planting",
+      "heading": "Using plant diversity",
+      "illustration": "pests/ornamentals_attract_beneficials.png",
+      "description": "Protect your crops by attracting natural enemies to pests. Growing a diverse range of plants provides food and shelter to these natural enemies. Here are ideas to try.",
+      "template": "plant_diversity_scrn"
+    },
+    {
+      "id": "section_pesticides",
+      "heading": "Using less toxic products",
+      "illustration": "manor_pests/dishsoap.jpeg",
+      "description": "Homemade pesticides are safer, cheaper and a more eco-friendly way of controlling insect pests.\n\nHere are some recipes and plants you can use:",
+      "template": "less_toxic_products_scrn"
+    }
+  ],
+  "_xlsxPath": "data_lists/pests/pest_management_data_list.xlsx"
+}

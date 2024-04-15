@@ -1,0 +1,39 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "attract_enemies",
+  "data_list_name": "attract_enemies",
+  "status": "released",
+  "rows": [
+    {
+      "id": "id_beneficials",
+      "heading": "Beneficial insects",
+      "description": "These are animals or insects that feed on insect pests.",
+      "examples": "ladybugs, lacewings, wasps, dragon flies, spiders, praying mantis, frogs, lizards and squirrels.",
+      "image_1": "pests/wasp_2.PNG",
+      "image_2": "pests/lady_beetle.png",
+      "image_3": "pests/praying_mantis.PNG",
+      "image_4": "pests/lacewing_adult.png",
+      "image_5": "pests/hover_flies_adults.png",
+      "data_list": [
+        "beneficials_categories"
+      ],
+      "template": "beneficials_categories"
+    },
+    {
+      "id": "id_pests",
+      "heading": "Insect pests",
+      "description": "These are insects that damage your crops.",
+      "examples": "aphids, spidermites, thrips, whiteflies, mealy bugs, leafminers and caterpillars.",
+      "image_1": "pests/caterpillars.png",
+      "image_2": "pests/mealy_bug_insect.png",
+      "image_3": "pests/aphids_1.PNG",
+      "image_4": "pests/leafminer_adult.png",
+      "image_5": "pests/whiteflies_1.png",
+      "data_list": [
+        "pest_categories"
+      ],
+      "template": "pest_categories"
+    }
+  ],
+  "_xlsxPath": "data_lists/pests/pest_management_data_list.xlsx"
+}

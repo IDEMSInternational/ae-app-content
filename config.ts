@@ -6,11 +6,10 @@ config.google_drive.assets_folder_ids = ["1FeuS7TDJQJlYpIXGki7vOdr3TaMjIdWj"];
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/ae-app-content.git",
-  content_tag_latest: "0.1.1",
+  content_tag_latest: "0.1.2",
 };
 
-
-
+config.web.favicon_asset = "global/logos/idems.png";
 
 config.app_config.APP_SIDEMENU_DEFAULTS.title = "AE App";
 config.app_config.APP_HEADER_DEFAULTS.title = "AE App";

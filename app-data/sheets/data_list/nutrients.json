@@ -1,0 +1,67 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "nutrients",
+  "status": "released",
+  "data_list_name": "nutrients",
+  "rows": [
+    {
+      "id": "nutrient_zinc",
+      "illustration": "nutrition/zinc.png",
+      "name": "Zinc",
+      "example_where_to_find": "Zinc supports immune health and healthy fetal development during pregnancy. Good food sources include chicken, red meat, pumpkin seeds and lablab.",
+      "chart_of_foods": "nutrition/chart_zinc.png",
+      "properties": "Supports growth and the immune system",
+      "deficiency": "Zinc deficiency leads to poor immunity and diseases.",
+      "symptoms_of_deficiency": "Wounds that don't heal quickly, open sores on the skin, frequent colds, frequent diarrhea, loss of appetite, brain fog, reduced taste and smell, and balding too soon in adults."
+    },
+    {
+      "id": "nutrient_iron",
+      "illustration": "nutrition/iron.png",
+      "name": "Iron",
+      "example_where_to_find": "Lablab, amaranth, and soybean are examples of iron rich foods\nMeat - especially liver\nEggs\nDark leafy vegetables",
+      "chart_of_foods": "nutrition/chart_iron.png",
+      "properties": "Important component of blood",
+      "deficiency": "Iron deficiency leads to anemia and feeling tired.",
+      "symptoms_of_deficiency": "General body weakness, pale or yellow skin, shortness of breath, dizziness or lightheadedness, cold hands and feet, headache."
+    },
+    {
+      "id": "nutrient_proteins",
+      "illustration": "nutrition/protein.png",
+      "name": "Proteins",
+      "example_where_to_find": "If you are eating a maize-based diet, it is important to note that maize lacks some of the key amino acids needed for proper nutrition. To ensure that you are getting all of the essential amino acids, you should also eat foods that are high in these amino acids, such as beans and other legumes. Additionally, animal-based proteins are generally considered to be of higher quality than plant-based proteins due to their higher digestibility. However, plant-based proteins can still provide all of the essential amino acids if consumed in sufficient quantities and in combination with other protein sources. \nHow well/ poorly a protein can perform its metabolic function in the body is defined by the protein quality in a substance. \nSome of the proteins with high quality are from animal sources like eggs, milk, meat, fish, and poultry. Other examples like Soybean, groundnut, and buckwheat are examples of protein-rich foods.",
+      "did_you_know": "Maize-based diets lack essential amino acids, so it's crucial to supplement with amino-rich foods like beans. Animal proteins are of higher quality due to better digestibility, but plant proteins can provide essential amino acids when combined adequately. Protein quality determines its metabolic effectiveness; animal sources (eggs, milk, meat, fish, poultry) are high-quality, along with plant sources like soybean, groundnut, and buckwheat.",
+      "chart_of_foods": "nutrition/protein_quality.PNG",
+      "chart_of_foods_2": "nutrition/protein_quantity.PNG",
+      "properties": "Important for body repair and making new cells",
+      "deficiency": "Lack of protein leads to kwashiorkor and marasmus.",
+      "symptoms_of_deficiency": "Stunted growth in children, loss of appetite, hair loss, fatigue."
+    },
+    {
+      "id": "nutrient_calcium",
+      "illustration": "nutrition/calcium.png",
+      "name": "Calcium",
+      "example_where_to_find": "Milk, dark green leafy vegetables and soybeans are rich in calcium.",
+      "chart_of_foods": "nutrition/chart_calcium.png",
+      "properties": "Makes strong bones and teeth",
+      "deficiency": "Lack of calcium causes bones to become brittle and can lead to brain damage.",
+      "symptoms_of_deficiency": "Numbness, tingling sensations, muscle cramps, poor appetite."
+    },
+    {
+      "id": "nutrient_vitamin_A",
+      "name": "Vitamin A",
+      "example_where_to_find": "Vitamin A can be found in liver, fish, spinach.eggs, carrots and in dairy products such as milk and yoghurt.",
+      "properties": "Plays a role in maintaining vision, body growth, immunity and reproductive health.",
+      "deficiency": "Lack of vitamin A can lead to blindness, increased skin infections, pregnacy complications.",
+      "symptoms_of_deficiency": "Night blindness, skin irritation, stunted growth, and bitot spots in the eyes."
+    },
+    {
+      "id": "nutrient_vitamin_C",
+      "name": "Vitamin C",
+      "example_where_to_find": "It's mainy in present in fruits and vegetables like oranges and also in potatoes.",
+      "properties": "It helps in the development and repair of body tissues.",
+      "deficiency": "Deficiency in Vitamin C can cause scurvy.",
+      "symptoms_of_deficiency": "Hair loss, delay in the healing of skin wounds, swelling or bleeding gums."
+    }
+  ],
+  "_xlsxPath": "data_lists/nutrition/nutrition_data_lists.xlsx"
+}
