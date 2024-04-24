@@ -99,7 +99,7 @@
                         "value": {}
                       },
                       "type": "set_variable",
-                      "_nested_name": "accordion.items.acc_@item.id.plant_diversity.type_id",
+                      "_nested_name": "accordion_5.items_1.acc_@item.id.plant_diversity.type_id",
                       "_dynamicFields": {
                         "value": [
                           {
@@ -111,7 +111,7 @@
                         ],
                         "_nested_name": [
                           {
-                            "fullExpression": "accordion.items.acc_@item.id.plant_diversity.type_id",
+                            "fullExpression": "accordion_5.items_1.acc_@item.id.plant_diversity.type_id",
                             "matchedExpression": "@item.id.plant_diversity.type_id",
                             "type": "item",
                             "fieldName": "id"
@@ -129,11 +129,11 @@
                     }
                   ],
                   "name": "plant_diversity",
-                  "_nested_name": "accordion.items.acc_@item.id.plant_diversity",
+                  "_nested_name": "accordion_5.items_1.acc_@item.id.plant_diversity",
                   "_dynamicFields": {
                     "_nested_name": [
                       {
-                        "fullExpression": "accordion.items.acc_@item.id.plant_diversity",
+                        "fullExpression": "accordion_5.items_1.acc_@item.id.plant_diversity",
                         "matchedExpression": "@item.id.plant_diversity",
                         "type": "item",
                         "fieldName": "id"
@@ -147,7 +147,7 @@
                   }
                 }
               ],
-              "_nested_name": "accordion.items.acc_@item.id",
+              "_nested_name": "accordion_5.items_1.acc_@item.id",
               "_dynamicFields": {
                 "name": [
                   {
@@ -167,7 +167,7 @@
                 ],
                 "_nested_name": [
                   {
-                    "fullExpression": "accordion.items.acc_@item.id",
+                    "fullExpression": "accordion_5.items_1.acc_@item.id",
                     "matchedExpression": "@item.id",
                     "type": "item",
                     "fieldName": "id"
@@ -185,8 +185,8 @@
               }
             }
           ],
-          "name": "items",
-          "_nested_name": "accordion.items",
+          "name": "items_1",
+          "_nested_name": "accordion_5.items_1",
           "_dynamicFields": {
             "value": [
               {
@@ -204,8 +204,8 @@
           }
         }
       ],
-      "name": "accordion",
-      "_nested_name": "accordion"
+      "name": "accordion_5",
+      "_nested_name": "accordion_5"
     },
     {
       "type": "items",
@@ -239,7 +239,7 @@
               "_cleaned": "click | go_to: plant_diversity"
             }
           ],
-          "_nested_name": "items.button_@item.id",
+          "_nested_name": "items_7.button_@item.id",
           "_dynamicFields": {
             "name": [
               {
@@ -289,7 +289,7 @@
             },
             "_nested_name": [
               {
-                "fullExpression": "items.button_@item.id",
+                "fullExpression": "items_7.button_@item.id",
                 "matchedExpression": "@item.id",
                 "type": "item",
                 "fieldName": "id"
@@ -310,8 +310,8 @@
           }
         }
       ],
-      "name": "items",
-      "_nested_name": "items",
+      "name": "items_7",
+      "_nested_name": "items_7",
       "_dynamicFields": {
         "value": [
           {

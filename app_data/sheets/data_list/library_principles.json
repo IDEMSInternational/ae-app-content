@@ -7,19 +7,25 @@
     {
       "id": "fao",
       "title": "FAO Principles",
-      "data_list_name": "ae_fao",
+      "data_list_name": [
+        "ae_fao"
+      ],
       "save_id_field": "current_lib_sect"
     },
     {
       "id": "cidse",
       "title": "CIDSE Principles",
-      "data_list_name": "ae_cidse",
+      "data_list_name": [
+        "ae_cidse"
+      ],
       "save_id_field": "current_lib_sect"
     },
     {
       "id": "ifa",
       "title": "IFA Principles",
-      "data_list_name": "ae_ifa",
+      "data_list_name": [
+        "ae_ifa"
+      ],
       "save_id_field": "current_lib_sect"
     }
   ],

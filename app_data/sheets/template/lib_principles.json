@@ -23,7 +23,7 @@
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "items.go_to_template"
+          "_nested_name": "items_3.go_to_template"
         },
         {
           "name": "tile_text",
@@ -32,7 +32,7 @@
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "items.tile_text",
+          "_nested_name": "items_3.tile_text",
           "_dynamicFields": {
             "value": [
               {
@@ -77,7 +77,7 @@
             "first_line_text": "@local.tile_text",
             "style": "quick_start"
           },
-          "_nested_name": "items.tile_@item.id",
+          "_nested_name": "items_3.tile_@item.id",
           "_dynamicFields": {
             "name": [
               {
@@ -157,7 +157,7 @@
             },
             "_nested_name": [
               {
-                "fullExpression": "items.tile_@item.id",
+                "fullExpression": "items_3.tile_@item.id",
                 "matchedExpression": "@item.id",
                 "type": "item",
                 "fieldName": "id"
@@ -183,8 +183,8 @@
           }
         }
       ],
-      "name": "items",
-      "_nested_name": "items",
+      "name": "items_3",
+      "_nested_name": "items_3",
       "_dynamicFields": {
         "value": [
           {

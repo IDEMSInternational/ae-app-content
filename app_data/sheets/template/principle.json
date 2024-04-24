@@ -14,9 +14,10 @@
     },
     {
       "name": "data_list_name",
-      "value": [
-        "ae_idems"
-      ],
+      "value": "ae_idems",
+      "_translations": {
+        "value": {}
+      },
       "type": "set_variable",
       "_nested_name": "data_list_name"
     },
@@ -186,7 +187,7 @@
           "_translations": {
             "value": {}
           },
-          "_nested_name": "display_group.title",
+          "_nested_name": "display_group_10.title",
           "_dynamicFields": {
             "value": [
               {
@@ -213,7 +214,7 @@
           "style_list": [
             "height: 150px"
           ],
-          "_nested_name": "display_group.image",
+          "_nested_name": "display_group_10.image",
           "_dynamicFields": {
             "value": [
               {
@@ -237,7 +238,7 @@
           "_translations": {
             "value": {}
           },
-          "_nested_name": "display_group.text",
+          "_nested_name": "display_group_10.text",
           "_dynamicFields": {
             "value": [
               {
@@ -255,8 +256,8 @@
           }
         }
       ],
-      "name": "display_group",
-      "_nested_name": "display_group"
+      "name": "display_group_10",
+      "_nested_name": "display_group_10"
     }
   ],
   "_xlsxPath": "templates/global/principles.xlsx"

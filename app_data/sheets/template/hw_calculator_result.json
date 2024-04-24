@@ -23,69 +23,67 @@
     },
     {
       "name": "data_list_weight",
-      "value": [
-        "@field.child_gender@local.w_suffix"
-      ],
+      "value": "@field.child_gender@local.w_suffix",
+      "_translations": {
+        "value": {}
+      },
       "type": "set_variable",
       "_nested_name": "data_list_weight",
       "_dynamicFields": {
-        "value": {
-          "0": [
-            {
-              "fullExpression": "@field.child_gender@local.w_suffix",
-              "matchedExpression": "@field.child_gender",
-              "type": "field",
-              "fieldName": "child_gender"
-            },
-            {
-              "fullExpression": "@field.child_gender@local.w_suffix",
-              "matchedExpression": "@local.w_suffix",
-              "type": "local",
-              "fieldName": "w_suffix"
-            }
-          ]
-        }
+        "value": [
+          {
+            "fullExpression": "@field.child_gender@local.w_suffix",
+            "matchedExpression": "@field.child_gender",
+            "type": "field",
+            "fieldName": "child_gender"
+          },
+          {
+            "fullExpression": "@field.child_gender@local.w_suffix",
+            "matchedExpression": "@local.w_suffix",
+            "type": "local",
+            "fieldName": "w_suffix"
+          }
+        ]
       },
       "_dynamicDependencies": {
         "@field.child_gender": [
-          "value.0"
+          "value"
         ],
         "@local.w_suffix": [
-          "value.0"
+          "value"
         ]
       }
     },
     {
       "name": "data_list_height",
-      "value": [
-        "@field.child_gender@local.h_suffix"
-      ],
+      "value": "@field.child_gender@local.h_suffix",
+      "_translations": {
+        "value": {}
+      },
       "type": "set_variable",
       "_nested_name": "data_list_height",
       "_dynamicFields": {
-        "value": {
-          "0": [
-            {
-              "fullExpression": "@field.child_gender@local.h_suffix",
-              "matchedExpression": "@field.child_gender",
-              "type": "field",
-              "fieldName": "child_gender"
-            },
-            {
-              "fullExpression": "@field.child_gender@local.h_suffix",
-              "matchedExpression": "@local.h_suffix",
-              "type": "local",
-              "fieldName": "h_suffix"
-            }
-          ]
-        }
+        "value": [
+          {
+            "fullExpression": "@field.child_gender@local.h_suffix",
+            "matchedExpression": "@field.child_gender",
+            "type": "field",
+            "fieldName": "child_gender"
+          },
+          {
+            "fullExpression": "@field.child_gender@local.h_suffix",
+            "matchedExpression": "@local.h_suffix",
+            "type": "local",
+            "fieldName": "h_suffix"
+          }
+        ]
       },
       "_dynamicDependencies": {
         "@field.child_gender": [
-          "value.0"
+          "value"
         ],
         "@local.h_suffix": [
-          "value.0"
+          "value"
         ]
       }
     },
@@ -167,7 +165,7 @@
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "items.w_tr",
+          "_nested_name": "items_10.w_tr",
           "_dynamicFields": {
             "value": [
               {
@@ -209,7 +207,7 @@
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "items.w_tr",
+          "_nested_name": "items_10.w_tr",
           "_dynamicFields": {
             "value": [
               {
@@ -243,7 +241,7 @@
           },
           "condition": "(@local.w_perc == \"NA\")&&(@local.w_tr>@field.weight)",
           "type": "set_variable",
-          "_nested_name": "items.w_perc",
+          "_nested_name": "items_10.w_perc",
           "_dynamicFields": {
             "value": [
               {
@@ -297,7 +295,7 @@
           },
           "condition": "(@local.w_worry == \"NA\")&&(@local.w_tr>@field.weight)",
           "type": "set_variable",
-          "_nested_name": "items.w_worry",
+          "_nested_name": "items_10.w_worry",
           "_dynamicFields": {
             "value": [
               {
@@ -344,8 +342,8 @@
           }
         }
       ],
-      "name": "items",
-      "_nested_name": "items",
+      "name": "items_10",
+      "_nested_name": "items_10",
       "_dynamicFields": {
         "value": [
           {
@@ -391,7 +389,7 @@
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "items.h_tr",
+          "_nested_name": "items_14.h_tr",
           "_dynamicFields": {
             "value": [
               {
@@ -433,7 +431,7 @@
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "items.h_tr",
+          "_nested_name": "items_14.h_tr",
           "_dynamicFields": {
             "value": [
               {
@@ -467,7 +465,7 @@
           },
           "condition": "(@local.h_perc == \"NA\")&&(@local.h_tr>@field.height)",
           "type": "set_variable",
-          "_nested_name": "items.h_perc",
+          "_nested_name": "items_14.h_perc",
           "_dynamicFields": {
             "value": [
               {
@@ -521,7 +519,7 @@
           },
           "condition": "(@local.h_worry == \"NA\")&&(@local.h_tr>@field.height)",
           "type": "set_variable",
-          "_nested_name": "items.h_worry",
+          "_nested_name": "items_14.h_worry",
           "_dynamicFields": {
             "value": [
               {
@@ -568,8 +566,8 @@
           }
         }
       ],
-      "name": "items",
-      "_nested_name": "items",
+      "name": "items_14",
+      "_nested_name": "items_14",
       "_dynamicFields": {
         "value": [
           {
@@ -607,7 +605,7 @@
                   "_translations": {
                     "value": {}
                   },
-                  "_nested_name": "accordion.w_res.display_group.final_weight",
+                  "_nested_name": "accordion_16.w_res.display_group_1.final_weight",
                   "_dynamicFields": {
                     "value": [
                       {
@@ -631,7 +629,7 @@
                   "_translations": {
                     "value": {}
                   },
-                  "_nested_name": "accordion.w_res.display_group.description_weight",
+                  "_nested_name": "accordion_16.w_res.display_group_1.description_weight",
                   "_dynamicFields": {
                     "value": [
                       {
@@ -649,11 +647,11 @@
                   }
                 }
               ],
-              "name": "display_group",
-              "_nested_name": "accordion.w_res.display_group"
+              "name": "display_group_1",
+              "_nested_name": "accordion_16.w_res.display_group_1"
             }
           ],
-          "_nested_name": "accordion.w_res"
+          "_nested_name": "accordion_16.w_res"
         },
         {
           "type": "accordion_section",
@@ -673,7 +671,7 @@
                   "_translations": {
                     "value": {}
                   },
-                  "_nested_name": "accordion.h_res.display_group.final_height",
+                  "_nested_name": "accordion_16.h_res.display_group_1.final_height",
                   "_dynamicFields": {
                     "value": [
                       {
@@ -697,7 +695,7 @@
                   "_translations": {
                     "value": {}
                   },
-                  "_nested_name": "accordion.h_res.display_group.description_height",
+                  "_nested_name": "accordion_16.h_res.display_group_1.description_height",
                   "_dynamicFields": {
                     "value": [
                       {
@@ -715,15 +713,15 @@
                   }
                 }
               ],
-              "name": "display_group",
-              "_nested_name": "accordion.h_res.display_group"
+              "name": "display_group_1",
+              "_nested_name": "accordion_16.h_res.display_group_1"
             }
           ],
-          "_nested_name": "accordion.h_res"
+          "_nested_name": "accordion_16.h_res"
         }
       ],
-      "name": "accordion",
-      "_nested_name": "accordion"
+      "name": "accordion_16",
+      "_nested_name": "accordion_16"
     }
   ],
   "_xlsxPath": "templates/global/nutrition_templates.xlsx"

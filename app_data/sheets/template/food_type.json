@@ -401,7 +401,7 @@
           "_translations": {
             "value": {}
           },
-          "_nested_name": "carousel.image_1",
+          "_nested_name": "carousel_20.image_1",
           "_dynamicFields": {
             "value": [
               {
@@ -425,7 +425,7 @@
           "_translations": {
             "value": {}
           },
-          "_nested_name": "carousel.image_2",
+          "_nested_name": "carousel_20.image_2",
           "_dynamicFields": {
             "value": [
               {
@@ -449,7 +449,7 @@
           "_translations": {
             "value": {}
           },
-          "_nested_name": "carousel.image_3",
+          "_nested_name": "carousel_20.image_3",
           "_dynamicFields": {
             "value": [
               {
@@ -473,7 +473,7 @@
           "_translations": {
             "value": {}
           },
-          "_nested_name": "carousel.image_4",
+          "_nested_name": "carousel_20.image_4",
           "_dynamicFields": {
             "value": [
               {
@@ -491,8 +491,8 @@
           }
         }
       ],
-      "name": "carousel",
-      "_nested_name": "carousel"
+      "name": "carousel_20",
+      "_nested_name": "carousel_20"
     },
     {
       "type": "text",

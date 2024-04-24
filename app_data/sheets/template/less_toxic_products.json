@@ -437,6 +437,7 @@
       "parameter_list": {
         "style": "emphasis"
       },
+      "condition": "!!@data.@local.type_preparation",
       "_nested_name": "preparation",
       "_dynamicFields": {
         "value": [
@@ -446,11 +447,20 @@
             "type": "local",
             "fieldName": "type_preparation"
           }
+        ],
+        "condition": [
+          {
+            "fullExpression": "!!@data.@local.type_preparation",
+            "matchedExpression": "@local.type_preparation",
+            "type": "local",
+            "fieldName": "type_preparation"
+          }
         ]
       },
       "_dynamicDependencies": {
         "@local.type_preparation": [
-          "value"
+          "value",
+          "condition"
         ]
       }
     },
