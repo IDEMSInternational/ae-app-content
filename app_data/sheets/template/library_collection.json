@@ -146,9 +146,10 @@
     },
     {
       "name": "data_list_name",
-      "value": [
-        ".data_list_name"
-      ],
+      "value": ".data_list_name",
+      "_translations": {
+        "value": {}
+      },
       "type": "set_variable",
       "_nested_name": "data_list_name"
     },
@@ -298,7 +299,7 @@
                 "style": "workshop_page",
                 "icon_src": "@item.image_1"
               },
-              "_nested_name": "display_group.items.tile_@item.id",
+              "_nested_name": "display_group_14.items_1.tile_@item.id",
               "_dynamicFields": {
                 "name": [
                   {
@@ -406,7 +407,7 @@
                 },
                 "_nested_name": [
                   {
-                    "fullExpression": "display_group.items.tile_@item.id",
+                    "fullExpression": "display_group_14.items_1.tile_@item.id",
                     "matchedExpression": "@item.id",
                     "type": "item",
                     "fieldName": "id"
@@ -440,8 +441,8 @@
               }
             }
           ],
-          "name": "items",
-          "_nested_name": "display_group.items",
+          "name": "items_1",
+          "_nested_name": "display_group_14.items_1",
           "_dynamicFields": {
             "value": [
               {
@@ -459,8 +460,8 @@
           }
         }
       ],
-      "name": "display_group",
-      "_nested_name": "display_group"
+      "name": "display_group_14",
+      "_nested_name": "display_group_14"
     }
   ],
   "_xlsxPath": "templates/global/library.xlsx"

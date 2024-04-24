@@ -75,7 +75,7 @@
                         "value": {}
                       },
                       "type": "set_variable",
-                      "_nested_name": "accordion.items.acc_@item.id.food_type.type_id",
+                      "_nested_name": "accordion_4.items_1.acc_@item.id.food_type.type_id",
                       "_dynamicFields": {
                         "value": [
                           {
@@ -87,7 +87,7 @@
                         ],
                         "_nested_name": [
                           {
-                            "fullExpression": "accordion.items.acc_@item.id.food_type.type_id",
+                            "fullExpression": "accordion_4.items_1.acc_@item.id.food_type.type_id",
                             "matchedExpression": "@item.id.food_type.type_id",
                             "type": "item",
                             "fieldName": "id"
@@ -105,11 +105,11 @@
                     }
                   ],
                   "name": "food_type",
-                  "_nested_name": "accordion.items.acc_@item.id.food_type",
+                  "_nested_name": "accordion_4.items_1.acc_@item.id.food_type",
                   "_dynamicFields": {
                     "_nested_name": [
                       {
-                        "fullExpression": "accordion.items.acc_@item.id.food_type",
+                        "fullExpression": "accordion_4.items_1.acc_@item.id.food_type",
                         "matchedExpression": "@item.id.food_type",
                         "type": "item",
                         "fieldName": "id"
@@ -123,7 +123,7 @@
                   }
                 }
               ],
-              "_nested_name": "accordion.items.acc_@item.id",
+              "_nested_name": "accordion_4.items_1.acc_@item.id",
               "_dynamicFields": {
                 "name": [
                   {
@@ -143,7 +143,7 @@
                 ],
                 "_nested_name": [
                   {
-                    "fullExpression": "accordion.items.acc_@item.id",
+                    "fullExpression": "accordion_4.items_1.acc_@item.id",
                     "matchedExpression": "@item.id",
                     "type": "item",
                     "fieldName": "id"
@@ -161,8 +161,8 @@
               }
             }
           ],
-          "name": "items",
-          "_nested_name": "accordion.items",
+          "name": "items_1",
+          "_nested_name": "accordion_4.items_1",
           "_dynamicFields": {
             "value": [
               {
@@ -180,8 +180,8 @@
           }
         }
       ],
-      "name": "accordion",
-      "_nested_name": "accordion"
+      "name": "accordion_4",
+      "_nested_name": "accordion_4"
     },
     {
       "type": "items",
@@ -215,7 +215,7 @@
               "_cleaned": "click | go_to: food_type"
             }
           ],
-          "_nested_name": "items.button_@item.id",
+          "_nested_name": "items_6.button_@item.id",
           "_dynamicFields": {
             "name": [
               {
@@ -265,7 +265,7 @@
             },
             "_nested_name": [
               {
-                "fullExpression": "items.button_@item.id",
+                "fullExpression": "items_6.button_@item.id",
                 "matchedExpression": "@item.id",
                 "type": "item",
                 "fieldName": "id"
@@ -286,8 +286,8 @@
           }
         }
       ],
-      "name": "items",
-      "_nested_name": "items",
+      "name": "items_6",
+      "_nested_name": "items_6",
       "_dynamicFields": {
         "value": [
           {

@@ -46,7 +46,7 @@
           "name": "@item.id@local.disabled",
           "value": false,
           "condition": "@calc(@item.number <= @local.workshop_number)",
-          "_nested_name": "items.@item.id@local.disabled",
+          "_nested_name": "items_4.@item.id@local.disabled",
           "_dynamicFields": {
             "name": [
               {
@@ -84,13 +84,13 @@
             ],
             "_nested_name": [
               {
-                "fullExpression": "items.@item.id@local.disabled",
+                "fullExpression": "items_4.@item.id@local.disabled",
                 "matchedExpression": "@item.id",
                 "type": "item",
                 "fieldName": "id"
               },
               {
-                "fullExpression": "items.@item.id@local.disabled",
+                "fullExpression": "items_4.@item.id@local.disabled",
                 "matchedExpression": "@local.disabled",
                 "type": "local",
                 "fieldName": "disabled"
@@ -118,8 +118,8 @@
           }
         }
       ],
-      "name": "items",
-      "_nested_name": "items",
+      "name": "items_4",
+      "_nested_name": "items_4",
       "_dynamicFields": {
         "value": [
           {

@@ -7,7 +7,9 @@
     {
       "id": "pests",
       "title": "Pests",
-      "data_list_name": "library_pests",
+      "data_list_name": [
+        "library_pests"
+      ],
       "save_id_field": "pest_id",
       "linking_term": "Host plants",
       "icon": "pests/pests_icon.png"
@@ -15,7 +17,9 @@
     {
       "id": "plants",
       "title": "Plants",
-      "data_list_name": "library_plants",
+      "data_list_name": [
+        "library_plants"
+      ],
       "save_id_field": "plant_id",
       "linking_term": "Pests",
       "icon": "homepage/topics.png"
@@ -23,7 +27,9 @@
     {
       "id": "principles",
       "title": "Principles",
-      "data_list_name": "library_principles",
+      "data_list_name": [
+        "library_principles"
+      ],
       "save_id_field": "principles_id",
       "linking_term": "Principles",
       "icon": "homepage/principles.png"

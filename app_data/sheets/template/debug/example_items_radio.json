@@ -27,7 +27,7 @@
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "items.this_entry",
+          "_nested_name": "items_3.this_entry",
           "_dynamicFields": {
             "value": [
               {
@@ -61,7 +61,7 @@
           ],
           "condition": "@local.my_list",
           "type": "set_variable",
-          "_nested_name": "items.my_list",
+          "_nested_name": "items_3.my_list",
           "_dynamicFields": {
             "value": {
               "0": [
@@ -102,23 +102,22 @@
         },
         {
           "name": "my_list",
-          "value": [
-            "@local.this_entry"
-          ],
+          "value": "@local.this_entry",
+          "_translations": {
+            "value": {}
+          },
           "condition": "!@local.my_list",
           "type": "set_variable",
-          "_nested_name": "items.my_list",
+          "_nested_name": "items_3.my_list",
           "_dynamicFields": {
-            "value": {
-              "0": [
-                {
-                  "fullExpression": "@local.this_entry",
-                  "matchedExpression": "@local.this_entry",
-                  "type": "local",
-                  "fieldName": "this_entry"
-                }
-              ]
-            },
+            "value": [
+              {
+                "fullExpression": "@local.this_entry",
+                "matchedExpression": "@local.this_entry",
+                "type": "local",
+                "fieldName": "this_entry"
+              }
+            ],
             "condition": [
               {
                 "fullExpression": "!@local.my_list",
@@ -130,7 +129,7 @@
           },
           "_dynamicDependencies": {
             "@local.this_entry": [
-              "value.0"
+              "value"
             ],
             "!@local.my_list": [
               "condition"
@@ -140,31 +139,30 @@
         {
           "type": "text",
           "name": "print_list",
-          "value": [
-            "@local.my_list"
-          ],
-          "_nested_name": "items.print_list",
+          "value": "@local.my_list",
+          "_translations": {
+            "value": {}
+          },
+          "_nested_name": "items_3.print_list",
           "_dynamicFields": {
-            "value": {
-              "0": [
-                {
-                  "fullExpression": "@local.my_list",
-                  "matchedExpression": "@local.my_list",
-                  "type": "local",
-                  "fieldName": "my_list"
-                }
-              ]
-            }
+            "value": [
+              {
+                "fullExpression": "@local.my_list",
+                "matchedExpression": "@local.my_list",
+                "type": "local",
+                "fieldName": "my_list"
+              }
+            ]
           },
           "_dynamicDependencies": {
             "@local.my_list": [
-              "value.0"
+              "value"
             ]
           }
         }
       ],
-      "name": "items",
-      "_nested_name": "items",
+      "name": "items_3",
+      "_nested_name": "items_3",
       "_dynamicFields": {
         "value": [
           {
@@ -218,9 +216,18 @@
     {
       "name": "answer_list",
       "value": [
-        "name: item_1 | text: first",
-        "name: item_2 | text: second",
-        "name: item_3 | text: third"
+        {
+          "name": "item_1",
+          "text": "first"
+        },
+        {
+          "name": "item_2",
+          "text": "second"
+        },
+        {
+          "name": "item_3",
+          "text": "third"
+        }
       ],
       "type": "set_variable",
       "_nested_name": "answer_list"
@@ -319,26 +326,25 @@
     },
     {
       "name": "answer_list_2",
-      "value": [
-        "@data.example_items_radio"
-      ],
+      "value": "@data.example_items_radio",
+      "_translations": {
+        "value": {}
+      },
       "type": "set_variable",
       "_nested_name": "answer_list_2",
       "_dynamicFields": {
-        "value": {
-          "0": [
-            {
-              "fullExpression": "@data.example_items_radio",
-              "matchedExpression": "@data.example_items_radio",
-              "type": "data",
-              "fieldName": "example_items_radio"
-            }
-          ]
-        }
+        "value": [
+          {
+            "fullExpression": "@data.example_items_radio",
+            "matchedExpression": "@data.example_items_radio",
+            "type": "data",
+            "fieldName": "example_items_radio"
+          }
+        ]
       },
       "_dynamicDependencies": {
         "@data.example_items_radio": [
-          "value.0"
+          "value"
         ]
       }
     },

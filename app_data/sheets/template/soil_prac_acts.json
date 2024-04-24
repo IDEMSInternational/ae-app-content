@@ -491,9 +491,10 @@
     },
     {
       "name": "var_keypoint_list",
-      "value": [
-        ".keypoint_list"
-      ],
+      "value": ".keypoint_list",
+      "_translations": {
+        "value": {}
+      },
       "type": "set_variable",
       "_nested_name": "var_keypoint_list"
     },

@@ -71,43 +71,43 @@
     },
     {
       "name": "data_list_name",
-      "value": [
-        "data_list_name"
-      ],
+      "value": "data_list_name",
+      "_translations": {
+        "value": {}
+      },
       "type": "set_variable",
       "_nested_name": "data_list_name"
     },
     {
       "name": "principles_data_list_name",
-      "value": [
-        "library_principles.@local.current_principles.@local.data_list_name"
-      ],
+      "value": "library_principles.@local.current_principles.@local.data_list_name",
+      "_translations": {
+        "value": {}
+      },
       "type": "set_variable",
       "_nested_name": "principles_data_list_name",
       "_dynamicFields": {
-        "value": {
-          "0": [
-            {
-              "fullExpression": "library_principles.@local.current_principles.@local.data_list_name",
-              "matchedExpression": "@local.current_principles",
-              "type": "local",
-              "fieldName": "current_principles"
-            },
-            {
-              "fullExpression": "library_principles.@local.current_principles.@local.data_list_name",
-              "matchedExpression": "@local.data_list_name",
-              "type": "local",
-              "fieldName": "data_list_name"
-            }
-          ]
-        }
+        "value": [
+          {
+            "fullExpression": "library_principles.@local.current_principles.@local.data_list_name",
+            "matchedExpression": "@local.current_principles",
+            "type": "local",
+            "fieldName": "current_principles"
+          },
+          {
+            "fullExpression": "library_principles.@local.current_principles.@local.data_list_name",
+            "matchedExpression": "@local.data_list_name",
+            "type": "local",
+            "fieldName": "data_list_name"
+          }
+        ]
       },
       "_dynamicDependencies": {
         "@local.current_principles": [
-          "value.0"
+          "value"
         ],
         "@local.data_list_name": [
-          "value.0"
+          "value"
         ]
       }
     },
@@ -142,26 +142,25 @@
         },
         {
           "name": "data_list_name",
-          "value": [
-            "@data.@local.principles_data_list_name"
-          ],
+          "value": "@data.@local.principles_data_list_name",
+          "_translations": {
+            "value": {}
+          },
           "type": "set_variable",
           "_nested_name": "principles_screen.data_list_name",
           "_dynamicFields": {
-            "value": {
-              "0": [
-                {
-                  "fullExpression": "@data.@local.principles_data_list_name",
-                  "matchedExpression": "@local.principles_data_list_name",
-                  "type": "local",
-                  "fieldName": "principles_data_list_name"
-                }
-              ]
-            }
+            "value": [
+              {
+                "fullExpression": "@data.@local.principles_data_list_name",
+                "matchedExpression": "@local.principles_data_list_name",
+                "type": "local",
+                "fieldName": "principles_data_list_name"
+              }
+            ]
           },
           "_dynamicDependencies": {
             "@local.principles_data_list_name": [
-              "value.0"
+              "value"
             ]
           }
         }

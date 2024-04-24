@@ -557,9 +557,10 @@
     },
     {
       "name": "var_keypoint_list",
-      "value": [
-        ".keypoint_list"
-      ],
+      "value": ".keypoint_list",
+      "_translations": {
+        "value": {}
+      },
       "type": "set_variable",
       "_nested_name": "var_keypoint_list"
     },
@@ -607,7 +608,7 @@
           "_translations": {
             "value": {}
           },
-          "_nested_name": "items.text_@item.id",
+          "_nested_name": "items_29.text_@item.id",
           "_dynamicFields": {
             "name": [
               {
@@ -627,7 +628,7 @@
             ],
             "_nested_name": [
               {
-                "fullExpression": "items.text_@item.id",
+                "fullExpression": "items_29.text_@item.id",
                 "matchedExpression": "@item.id",
                 "type": "item",
                 "fieldName": "id"
@@ -646,12 +647,12 @@
         },
         {
           "type": "text",
-          "name": "text",
+          "name": "text_2",
           "value": "@item.subtext",
           "_translations": {
             "value": {}
           },
-          "_nested_name": "items.text",
+          "_nested_name": "items_29.text_2",
           "_dynamicFields": {
             "value": [
               {
@@ -669,8 +670,8 @@
           }
         }
       ],
-      "name": "items",
-      "_nested_name": "items",
+      "name": "items_29",
+      "_nested_name": "items_29",
       "_dynamicFields": {
         "value": [
           {
@@ -706,7 +707,7 @@
               "_translations": {
                 "value": {}
               },
-              "_nested_name": "items.dg_nutrient_@item.id.title_@item.id",
+              "_nested_name": "items_31.dg_nutrient_@item.id.title_@item.id",
               "_dynamicFields": {
                 "name": [
                   {
@@ -726,13 +727,13 @@
                 ],
                 "_nested_name": [
                   {
-                    "fullExpression": "items.dg_nutrient_@item.id.title_@item.id",
+                    "fullExpression": "items_31.dg_nutrient_@item.id.title_@item.id",
                     "matchedExpression": "@item.id.title_",
                     "type": "item",
                     "fieldName": "id"
                   },
                   {
-                    "fullExpression": "items.dg_nutrient_@item.id.title_@item.id",
+                    "fullExpression": "items_31.dg_nutrient_@item.id.title_@item.id",
                     "matchedExpression": "@item.id",
                     "type": "item",
                     "fieldName": "id"
@@ -780,7 +781,7 @@
                   "_cleaned": "click | go_to: soil_prac_acts"
                 }
               ],
-              "_nested_name": "items.dg_nutrient_@item.id.1shQGHnFuOZkOThqvXCpjxrbHixqPxytovIRim12i",
+              "_nested_name": "items_31.dg_nutrient_@item.id.1shQGHnFuOZkOThqvXCpjxrbHixqPxytovIRim12i",
               "_dynamicFields": {
                 "action_list": {
                   "0": {
@@ -814,7 +815,7 @@
                 },
                 "_nested_name": [
                   {
-                    "fullExpression": "items.dg_nutrient_@item.id.1shQGHnFuOZkOThqvXCpjxrbHixqPxytovIRim12i",
+                    "fullExpression": "items_31.dg_nutrient_@item.id.1shQGHnFuOZkOThqvXCpjxrbHixqPxytovIRim12i",
                     "matchedExpression": "@item.id.1shQGHnFuOZkOThqvXCpjxrbHixqPxytovIRim12i",
                     "type": "item",
                     "fieldName": "id"
@@ -833,7 +834,7 @@
               }
             }
           ],
-          "_nested_name": "items.dg_nutrient_@item.id",
+          "_nested_name": "items_31.dg_nutrient_@item.id",
           "_dynamicFields": {
             "name": [
               {
@@ -859,7 +860,7 @@
             ],
             "_nested_name": [
               {
-                "fullExpression": "items.dg_nutrient_@item.id",
+                "fullExpression": "items_31.dg_nutrient_@item.id",
                 "matchedExpression": "@item.id",
                 "type": "item",
                 "fieldName": "id"
@@ -880,8 +881,8 @@
           }
         }
       ],
-      "name": "items",
-      "_nested_name": "items",
+      "name": "items_31",
+      "_nested_name": "items_31",
       "_dynamicFields": {
         "value": [
           {

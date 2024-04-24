@@ -53,7 +53,7 @@
               "_cleaned": "click | go_to: nutrient"
             }
           ],
-          "_nested_name": "items.button_@item.id",
+          "_nested_name": "items_4.button_@item.id",
           "_dynamicFields": {
             "name": [
               {
@@ -103,7 +103,7 @@
             },
             "_nested_name": [
               {
-                "fullExpression": "items.button_@item.id",
+                "fullExpression": "items_4.button_@item.id",
                 "matchedExpression": "@item.id",
                 "type": "item",
                 "fieldName": "id"
@@ -124,8 +124,8 @@
           }
         }
       ],
-      "name": "items",
-      "_nested_name": "items",
+      "name": "items_4",
+      "_nested_name": "items_4",
       "_dynamicFields": {
         "value": [
           {

@@ -316,7 +316,7 @@
           "_translations": {
             "value": {}
           },
-          "_nested_name": "display_group.title_properties"
+          "_nested_name": "display_group_16.title_properties"
         },
         {
           "type": "text",
@@ -325,7 +325,7 @@
           "_translations": {
             "value": {}
           },
-          "_nested_name": "display_group.properties",
+          "_nested_name": "display_group_16.properties",
           "_dynamicFields": {
             "value": [
               {
@@ -343,8 +343,8 @@
           }
         }
       ],
-      "name": "display_group",
-      "_nested_name": "display_group"
+      "name": "display_group_16",
+      "_nested_name": "display_group_16"
     },
     {
       "type": "display_group",
@@ -359,7 +359,7 @@
           "_translations": {
             "value": {}
           },
-          "_nested_name": "display_group.title_example"
+          "_nested_name": "display_group_18.title_example"
         },
         {
           "type": "text",
@@ -368,7 +368,7 @@
           "_translations": {
             "value": {}
           },
-          "_nested_name": "display_group.example_where",
+          "_nested_name": "display_group_18.example_where",
           "_dynamicFields": {
             "value": [
               {
@@ -392,7 +392,7 @@
           "_translations": {
             "value": {}
           },
-          "_nested_name": "display_group.chart",
+          "_nested_name": "display_group_18.chart",
           "_dynamicFields": {
             "value": [
               {
@@ -410,8 +410,8 @@
           }
         }
       ],
-      "name": "display_group",
-      "_nested_name": "display_group"
+      "name": "display_group_18",
+      "_nested_name": "display_group_18"
     },
     {
       "type": "display_group",
@@ -426,7 +426,7 @@
           "_translations": {
             "value": {}
           },
-          "_nested_name": "display_group.title_deficiency"
+          "_nested_name": "display_group_20.title_deficiency"
         },
         {
           "type": "text",
@@ -435,7 +435,7 @@
           "_translations": {
             "value": {}
           },
-          "_nested_name": "display_group.deficiency",
+          "_nested_name": "display_group_20.deficiency",
           "_dynamicFields": {
             "value": [
               {
@@ -453,8 +453,8 @@
           }
         }
       ],
-      "name": "display_group",
-      "_nested_name": "display_group"
+      "name": "display_group_20",
+      "_nested_name": "display_group_20"
     },
     {
       "type": "display_group",
@@ -469,7 +469,7 @@
           "_translations": {
             "value": {}
           },
-          "_nested_name": "display_group.title_symptoms"
+          "_nested_name": "display_group_22.title_symptoms"
         },
         {
           "type": "text",
@@ -478,7 +478,7 @@
           "_translations": {
             "value": {}
           },
-          "_nested_name": "display_group.symptoms",
+          "_nested_name": "display_group_22.symptoms",
           "_dynamicFields": {
             "value": [
               {
@@ -496,8 +496,8 @@
           }
         }
       ],
-      "name": "display_group",
-      "_nested_name": "display_group"
+      "name": "display_group_22",
+      "_nested_name": "display_group_22"
     }
   ],
   "_xlsxPath": "templates/global/nutrition_templates.xlsx"

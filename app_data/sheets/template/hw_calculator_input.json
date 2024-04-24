@@ -32,7 +32,7 @@
           "_translations": {
             "value": {}
           },
-          "_nested_name": "carousel.image_1"
+          "_nested_name": "carousel_4.image_1"
         },
         {
           "type": "image",
@@ -41,11 +41,11 @@
           "_translations": {
             "value": {}
           },
-          "_nested_name": "carousel.image_2"
+          "_nested_name": "carousel_4.image_2"
         }
       ],
-      "name": "carousel",
-      "_nested_name": "carousel"
+      "name": "carousel_4",
+      "_nested_name": "carousel_4"
     },
     {
       "type": "text",
@@ -243,8 +243,14 @@
     {
       "name": "answer_list_gender",
       "value": [
-        "name:male | text:Male",
-        "name:female | text:Female"
+        {
+          "name": "male",
+          "text": "Male"
+        },
+        {
+          "name": "female",
+          "text": "Female"
+        }
       ],
       "type": "set_variable",
       "_nested_name": "answer_list_gender"

@@ -445,7 +445,7 @@
                     "value": {}
                   },
                   "condition": "!!@data.@local.pest_image_2",
-                  "_nested_name": "accordion.acc_images.more_images.display_image_2",
+                  "_nested_name": "accordion_21.acc_images.more_images.display_image_2",
                   "_dynamicFields": {
                     "value": [
                       {
@@ -479,7 +479,7 @@
                     "value": {}
                   },
                   "condition": "!!@data.@local.pest_image_3",
-                  "_nested_name": "accordion.acc_images.more_images.display_image_3",
+                  "_nested_name": "accordion_21.acc_images.more_images.display_image_3",
                   "_dynamicFields": {
                     "value": [
                       {
@@ -513,7 +513,7 @@
                     "value": {}
                   },
                   "condition": "!!@data.@local.pest_image_4",
-                  "_nested_name": "accordion.acc_images.more_images.display_image_4",
+                  "_nested_name": "accordion_21.acc_images.more_images.display_image_4",
                   "_dynamicFields": {
                     "value": [
                       {
@@ -547,7 +547,7 @@
                     "value": {}
                   },
                   "condition": "!!@data.@local.pest_image_5",
-                  "_nested_name": "accordion.acc_images.more_images.display_image_5",
+                  "_nested_name": "accordion_21.acc_images.more_images.display_image_5",
                   "_dynamicFields": {
                     "value": [
                       {
@@ -581,7 +581,7 @@
                     "value": {}
                   },
                   "condition": "!!@data.@local.pest_image_6",
-                  "_nested_name": "accordion.acc_images.more_images.display_image_6",
+                  "_nested_name": "accordion_21.acc_images.more_images.display_image_6",
                   "_dynamicFields": {
                     "value": [
                       {
@@ -615,7 +615,7 @@
                     "value": {}
                   },
                   "condition": "!!@data.@local.pest_image_7",
-                  "_nested_name": "accordion.acc_images.more_images.display_image_7",
+                  "_nested_name": "accordion_21.acc_images.more_images.display_image_7",
                   "_dynamicFields": {
                     "value": [
                       {
@@ -642,10 +642,10 @@
                   }
                 }
               ],
-              "_nested_name": "accordion.acc_images.more_images"
+              "_nested_name": "accordion_21.acc_images.more_images"
             }
           ],
-          "_nested_name": "accordion.acc_images",
+          "_nested_name": "accordion_21.acc_images",
           "_dynamicFields": {
             "condition": [
               {
@@ -738,7 +738,7 @@
                             "value": {}
                           },
                           "type": "set_variable",
-                          "_nested_name": "accordion.acc_hosts.tiles.items.host_plant_check.plant_id",
+                          "_nested_name": "accordion_21.acc_hosts.tiles.items_1.host_plant_check.plant_id",
                           "_dynamicFields": {
                             "value": [
                               {
@@ -762,7 +762,7 @@
                             "value": {}
                           },
                           "type": "set_variable",
-                          "_nested_name": "accordion.acc_hosts.tiles.items.host_plant_check.plant_name",
+                          "_nested_name": "accordion_21.acc_hosts.tiles.items_1.host_plant_check.plant_name",
                           "_dynamicFields": {
                             "value": [
                               {
@@ -817,7 +817,7 @@
                             "style": "workshop_page",
                             "icon_src": "@item.image_1"
                           },
-                          "_nested_name": "accordion.acc_hosts.tiles.items.host_plant_check.tile_@item.id",
+                          "_nested_name": "accordion_21.acc_hosts.tiles.items_1.host_plant_check.tile_@item.id",
                           "_dynamicFields": {
                             "name": [
                               {
@@ -877,7 +877,7 @@
                             },
                             "_nested_name": [
                               {
-                                "fullExpression": "accordion.acc_hosts.tiles.items.host_plant_check.tile_@item.id",
+                                "fullExpression": "accordion_21.acc_hosts.tiles.items_1.host_plant_check.tile_@item.id",
                                 "matchedExpression": "@item.id",
                                 "type": "item",
                                 "fieldName": "id"
@@ -903,7 +903,7 @@
                           }
                         }
                       ],
-                      "_nested_name": "accordion.acc_hosts.tiles.items.host_plant_check",
+                      "_nested_name": "accordion_21.acc_hosts.tiles.items_1.host_plant_check",
                       "_dynamicFields": {
                         "condition": [
                           {
@@ -930,8 +930,8 @@
                       }
                     }
                   ],
-                  "name": "items",
-                  "_nested_name": "accordion.acc_hosts.tiles.items",
+                  "name": "items_1",
+                  "_nested_name": "accordion_21.acc_hosts.tiles.items_1",
                   "_dynamicFields": {
                     "value": [
                       {
@@ -949,10 +949,10 @@
                   }
                 }
               ],
-              "_nested_name": "accordion.acc_hosts.tiles"
+              "_nested_name": "accordion_21.acc_hosts.tiles"
             }
           ],
-          "_nested_name": "accordion.acc_hosts",
+          "_nested_name": "accordion_21.acc_hosts",
           "_dynamicFields": {
             "value": [
               {
@@ -970,8 +970,8 @@
           }
         }
       ],
-      "name": "accordion",
-      "_nested_name": "accordion"
+      "name": "accordion_21",
+      "_nested_name": "accordion_21"
     }
   ],
   "_xlsxPath": "templates/global/library.xlsx"
