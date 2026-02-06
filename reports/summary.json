@@ -1,0 +1,50 @@
+{
+  "template_components": {
+    "data": [
+      {
+        "type": "title",
+        "count": 1
+      }
+    ]
+  },
+  "template_actions": {
+    "data": []
+  },
+  "assets_size": {
+    "data": [
+      {
+        "assets": "total",
+        "KB": "0 KB",
+        "MB": "0 MB"
+      },
+      {
+        "assets": "unused",
+        "KB": "7 KB",
+        "MB": "0 MB"
+      }
+    ]
+  },
+  "assets_unused": {
+    "data": [
+      {
+        "path": "IDEMS_logo.png",
+        "size_kb": 6.7
+      }
+    ]
+  },
+  "assets_missing": {
+    "data": []
+  },
+  "asset_summary": {
+    "data": []
+  },
+  "flows_by_type": {
+    "data": [
+      {
+        "type": "template",
+        "subtype": null,
+        "total": 1
+      }
+    ]
+  }
+}
