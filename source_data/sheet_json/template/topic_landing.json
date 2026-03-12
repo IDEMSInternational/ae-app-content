@@ -1,0 +1,198 @@
+{
+  "flow_type": "template",
+  "flow_name": "topic_landing",
+  "status": "released",
+  "rows": [
+    {
+      "type": "update_action_list",
+      "name": "custom_actions_1",
+      "action_list": "nav_resume | emit: force_reload",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_id",
+      "value": "soil",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_concat",
+      "value": "topic.@local.topic_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_row",
+      "value": "@data.@local.topic_concat",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "categories",
+      "value": "_category_tasks",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "category_data",
+      "value": "@local.topic_id@local.categories",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "name": "top",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "title",
+      "name": "title",
+      "value": "@local.topic_row.title",
+      "style_list": "flex: 1;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "image",
+      "name": "image",
+      "value": "@local.topic_row.image_asset",
+      "style_list": "flex: 1;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "value": "@local.topic_row.description",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_card_image",
+      "value": "images/icons/book_blue.svg",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_card_title",
+      "value": "@local.topic_row.title Topic"
+    },
+    {
+      "name": "topic_target_template",
+      "value": "topic_overview_@local.topic_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "use_pop_up",
+      "value": false
+    },
+    {
+      "type": "begin_task_card",
+      "name": "topic_card_go_to",
+      "action_list": "click | go_to: @local.topic_target_template",
+      "condition": "!@local.use_pop_up",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "top_img",
+      "value": "images/icons/module_map.svg",
+      "style_list": "max-width: 60px",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "top_txt",
+      "value": "**@local.topic_card_title**",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_column",
+      "parameter_list": "style: column"
+    },
+    {
+      "name": "sub",
+      "value": "_sub_tasks",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "sub_data_list_name",
+      "value": "@local.topic_id@local.sub",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "task_progress_bar",
+      "name": "task_progress_bar",
+      "parameter_list": "task_group_data: @local.sub_data_list_name;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "end_task_card",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_task_card",
+      "name": "topic_card_pop_up",
+      "action_list": "click | pop_up: @local.topic_target_template | fullscreen: true, showCloseButton: false;",
+      "condition": "@local.use_pop_up",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_column",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "top_img",
+      "value": "images/icons/module_map.svg",
+      "style_list": "max-width: 60px",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "top_txt",
+      "value": "**@local.topic_card_title**",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "sub",
+      "value": "_sub_tasks",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "sub_data_list_name",
+      "value": "@local.topic_id@local.sub",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "task_progress_bar",
+      "name": "task_progress_bar",
+      "parameter_list": "task_group_data: @local.sub_data_list_name;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "end_task_card",
+      "exclude_from_translation": true
+    }
+  ]
+}

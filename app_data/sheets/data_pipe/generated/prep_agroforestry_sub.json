@@ -1,0 +1,28 @@
+{
+  "flow_name": "prep_agroforestry_sub",
+  "flow_subtype": "generated",
+  "flow_type": "data_pipe",
+  "rows": [
+    {
+      "operation": "concat",
+      "args_list": [
+        "agroforestry_sub"
+      ],
+      "input_source": false
+    },
+    {
+      "operation": "append_columns",
+      "args_list": [
+        "completed: FALSE"
+      ],
+      "output_target": "agroforestry_sub_tasks"
+    }
+  ],
+  "_output_flows": [
+    {
+      "flow_name": "agroforestry_sub_tasks",
+      "flow_subtype": "generated",
+      "flow_type": "data_list"
+    }
+  ]
+}

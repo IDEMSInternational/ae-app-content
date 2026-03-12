@@ -1,0 +1,18 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "livestock_categories",
+  "data_list_name": "livestock_categories",
+  "status": "released",
+  "rows": [
+    {
+      "id": "dynamics",
+      "title::eng": "Home-made Poutry Feed formulation",
+      "icon_asset": "images/icons/settings.svg"
+    },
+    {
+      "id": "how",
+      "title::eng": "Poultry Fermented Feed",
+      "icon_asset": "images/icons/terms_conditions.svg"
+    }
+  ]
+}

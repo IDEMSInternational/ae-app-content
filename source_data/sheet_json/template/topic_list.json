@@ -1,0 +1,112 @@
+{
+  "flow_type": "template",
+  "flow_name": "topic_list",
+  "status": "released",
+  "rows": [
+    {
+      "name": "current_topic_number",
+      "value": 1,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "variant",
+      "value": "default",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "now",
+      "value": "@calc(timestamp())"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_all_topics",
+      "parameter_list": "style: column",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_data_items",
+      "name": "loop_topics",
+      "value": "@data.topic_tasks",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "has_been_clicked_previously",
+      "value": "!!@item.homescreen_list_click_history",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_template",
+      "name": "topic_@item.id",
+      "value": "topic_list_item",
+      "action_list": "completed | set_item | homescreen_list_click_history: @local.now",
+      "condition": "!@local.has_been_clicked_previously",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_id",
+      "value": "@item.id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "is_highlighted",
+      "value": "!@item.completed && @item.number < @local.current_topic_number",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "is_completed",
+      "value": "@item.completed",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "variant",
+      "value": "@local.variant",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template"
+    },
+    {
+      "name": "updated_value",
+      "value": "@item.homescreen_list_click_history;  @local.now"
+    },
+    {
+      "type": "begin_template",
+      "name": "topic_@item.id",
+      "value": "topic_list_item",
+      "action_list": "completed | set_item | homescreen_list_click_history: @local.updated_value",
+      "condition": "@local.has_been_clicked_previously",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_id",
+      "value": "@item.id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "is_highlighted",
+      "value": "!@item.completed && @item.number < @local.current_topic_number",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "is_completed",
+      "value": "@item.completed",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "variant",
+      "value": "@local.variant",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_data_items",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group"
+    }
+  ]
+}

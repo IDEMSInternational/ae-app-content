@@ -1,0 +1,22 @@
+{
+  "flow_type": "generator",
+  "flow_name": "gen_prep_sub",
+  "status": "released",
+  "parameter_list": {
+    "input_data_list": "topic_released",
+    "output_flow_name": "prep_{@gen.id}_sub",
+    "output_flow_type": "data_pipe"
+  },
+  "rows": [
+    {
+      "operation": "concat",
+      "args_list": "{@gen.id}_sub;",
+      "input_source": false
+    },
+    {
+      "operation": "append_columns",
+      "args_list": "completed: FALSE;",
+      "output_target": "{@gen.id}_sub_tasks"
+    }
+  ]
+}

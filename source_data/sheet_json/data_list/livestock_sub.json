@@ -1,0 +1,88 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "livestock_sub",
+  "data_list_name": "livestock_sub",
+  "status": "released",
+  "rows": [
+    {
+      "id": "about_1",
+      "category_id": "about",
+      "module_id": "livestock",
+      "title::eng": "Livestock types",
+      "text_1::eng": "Livestock includes domesticated animals raised for food, labor, and other agricultural products"
+    },
+    {
+      "id": "about_2",
+      "category_id": "about",
+      "module_id": "livestock",
+      "title::eng": "Livestock keeping",
+      "text_1::eng": "Livestock keeping, also known as animal husbandry, is the practice of raising animals",
+      "text_2::eng": " Livestock kept are:\n\n * Cattle, Poultry, sheep, goat, \n * Pigs, Rabbits, and Donkeys"
+    },
+    {
+      "id": "about_3",
+      "category_id": "about",
+      "module_id": "livestock",
+      "title::eng": "Challenges experienced in livestock rearing ",
+      "text_1::eng": " The following are major challenges experienced while rearing livestock",
+      "section_1_text::eng": " * Market - You may have milk, but have no market for it\n * Diseases and Parasites - Leads to low production \n * Technical know-how of feeding and breeding -  Feed is also expensive\n * Ecological conditions (Drought) - Drought- no pasture for livestock, they suffer deficiency symptoms\n * Insecurity and predators\n * Housing challenges"
+    },
+    {
+      "id": "about_4",
+      "category_id": "about",
+      "module_id": "livestock",
+      "title::eng": "Attempted solutions to livestock production challenges",
+      "section_1_title::eng": "Market",
+      "section_1_text::eng": " Value addition, to produce “mala” sour milk from milk",
+      "section_2_title::eng": "Technical",
+      "section_2_text::eng": " * Buying improved feeds for specific growth stages\n* Monitoring health, like signs of diseases\n * Quarantine\n * Watching out for natural signs of breeding, behaviors, like on heat ",
+      "section_3_title::eng": "Animal feeds",
+      "section_3_text::eng": "* Planting fodder crops, like bracharia, vetiver grass, and nippier grass\n* Reducing the stock/number of animals to that which we can feed comfortably",
+      "section_4_title::eng": "Housing",
+      "section_4_text::eng": " * Constructing animal shade\n* Proper hygiene and sanitation\n * “Masera/otete,” a portable structure, can carry chicks around\n * Repairing",
+      "section_4_extra_text::eng": "\n ",
+      "section_5_title::eng": "Diseases and \nparasites",
+      "section_5_text::eng": " * Vaccination before the disease strikes\n * Deworming to control internal parasites\n* Sanitation and proper hygiene to prevent    infections, and giving \n * Seeking/consulting veterinary treatment \n * Isolating the sick animals \n * Culling- the sick animals \n * Handpicking parasites like ticks \n * Spraying with appropriate cattle dips \n * Using herbal remedies with available materials like aloe vera, blackjack, and tithonia \n * Proper feeding",
+      "section_6_title::eng": "Insecurity",
+      "section_6_text::eng": " * Keeping dogs\n*Fencing around our homestead\n*Installing security lights\n*Construction of proper/stronger shelters for livestock \n*Involving local authorities like the chief, “nyumba kumi”",
+      "section_7_title::eng": "Climate change",
+      "section_7_text::eng": " * Early preparation and stocking of animal feeds, like hay \n * Digging a well/borehole for water \n * Supplementing with minerals, like salt lick \n * Planting fodder crops"
+    },
+    {
+      "id": "dynamics",
+      "category_id": "dynamics",
+      "module_id": "livestock",
+      "title::eng": "Factors to consider when preparing feed",
+      "section_1_text::eng": " * Breed and species of the animal: poultry,  cow, etc \n * Age chick, growers, layers, cow, calf \n * Production lave/purpose -layers or meat \n * Physiological status - sick, pregnant, male \n * Sex/gender of the animals.  male animals eat more than females ",
+      "section_2_title::eng": "Preparing homemade 30kg chick mash concentrates.\n\n The Ingredients used:",
+      "section_2_text::eng": " * Maize (njenga) - 12kg \n * Maize bran (Ngozi ya mahindi) - 3kg\n * Maize germ (moyo) - 3kg \n * Wheat/rice bran - 3kg \n * Soya (njenga) - 4kg \n * Sunflower white or black (oil extracted) - 2.17 kg \n * Fishmeal - 1.33 kg \n * DCP - 0.3 kg \n * Lime (calcium) - 0.4 kg \n * Salt - 0.1 kg \n * Chick premix - 0.3kg \n * Lycine - 0.1 kg \n * Methionine -  0.1kg \n * Toxin binder - 0.2kg",
+      "section_2_button_text::eng": "Note Better",
+      "section_2_extra_text::eng": " * Binding toxins means breaking them into smaller components not harmful to \nanimals. \n * Lysine and methionine are among the 9 essential nutrients  \n * Calcium -  can be gotten from egg shells/bones \n * Ingredients are layered from the heaviest to the lightest",
+      "section_4_title::eng": "Herbal Remedies for Poultry",
+      "section_4_text::eng": "1. African/ Mexican Merigold can be suspended in the house or used as bedding. \n2. Basil - suspend in the house or spray \n3. can mix tobacco leaves, Mexican marigold, and basil, and burn them inside \nclose to the house to eliminate the piece  \n4. Lemon grass - dry and put on the bedding of the incubating house. Or plant \nclose to the poultry house, even rosemary, to keep them off the poultry house \n5. Rosemary \n6. No bush close to the poultry house / clearing vegetation around homesteads \n7.  Maintain hygiene and sanitation in poultry houses ",
+      "section_5_title::eng": "Internal parasites- dewormers",
+      "section_5_text::eng": " * Pawpaw seeds - dry, crush to powder dorm and add the powder in small \nquantities to poultry feeds \n * Coccidiosis blood in droppings - pawpaw leaves (male or female), crush and \nsoak in water, ferment with Molasses for 3 days, and add the mixture to drinking \nwater 1:2 (mixture to water), and also, hanging in the poultry house works \nthough not effective  \n * Worm wood -dewormer - crush and soak in water for 30-35 minutes",
+      "section_5_button_text::eng": "Tephrosia",
+      "section_5_extra_text::eng": "It controls both internal and external parasites. \nSoak the dried powder in water in the ratio of 1:10 overnight. \nStrain and spray in the poultry houses. For internal parasites, Tephrosia  2ml of Tephrosia solution is given to adults and 1ml for chicks below 8 weeks. For external parasites, the birds are immersed in water twice a week. \nDon't immerse the incubating or laying birds. Instead,  use dry Tephrosia powder/leaves \nand mix them with their beddings.",
+      "section_6_title::eng": "Concoction for sneezing, coughs, and colds for 10 birds",
+      "section_6_text::eng": "Material Ingredients \n * Ginger - Thumb size \n * Tumeric - thumbnail  \n * hot pepper 4- 5 \n * Garlic - 2 cloves \n * Tithonia leaves handful  \n * Aloe Vera  - 2-4",
+      "section_6_button_text::eng": "Steps",
+      "section_6_extra_text::eng": "1.  Soak 30 -45 minutes \n2. For slacking, just add an amount equal to the mixture \n3.  1 tablespoon, 2 liters of drinking water,  or use a syringe 1ml morning \nand evening, or a drop of your finger (undiluted) if the case is severe"
+    },
+    {
+      "id": "how_1",
+      "category_id": "how",
+      "module_id": "livestock",
+      "text_1::eng": "Fermented feeds are feeds that have been made/prepared anaerobically (without oxygen/air) with the help of various microorganisms to improve nutrient absorption and digestibility. We mostly use locally available materials, and the diversity of them ensures a balanced diet, following the go, grow, glow principles 70,25, and 5 percent respectively. Making fermented feed has the following benefits:",
+      "section_1_title::eng": "Benefits of Fermenting Animal Feed",
+      "section_1_text::eng": " * For improving the gut health of the birds.\n * Reducing the cost of feeding the birds. This is because we use locally available materials, including some weeds, which cuts the cost of buying commercial feeds.\n * The fermentation process is like the beginning of digestion, making the feed easily digestible, and the nutrients are easily absorbed by the body.\n * It introduces probiotics (beneficial bacteria) that boost the immunity of the birds, so they get sick less.\n * Fermenting feed allows for preservation of feed during plenty, to be used later during dry seasons or periods of scarcity\n * Some of the ingredients, like some fodder trees and soya, have anti-nutritional factors that make the nutrients unavailable for absorption. The fermentation process reduces those anti-nutrient factors. ",
+      "section_2_title::eng": "Silage Making",
+      "section_2_text::eng": "Silage making is preserving animal feeds during times of plenty to be used during scarcity.",
+      "section_3_title::eng": "Materials Needed",
+      "section_3_text::eng": "* Fodder materials to be preserved, eg, Neppier\n* Maize bran - CHO reduces the moisture content\n* Molases\n* Chuff cutter/panga\n* Airtight container",
+      "section_4_title::eng": "Procedure",
+      "section_4_text::eng": "1. Cutting Neppier into small pieces about 2cm\n2. Put 15cm Neppier, and compact\n3. Add bran hands full\n4. Sprinkle a mixture of Molases mixed with water in a ratio of 1: 5. Molases\nprovides lactic acid for the microbes, a source of energy, and helps the\ningredients to compact\n5. Compact and cover\n6. The procedure until a desired height is reached",
+      "section_4_extra_text::eng": "Note better: Keep the sillage in airtight conditions, you can use paper/ skyplast/ hematic bags"
+    }
+  ]
+}

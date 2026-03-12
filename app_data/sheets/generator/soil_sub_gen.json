@@ -1,0 +1,86 @@
+{
+  "flow_type": "generator",
+  "flow_name": "soil_sub_gen",
+  "status": "released",
+  "parameter_list": {
+    "input_data_list": "soil_sub",
+    "output_flow_name": "sub_soil_@gen.id",
+    "output_flow_type": "template",
+    "output_flow_subtype": "generated"
+  },
+  "rows": [
+    {
+      "type": "template",
+      "name": "sub",
+      "value": "sub",
+      "action_list": [
+        {
+          "trigger": "completed",
+          "action_id": "emit",
+          "args": [
+            "completed"
+          ],
+          "_raw": "completed | emit: completed"
+        },
+        {
+          "trigger": "uncompleted",
+          "action_id": "emit",
+          "args": [
+            "uncompleted"
+          ],
+          "_raw": "uncompleted | emit: uncompleted"
+        }
+      ],
+      "exclude_from_translation": true,
+      "rows": [
+        {
+          "name": "sub_id",
+          "value": "@gen.id",
+          "exclude_from_translation": true
+        },
+        {
+          "name": "topic_id",
+          "value": "soil",
+          "exclude_from_translation": true
+        }
+      ]
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "template/sub topics template generators.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1MJgDsmlQE3lxX6usMi2kxAzzCZu4xAuswXSZpYzZkiw"
+  },
+  "_output_flows": [
+    {
+      "flow_name": "sub_soil_about_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_soil_about_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_soil_about_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_soil_dynamics",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_soil_how_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_soil_how_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    }
+  ]
+}

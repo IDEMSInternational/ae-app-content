@@ -1,0 +1,18 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "agroforestry_categories",
+  "data_list_name": "agroforestry_categories",
+  "status": "released",
+  "rows": [
+    {
+      "id": "dynamics",
+      "title::eng": "The Mechanism/process of Global Warming (greenhouse Effect)",
+      "icon_asset": "images/icons/settings.svg"
+    },
+    {
+      "id": "how",
+      "title::eng": "Adaptation / Mitigation Strategies",
+      "icon_asset": "images/icons/terms_conditions.svg"
+    }
+  ]
+}

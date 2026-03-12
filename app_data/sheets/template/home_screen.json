@@ -5,17 +5,36 @@
   "rows": [
     {
       "type": "title",
-      "name": "title",
       "value": "AE Hub App",
       "_translations": {
         "value": {}
       },
-      "_nested_name": "title"
+      "name": "title_2",
+      "_nested_name": "title_2"
+    },
+    {
+      "type": "template",
+      "name": "topic_list",
+      "value": "topic_list",
+      "exclude_from_translation": true,
+      "rows": [
+        {
+          "name": "topic_data_list_name",
+          "value": "topic",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "topic_list.topic_data_list_name"
+        }
+      ],
+      "_nested_name": "topic_list"
     }
   ],
   "_source": {
     "name": "ae sheets",
-    "path": "template/home screen.xlsx",
-    "url": "https://docs.google.com/spreadsheets/d/1tocx5LcB8ybO6SnR2jv5nilbPvl7RClttbc-QIu6s5o"
+    "path": "template/navigation_templates.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1N1PbL1YvhLQfeshNk-wsBNxsCiPuBOguGSH8JUTdbpw"
   }
 }

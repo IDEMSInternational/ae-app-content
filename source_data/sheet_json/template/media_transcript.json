@@ -1,0 +1,48 @@
+{
+  "flow_type": "template",
+  "flow_name": "media_transcript",
+  "status": "released",
+  "rows": [
+    {
+      "name": "sub_id",
+      "value": "about_1",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_id",
+      "value": "soil",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "sub",
+      "value": "_sub",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "data",
+      "value": "@local.topic_id@local.sub",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "concat_sub_id",
+      "value": "@local.data.@local.sub_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "sub_data",
+      "value": "@data.@local.concat_sub_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "join",
+      "value": "_",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "media_transcript",
+      "value": "@local.sub_data.media_transcript",
+      "exclude_from_translation": true
+    }
+  ]
+}

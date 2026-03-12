@@ -1,0 +1,349 @@
+{
+  "flow_type": "template",
+  "flow_name": "app_menu",
+  "status": "released",
+  "rows": [
+    {
+      "type": "button",
+      "name": "button_about",
+      "value": "@global.about_this_app",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "go_to",
+          "args": [
+            "app_about"
+          ],
+          "_raw": "click | go_to: app_about"
+        }
+      ],
+      "_nested_name": "button_about",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@global.about_this_app",
+            "matchedExpression": "@global.about_this_app",
+            "type": "global",
+            "fieldName": "about_this_app"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@global.about_this_app": [
+          "value"
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "name": "button_terms",
+      "value": "@global.terms_and_conditions",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "go_to",
+          "args": [
+            "app_menu_terms"
+          ],
+          "_raw": "click | go_to: app_menu_terms"
+        }
+      ],
+      "_nested_name": "button_terms",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@global.terms_and_conditions",
+            "matchedExpression": "@global.terms_and_conditions",
+            "type": "global",
+            "fieldName": "terms_and_conditions"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@global.terms_and_conditions": [
+          "value"
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "name": "button_privacy",
+      "value": "@global.privacy_policy",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "go_to",
+          "args": [
+            "app_menu_privacy_policy"
+          ],
+          "_raw": "click | go_to: app_menu_privacy_policy"
+        }
+      ],
+      "_nested_name": "button_privacy",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@global.privacy_policy",
+            "matchedExpression": "@global.privacy_policy",
+            "type": "global",
+            "fieldName": "privacy_policy"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@global.privacy_policy": [
+          "value"
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "name": "button_id",
+      "value": "User Id",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "go_to",
+          "args": [
+            "user_code"
+          ],
+          "_raw": "click | go_to: user_code"
+        }
+      ],
+      "_nested_name": "button_id"
+    },
+    {
+      "type": "button",
+      "name": "button_open_feedback",
+      "value": "Feedback",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "feedback",
+          "args": [
+            "open"
+          ],
+          "_raw": "click | feedback:open"
+        },
+        {
+          "trigger": "click",
+          "action_id": "emit",
+          "args": [
+            "force_reprocess"
+          ],
+          "_raw": "click | emit: force_reprocess"
+        }
+      ],
+      "condition": "!@fields._feedback_sidebar_open",
+      "_nested_name": "button_open_feedback",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "!@fields._feedback_sidebar_open",
+            "matchedExpression": "!@fields._feedback_sidebar_open",
+            "type": "fields",
+            "fieldName": "_feedback_sidebar_open"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "!@fields._feedback_sidebar_open": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "name": "button_close_feedback",
+      "value": "Feedback",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "feedback",
+          "args": [
+            "close"
+          ],
+          "_raw": "click | feedback:close"
+        },
+        {
+          "trigger": "click",
+          "action_id": "emit",
+          "args": [
+            "force_reprocess"
+          ],
+          "_raw": "click | emit: force_reprocess"
+        }
+      ],
+      "condition": "@fields._feedback_sidebar_open",
+      "_nested_name": "button_close_feedback",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "@fields._feedback_sidebar_open",
+            "matchedExpression": "@fields._feedback_sidebar_open",
+            "type": "fields",
+            "fieldName": "_feedback_sidebar_open"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@fields._feedback_sidebar_open": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "name": "button_templates",
+      "value": "Templates",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "go_to",
+          "args": [
+            "/template"
+          ],
+          "_raw": "click | go_to:/template"
+        }
+      ],
+      "_nested_name": "button_templates"
+    },
+    {
+      "type": "button",
+      "name": "button_tour",
+      "value": "How to use @global.app_name",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "start_tour",
+          "args": [
+            "home_screen_tour"
+          ],
+          "_raw": "click | start_tour: home_screen_tour"
+        }
+      ],
+      "condition": false,
+      "_nested_name": "button_tour",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "How to use @global.app_name",
+            "matchedExpression": "@global.app_name",
+            "type": "global",
+            "fieldName": "app_name"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@global.app_name": [
+          "value"
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "name": "button_reset",
+      "value": "Reset app",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "reset_app",
+          "args": [],
+          "_raw": "click | reset_app"
+        }
+      ],
+      "_nested_name": "button_reset"
+    },
+    {
+      "type": "debug_toggle",
+      "name": "debug_toggle",
+      "_nested_name": "debug_toggle"
+    },
+    {
+      "type": "display_group",
+      "name": "dg_navigation",
+      "rows": [
+        {
+          "type": "toggle_bar",
+          "name": "toggle_navigation",
+          "value": "@fields.show_nav_buttons",
+          "_translations": {
+            "value": {}
+          },
+          "action_list": [
+            {
+              "trigger": "changed",
+              "action_id": "set_field",
+              "args": [
+                "show_nav_buttons",
+                "this.value"
+              ],
+              "_raw": "changed | set_field: show_nav_buttons: this.value"
+            }
+          ],
+          "_nested_name": "dg_navigation.toggle_navigation",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@fields.show_nav_buttons",
+                "matchedExpression": "@fields.show_nav_buttons",
+                "type": "fields",
+                "fieldName": "show_nav_buttons"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@fields.show_nav_buttons": [
+              "value"
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "name": "toggle_text",
+          "value": "Show navigation buttons",
+          "_translations": {
+            "value": {}
+          },
+          "parameter_list": {
+            "flex": "1"
+          },
+          "_nested_name": "dg_navigation.toggle_text"
+        }
+      ],
+      "_nested_name": "dg_navigation"
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "template/navigation_templates.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1N1PbL1YvhLQfeshNk-wsBNxsCiPuBOguGSH8JUTdbpw"
+  }
+}

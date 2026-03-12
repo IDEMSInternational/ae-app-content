@@ -1,0 +1,39 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "app_section_data",
+  "status": "released",
+  "rows": [
+    {
+      "id": "topics",
+      "title": "Sessions",
+      "icon_asset": "images/icons/home_white.svg",
+      "template": "home_screen",
+      "template_modular": "home_screen",
+      "title_modular": "Sessions",
+      "image_asset": "images/icons/home_white.svg"
+    },
+    {
+      "id": "library",
+      "title": "Library",
+      "icon_asset": "images/icons/library_white.svg",
+      "template": "resources",
+      "title_modular": "Library",
+      "image_asset": "images/icons/library_white.svg",
+      "template_modular": "resources"
+    },
+    {
+      "id": "settings",
+      "title": "@global.habits_capital",
+      "icon_asset": "images/icons/settings.svg",
+      "template": "settings",
+      "title_modular": "@global.habits_capital",
+      "image_asset": "images/icons/settings.svg",
+      "template_modular": "settings"
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "data/navigation_defaults.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/16_jcibEczy3DtIqeg7GWewqM9Sg2J76DcPY-CTTYeE0"
+  }
+}

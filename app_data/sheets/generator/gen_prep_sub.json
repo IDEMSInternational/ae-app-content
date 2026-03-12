@@ -1,0 +1,59 @@
+{
+  "flow_type": "generator",
+  "flow_name": "gen_prep_sub",
+  "status": "released",
+  "parameter_list": {
+    "input_data_list": "topic_released",
+    "output_flow_name": "prep_{@gen.id}_sub",
+    "output_flow_type": "data_pipe",
+    "output_flow_subtype": "generated"
+  },
+  "rows": [
+    {
+      "operation": "concat",
+      "args_list": [
+        "{@gen.id}_sub"
+      ],
+      "input_source": false
+    },
+    {
+      "operation": "append_columns",
+      "args_list": [
+        "completed: FALSE"
+      ],
+      "output_target": "{@gen.id}_sub_tasks"
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "template/topics data pipes.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1jhqwV3I5hT7lcXNTpzlaO2696ffUDiM3c0AazhjYRPI"
+  },
+  "_output_flows": [
+    {
+      "flow_name": "prep_soil_sub",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
+      "flow_name": "prep_pest_sub",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
+      "flow_name": "prep_nutrition_sub",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
+      "flow_name": "prep_livestock_sub",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
+      "flow_name": "prep_agroforestry_sub",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    }
+  ]
+}

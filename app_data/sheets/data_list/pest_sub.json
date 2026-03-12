@@ -1,0 +1,183 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "pest_sub",
+  "data_list_name": "pest_sub",
+  "status": "released",
+  "rows": [
+    {
+      "id": "about_1",
+      "category_id": "about",
+      "module_id": "pest",
+      "title": "Pest",
+      "_translations": {
+        "title": {},
+        "text_1": {},
+        "text_2": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Pest"
+        },
+        "text_1": {
+          "eng": "A pest is any organism including insects, pathogens, or animals that causes economic damage, health risks, or physical harm to crops, livestock, and human resources, often by competing for food supplies or reducing the quality and yield of agricultural products."
+        },
+        "text_2": {
+          "eng": ""
+        }
+      },
+      "text_1": "A pest is any organism including insects, pathogens, or animals that causes economic damage, health risks, or physical harm to crops, livestock, and human resources, often by competing for food supplies or reducing the quality and yield of agricultural products.",
+      "text_2": ""
+    },
+    {
+      "id": "about_2",
+      "category_id": "about",
+      "module_id": "pest",
+      "title": "Common pests",
+      "_translations": {
+        "title": {},
+        "text_1": {},
+        "text_2": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Common pests"
+        },
+        "text_1": {
+          "eng": "Common agricultural pests ranging from insects like aphids, white flies, and bollworms to vertebrates like rodents and weaver birds target a wide variety of essential crops including maize, cereals, tubers, and vegetables."
+        },
+        "text_2": {
+          "eng": "These organisms cause significant damage by physically destroying plant parts, such as boring holes into crops or attacking rootstocks, and by extracting vital nutrients and moisture from the plants."
+        }
+      },
+      "text_1": "Common agricultural pests ranging from insects like aphids, white flies, and bollworms to vertebrates like rodents and weaver birds target a wide variety of essential crops including maize, cereals, tubers, and vegetables.",
+      "text_2": "These organisms cause significant damage by physically destroying plant parts, such as boring holes into crops or attacking rootstocks, and by extracting vital nutrients and moisture from the plants."
+    },
+    {
+      "id": "about_3",
+      "category_id": "about",
+      "module_id": "pest",
+      "title": "Pest Management",
+      "_translations": {
+        "title": {},
+        "text_1": {},
+        "text_2": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Pest Management"
+        },
+        "text_1": {
+          "eng": "Pest Management is the strategic application of various techniques including biological, cultural, physical, and chemical methods to monitor and control pest populations."
+        },
+        "text_2": {
+          "eng": "The goal is to prevent economic loss or physical damage to crops, livestock, and infrastructure while maintaining ecological balance."
+        }
+      },
+      "text_1": "Pest Management is the strategic application of various techniques including biological, cultural, physical, and chemical methods to monitor and control pest populations.",
+      "text_2": "The goal is to prevent economic loss or physical damage to crops, livestock, and infrastructure while maintaining ecological balance."
+    },
+    {
+      "id": "dynamics",
+      "category_id": "dynamics",
+      "module_id": "pest",
+      "title": "Tried Management/Control Measures",
+      "_translations": {
+        "title": {},
+        "text_1": {},
+        "text_2": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Tried Management/Control Measures"
+        },
+        "text_1": {
+          "eng": "* Use of insecticides/pesticides\n * Using herbal insecticides-plant-based remedies like tithonia, Tephrosia\n * Crop rotations. Some crops are attacked by the same pest. Changing breaks the life\ncycle\n * Trapping, like rodents.\n * using physical barriers like proper fences\n * Planting pest repellent crops. They repel away pests, like onions\n * Garden sanitation to remove affected crops\n * Timely planting, to prevent damage in some seasons. \n * Harvesting before pests can attack\n * Using predators, like ladybirds, to eat aphids"
+        },
+        "text_2": {
+          "eng": "* Biopesticides, like ash, soap, Ash brew, hot pepper\n * Proper spacing, and using different crops in between the raised beds to prevent spread of\npests\n * Certified seeds that have been protected from crops (treated seeds)\n * Uprooting the affected crops, to prevent pest spreading\n * Airtight sacks to control weevils\n * Using organic manure,\n * Physically, handpicking pests\n * Sprinkling potassium carbonate, wood ash on plants\n * Drying maize/cereals properly to make them hard enough for weevils not to attack\n * Scarecrows to distract the birds"
+        }
+      },
+      "text_1": "* Use of insecticides/pesticides\n * Using herbal insecticides-plant-based remedies like tithonia, Tephrosia\n * Crop rotations. Some crops are attacked by the same pest. Changing breaks the life\ncycle\n * Trapping, like rodents.\n * using physical barriers like proper fences\n * Planting pest repellent crops. They repel away pests, like onions\n * Garden sanitation to remove affected crops\n * Timely planting, to prevent damage in some seasons. \n * Harvesting before pests can attack\n * Using predators, like ladybirds, to eat aphids",
+      "text_2": "* Biopesticides, like ash, soap, Ash brew, hot pepper\n * Proper spacing, and using different crops in between the raised beds to prevent spread of\npests\n * Certified seeds that have been protected from crops (treated seeds)\n * Uprooting the affected crops, to prevent pest spreading\n * Airtight sacks to control weevils\n * Using organic manure,\n * Physically, handpicking pests\n * Sprinkling potassium carbonate, wood ash on plants\n * Drying maize/cereals properly to make them hard enough for weevils not to attack\n * Scarecrows to distract the birds"
+    },
+    {
+      "id": "how_1",
+      "category_id": "how",
+      "module_id": "pest",
+      "title": "Pest Management/Control",
+      "_translations": {
+        "title": {},
+        "section_1_title": {},
+        "section_1_text": {},
+        "section_1_button_text": {},
+        "section_1_extra_text": {},
+        "section_2_title": {},
+        "section_2_text": {},
+        "section_3_title": {},
+        "section_3_text": {},
+        "section_4_title": {},
+        "section_4_text": {},
+        "section_5_title": {},
+        "section_5_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Pest Management/Control"
+        },
+        "section_1_title": {
+          "eng": "Cultural methods"
+        },
+        "section_1_text": {
+          "eng": "* These are the practices carried out on the farm that prevent pests\nfrom attacking the crops. \n * The techniques involve manipulating or altering farming\npractices to make the environment unconducive or less favourable/hospitable for pests’\nsurvival, but more favourable to beneficial organisms without reliance on chemical\npesticides."
+        },
+        "section_1_button_text": {
+          "eng": "more"
+        },
+        "section_1_extra_text": {
+          "eng": "* It includes practices like timely field operations. For instance, timely deep ploughing (land preparation) exposes insect or their eggs to the heat of the sun, resulting in desiccation, dehydration, and death. Timely planting implies that the most vulnerable growth stage of crops occurs before the peak pest damage periods. Weeds act as alternative hosts, or hiding places for pests, and removing them before seed production/maturity, more so during critical stages of crop growth (timely weeding), not only gets rid of pest habitats but also reduces competition for resources. Similarly, timely harvesting of produce prevents the late-season build-up of pests, and prevents transferring pests to storage.\n * In companion planting, the farmers plant specific combinations of crops together to protect one another from pest infestations. Some plants in those combinations either attract beneficial insects, improve growth of the main crop, or repel away pests.\n * Growing resistant varieties. Involves selecting and planting crop varieties that have inherent resistant to pest attacks, or maybe having chemical or physical defence mechanisms that render them less prone to pest attacks. Additionally, it is important to refresh planting materials with clean stock, to prevent recycling pests and diseases.\n * Crop rotation allows to disrupt pest cycles that might have build up, by changing alternative crops planted in a particular field every season.\n * Field Sanitation through removing diseased or pest-infested crop resides to keep the fields clean, preventing spreading pests and diseases to the health and uninfested plants."
+        },
+        "section_2_title": {
+          "eng": "Mechanical method"
+        },
+        "section_2_text": {
+          "eng": "* Mechanical methods of pest control involve applying physical devices or force to prevent pest damage or remove pests from crops. \n * Examples include using physical barriers (screens, nets) and traps( sticky traps, baited traps). \n * These strategies create environments where pests cannot enter, survive or reproduce, or destroy the pests."
+        },
+        "section_3_title": {
+          "eng": "Biological Control"
+        },
+        "section_3_text": {
+          "eng": "* Involves the use of living organisms to control other organisms.\n * That is encouraging the multiplication of natural enemies/predators of pests to suppress\nor manage pest populations. \n * The approach is an eco-friendly approach that works through parasitism and predation, to keep pest levels below the damaging threshold\nwithout eliminating them. \n * For instance, ladybirds feed on aphids, wasps feed on insects, and a cat eats rats. \n * We plant flowers on the farm to attract these beneficial insects"
+        },
+        "section_4_title": {
+          "eng": "Proper storage"
+        },
+        "section_4_text": {
+          "eng": "* Proper storage of the harvested products is also essential to prevent storage pests, like rats, weevils, and bruchids. Weevils affect maize grains, while bruchids affect beans. \n * These could be controlled by using hermetic bags for storage. While rats could damage hermetic bags, silos could help control all the storage pests. \n * However, when using the bags, care should be taken not to store seeds for longer periods using hermetic bags. Due to a lack of oxygen, longer periods cause the seeds to be dormant, reducing their viability."
+        },
+        "section_5_title": {
+          "eng": "Botanical method"
+        },
+        "section_5_text": {
+          "eng": "* Involves using botanical pesticides, which are extracts/insecticides from plants to control pests. These plants have chemical compounds in their system that discourage pests from feeding on crops on which the extracts are applied, because some are very bitter. \n * Examples include tithonia, neem, aloe vera, and tephrosia, among others."
+        }
+      },
+      "section_1_title": "Cultural methods",
+      "section_1_text": "* These are the practices carried out on the farm that prevent pests\nfrom attacking the crops. \n * The techniques involve manipulating or altering farming\npractices to make the environment unconducive or less favourable/hospitable for pests’\nsurvival, but more favourable to beneficial organisms without reliance on chemical\npesticides.",
+      "section_1_button_text": "more",
+      "section_1_extra_text": "* It includes practices like timely field operations. For instance, timely deep ploughing (land preparation) exposes insect or their eggs to the heat of the sun, resulting in desiccation, dehydration, and death. Timely planting implies that the most vulnerable growth stage of crops occurs before the peak pest damage periods. Weeds act as alternative hosts, or hiding places for pests, and removing them before seed production/maturity, more so during critical stages of crop growth (timely weeding), not only gets rid of pest habitats but also reduces competition for resources. Similarly, timely harvesting of produce prevents the late-season build-up of pests, and prevents transferring pests to storage.\n * In companion planting, the farmers plant specific combinations of crops together to protect one another from pest infestations. Some plants in those combinations either attract beneficial insects, improve growth of the main crop, or repel away pests.\n * Growing resistant varieties. Involves selecting and planting crop varieties that have inherent resistant to pest attacks, or maybe having chemical or physical defence mechanisms that render them less prone to pest attacks. Additionally, it is important to refresh planting materials with clean stock, to prevent recycling pests and diseases.\n * Crop rotation allows to disrupt pest cycles that might have build up, by changing alternative crops planted in a particular field every season.\n * Field Sanitation through removing diseased or pest-infested crop resides to keep the fields clean, preventing spreading pests and diseases to the health and uninfested plants.",
+      "section_2_title": "Mechanical method",
+      "section_2_text": "* Mechanical methods of pest control involve applying physical devices or force to prevent pest damage or remove pests from crops. \n * Examples include using physical barriers (screens, nets) and traps( sticky traps, baited traps). \n * These strategies create environments where pests cannot enter, survive or reproduce, or destroy the pests.",
+      "section_3_title": "Biological Control",
+      "section_3_text": "* Involves the use of living organisms to control other organisms.\n * That is encouraging the multiplication of natural enemies/predators of pests to suppress\nor manage pest populations. \n * The approach is an eco-friendly approach that works through parasitism and predation, to keep pest levels below the damaging threshold\nwithout eliminating them. \n * For instance, ladybirds feed on aphids, wasps feed on insects, and a cat eats rats. \n * We plant flowers on the farm to attract these beneficial insects",
+      "section_4_title": "Proper storage",
+      "section_4_text": "* Proper storage of the harvested products is also essential to prevent storage pests, like rats, weevils, and bruchids. Weevils affect maize grains, while bruchids affect beans. \n * These could be controlled by using hermetic bags for storage. While rats could damage hermetic bags, silos could help control all the storage pests. \n * However, when using the bags, care should be taken not to store seeds for longer periods using hermetic bags. Due to a lack of oxygen, longer periods cause the seeds to be dormant, reducing their viability.",
+      "section_5_title": "Botanical method",
+      "section_5_text": "* Involves using botanical pesticides, which are extracts/insecticides from plants to control pests. These plants have chemical compounds in their system that discourage pests from feeding on crops on which the extracts are applied, because some are very bitter. \n * Examples include tithonia, neem, aloe vera, and tephrosia, among others."
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "data/AE Topics_data.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1vgQiHDPMFrOesfAhUeonHUU-AyWvoOQ_2_W9UUmqRVw"
+  }
+}

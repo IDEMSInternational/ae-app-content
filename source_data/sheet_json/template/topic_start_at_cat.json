@@ -1,0 +1,103 @@
+{
+  "flow_type": "template",
+  "flow_name": "topic_start_at_cat",
+  "status": "released",
+  "rows": [
+    {
+      "name": "topic_id",
+      "value": "soil",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_concat",
+      "value": "topic.@local.topic_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_row",
+      "value": "@data.@local.topic_concat",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "categories",
+      "value": "_category_tasks",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "category_data",
+      "value": "@local.topic_id@local.categories",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "category_id",
+      "value": "about",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "sub",
+      "value": "_sub_tasks",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "sub_data",
+      "value": "@local.topic_id@local.sub",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_items",
+      "name": "find_first_sub_in_@local.category_id",
+      "value": "@data.@local.sub_data",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "first_sub_index",
+      "value": "@item._index",
+      "condition": "@item.category_id == @local.category_id && (!@local.first_sub_id)",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "first_sub_id",
+      "value": "@item.id",
+      "condition": "@item.category_id == @local.category_id && (!@local.first_sub_id)",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_items",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "debug_id_in_@local.category_id",
+      "value": "ID of first sub in category @local.category_id: @local.first_sub_id",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "debug_index_in_@local.category_id",
+      "value": "Index of first sub in category @local.category_id: @local.first_sub_index",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_template",
+      "name": "topic",
+      "value": "topic",
+      "action_list": "completed | emit: completed; uncompleted | emit: uncompleted",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_id",
+      "value": "@local.topic_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "active_index",
+      "value": "@local.first_sub_index",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template"
+    }
+  ]
+}

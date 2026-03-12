@@ -1,0 +1,84 @@
+{
+  "flow_type": "template",
+  "flow_name": "extra_text",
+  "status": "released",
+  "rows": [
+    {
+      "name": "sub_id",
+      "value": "about_1",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_id",
+      "value": "soil",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "sub",
+      "value": "_sub",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "data",
+      "value": "@local.topic_id@local.sub",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "concat_sub_id",
+      "value": "@local.data.@local.sub_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "sub_data",
+      "value": "@data.@local.concat_sub_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "join",
+      "value": "_",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "name": "section_no",
+      "value": 1,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "section",
+      "value": "section",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "extra_text",
+      "value": "extra_text",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "section_column",
+      "value": "@local.section@local.join@local.section_no@local.join@local.extra_text",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "concat_extra_text",
+      "value": "sub_data.@local.section_column",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "section_extra_text",
+      "value": "@local.@local.concat_extra_text",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "value": "@local.section_extra_text",
+      "exclude_from_translation": true
+    }
+  ]
+}

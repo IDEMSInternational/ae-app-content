@@ -1,0 +1,46 @@
+{
+  "flow_name": "nutrition_category_tasks",
+  "flow_subtype": "generated",
+  "flow_type": "data_list",
+  "rows": [
+    {
+      "id": "about",
+      "icon_asset": "images/icons/about_ae.svg",
+      "title": "About",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "About"
+        }
+      }
+    },
+    {
+      "id": "how",
+      "icon_asset": "images/icons/settings.svg",
+      "title": "Food produced and given to vulnerable groups",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Food produced and given to vulnerable groups"
+        }
+      }
+    },
+    {
+      "id": "dynamics",
+      "icon_asset": "images/icons/terms_conditions.svg",
+      "title": "Value Addition and Income Generation",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Value Addition and Income Generation"
+        }
+      }
+    }
+  ]
+}

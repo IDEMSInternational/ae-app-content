@@ -1,0 +1,13 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "about_this_app",
+  "status": "released",
+  "data_list_name": "about_this_app",
+  "rows": [
+    {
+      "id": "text_1",
+      "text::eng": "@global.app_name is a free app designed to support small holder farmers in Kenya improve their livelihoods and landscapes by using farmer centric approach (FRN) guided by AE principles of co-creation.\n\nThe content herein is available under an open source Creative Commons International 4.0 license. It was developed in collaboration with key partners:",
+      "attached_single_doc": "https://docs.google.com/document/d/1aoV2OREU_viEiDlgRM1i5IRHSOlaYcoVsYMRgkjJc2I"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "flow_type": "template",
+  "flow_name": "topic_overview",
+  "status": "released",
+  "rows": [
+    {
+      "type": "update_action_list",
+      "name": "custom_actions_1",
+      "action_list": "nav_resume | emit: force_reload",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_id",
+      "value": "test",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_concat",
+      "value": "topic.@local.topic_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_row",
+      "value": "@data.@local.topic_concat",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "categories",
+      "value": "_category_tasks",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "category_data",
+      "value": "@local.topic_id@local.categories",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "sub",
+      "value": "_sub_tasks"
+    },
+    {
+      "name": "sub_data",
+      "value": "@local.topic_id@local.sub"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "top",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "title",
+      "name": "title",
+      "value": "@local.topic_row.title",
+      "style_list": "flex: 1;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "image",
+      "name": "image",
+      "value": "@local.topic_row.image_asset",
+      "style_list": "flex: 1;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "value": "@local.topic_row.description",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_items",
+      "name": "category_loop",
+      "value": "@data.@local.category_data",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_template",
+      "name": "card_@item.id",
+      "value": "category_card",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_id",
+      "value": "@local.topic_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "category_id",
+      "value": "@item.id",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_items"
+    }
+  ]
+}

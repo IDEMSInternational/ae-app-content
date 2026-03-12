@@ -1,0 +1,229 @@
+{
+  "flow_name": "nutrition_sub_tasks",
+  "flow_subtype": "generated",
+  "flow_type": "data_list",
+  "rows": [
+    {
+      "id": "about_1",
+      "category_id": "about",
+      "module_id": "nutrition",
+      "title": "Food",
+      "_translations": {
+        "title": {},
+        "text_1": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Food"
+        },
+        "text_1": {
+          "eng": "Food is any substance, usually of plant or animal, that is consumed to provide the body with energy, support growth, and maintain life."
+        }
+      },
+      "text_1": "Food is any substance, usually of plant or animal, that is consumed to provide the body with energy, support growth, and maintain life.",
+      "completed": false
+    },
+    {
+      "id": "about_2",
+      "category_id": "about",
+      "module_id": "nutrition",
+      "title": "Nutrition",
+      "_translations": {
+        "title": {},
+        "text_1": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Nutrition"
+        },
+        "text_1": {
+          "eng": "Nutrition is the process by which the body takes in and uses food to support health, repair tissue, and fuel daily activities. It focuses on how specific nutrients like vitamins and proteins keep the body functioning properly."
+        }
+      },
+      "text_1": "Nutrition is the process by which the body takes in and uses food to support health, repair tissue, and fuel daily activities. It focuses on how specific nutrients like vitamins and proteins keep the body functioning properly.",
+      "completed": false
+    },
+    {
+      "id": "about_3",
+      "category_id": "about",
+      "module_id": "nutrition",
+      "title": "Food Types",
+      "_translations": {
+        "title": {},
+        "section_1_title": {},
+        "section_1_text": {},
+        "section_2_title": {},
+        "section_2_text": {},
+        "section_3_title": {},
+        "section_3_text": {},
+        "section_4_title": {},
+        "section_4_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Food Types"
+        },
+        "section_1_title": {
+          "eng": "Plant-based"
+        },
+        "section_1_text": {
+          "eng": "* <b>Carbohydrates</b> \nCereals, like maize,millet, rice, sorghum, wheat, Irish potatoes, Cassava, Arrow roots, Yams, Sweet potatoes, Green bananas, Sugarcane\n\n * <b>Proteins</b> \nLegumes like Groundnuts, Beans, Soya beans, Sim sim, Mushrooms, Green grams, Nuts\n\n * <b>Vitamins</b> \nVegetables, oranges, Amaranthus, watermelon, Kales, cabbage, Spinach, Avicado, Ripe bananas, Pumpkin, Onions, Tomatoes, Beverages, eg, coffee, tea"
+        },
+        "section_2_title": {
+          "eng": "Animal-based (Animal products)"
+        },
+        "section_2_text": {
+          "eng": "* Milk\n\n * Meat\n\n * Eggs\n\n * Fish\n\n * Omena 'Aluru'"
+        },
+        "section_3_title": {
+          "eng": "Food for children below five years"
+        },
+        "section_3_text": {
+          "eng": "* <b>Milk</b>, they are breastfed for six months, and thereafter we gradually introduce solid foods, and milk\n\n * <b>Eggs</b> - we give them eggs after nine months\n\n * <b>Pumpkins</b>, like butternut, are mixed with bananas and mashed potatoes\n\n * <b>Warm water</b>\n\n * <b>Porridge</b>- we mix soya, Omena (ground), millet, milk, cassava, and ground nuts\n\n * <b>Fruits</b>- we blend fruits and give them as a smoothie, or whole fruits"
+        },
+        "section_4_title": {
+          "eng": "Food for the sick"
+        },
+        "section_4_text": {
+          "eng": "* Milk\n\n * Fruits\n\n * Porridge\n\n * Cooked banana or boiled\n\n * Bone Soup to provide joint strength and stability\n\n * Soft ugali\n\n * Vegetables"
+        }
+      },
+      "section_1_title": "Plant-based",
+      "section_1_text": "* <b>Carbohydrates</b> \nCereals, like maize,millet, rice, sorghum, wheat, Irish potatoes, Cassava, Arrow roots, Yams, Sweet potatoes, Green bananas, Sugarcane\n\n * <b>Proteins</b> \nLegumes like Groundnuts, Beans, Soya beans, Sim sim, Mushrooms, Green grams, Nuts\n\n * <b>Vitamins</b> \nVegetables, oranges, Amaranthus, watermelon, Kales, cabbage, Spinach, Avicado, Ripe bananas, Pumpkin, Onions, Tomatoes, Beverages, eg, coffee, tea",
+      "section_2_title": "Animal-based (Animal products)",
+      "section_2_text": "* Milk\n\n * Meat\n\n * Eggs\n\n * Fish\n\n * Omena 'Aluru'",
+      "section_3_title": "Food for children below five years",
+      "section_3_text": "* <b>Milk</b>, they are breastfed for six months, and thereafter we gradually introduce solid foods, and milk\n\n * <b>Eggs</b> - we give them eggs after nine months\n\n * <b>Pumpkins</b>, like butternut, are mixed with bananas and mashed potatoes\n\n * <b>Warm water</b>\n\n * <b>Porridge</b>- we mix soya, Omena (ground), millet, milk, cassava, and ground nuts\n\n * <b>Fruits</b>- we blend fruits and give them as a smoothie, or whole fruits",
+      "section_4_title": "Food for the sick",
+      "section_4_text": "* Milk\n\n * Fruits\n\n * Porridge\n\n * Cooked banana or boiled\n\n * Bone Soup to provide joint strength and stability\n\n * Soft ugali\n\n * Vegetables",
+      "completed": false
+    },
+    {
+      "id": "how_1",
+      "category_id": "how",
+      "module_id": "nutrition",
+      "title": "Attributes to Low Production rates and Losses in Agricultural Production",
+      "_translations": {
+        "title": {},
+        "text_1": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Attributes to Low Production rates and Losses in Agricultural Production"
+        },
+        "text_1": {
+          "eng": "* Poor methods of farming.\n * Pests and diseases infesting crops\n * Price fluctuations. Selling immediately after harvest\n * Timing of production. Most farmers rely on rainfed agriculture, have no irrigation means. Producing too much, mass production of the same crops, leading to overflooding of products in the markets.\n * Diversification of production\n * Some have less cultivatable land, or no access to land\n * Poor storage facilities/methods, which encourage storage pests to attack, reduce the quality of products\n * Preservation of perishable products. Lack of preservation means that, while having high production leads to wastage\n * No markets for selling products"
+        }
+      },
+      "text_1": "* Poor methods of farming.\n * Pests and diseases infesting crops\n * Price fluctuations. Selling immediately after harvest\n * Timing of production. Most farmers rely on rainfed agriculture, have no irrigation means. Producing too much, mass production of the same crops, leading to overflooding of products in the markets.\n * Diversification of production\n * Some have less cultivatable land, or no access to land\n * Poor storage facilities/methods, which encourage storage pests to attack, reduce the quality of products\n * Preservation of perishable products. Lack of preservation means that, while having high production leads to wastage\n * No markets for selling products",
+      "completed": false
+    },
+    {
+      "id": "dynamics_2",
+      "category_id": "dynamics",
+      "module_id": "nutrition",
+      "title": "Value Addition Activities",
+      "_translations": {
+        "title": {},
+        "text_1": {},
+        "section_1_title": {},
+        "section_1_text": {},
+        "section_2_title": {},
+        "section_2_text": {},
+        "section_3_title": {},
+        "section_3_text": {},
+        "section_4_title": {},
+        "section_4_text": {},
+        "section_5_title": {},
+        "section_5_text": {},
+        "section_6_title": {},
+        "section_6_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Value Addition Activities"
+        },
+        "text_1": {
+          "eng": "Soya Beans"
+        },
+        "section_1_title": {
+          "eng": "Soya crunches."
+        },
+        "section_1_text": {
+          "eng": "* Boil water, wash the soya, and boil\n * Remove, drain water, dry, and deep fry\n * The dried soya can be milled into flour, mixed with millet, sorghum to make porridge flour\n * Producing milk from soya\n * The soya beans are roasted and milled into flour and used in place of tea leaves."
+        },
+        "section_2_title": {
+          "eng": "Sweet Potatoes"
+        },
+        "section_2_text": {
+          "eng": "* Boil the potatoes,\n * Wash, and use a grater to make thin slices.\n * Dry them in the shade\n * Deep fry to make crisps"
+        },
+        "section_3_title": {
+          "eng": "Bananas"
+        },
+        "section_3_text": {
+          "eng": "* Peel and chop across. Boil for 2 minutes, and deep fry\n * Ripe banana. Slice and deep fry to make crisps\n * Make dough with maize flour and sprinkle sugar. Wrap with banana leaves and deep fry\n * Banana wine-peel and make it ferment and add sugars\n * The banana peels are dried and burned to ash( mushereha) that can be added to vegetables\n * Chop bananas into tiny pieces, dry under shade, and grind/mill into flour. You can mix it in porridge flour or wheat flour to make chapatis, mandazis, pancakes, etc."
+        },
+        "section_4_title": {
+          "eng": "Cassava"
+        },
+        "section_4_text": {
+          "eng": "* Peel off, chop, and dry the shade, and mill into flour\n * Peel off the outer cover, slice into halves of the cassava pieces and dry them in the sun. \n * Put in a sack for a few days, it starts to produce moulds, this is the (“Akuoga”). These have higher prices in the market than raw cassava. \n * The Akuoga can be mixed with millet and made into flour to make porridge, or maize flour to make ugali with enhanced taste."
+        },
+        "section_5_title": {
+          "eng": "Vegetables"
+        },
+        "section_5_text": {
+          "eng": "* Drying and preserving"
+        },
+        "section_6_title": {
+          "eng": "Ground nut"
+        },
+        "section_6_text": {
+          "eng": "* Grinding and mixing vegetables\n * Roasted, ground, and made into peanut butter\n * Roast and mix with sugar and simsim balls, and sell"
+        }
+      },
+      "text_1": "Soya Beans",
+      "section_1_title": "Soya crunches.",
+      "section_1_text": "* Boil water, wash the soya, and boil\n * Remove, drain water, dry, and deep fry\n * The dried soya can be milled into flour, mixed with millet, sorghum to make porridge flour\n * Producing milk from soya\n * The soya beans are roasted and milled into flour and used in place of tea leaves.",
+      "section_2_title": "Sweet Potatoes",
+      "section_2_text": "* Boil the potatoes,\n * Wash, and use a grater to make thin slices.\n * Dry them in the shade\n * Deep fry to make crisps",
+      "section_3_title": "Bananas",
+      "section_3_text": "* Peel and chop across. Boil for 2 minutes, and deep fry\n * Ripe banana. Slice and deep fry to make crisps\n * Make dough with maize flour and sprinkle sugar. Wrap with banana leaves and deep fry\n * Banana wine-peel and make it ferment and add sugars\n * The banana peels are dried and burned to ash( mushereha) that can be added to vegetables\n * Chop bananas into tiny pieces, dry under shade, and grind/mill into flour. You can mix it in porridge flour or wheat flour to make chapatis, mandazis, pancakes, etc.",
+      "section_4_title": "Cassava",
+      "section_4_text": "* Peel off, chop, and dry the shade, and mill into flour\n * Peel off the outer cover, slice into halves of the cassava pieces and dry them in the sun. \n * Put in a sack for a few days, it starts to produce moulds, this is the (“Akuoga”). These have higher prices in the market than raw cassava. \n * The Akuoga can be mixed with millet and made into flour to make porridge, or maize flour to make ugali with enhanced taste.",
+      "section_6_title::eng_1": "Fish",
+      "section_6_text::eng_1": "* Smoking fish for preservation (Linyo)\n * Obambo\n * Mgongo wazi- Fish fillets\n * Deep frying",
+      "section_5_title": "Vegetables",
+      "section_5_text": "* Drying and preserving",
+      "section_6_title": "Ground nut",
+      "section_6_text": "* Grinding and mixing vegetables\n * Roasted, ground, and made into peanut butter\n * Roast and mix with sugar and simsim balls, and sell",
+      "completed": false
+    },
+    {
+      "id": "dynamics_3",
+      "category_id": "dynamics",
+      "module_id": "nutrition",
+      "title": "Maintaining Quality and Safety of Value-Added Products",
+      "_translations": {
+        "title": {},
+        "text_1": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Maintaining Quality and Safety of Value-Added Products"
+        },
+        "text_1": {
+          "eng": "* Quality of the product itself. The products should be in good condition\n * Observe the hygiene of the product, yourself, and the surroundings\n * Sorting and sorting of products, no spoiled, rotten products\n * Ensure proper storage of your value-added products by having clean containers and away from moisture and contaminants\n * Have proper packaging. Clients may decide whether or not to purchase your products, depending on how the product is presented, proper packaging, Marketing"
+        }
+      },
+      "text_1": "* Quality of the product itself. The products should be in good condition\n * Observe the hygiene of the product, yourself, and the surroundings\n * Sorting and sorting of products, no spoiled, rotten products\n * Ensure proper storage of your value-added products by having clean containers and away from moisture and contaminants\n * Have proper packaging. Clients may decide whether or not to purchase your products, depending on how the product is presented, proper packaging, Marketing",
+      "completed": false
+    }
+  ],
+  "_metadata": {
+    "completed": {
+      "type": "boolean"
+    }
+  }
+}

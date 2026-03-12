@@ -1,0 +1,46 @@
+{
+  "flow_name": "soil_category_tasks",
+  "flow_subtype": "generated",
+  "flow_type": "data_list",
+  "rows": [
+    {
+      "id": "about",
+      "icon_asset": "images/icons/about_ae.svg",
+      "title": "About",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "About"
+        }
+      }
+    },
+    {
+      "id": "dynamics",
+      "icon_asset": "images/icons/settings.svg",
+      "title": "Understanding Soil Fertility Dynamics",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Understanding Soil Fertility Dynamics"
+        }
+      }
+    },
+    {
+      "id": "how",
+      "icon_asset": "images/icons/terms_conditions.svg",
+      "title": "Enhancing fertility through Organic Manures",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Enhancing fertility through Organic Manures"
+        }
+      }
+    }
+  ]
+}

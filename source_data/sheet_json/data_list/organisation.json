@@ -1,0 +1,20 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "organisation",
+  "status": "released",
+  "data_list_name": "organisation",
+  "rows": [
+    {
+      "id": "organisation_2",
+      "name": "IDEMS",
+      "image_asset": "images/logo/IDEMS_logo.png",
+      "group": "partners"
+    },
+    {
+      "id": "organisation_3",
+      "name": "INNODEMS",
+      "image_asset": "images/logo/innodems.png",
+      "group": "partners"
+    }
+  ]
+}

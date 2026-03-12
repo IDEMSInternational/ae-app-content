@@ -1,0 +1,18 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "soil_categories",
+  "data_list_name": "soil_categories",
+  "status": "released",
+  "rows": [
+    {
+      "id": "dynamics",
+      "title::eng": "Understanding Soil Fertility Dynamics ",
+      "icon_asset": "images/icons/settings.svg"
+    },
+    {
+      "id": "how",
+      "title::eng": "Enhancing fertility through Organic Manures ",
+      "icon_asset": "images/icons/terms_conditions.svg"
+    }
+  ]
+}

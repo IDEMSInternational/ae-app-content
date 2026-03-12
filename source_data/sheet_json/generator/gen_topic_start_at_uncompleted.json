@@ -1,0 +1,77 @@
+{
+  "flow_type": "generator",
+  "flow_name": "gen_topic_start_at_uncompleted",
+  "status": "released",
+  "parameter_list": {
+    "input_data_list": "topic_released",
+    "output_flow_name": "topic_{@gen.id}_start_at_uncompleted_with_congrats",
+    "output_flow_type": "template"
+  },
+  "rows": [
+    {
+      "name": "topic_id",
+      "value": "@gen.id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_concat",
+      "value": "topics.@local.topic_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_row",
+      "value": "@data.@local.topic_concat",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "sub",
+      "value": "_sub_tasks",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "sub_data",
+      "value": "@local.topic_id@local.sub",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "congrats",
+      "value": "_congrats"
+    },
+    {
+      "name": "congratulations_template",
+      "value": "topic_@gen.id@local.congrats"
+    },
+    {
+      "type": "begin_data_items",
+      "name": "find_first_uncompleted_sub",
+      "value": "@local.sub_data",
+      "parameter_list": "filter: !@item.completed; \nlimit: 1",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_template",
+      "name": "topic_start_at_id",
+      "value": "topic_start_at_id",
+      "action_list": "completed | emit: completed; \nuncompleted | emit: uncompleted",
+      "exclude_from_translation": true,
+      "comment": "This needs to be a full-screen pop up to dismiss properly"
+    },
+    {
+      "name": "topic_id",
+      "value": "@gen.id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "sub_id",
+      "value": "@item.id",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template"
+    },
+    {
+      "type": "end_data_items",
+      "exclude_from_translation": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "flow_type": "data_pipe",
+  "flow_name": "prep_topic",
+  "status": "released",
+  "rows": [
+    {
+      "operation": "filter",
+      "args_list": [
+        "status != \"draft\""
+      ],
+      "input_source": "topic",
+      "output_target": "topic_released"
+    },
+    {
+      "operation": "append_columns",
+      "args_list": [
+        "completed: FALSE",
+        "task_child: {@row.id}_sub_tasks"
+      ],
+      "input_source": "topic_released",
+      "output_target": "topic_tasks"
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "template/topics data pipes.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1jhqwV3I5hT7lcXNTpzlaO2696ffUDiM3c0AazhjYRPI"
+  },
+  "_output_flows": [
+    {
+      "flow_name": "topic_released",
+      "flow_subtype": "generated",
+      "flow_type": "data_list"
+    },
+    {
+      "flow_name": "topic_tasks",
+      "flow_subtype": "generated",
+      "flow_type": "data_list"
+    }
+  ]
+}

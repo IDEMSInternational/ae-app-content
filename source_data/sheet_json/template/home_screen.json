@@ -5,8 +5,22 @@
   "rows": [
     {
       "type": "title",
-      "name": "title",
       "value": "AE Hub App"
+    },
+    {
+      "type": "begin_template",
+      "name": "topic_list",
+      "value": "topic_list",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_data_list_name",
+      "value": "topic",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
     }
   ]
 }
