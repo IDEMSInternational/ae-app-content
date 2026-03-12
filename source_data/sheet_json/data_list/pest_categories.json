@@ -1,0 +1,18 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "pest_categories",
+  "data_list_name": "pest_categories",
+  "status": "released",
+  "rows": [
+    {
+      "id": "dynamics",
+      "title::eng": "Identifying Common pests and their Impacts on crops",
+      "icon_asset": "images/icons/settings.svg"
+    },
+    {
+      "id": "how",
+      "title::eng": "Applying IPM in Pest Management/Control",
+      "icon_asset": "images/icons/terms_conditions.svg"
+    }
+  ]
+}

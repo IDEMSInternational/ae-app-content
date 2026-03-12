@@ -1,0 +1,247 @@
+{
+  "flow_name": "topic_livestock_start_at_uncompleted_with_congrats",
+  "flow_subtype": "generated",
+  "flow_type": "template",
+  "rows": [
+    {
+      "name": "topic_id",
+      "value": "livestock",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "topic_id"
+    },
+    {
+      "name": "topic_concat",
+      "value": "topics.@local.topic_id",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "topic_concat",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "topics.@local.topic_id",
+            "matchedExpression": "@local.topic_id",
+            "type": "local",
+            "fieldName": "topic_id"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.topic_id": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "topic_row",
+      "value": "@data.@local.topic_concat",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "topic_row",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@data.@local.topic_concat",
+            "matchedExpression": "@local.topic_concat",
+            "type": "local",
+            "fieldName": "topic_concat"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.topic_concat": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "sub",
+      "value": "_sub_tasks",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "sub"
+    },
+    {
+      "name": "sub_data",
+      "value": "@local.topic_id@local.sub",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "sub_data",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.topic_id@local.sub",
+            "matchedExpression": "@local.topic_id",
+            "type": "local",
+            "fieldName": "topic_id"
+          },
+          {
+            "fullExpression": "@local.topic_id@local.sub",
+            "matchedExpression": "@local.sub",
+            "type": "local",
+            "fieldName": "sub"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.topic_id": [
+          "value"
+        ],
+        "@local.sub": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "congrats",
+      "value": "_congrats",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "congrats"
+    },
+    {
+      "name": "congratulations_template",
+      "value": "topic_livestock@local.congrats",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "congratulations_template",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "topic_livestock@local.congrats",
+            "matchedExpression": "@local.congrats",
+            "type": "local",
+            "fieldName": "congrats"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.congrats": [
+          "value"
+        ]
+      }
+    },
+    {
+      "type": "data_items",
+      "name": "find_first_uncompleted_sub",
+      "value": "@local.sub_data",
+      "parameter_list": {
+        "filter": "!@item.completed",
+        "limit": "1"
+      },
+      "exclude_from_translation": true,
+      "rows": [
+        {
+          "type": "template",
+          "name": "topic_start_at_id",
+          "value": "topic_start_at_id",
+          "action_list": [
+            {
+              "trigger": "completed",
+              "action_id": "emit",
+              "args": [
+                "completed"
+              ],
+              "_raw": "completed | emit: completed"
+            },
+            {
+              "trigger": "uncompleted",
+              "action_id": "emit",
+              "args": [
+                "uncompleted"
+              ],
+              "_raw": "uncompleted | emit: uncompleted"
+            }
+          ],
+          "exclude_from_translation": true,
+          "rows": [
+            {
+              "name": "topic_id",
+              "value": "livestock",
+              "_translations": {
+                "value": {}
+              },
+              "exclude_from_translation": true,
+              "type": "set_variable",
+              "_nested_name": "find_first_uncompleted_sub.topic_start_at_id.topic_id"
+            },
+            {
+              "name": "sub_id",
+              "value": "@item.id",
+              "_translations": {
+                "value": {}
+              },
+              "exclude_from_translation": true,
+              "type": "set_variable",
+              "_nested_name": "find_first_uncompleted_sub.topic_start_at_id.sub_id",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@item.id",
+                    "matchedExpression": "@item.id",
+                    "type": "item",
+                    "fieldName": "id"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@item.id": [
+                  "value"
+                ]
+              }
+            }
+          ],
+          "_nested_name": "find_first_uncompleted_sub.topic_start_at_id"
+        }
+      ],
+      "_nested_name": "find_first_uncompleted_sub",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.sub_data",
+            "matchedExpression": "@local.sub_data",
+            "type": "local",
+            "fieldName": "sub_data"
+          }
+        ],
+        "parameter_list": {
+          "filter": [
+            {
+              "fullExpression": "!@item.completed",
+              "matchedExpression": "!@item.completed",
+              "type": "item",
+              "fieldName": "completed"
+            }
+          ]
+        }
+      },
+      "_dynamicDependencies": {
+        "@local.sub_data": [
+          "value"
+        ],
+        "!@item.completed": [
+          "parameter_list.filter"
+        ]
+      }
+    }
+  ]
+}

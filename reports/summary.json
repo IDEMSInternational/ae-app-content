@@ -2,48 +2,430 @@
   "template_components": {
     "data": [
       {
+        "type": "accordion",
+        "count": 1
+      },
+      {
+        "type": "accordion_section",
+        "count": 1
+      },
+      {
+        "type": "audio",
+        "count": 1
+      },
+      {
+        "type": "button",
+        "count": 25
+      },
+      {
+        "type": "combo_box",
+        "count": 2
+      },
+      {
+        "type": "data_items",
+        "count": 12
+      },
+      {
+        "type": "debug_toggle",
+        "count": 1
+      },
+      {
+        "type": "display_grid",
+        "count": 1
+      },
+      {
+        "type": "display_group",
+        "count": 29
+      },
+      {
+        "type": "image",
+        "count": 9
+      },
+      {
+        "type": "items",
+        "count": 8
+      },
+      {
+        "type": "navigation_bar",
+        "count": 1
+      },
+      {
+        "type": "nested_properties",
+        "count": 4
+      },
+      {
+        "type": "plh_module_list_item",
+        "count": 1
+      },
+      {
+        "type": "qr_code",
+        "count": 2
+      },
+      {
+        "type": "round_button",
+        "count": 2
+      },
+      {
+        "type": "select_text",
+        "count": 2
+      },
+      {
+        "type": "set_variable",
+        "count": 441
+      },
+      {
+        "type": "simple_checkbox",
+        "count": 1
+      },
+      {
+        "type": "task_card",
+        "count": 5
+      },
+      {
+        "type": "task_progress_bar",
+        "count": 3
+      },
+      {
+        "type": "template",
+        "count": 102
+      },
+      {
+        "type": "text",
+        "count": 39
+      },
+      {
+        "type": "text_bubble",
+        "count": 1
+      },
+      {
         "type": "title",
+        "count": 17
+      },
+      {
+        "type": "toggle_bar",
+        "count": 1
+      },
+      {
+        "type": "update_action_list",
+        "count": 2
+      },
+      {
+        "type": "video",
         "count": 1
       }
     ]
   },
   "template_actions": {
-    "data": []
+    "data": [
+      {
+        "type": "app_update",
+        "count": 1
+      },
+      {
+        "type": "emit: completed",
+        "count": 82
+      },
+      {
+        "type": "emit: force_reload",
+        "count": 2
+      },
+      {
+        "type": "emit: force_reprocess",
+        "count": 6
+      },
+      {
+        "type": "emit: server_sync",
+        "count": 5
+      },
+      {
+        "type": "emit: uncompleted",
+        "count": 88
+      },
+      {
+        "type": "feedback",
+        "count": 2
+      },
+      {
+        "type": "go_to",
+        "count": 9
+      },
+      {
+        "type": "pop_up",
+        "count": 10
+      },
+      {
+        "type": "reset_app",
+        "count": 1
+      },
+      {
+        "type": "set_data",
+        "count": 1
+      },
+      {
+        "type": "set_field",
+        "count": 10
+      },
+      {
+        "type": "set_item",
+        "count": 8
+      },
+      {
+        "type": "set_local",
+        "count": 12
+      },
+      {
+        "type": "start_tour",
+        "count": 1
+      },
+      {
+        "type": "task",
+        "count": 3
+      }
+    ]
   },
   "assets_size": {
     "data": [
       {
         "assets": "total",
-        "KB": "0 KB",
-        "MB": "0 MB"
+        "KB": "381 KB",
+        "MB": "0.4 MB"
       },
       {
         "assets": "unused",
-        "KB": "7 KB",
-        "MB": "0 MB"
+        "KB": "374 KB",
+        "MB": "0.4 MB"
       }
     ]
   },
   "assets_unused": {
     "data": [
       {
-        "path": "IDEMS_logo.png",
-        "size_kb": 6.7
+        "path": "cook_traditional.svg",
+        "size_kb": 140.7
+      },
+      {
+        "path": "gardening.svg",
+        "size_kb": 125
+      },
+      {
+        "path": "gardening_circle.svg",
+        "size_kb": 93.3
+      },
+      {
+        "path": "general_survey.json",
+        "size_kb": 10.4
+      },
+      {
+        "path": "images/icons/book_white.svg",
+        "size_kb": 0.7
+      },
+      {
+        "path": "images/icons/books.svg",
+        "size_kb": 0.9
+      },
+      {
+        "path": "images/icons/chevron_back_white.svg",
+        "size_kb": 1.3
+      },
+      {
+        "path": "images/icons/chevron_forward_white.svg",
+        "size_kb": 1.3
+      },
+      {
+        "path": "images/icons/house_white.svg",
+        "size_kb": 0.6
       }
     ]
   },
   "assets_missing": {
-    "data": []
+    "data": [
+      {
+        "path": "images/gb.svg",
+        "count": 2,
+        "missing": true
+      },
+      {
+        "path": "images/icons/in_progress.svg",
+        "count": 1,
+        "missing": true
+      },
+      {
+        "path": "images/icons/module_map.svg",
+        "count": 2,
+        "missing": true
+      },
+      {
+        "path": "images/icons/tick_white.svg",
+        "count": 1,
+        "missing": true
+      },
+      {
+        "path": "images/shield.svg",
+        "count": 1,
+        "missing": true
+      }
+    ]
   },
   "asset_summary": {
-    "data": []
+    "data": [
+      {
+        "path": "images/icons/about_ae.svg",
+        "count": 7,
+        "size_kb": 1.9
+      },
+      {
+        "path": "images/icons/book_blue.svg",
+        "count": 1,
+        "size_kb": 0.8
+      },
+      {
+        "path": "images/icons/expand_circle_right.png",
+        "count": 1,
+        "size_kb": 0.9
+      },
+      {
+        "path": "images/icons/home_white.svg",
+        "count": 2,
+        "size_kb": 0.9
+      },
+      {
+        "path": "images/icons/house_blue.svg",
+        "count": 1,
+        "size_kb": 3
+      },
+      {
+        "path": "images/icons/language.svg",
+        "count": 1,
+        "size_kb": 2.6
+      },
+      {
+        "path": "images/icons/library_white.svg",
+        "count": 2,
+        "size_kb": 1.1
+      },
+      {
+        "path": "images/icons/privacy_policy.svg",
+        "count": 1,
+        "size_kb": 1.4
+      },
+      {
+        "path": "images/icons/profile.svg",
+        "count": 1,
+        "size_kb": 1.1
+      },
+      {
+        "path": "images/icons/settings.svg",
+        "count": 13,
+        "size_kb": 4.3
+      },
+      {
+        "path": "images/icons/terms_conditions.svg",
+        "count": 11,
+        "size_kb": 1.5
+      },
+      {
+        "path": "images/icons/user_id.svg",
+        "count": 1,
+        "size_kb": 2
+      },
+      {
+        "path": "images/logo/IDEMS_logo.png",
+        "count": 1,
+        "size_kb": 6.7
+      },
+      {
+        "path": "images/logo/innodems.png",
+        "count": 1,
+        "size_kb": 87.3
+      },
+      {
+        "path": "images/topic/agroforestry_title_image.svg",
+        "count": 3,
+        "size_kb": 22.2
+      },
+      {
+        "path": "images/topic/livestock_title_image.svg",
+        "count": 3,
+        "size_kb": 30.2
+      },
+      {
+        "path": "images/topic/nutrition_title_image.svg",
+        "count": 3,
+        "size_kb": 39.4
+      },
+      {
+        "path": "images/topic/pest_title_image.svg",
+        "count": 3,
+        "size_kb": 150.8
+      },
+      {
+        "path": "images/topic/soil_title_image.svg",
+        "count": 3,
+        "size_kb": 22.9
+      }
+    ]
   },
   "flows_by_type": {
     "data": [
       {
-        "type": "template",
+        "type": "data_list",
+        "subtype": null,
+        "total": 19
+      },
+      {
+        "type": "data_list",
+        "subtype": "app_config_language_list",
+        "total": 1
+      },
+      {
+        "type": "data_list",
+        "subtype": "generated",
+        "total": 12
+      },
+      {
+        "type": "data_list",
+        "subtype": "legal_terms",
+        "total": 2
+      },
+      {
+        "type": "data_list",
+        "subtype": "lifecycle_actions",
+        "total": 1
+      },
+      {
+        "type": "data_pipe",
         "subtype": null,
         "total": 1
+      },
+      {
+        "type": "data_pipe",
+        "subtype": "generated",
+        "total": 10
+      },
+      {
+        "type": "generator",
+        "subtype": null,
+        "total": 16
+      },
+      {
+        "type": "global",
+        "subtype": null,
+        "total": 3
+      },
+      {
+        "type": "template",
+        "subtype": null,
+        "total": 36
+      },
+      {
+        "type": "template",
+        "subtype": "generated",
+        "total": 65
+      },
+      {
+        "type": "template",
+        "subtype": "legal_terms",
+        "total": 2
       }
     ]
   }

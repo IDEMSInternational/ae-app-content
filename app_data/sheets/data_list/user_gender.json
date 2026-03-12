@@ -1,0 +1,51 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "user_gender",
+  "status": "released",
+  "rows": [
+    {
+      "id": "woman",
+      "name": "woman",
+      "text": "Woman",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Woman"
+        }
+      }
+    },
+    {
+      "id": "man",
+      "name": "man",
+      "text": "Man",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Man"
+        }
+      }
+    },
+    {
+      "id": "opt_out",
+      "name": "opt_out",
+      "text": "Prefer not to say",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Prefer not to say"
+        }
+      }
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "template/app_launch_templates.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1MK70lQxJOsRV3oOn5JQDi9TP-Enua_lXLR-xrCoLESc"
+  }
+}

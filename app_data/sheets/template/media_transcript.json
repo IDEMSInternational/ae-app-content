@@ -1,0 +1,170 @@
+{
+  "flow_type": "template",
+  "flow_name": "media_transcript",
+  "status": "released",
+  "rows": [
+    {
+      "name": "sub_id",
+      "value": "about_1",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "sub_id"
+    },
+    {
+      "name": "topic_id",
+      "value": "soil",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "topic_id"
+    },
+    {
+      "name": "sub",
+      "value": "_sub",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "sub"
+    },
+    {
+      "name": "data",
+      "value": "@local.topic_id@local.sub",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "data",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.topic_id@local.sub",
+            "matchedExpression": "@local.topic_id",
+            "type": "local",
+            "fieldName": "topic_id"
+          },
+          {
+            "fullExpression": "@local.topic_id@local.sub",
+            "matchedExpression": "@local.sub",
+            "type": "local",
+            "fieldName": "sub"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.topic_id": [
+          "value"
+        ],
+        "@local.sub": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "concat_sub_id",
+      "value": "@local.data.@local.sub_id",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "concat_sub_id",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.data.@local.sub_id",
+            "matchedExpression": "@local.data",
+            "type": "local",
+            "fieldName": "data"
+          },
+          {
+            "fullExpression": "@local.data.@local.sub_id",
+            "matchedExpression": "@local.sub_id",
+            "type": "local",
+            "fieldName": "sub_id"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.data": [
+          "value"
+        ],
+        "@local.sub_id": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "sub_data",
+      "value": "@data.@local.concat_sub_id",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "sub_data",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@data.@local.concat_sub_id",
+            "matchedExpression": "@local.concat_sub_id",
+            "type": "local",
+            "fieldName": "concat_sub_id"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.concat_sub_id": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "join",
+      "value": "_",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "join"
+    },
+    {
+      "type": "text",
+      "name": "media_transcript",
+      "value": "@local.sub_data.media_transcript",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "_nested_name": "media_transcript",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.sub_data.media_transcript",
+            "matchedExpression": "@local.sub_data.media_transcript",
+            "type": "local",
+            "fieldName": "sub_data"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.sub_data.media_transcript": [
+          "value"
+        ]
+      }
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "template/AE sub topic templates.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1EKtuppn9aL_nQ-_cOVSo8Uaf_FakV0qDxRHKOrP-E1o"
+  }
+}

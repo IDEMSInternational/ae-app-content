@@ -1,0 +1,39 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "agroforestry_categories",
+  "data_list_name": "agroforestry_categories",
+  "status": "released",
+  "rows": [
+    {
+      "id": "dynamics",
+      "icon_asset": "images/icons/settings.svg",
+      "title": "The Mechanism/process of Global Warming (greenhouse Effect)",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "The Mechanism/process of Global Warming (greenhouse Effect)"
+        }
+      }
+    },
+    {
+      "id": "how",
+      "icon_asset": "images/icons/terms_conditions.svg",
+      "title": "Adaptation / Mitigation Strategies",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Adaptation / Mitigation Strategies"
+        }
+      }
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "data/AE Topics_data.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1vgQiHDPMFrOesfAhUeonHUU-AyWvoOQ_2_W9UUmqRVw"
+  }
+}

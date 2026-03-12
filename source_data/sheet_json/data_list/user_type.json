@@ -1,0 +1,27 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "user_type",
+  "status": "released",
+  "rows": [
+    {
+      "id": "farmer",
+      "name": "farmer",
+      "text::eng": "Farmer"
+    },
+    {
+      "id": "facilitator",
+      "name": "facilitator",
+      "text::eng": "Facilitator"
+    },
+    {
+      "id": "tester",
+      "name": "tester",
+      "text::eng": "System tester"
+    },
+    {
+      "id": "other",
+      "name": "other",
+      "text::eng": "None of the above"
+    }
+  ]
+}

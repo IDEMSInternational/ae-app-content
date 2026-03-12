@@ -1,0 +1,39 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "nutrition_categories",
+  "data_list_name": "nutrition_categories",
+  "status": "released",
+  "rows": [
+    {
+      "id": "how",
+      "icon_asset": "images/icons/settings.svg",
+      "title": "Food produced and given to vulnerable groups",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Food produced and given to vulnerable groups"
+        }
+      }
+    },
+    {
+      "id": "dynamics",
+      "icon_asset": "images/icons/terms_conditions.svg",
+      "title": "Value Addition and Income Generation",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Value Addition and Income Generation"
+        }
+      }
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "data/AE Topics_data.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1vgQiHDPMFrOesfAhUeonHUU-AyWvoOQ_2_W9UUmqRVw"
+  }
+}

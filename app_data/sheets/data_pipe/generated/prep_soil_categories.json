@@ -1,0 +1,22 @@
+{
+  "flow_name": "prep_soil_categories",
+  "flow_subtype": "generated",
+  "flow_type": "data_pipe",
+  "rows": [
+    {
+      "operation": "concat",
+      "args_list": [
+        "common_categories",
+        "soil_categories"
+      ],
+      "output_target": "soil_category_tasks"
+    }
+  ],
+  "_output_flows": [
+    {
+      "flow_name": "soil_category_tasks",
+      "flow_subtype": "generated",
+      "flow_type": "data_list"
+    }
+  ]
+}

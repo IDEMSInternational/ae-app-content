@@ -1,0 +1,18 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "nutrition_categories",
+  "data_list_name": "nutrition_categories",
+  "status": "released",
+  "rows": [
+    {
+      "id": "how",
+      "title::eng": "Food produced and given to vulnerable groups",
+      "icon_asset": "images/icons/settings.svg"
+    },
+    {
+      "id": "dynamics",
+      "title::eng": "Value Addition and Income Generation",
+      "icon_asset": "images/icons/terms_conditions.svg"
+    }
+  ]
+}

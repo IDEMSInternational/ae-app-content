@@ -1,0 +1,122 @@
+{
+  "flow_name": "topic_tasks",
+  "flow_subtype": "generated",
+  "flow_type": "data_list",
+  "rows": [
+    {
+      "id": "soil",
+      "status": "released",
+      "number": "1",
+      "image_asset": "images/topic/soil_title_image.svg",
+      "title": "Soil Fertility Management",
+      "_translations": {
+        "title": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Soil Fertility Management"
+        },
+        "description": {
+          "eng": "How well do you know about your farm soil? Let's learn more together."
+        }
+      },
+      "description": "How well do you know about your farm soil? Let's learn more together.",
+      "completed": false,
+      "task_child": "soil_sub_tasks"
+    },
+    {
+      "id": "pest",
+      "status": "released",
+      "number": "2",
+      "image_asset": "images/topic/pest_title_image.svg",
+      "title": "Pest Management",
+      "_translations": {
+        "title": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Pest Management"
+        },
+        "description": {
+          "eng": "Pest management is the smart way to protect your hard work by using nature, tools, and careful monitoring to keep harmful organisms under control. Stopping damage before it starts, ensuring your crops stay healthy and your farm remains productive for years to come."
+        }
+      },
+      "description": "Pest management is the smart way to protect your hard work by using nature, tools, and careful monitoring to keep harmful organisms under control. Stopping damage before it starts, ensuring your crops stay healthy and your farm remains productive for years to come.",
+      "completed": false,
+      "task_child": "pest_sub_tasks"
+    },
+    {
+      "id": "nutrition",
+      "status": "released",
+      "number": "3",
+      "image_asset": "images/topic/nutrition_title_image.svg",
+      "title": "Value Addition & Family Nutrition",
+      "_translations": {
+        "title": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Value Addition & Family Nutrition"
+        },
+        "description": {
+          "eng": "Value addition transforms your raw harvests into high-quality, long-lasting products that increase your farm's income and reduce waste. By processing and preserving these crops, you ensure your family has access to a diverse, nutrient-rich diet all year round."
+        }
+      },
+      "description": "Value addition transforms your raw harvests into high-quality, long-lasting products that increase your farm's income and reduce waste. By processing and preserving these crops, you ensure your family has access to a diverse, nutrient-rich diet all year round.",
+      "completed": false,
+      "task_child": "nutrition_sub_tasks"
+    },
+    {
+      "id": "livestock",
+      "status": "released",
+      "number": "4",
+      "image_asset": "images/topic/livestock_title_image.svg",
+      "title": "Livestock Production",
+      "_translations": {
+        "title": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Livestock Production"
+        },
+        "description": {
+          "eng": "Livestock Production is the practice of raising and managing animals such as cattle, goats, sheep, poultry, rabbits, donkeys and pigs to produce food and other useful products. By providing proper feeding, housing, healthcare, and breeding, farmers ensure that their animals remain healthy and productive. This helps provide nutritious foods like milk, meat, and eggs, while also generating income and improving the overall livelihood of the farming family."
+        }
+      },
+      "description": "Livestock Production is the practice of raising and managing animals such as cattle, goats, sheep, poultry, rabbits, donkeys and pigs to produce food and other useful products. By providing proper feeding, housing, healthcare, and breeding, farmers ensure that their animals remain healthy and productive. This helps provide nutritious foods like milk, meat, and eggs, while also generating income and improving the overall livelihood of the farming family.",
+      "completed": false,
+      "task_child": "livestock_sub_tasks"
+    },
+    {
+      "id": "agroforestry",
+      "status": "released",
+      "number": "5",
+      "image_asset": "images/topic/agroforestry_title_image.svg",
+      "title": "Climate Change Adaptation",
+      "_translations": {
+        "title": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Climate Change Adaptation"
+        },
+        "description": {
+          "eng": "Building a resilient farm starts with protecting your land from unpredictable weather while enriching it with nature’s own tools."
+        }
+      },
+      "description": "Building a resilient farm starts with protecting your land from unpredictable weather while enriching it with nature’s own tools.",
+      "completed": false,
+      "task_child": "agroforestry_sub_tasks"
+    }
+  ],
+  "_metadata": {
+    "completed": {
+      "type": "boolean"
+    }
+  }
+}

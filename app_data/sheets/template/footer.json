@@ -1,0 +1,53 @@
+{
+  "flow_type": "template",
+  "flow_name": "footer",
+  "status": "released",
+  "rows": [
+    {
+      "name": "button_list",
+      "value": [
+        {
+          "image": "images/icons/house_blue.svg",
+          "target_template": "home_screen"
+        },
+        {
+          "image": "images/icons/settings.svg",
+          "target_template": "settings"
+        }
+      ],
+      "type": "set_variable",
+      "_nested_name": "button_list"
+    },
+    {
+      "type": "navigation_bar",
+      "name": "nav_buttons",
+      "parameter_list": {
+        "button_list": "@local.button_list",
+        "variant": "text_primary"
+      },
+      "_nested_name": "nav_buttons",
+      "_dynamicFields": {
+        "parameter_list": {
+          "button_list": [
+            {
+              "fullExpression": "@local.button_list",
+              "matchedExpression": "@local.button_list",
+              "type": "local",
+              "fieldName": "button_list"
+            }
+          ]
+        }
+      },
+      "_dynamicDependencies": {
+        "@local.button_list": [
+          "parameter_list.button_list"
+        ]
+      }
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "template/navigation_templates.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1N1PbL1YvhLQfeshNk-wsBNxsCiPuBOguGSH8JUTdbpw"
+  }
+}

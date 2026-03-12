@@ -1,6 +1,114 @@
 {
-  "IDEMS_logo.png": {
+  "cook_traditional.svg": {
+    "md5Checksum": "1b8ee5d230c11101a9f665a3e0958dfc",
+    "size_kb": 140.7
+  },
+  "gardening.svg": {
+    "md5Checksum": "a2971f2dd0a5e9d779bf8976bb664cf0",
+    "size_kb": 125
+  },
+  "gardening_circle.svg": {
+    "md5Checksum": "2d5d14fa4d788cdac78d9496b314da47",
+    "size_kb": 93.3
+  },
+  "general_survey.json": {
+    "md5Checksum": "2744a33bc03948cf7a17dc69dab5707c",
+    "size_kb": 10.4
+  },
+  "images/icons/about_ae.svg": {
+    "md5Checksum": "fee5c81df233e15ce89697094f309263",
+    "size_kb": 1.9
+  },
+  "images/icons/book_blue.svg": {
+    "md5Checksum": "253d17e628210fc37238a953e1d50c2a",
+    "size_kb": 0.8
+  },
+  "images/icons/book_white.svg": {
+    "md5Checksum": "12c477faa57812b7a16bc6a0d0424c06",
+    "size_kb": 0.7
+  },
+  "images/icons/books.svg": {
+    "md5Checksum": "4ccb990e101b79ff8868a37b17aa629b",
+    "size_kb": 0.9
+  },
+  "images/icons/chevron_back_white.svg": {
+    "md5Checksum": "a4baa37914bd75a9661409448b0ca174",
+    "size_kb": 1.3
+  },
+  "images/icons/chevron_forward_white.svg": {
+    "md5Checksum": "72e4d75307c33a2e9ce252f1549e43e7",
+    "size_kb": 1.3
+  },
+  "images/icons/expand_circle_right.png": {
+    "md5Checksum": "668d46c68a50b5862ae016cc05b8fa42",
+    "size_kb": 0.9
+  },
+  "images/icons/home_white.svg": {
+    "md5Checksum": "f0e5c289173021f4c5af4ce718d5b72b",
+    "size_kb": 0.9
+  },
+  "images/icons/house_blue.svg": {
+    "md5Checksum": "4a7934cb4169b11d3b29ed1387b38c1d",
+    "size_kb": 3
+  },
+  "images/icons/house_white.svg": {
+    "md5Checksum": "f65ea96d7ff53e9bed8613e7f2fe3302",
+    "size_kb": 0.6
+  },
+  "images/icons/language.svg": {
+    "md5Checksum": "2990a4855d1986bf331f461ad48b6995",
+    "size_kb": 2.6
+  },
+  "images/icons/library_white.svg": {
+    "md5Checksum": "8e791b3a63a264780daa816589472b9e",
+    "size_kb": 1.1
+  },
+  "images/icons/privacy_policy.svg": {
+    "md5Checksum": "48ad7d79665be1df21b18cc7645465fe",
+    "size_kb": 1.4
+  },
+  "images/icons/profile.svg": {
+    "md5Checksum": "0eb4f0bcabd47358615406c65c3eabda",
+    "size_kb": 1.1
+  },
+  "images/icons/settings.svg": {
+    "md5Checksum": "c1c3e93a09412635b07a6dd4f4e66773",
+    "size_kb": 4.3
+  },
+  "images/icons/terms_conditions.svg": {
+    "md5Checksum": "dc3deed902b9c6495eaa5362c957cb44",
+    "size_kb": 1.5
+  },
+  "images/icons/user_id.svg": {
+    "md5Checksum": "8ff124bd9a531c485c2f0b6d51d424ae",
+    "size_kb": 2
+  },
+  "images/logo/IDEMS_logo.png": {
     "md5Checksum": "b4678e5c5e02d48cb02263279ac11eb7",
     "size_kb": 6.7
+  },
+  "images/logo/innodems.png": {
+    "md5Checksum": "21a95d3e386ed06e3097913311aa1364",
+    "size_kb": 87.3
+  },
+  "images/topic/agroforestry_title_image.svg": {
+    "md5Checksum": "c88678418bf2fed848c23303a7cb731b",
+    "size_kb": 22.2
+  },
+  "images/topic/livestock_title_image.svg": {
+    "md5Checksum": "83d1595e08289a5bb47a8566fc543656",
+    "size_kb": 30.2
+  },
+  "images/topic/nutrition_title_image.svg": {
+    "md5Checksum": "f572707355eeb0b3df7fa83b3a94ace3",
+    "size_kb": 39.4
+  },
+  "images/topic/pest_title_image.svg": {
+    "md5Checksum": "3f03dd17d731d0186a7625a9a28c0cb3",
+    "size_kb": 150.8
+  },
+  "images/topic/soil_title_image.svg": {
+    "md5Checksum": "0b8bfc185a0db469da909678ec73a086",
+    "size_kb": 22.9
   }
 }

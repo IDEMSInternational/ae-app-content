@@ -1,0 +1,70 @@
+{
+  "flow_type": "template",
+  "flow_name": "topic_list_item",
+  "status": "released",
+  "rows": [
+    {
+      "name": "topic_id",
+      "value": "soil",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_data_list_name",
+      "value": "topic",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_concat",
+      "value": "@local.topic_data_list_name.@local.topic_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_row",
+      "value": "@data.@local.topic_concat",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_image_asset",
+      "value": "@local.topic_row.image_asset",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "nav_image_asset",
+      "value": "images/icons/expand_circle_right.png",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_title",
+      "value": "@local.topic_row.title",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "target_template",
+      "value": "topic_landing_@local.topic_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "is_highlighted",
+      "value": false,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "is_completed",
+      "value": false,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "variant",
+      "value": "default",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "plh_module_list_item",
+      "name": "plh_module_list_item",
+      "value": "@local.topic_title",
+      "action_list": "click | go_to: @local.target_template;\nclick | emit: completed",
+      "parameter_list": "module_image_asset: @local.topic_image_asset;\nnav_image_asset: @local.nav_image_asset;\nhighlighted: @local.is_highlighted;\ncompleted: @local.is_completed;\nvariant: @local.variant",
+      "exclude_from_translation": true
+    }
+  ]
+}

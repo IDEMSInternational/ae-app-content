@@ -13,7 +13,7 @@ config.google_drive.assets_folders = [
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/ae-app-content.git",
-  content_tag_latest: "1.0.1",
+  content_tag_latest: "1.0.2",
 };
 
 

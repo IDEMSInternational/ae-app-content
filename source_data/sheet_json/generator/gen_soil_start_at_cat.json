@@ -1,0 +1,29 @@
+{
+  "flow_type": "generator",
+  "flow_name": "gen_soil_start_at_cat",
+  "status": "released",
+  "parameter_list": {
+    "input_data_list": "soil_category_tasks",
+    "output_flow_name": "topic_soil_start_at_{@gen.id}",
+    "output_flow_type": "template"
+  },
+  "rows": [
+    {
+      "type": "begin_template",
+      "name": "topic_start_at_cat",
+      "value": "topic_start_at_cat",
+      "action_list": "completed | emit: completed; \nuncompleted | emit: uncompleted"
+    },
+    {
+      "name": "topic_id",
+      "value": "soil"
+    },
+    {
+      "name": "category_id",
+      "value": "@gen.id"
+    },
+    {
+      "type": "end_template"
+    }
+  ]
+}

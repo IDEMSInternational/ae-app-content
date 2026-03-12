@@ -1,0 +1,21 @@
+{
+  "flow_type": "template",
+  "flow_name": "accept_terms_warning",
+  "status": "released",
+  "rows": [
+    {
+      "type": "text",
+      "name": "text",
+      "value": "You can only move on and access the app if you provide your consent.",
+      "_translations": {
+        "value": {}
+      },
+      "_nested_name": "text"
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "template/app_launch_templates.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1MK70lQxJOsRV3oOn5JQDi9TP-Enua_lXLR-xrCoLESc"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "livestock_categories",
+  "data_list_name": "livestock_categories",
+  "status": "released",
+  "rows": [
+    {
+      "id": "dynamics",
+      "icon_asset": "images/icons/settings.svg",
+      "title": "Home-made Poutry Feed formulation",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Home-made Poutry Feed formulation"
+        }
+      }
+    },
+    {
+      "id": "how",
+      "icon_asset": "images/icons/terms_conditions.svg",
+      "title": "Poultry Fermented Feed",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Poultry Fermented Feed"
+        }
+      }
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "data/AE Topics_data.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1vgQiHDPMFrOesfAhUeonHUU-AyWvoOQ_2_W9UUmqRVw"
+  }
+}

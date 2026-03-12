@@ -1,0 +1,64 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "user_type",
+  "status": "released",
+  "rows": [
+    {
+      "id": "farmer",
+      "name": "farmer",
+      "text": "Farmer",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Farmer"
+        }
+      }
+    },
+    {
+      "id": "facilitator",
+      "name": "facilitator",
+      "text": "Facilitator",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Facilitator"
+        }
+      }
+    },
+    {
+      "id": "tester",
+      "name": "tester",
+      "text": "System tester",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "System tester"
+        }
+      }
+    },
+    {
+      "id": "other",
+      "name": "other",
+      "text": "None of the above",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "None of the above"
+        }
+      }
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "template/app_launch_templates.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1MK70lQxJOsRV3oOn5JQDi9TP-Enua_lXLR-xrCoLESc"
+  }
+}

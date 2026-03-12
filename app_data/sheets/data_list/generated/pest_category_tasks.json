@@ -1,0 +1,46 @@
+{
+  "flow_name": "pest_category_tasks",
+  "flow_subtype": "generated",
+  "flow_type": "data_list",
+  "rows": [
+    {
+      "id": "about",
+      "icon_asset": "images/icons/about_ae.svg",
+      "title": "About",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "About"
+        }
+      }
+    },
+    {
+      "id": "dynamics",
+      "icon_asset": "images/icons/settings.svg",
+      "title": "Identifying Common pests and their Impacts on crops",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Identifying Common pests and their Impacts on crops"
+        }
+      }
+    },
+    {
+      "id": "how",
+      "icon_asset": "images/icons/terms_conditions.svg",
+      "title": "Applying IPM in Pest Management/Control",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Applying IPM in Pest Management/Control"
+        }
+      }
+    }
+  ]
+}

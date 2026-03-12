@@ -1,0 +1,158 @@
+{
+  "flow_type": "global",
+  "flow_name": "navigation_defaults",
+  "status": "released",
+  "rows": [
+    {
+      "type": "declare_global_constant",
+      "name": "user_name_default",
+      "value": "parent",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_field_default",
+      "name": "user_name",
+      "value": "@global.user_name_default",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "app_name",
+      "value": "AE Workshop App",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "app_id",
+      "value": "idems.international.ae-workshop-app",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_field_default",
+      "name": "show_nav_buttons",
+      "value": true
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "combo_box_placeholder",
+      "value": "Tap and select",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "terms_and_conditions",
+      "value": "Terms & Conditions",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "privacy_policy",
+      "value": "Privacy Policy",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "dev_mode_code",
+      "value": "app_dev",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_field_default",
+      "name": "user_mode",
+      "value": true
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "test_mode_code",
+      "value": "AE_App_Test",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "language",
+      "value": "Language",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "user_info",
+      "value": "Your Profile",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "about_this_app",
+      "value": "About App",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "settings",
+      "value": "Settings",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "profile",
+      "value": "My Profile",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "account",
+      "value": "Account",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "version",
+      "value": "Feedback",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "general",
+      "value": "General",
+      "_translations": {
+        "value": {}
+      }
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "data/navigation_defaults.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/16_jcibEczy3DtIqeg7GWewqM9Sg2J76DcPY-CTTYeE0"
+  }
+}

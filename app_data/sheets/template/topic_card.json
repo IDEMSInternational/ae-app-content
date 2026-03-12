@@ -1,0 +1,397 @@
+{
+  "flow_type": "template",
+  "flow_name": "topic_card",
+  "status": "released",
+  "rows": [
+    {
+      "name": "card_variant",
+      "value": "circle",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "card_variant"
+    },
+    {
+      "name": "topic_id",
+      "value": "test",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "topic_id"
+    },
+    {
+      "name": "join",
+      "value": "_",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "join"
+    },
+    {
+      "name": "sub",
+      "value": "_sub_tasks",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "sub"
+    },
+    {
+      "name": "task_group_data",
+      "value": "@local.topic_id@local.sub",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "task_group_data",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.topic_id@local.sub",
+            "matchedExpression": "@local.topic_id",
+            "type": "local",
+            "fieldName": "topic_id"
+          },
+          {
+            "fullExpression": "@local.topic_id@local.sub",
+            "matchedExpression": "@local.sub",
+            "type": "local",
+            "fieldName": "sub"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.topic_id": [
+          "value"
+        ],
+        "@local.sub": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "completed",
+      "value": "_completed",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "completed"
+    },
+    {
+      "name": "ww_id",
+      "value": "topic.@local.topic_id",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "ww_id",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "topic.@local.topic_id",
+            "matchedExpression": "@local.topic_id",
+            "type": "local",
+            "fieldName": "topic_id"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.topic_id": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "topic_data",
+      "value": "@data.@local.ww_id",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "topic_data",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@data.@local.ww_id",
+            "matchedExpression": "@local.ww_id",
+            "type": "local",
+            "fieldName": "ww_id"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.ww_id": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "card_title",
+      "value": "@local.topic_data.title",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "card_title",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.topic_data.title",
+            "matchedExpression": "@local.topic_data.title",
+            "type": "local",
+            "fieldName": "topic_data"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.topic_data.title": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "card_image",
+      "value": "@local.topic_data.image_asset",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "card_image",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.topic_data.image_asset",
+            "matchedExpression": "@local.topic_data.image_asset",
+            "type": "local",
+            "fieldName": "topic_data"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.topic_data.image_asset": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "click_template",
+      "value": "topic_landing_@local.topic_id",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "click_template",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "topic_landing_@local.topic_id",
+            "matchedExpression": "@local.topic_id",
+            "type": "local",
+            "fieldName": "topic_id"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.topic_id": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "in_progress_icon",
+      "value": "images/icons/in_progress.svg",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "in_progress_icon"
+    },
+    {
+      "name": "completed_icon",
+      "value": "images/icons/tick_white.svg",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "completed_icon"
+    },
+    {
+      "name": "progress_units_name",
+      "value": "sections",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "progress_units_name"
+    },
+    {
+      "type": "task_card",
+      "name": "task_card",
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "go_to",
+          "args": [
+            "@local.click_template"
+          ],
+          "_raw": "click | go_to: @local.click_template"
+        }
+      ],
+      "parameter_list": {
+        "variant": "@local.card_variant",
+        "task_group_id": "@local.topic_id",
+        "task_group_data": "@local.task_group_data",
+        "title": "@local.card_title",
+        "image": "@local.card_image",
+        "in_progress_icon": "@local.in_progress_icon",
+        "completed_icon": "@local.completed_icon",
+        "progress_units_name": "@local.progress_units_name"
+      },
+      "exclude_from_translation": true,
+      "_nested_name": "task_card",
+      "_dynamicFields": {
+        "action_list": {
+          "0": {
+            "args": {
+              "0": [
+                {
+                  "fullExpression": "@local.click_template",
+                  "matchedExpression": "@local.click_template",
+                  "type": "local",
+                  "fieldName": "click_template"
+                }
+              ]
+            },
+            "_raw": [
+              {
+                "fullExpression": "click | go_to: @local.click_template",
+                "matchedExpression": "@local.click_template",
+                "type": "local",
+                "fieldName": "click_template"
+              }
+            ]
+          }
+        },
+        "parameter_list": {
+          "variant": [
+            {
+              "fullExpression": "@local.card_variant",
+              "matchedExpression": "@local.card_variant",
+              "type": "local",
+              "fieldName": "card_variant"
+            }
+          ],
+          "task_group_id": [
+            {
+              "fullExpression": "@local.topic_id",
+              "matchedExpression": "@local.topic_id",
+              "type": "local",
+              "fieldName": "topic_id"
+            }
+          ],
+          "task_group_data": [
+            {
+              "fullExpression": "@local.task_group_data",
+              "matchedExpression": "@local.task_group_data",
+              "type": "local",
+              "fieldName": "task_group_data"
+            }
+          ],
+          "title": [
+            {
+              "fullExpression": "@local.card_title",
+              "matchedExpression": "@local.card_title",
+              "type": "local",
+              "fieldName": "card_title"
+            }
+          ],
+          "image": [
+            {
+              "fullExpression": "@local.card_image",
+              "matchedExpression": "@local.card_image",
+              "type": "local",
+              "fieldName": "card_image"
+            }
+          ],
+          "in_progress_icon": [
+            {
+              "fullExpression": "@local.in_progress_icon",
+              "matchedExpression": "@local.in_progress_icon",
+              "type": "local",
+              "fieldName": "in_progress_icon"
+            }
+          ],
+          "completed_icon": [
+            {
+              "fullExpression": "@local.completed_icon",
+              "matchedExpression": "@local.completed_icon",
+              "type": "local",
+              "fieldName": "completed_icon"
+            }
+          ],
+          "progress_units_name": [
+            {
+              "fullExpression": "@local.progress_units_name",
+              "matchedExpression": "@local.progress_units_name",
+              "type": "local",
+              "fieldName": "progress_units_name"
+            }
+          ]
+        }
+      },
+      "_dynamicDependencies": {
+        "@local.click_template": [
+          "action_list.0.args.0",
+          "action_list.0._raw"
+        ],
+        "@local.card_variant": [
+          "parameter_list.variant"
+        ],
+        "@local.topic_id": [
+          "parameter_list.task_group_id"
+        ],
+        "@local.task_group_data": [
+          "parameter_list.task_group_data"
+        ],
+        "@local.card_title": [
+          "parameter_list.title"
+        ],
+        "@local.card_image": [
+          "parameter_list.image"
+        ],
+        "@local.in_progress_icon": [
+          "parameter_list.in_progress_icon"
+        ],
+        "@local.completed_icon": [
+          "parameter_list.completed_icon"
+        ],
+        "@local.progress_units_name": [
+          "parameter_list.progress_units_name"
+        ]
+      }
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "template/topic_navigation.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/16hjBUZTC8mRiR07TJtBYfkKlFUqVx-lfb2wM1li-KJQ"
+  }
+}

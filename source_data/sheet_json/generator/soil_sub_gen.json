@@ -1,0 +1,33 @@
+{
+  "flow_type": "generator",
+  "flow_name": "soil_sub_gen",
+  "status": "released",
+  "parameter_list": {
+    "input_data_list": "soil_sub",
+    "output_flow_name": "sub_soil_@gen.id",
+    "output_flow_type": "template"
+  },
+  "rows": [
+    {
+      "type": "begin_template",
+      "name": "sub",
+      "value": "sub",
+      "action_list": "completed | emit: completed; uncompleted | emit: uncompleted",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "sub_id",
+      "value": "@gen.id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_id",
+      "value": "soil",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    }
+  ]
+}

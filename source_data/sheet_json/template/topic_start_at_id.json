@@ -1,0 +1,65 @@
+{
+  "flow_type": "template",
+  "flow_name": "topic_start_at_id",
+  "status": "released",
+  "rows": [
+    {
+      "name": "topic_id",
+      "value": "soil",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_concat",
+      "value": "topic.@local.topic_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_row",
+      "value": "@data.@local.topic_concat",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "sub",
+      "value": "_sub_tasks",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "sub_data",
+      "value": "@local.topic_id@local.sub",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "sub_id",
+      "value": "about_1"
+    },
+    {
+      "type": "begin_items",
+      "name": "find_active_index",
+      "value": "@data.@local.sub_data"
+    },
+    {
+      "type": "begin_template",
+      "name": "topic",
+      "value": "topic",
+      "action_list": "completed | emit: completed; uncompleted | emit: uncompleted",
+      "condition": "@item.id == @local.sub_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_id",
+      "value": "@local.topic_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "active_index",
+      "value": "@item._index",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template"
+    },
+    {
+      "type": "end_items"
+    }
+  ]
+}

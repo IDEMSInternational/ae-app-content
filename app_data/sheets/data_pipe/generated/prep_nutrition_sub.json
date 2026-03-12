@@ -1,0 +1,28 @@
+{
+  "flow_name": "prep_nutrition_sub",
+  "flow_subtype": "generated",
+  "flow_type": "data_pipe",
+  "rows": [
+    {
+      "operation": "concat",
+      "args_list": [
+        "nutrition_sub"
+      ],
+      "input_source": false
+    },
+    {
+      "operation": "append_columns",
+      "args_list": [
+        "completed: FALSE"
+      ],
+      "output_target": "nutrition_sub_tasks"
+    }
+  ],
+  "_output_flows": [
+    {
+      "flow_name": "nutrition_sub_tasks",
+      "flow_subtype": "generated",
+      "flow_type": "data_list"
+    }
+  ]
+}

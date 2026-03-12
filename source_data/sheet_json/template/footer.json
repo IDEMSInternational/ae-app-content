@@ -1,0 +1,16 @@
+{
+  "flow_type": "template",
+  "flow_name": "footer",
+  "status": "released",
+  "rows": [
+    {
+      "name": "button_list",
+      "value": "image: images/icons/house_blue.svg | target_template: home_screen;\nimage: images/icons/settings.svg | target_template: settings;"
+    },
+    {
+      "type": "navigation_bar",
+      "name": "nav_buttons",
+      "parameter_list": "button_list: @local.button_list;\nvariant: text_primary;"
+    }
+  ]
+}

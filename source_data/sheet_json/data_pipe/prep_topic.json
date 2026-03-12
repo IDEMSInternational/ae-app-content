@@ -1,0 +1,19 @@
+{
+  "flow_type": "data_pipe",
+  "flow_name": "prep_topic",
+  "status": "released",
+  "rows": [
+    {
+      "operation": "filter",
+      "args_list": "status != \"draft\"",
+      "input_source": "topic",
+      "output_target": "topic_released"
+    },
+    {
+      "operation": "append_columns",
+      "args_list": "completed: FALSE;\ntask_child: {@row.id}_sub_tasks;",
+      "input_source": "topic_released",
+      "output_target": "topic_tasks"
+    }
+  ]
+}

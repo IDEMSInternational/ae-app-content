@@ -1,0 +1,51 @@
+{
+  "flow_name": "topic_livestock_start_at_how",
+  "flow_subtype": "generated",
+  "flow_type": "template",
+  "rows": [
+    {
+      "type": "template",
+      "name": "topic_start_at_cat",
+      "value": "topic_start_at_cat",
+      "action_list": [
+        {
+          "trigger": "completed",
+          "action_id": "emit",
+          "args": [
+            "completed"
+          ],
+          "_raw": "completed | emit: completed"
+        },
+        {
+          "trigger": "uncompleted",
+          "action_id": "emit",
+          "args": [
+            "uncompleted"
+          ],
+          "_raw": "uncompleted | emit: uncompleted"
+        }
+      ],
+      "rows": [
+        {
+          "name": "topic_id",
+          "value": "livestock",
+          "_translations": {
+            "value": {}
+          },
+          "type": "set_variable",
+          "_nested_name": "topic_start_at_cat.topic_id"
+        },
+        {
+          "name": "category_id",
+          "value": "how",
+          "_translations": {
+            "value": {}
+          },
+          "type": "set_variable",
+          "_nested_name": "topic_start_at_cat.category_id"
+        }
+      ],
+      "_nested_name": "topic_start_at_cat"
+    }
+  ]
+}

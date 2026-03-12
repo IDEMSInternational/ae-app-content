@@ -1,0 +1,213 @@
+{
+  "flow_name": "soil_sub_tasks",
+  "flow_subtype": "generated",
+  "flow_type": "data_list",
+  "rows": [
+    {
+      "id": "about_1",
+      "category_id": "about",
+      "module_id": "soil",
+      "title": "Soil Fertility",
+      "_translations": {
+        "title": {},
+        "text_1": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Soil Fertility"
+        },
+        "text_1": {
+          "eng": "Soil fertility is defined as the capacity of soil to supply essential nutrients for crop growth, which influences crop yield and quality."
+        }
+      },
+      "text_1": "Soil fertility is defined as the capacity of soil to supply essential nutrients for crop growth, which influences crop yield and quality.",
+      "completed": false
+    },
+    {
+      "id": "about_2",
+      "category_id": "about",
+      "module_id": "soil",
+      "title": "Soil Erosion",
+      "_translations": {
+        "title": {},
+        "text_2": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Soil Erosion"
+        },
+        "text_2": {
+          "eng": "When the topsoil goes, the overall health of your soil is degraded as the nutrients, insects, and plant matter have gone too."
+        }
+      },
+      "text_2": "When the topsoil goes, the overall health of your soil is degraded as the nutrients, insects, and plant matter have gone too.",
+      "completed": false
+    },
+    {
+      "id": "about_3",
+      "category_id": "about",
+      "module_id": "soil",
+      "title": "Difference between healthy and unhealthy soil",
+      "_translations": {
+        "title": {},
+        "text_1": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Difference between healthy and unhealthy soil"
+        },
+        "text_1": {
+          "eng": "* First, get a sample of your farm's best and worst soil.\t \n * By looking at its color you can see that your best soil is darker than the other.\t \n * You will also notice that it has been easier to cultivate the darker soil and the crops grown there tend to be healthy and vigorous.\t    \n * Your best soil will have some composted plant material in it."
+        }
+      },
+      "text_1": "* First, get a sample of your farm's best and worst soil.\t \n * By looking at its color you can see that your best soil is darker than the other.\t \n * You will also notice that it has been easier to cultivate the darker soil and the crops grown there tend to be healthy and vigorous.\t    \n * Your best soil will have some composted plant material in it.",
+      "completed": false
+    },
+    {
+      "id": "dynamics",
+      "category_id": "dynamics",
+      "module_id": "soil",
+      "title": "Agroecology",
+      "_translations": {
+        "title": {},
+        "text_1": {},
+        "text_2": {},
+        "section_1_title": {},
+        "section_1_text": {},
+        "section_2_title": {},
+        "section_2_text": {},
+        "section_3_title": {},
+        "section_3_text": {},
+        "section_4_title": {},
+        "section_4_text": {},
+        "section_5_title": {},
+        "section_5_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Agroecology"
+        },
+        "text_1": {
+          "eng": "“Agro” means farming, and “ecology” means organisms interacting with their surrounding environment."
+        },
+        "text_2": {
+          "eng": "The agroecology principles are linked/applied around soil health as follows:"
+        },
+        "section_1_title": {
+          "eng": "Diversity"
+        },
+        "section_1_text": {
+          "eng": "Multiple enterprises on the farm. In crop production, we have different types of crops, and even within crop types, for instance, maize, we have different varieties of the same crop. This protects a farmer from total failure in case of drought or if some enterprises fail. Additionally, different varieties of crops mature at different times, some early maturing and others late maturing, meaning that a farmer will harvest multiple times during the season, in addition to having a diversified/balanced diet for their families."
+        },
+        "section_2_title": {
+          "eng": "Crop rotation"
+        },
+        "section_2_text": {
+          "eng": "Crop rotation, cannot be achieved without diversity of crops. Those different crops have different nutrient requirements. Some, for instance, cabbages, sugarcane, etc., are heavy feeders, and thus after harvesting, farmers need to rotate them with light feeders, and those that can replenish the lost nutrients.  Also, planting the same crop repeatedly causes certain nutrients to be used up and others to be left unutilized."
+        },
+        "section_3_title": {
+          "eng": "Recycling"
+        },
+        "section_3_text": {
+          "eng": "Recycling  farm residues to useful products, for instance, cow dung in cow shade, is a waste product, and does not benefit the cows. However, it can be recycled into useful products, such as compost manure or made into biogas"
+        },
+        "section_4_title": {
+          "eng": "Resilience"
+        },
+        "section_4_text": {
+          "eng": "Resilience involves planting crops and or keeping livestock species that are better suited to certain agro-ecological zones. Those that can withstand either drought/dry periods, or wetter conditions."
+        },
+        "section_5_title": {
+          "eng": "Co-creation and sharing of knowledge"
+        },
+        "section_5_text": {
+          "eng": "People sharing their experiences and how they solve their problems differently, and they come together and share with others"
+        }
+      },
+      "text_1": "“Agro” means farming, and “ecology” means organisms interacting with their surrounding environment.",
+      "text_2": "The agroecology principles are linked/applied around soil health as follows:",
+      "section_1_title": "Diversity",
+      "section_1_text": "Multiple enterprises on the farm. In crop production, we have different types of crops, and even within crop types, for instance, maize, we have different varieties of the same crop. This protects a farmer from total failure in case of drought or if some enterprises fail. Additionally, different varieties of crops mature at different times, some early maturing and others late maturing, meaning that a farmer will harvest multiple times during the season, in addition to having a diversified/balanced diet for their families.",
+      "section_2_title": "Crop rotation",
+      "section_2_text": "Crop rotation, cannot be achieved without diversity of crops. Those different crops have different nutrient requirements. Some, for instance, cabbages, sugarcane, etc., are heavy feeders, and thus after harvesting, farmers need to rotate them with light feeders, and those that can replenish the lost nutrients.  Also, planting the same crop repeatedly causes certain nutrients to be used up and others to be left unutilized.",
+      "section_3_title": "Recycling",
+      "section_3_text": "Recycling  farm residues to useful products, for instance, cow dung in cow shade, is a waste product, and does not benefit the cows. However, it can be recycled into useful products, such as compost manure or made into biogas",
+      "section_4_title": "Resilience",
+      "section_4_text": "Resilience involves planting crops and or keeping livestock species that are better suited to certain agro-ecological zones. Those that can withstand either drought/dry periods, or wetter conditions.",
+      "section_5_title": "Co-creation and sharing of knowledge",
+      "section_5_text": "People sharing their experiences and how they solve their problems differently, and they come together and share with others",
+      "completed": false
+    },
+    {
+      "id": "how_1",
+      "category_id": "how",
+      "module_id": "soil",
+      "title": "Bokashi",
+      "_translations": {
+        "title": {},
+        "text_1": {},
+        "section_1_title": {},
+        "section_1_text": {},
+        "media_title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Bokashi"
+        },
+        "text_1": {
+          "eng": "A type of organic manure that takes a shorter time to get ready compared to other types of compost manure. When prepared, Bokashi is pre-cooked, meaning it does not decompose fully, and the decomposition continues even after application. Bokashi differs from other compost manures because it also requires turning daily. This is because there is a buildup of heat, which could denature the organisms responsible for decomposition."
+        },
+        "media_title": {
+          "eng": "How to make Bokashi"
+        },
+        "section_1_title": {
+          "eng": "Ingredients used to make Bokashi"
+        },
+        "section_1_text": {
+          "eng": "* Topsoil/Forest soil (3 Wheelbarrows)\nIt is the uppermost soil layer that is rich in organic matter/humus, nutrients, and microorganisms thus, introduces beneficial microbes\n\n * Manure (3 Wheelbarrows)\nManure has nutrients, introduces more nutrients to the pile\n\n * Dry Materials (3 Wheelbarrows)\nHave carbon and phosphorus in their system, though there may not be much\n\n * Bran/rotten maize flour (9 - 12 spades with 3 spades per layer)  \nIt is food for microorganisms, mostly used after three days\n\n * Biochar (9 - 12 spades with 3 spades per layer) \nBiochar is carbon-rich and thus introduces carbon required for holding other nutrients and enhancing water retention capacity in the soil. \nAlso used as a liming agent, buffering pH\n\n * Molasses/over ripe fruits/ coffee water  (2 Litres)\nImmediate food from the microorganisms. Microorganisms use it for energy before using bran\n\n * Rock dust/Phosphite/Ash (A handful per layer)\nRock dust helps to add micronutrients in the pile, such as magnesium, iron, silica, among others.\nWoodash adds potassium, while phosphite adds phosphorus\n\n * Yeast/sour dough starter (150 grams)\nIt is an effective microorganism (microbial inoculum), which accelerates the process of fermentation, thus speeding up the decomposition process. \nIntroduces the microorganisms that act upon the materials.\n\n * Water (Have enough water)\nKeeps the pile moist, like a damp sponge, and aids microorganisms to efficiently break down materials to release the nutrients."
+        }
+      },
+      "text_1": "A type of organic manure that takes a shorter time to get ready compared to other types of compost manure. When prepared, Bokashi is pre-cooked, meaning it does not decompose fully, and the decomposition continues even after application. Bokashi differs from other compost manures because it also requires turning daily. This is because there is a buildup of heat, which could denature the organisms responsible for decomposition.",
+      "section_1_title": "Ingredients used to make Bokashi",
+      "section_1_text": "* Topsoil/Forest soil (3 Wheelbarrows)\nIt is the uppermost soil layer that is rich in organic matter/humus, nutrients, and microorganisms thus, introduces beneficial microbes\n\n * Manure (3 Wheelbarrows)\nManure has nutrients, introduces more nutrients to the pile\n\n * Dry Materials (3 Wheelbarrows)\nHave carbon and phosphorus in their system, though there may not be much\n\n * Bran/rotten maize flour (9 - 12 spades with 3 spades per layer)  \nIt is food for microorganisms, mostly used after three days\n\n * Biochar (9 - 12 spades with 3 spades per layer) \nBiochar is carbon-rich and thus introduces carbon required for holding other nutrients and enhancing water retention capacity in the soil. \nAlso used as a liming agent, buffering pH\n\n * Molasses/over ripe fruits/ coffee water  (2 Litres)\nImmediate food from the microorganisms. Microorganisms use it for energy before using bran\n\n * Rock dust/Phosphite/Ash (A handful per layer)\nRock dust helps to add micronutrients in the pile, such as magnesium, iron, silica, among others.\nWoodash adds potassium, while phosphite adds phosphorus\n\n * Yeast/sour dough starter (150 grams)\nIt is an effective microorganism (microbial inoculum), which accelerates the process of fermentation, thus speeding up the decomposition process. \nIntroduces the microorganisms that act upon the materials.\n\n * Water (Have enough water)\nKeeps the pile moist, like a damp sponge, and aids microorganisms to efficiently break down materials to release the nutrients.",
+      "media_type": "video",
+      "media_title": "How to make Bokashi",
+      "completed": false
+    },
+    {
+      "id": "how_2",
+      "category_id": "how",
+      "module_id": "soil",
+      "title": "Garden Compost",
+      "_translations": {
+        "title": {},
+        "text_1": {},
+        "section_1_title": {},
+        "section_1_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Garden Compost"
+        },
+        "text_1": {
+          "eng": "Most of the materials used to make this type of manure are sourced from the garden itself. It helps because if there are crop diseases, they are not spread as material in one garden; they are used to make the compost for that garden. Also, weed seeds are not spread to another garden. When searching for materials, we do not just pick materials; we aim to get the required primary macronutrients, that is, Nitrogen, Phosphorus, and Potassium (N.P.K)"
+        },
+        "section_1_title": {
+          "eng": "Garden Compost Ingredients"
+        },
+        "section_1_text": {
+          "eng": "* Water \n * Dry materials \n * Green materials \n * Topsoil \n * Thermal stick \n * Kitchen waste"
+        }
+      },
+      "text_1": "Most of the materials used to make this type of manure are sourced from the garden itself. It helps because if there are crop diseases, they are not spread as material in one garden; they are used to make the compost for that garden. Also, weed seeds are not spread to another garden. When searching for materials, we do not just pick materials; we aim to get the required primary macronutrients, that is, Nitrogen, Phosphorus, and Potassium (N.P.K)",
+      "section_1_title": "Garden Compost Ingredients",
+      "section_1_text": "* Water \n * Dry materials \n * Green materials \n * Topsoil \n * Thermal stick \n * Kitchen waste",
+      "completed": false
+    }
+  ],
+  "_metadata": {
+    "completed": {
+      "type": "boolean"
+    }
+  }
+}
