@@ -17,28 +17,41 @@
       }
     },
     {
-      "id": "dynamics",
-      "icon_asset": "images/icons/settings.svg",
-      "title": "Understanding Soil Fertility Dynamics",
+      "id": "nutrient_depletion",
+      "icon_asset": "images/icons/terms_conditions.svg",
+      "title": "Causes of nutrient depletion in soil & solutions",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Understanding Soil Fertility Dynamics"
+          "eng": "Causes of nutrient depletion in soil & solutions"
+        }
+      }
+    },
+    {
+      "id": "dynamics",
+      "icon_asset": "images/icons/settings.svg",
+      "title": "Improving soil fertility",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Improving soil fertility"
         }
       }
     },
     {
       "id": "how",
       "icon_asset": "images/icons/terms_conditions.svg",
-      "title": "Enhancing fertility through Organic Manures",
+      "title": "Organic Manure",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Enhancing fertility through Organic Manures"
+          "eng": "Organic Manure"
         }
       }
     }

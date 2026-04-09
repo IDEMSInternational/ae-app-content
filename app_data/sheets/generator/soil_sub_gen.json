@@ -68,7 +68,47 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "sub_soil_dynamics",
+      "flow_name": "sub_soil_about_4",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_soil_about_5",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_soil_nutrient_depletion_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_soil_dynamics_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_soil_dynamics_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_soil_dynamics_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_soil_dynamics_4",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_soil_dynamics_5",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_soil_dynamics_6",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -79,6 +119,16 @@
     },
     {
       "flow_name": "sub_soil_how_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_soil_how_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_soil_how_4",
       "flow_subtype": "generated",
       "flow_type": "template"
     }

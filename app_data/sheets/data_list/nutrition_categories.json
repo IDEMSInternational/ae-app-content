@@ -5,15 +5,28 @@
   "status": "released",
   "rows": [
     {
-      "id": "how",
-      "icon_asset": "images/icons/settings.svg",
-      "title": "Food produced and given to vulnerable groups",
+      "id": "farm_foods",
+      "icon_asset": "images/icons/terms_conditions.svg",
+      "title": "Types of Food Produced on the Farm",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Food produced and given to vulnerable groups"
+          "eng": "Types of Food Produced on the Farm"
+        }
+      }
+    },
+    {
+      "id": "vulnerable",
+      "icon_asset": "images/topic/nutrition/vulnerable_groups.svg",
+      "title": "Food for Vulnerable Groups",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Food for Vulnerable Groups"
         }
       }
     },
@@ -27,6 +40,44 @@
       "_translatedFields": {
         "title": {
           "eng": "Value Addition and Income Generation"
+        }
+      }
+    },
+    {
+      "id": "how",
+      "icon_asset": "images/topic/nutrition/beverage_meal.svg",
+      "title": "Food & Nutrition",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Food & Nutrition"
+        }
+      }
+    },
+    {
+      "id": "value_benefit",
+      "title": "Benefits of Value Addition with Examples",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Benefits of Value Addition with Examples"
+        }
+      }
+    },
+    {
+      "id": "quality_safety",
+      "icon_asset": "images/topic/nutrition/safety_check.svg",
+      "title": "Quality and Safety of Products",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Quality and Safety of Products"
         }
       }
     }

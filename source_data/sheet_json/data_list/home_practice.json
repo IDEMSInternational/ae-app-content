@@ -1,0 +1,24 @@
+{
+  "flow_type": "data_list",
+  "data_list_name": "home_practice",
+  "flow_name": "home_practice",
+  "status": "released",
+  "rows": [
+    {
+      "id": "@default",
+      "status": "draft"
+    },
+    {
+      "id": "activities",
+      "status": "released",
+      "title::eng": "Watch Practicals",
+      "icon_asset": "images/icons/activities.png"
+    },
+    {
+      "id": "ingredients",
+      "status": "released",
+      "title::eng": "Materials Used",
+      "icon_asset": "images/icons/materials.png"
+    }
+  ]
+}

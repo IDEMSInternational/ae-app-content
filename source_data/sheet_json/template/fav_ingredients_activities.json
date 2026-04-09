@@ -1,0 +1,146 @@
+{
+  "flow_type": "template",
+  "flow_name": "fav_ingredients_activities",
+  "status": "released",
+  "rows": [
+    {
+      "type": "title",
+      "name": "favourite",
+      "value": "My Favourites"
+    },
+    {
+      "name": "favourite_image_asset",
+      "value": "images/icons/fine_heart.png",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "favourite_checked_image_asset",
+      "value": "images/icons/full_heart.png",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "data_list",
+      "value": "ingredients",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "fav_count",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "data_items",
+      "name": "compute_fav_count",
+      "value": "@local.data_list",
+      "action_list": "data_changed | set_local : fav_count : @items.length",
+      "parameter_list": "filter: @item.favourite;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "disclaimer_text",
+      "value": "Add the materials used in your favourite farm activities to your list so you can easily find them anytime!",
+      "condition": "@local.fav_count === 0"
+    },
+    {
+      "type": "begin_display_grid",
+      "name": "display_grid",
+      "value": "all",
+      "parameter_list": "item_width: 150px; item_border: none",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_data_items",
+      "name": "loop_activities",
+      "value": "@local.data_list",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "data_list_in_loop",
+      "value": "ingredients",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "go_to_template_prefix",
+      "value": "ingredients_",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "activity_id",
+      "value": "@item.id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "go_to_template",
+      "value": "@local.go_to_template_prefix@local.activity_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "join",
+      "value": "_",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "now",
+      "value": "@calc(timestamp())",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "click_history",
+      "value": "_click_history",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "click_history_field_name",
+      "value": "activity@local.join@item.id@local.click_history",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "click_history_value",
+      "value": "@fields.@local.click_history_field_name ;  @local.now",
+      "condition": "!!(@fields.@local.click_history_field_name)",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "click_history_value",
+      "value": "@local.now",
+      "condition": "!(@fields.@local.click_history_field_name)",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "debug_title_translation_@item.id",
+      "value": "@item.title",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_button",
+      "name": "card_@item.id",
+      "value": "@item.title",
+      "action_list": "click | set_field: @local.click_history_field_name: @local.click_history_value;\nclick | go_to: @local.go_to_template;",
+      "parameter_list": "variant: card-portrait;\nimage_asset: @item.image_cover_asset;",
+      "condition": "@item.favourite",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "toggle_bar",
+      "name": "toggle_@item.id",
+      "value": "@item.favourite",
+      "action_list": "changed | set_item | favourite: !@item.favourite",
+      "parameter_list": "variant: icon; \nicon_true_asset: @local.favourite_checked_image_asset;\nicon_false_asset: @local.favourite_image_asset;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_button",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_data_items",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_grid",
+      "exclude_from_translation": true
+    }
+  ]
+}

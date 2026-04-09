@@ -1,0 +1,41 @@
+{
+  "flow_type": "data_list",
+  "data_list_name": "home_practice",
+  "flow_name": "home_practice",
+  "status": "released",
+  "rows": [
+    {
+      "id": "activities",
+      "status": "released",
+      "icon_asset": "images/icons/activities.png",
+      "title": "Watch Practicals",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Watch Practicals"
+        }
+      }
+    },
+    {
+      "id": "ingredients",
+      "status": "released",
+      "icon_asset": "images/icons/materials.png",
+      "title": "Materials Used",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Materials Used"
+        }
+      }
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "data/practices.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1kW7SZtzVhcvQP6ygunzpbiQYDVt8tLR85Zemm99tA_o"
+  }
+}

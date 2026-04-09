@@ -5,7 +5,7 @@
   "rows": [
     {
       "name": "button_list",
-      "value": "image: images/icons/house_blue.svg | target_template: home_screen;\nimage: images/icons/settings.svg | target_template: settings;"
+      "value": "image: images/icons/house_white.svg | target_template: home_screen;\nimage: images/icons/library_down.png | target_template: library_temp;\nimage: images/icons/settings_down.png | target_template: settings;"
     },
     {
       "type": "navigation_bar",

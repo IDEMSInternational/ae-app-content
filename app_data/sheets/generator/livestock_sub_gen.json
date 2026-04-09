@@ -63,22 +63,102 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "sub_livestock_about_3",
+      "flow_name": "sub_livestock_challenges_solutions_1",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "sub_livestock_about_4",
+      "flow_name": "sub_livestock_challenges_solutions_2",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "sub_livestock_dynamics",
+      "flow_name": "sub_livestock_challenges_solutions_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_livestock_challenges_solutions_4",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_livestock_factors_consider",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_livestock_dynamics_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_livestock_remedies_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_livestock_remedies_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_livestock_remedies_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_livestock_remedies_4",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_livestock_dewormers",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_livestock_dewormers_1",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
       "flow_name": "sub_livestock_how_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_livestock_how_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_livestock_how_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_livestock_how_4",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_livestock_how_5",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_livestock_how_6",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_livestock_how_7",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_livestock_how_8",
       "flow_subtype": "generated",
       "flow_type": "template"
     }

@@ -11,6 +11,26 @@
         "url": "https://docs.google.com/spreadsheets/d/1yAksd6fqwcKW5RedVXIqnA4qt47U06oT3rM5E6p65iU"
       }
     },
+    "activities": {
+      "flow_type": "data_list",
+      "data_list_name": "activities",
+      "flow_name": "activities",
+      "_source": {
+        "name": "ae sheets",
+        "path": "data/practices.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1kW7SZtzVhcvQP6ygunzpbiQYDVt8tLR85Zemm99tA_o"
+      }
+    },
+    "activities_tags": {
+      "flow_type": "data_list",
+      "data_list_name": "activities_tags",
+      "flow_name": "activities_tags",
+      "_source": {
+        "name": "ae sheets",
+        "path": "data/practices.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1kW7SZtzVhcvQP6ygunzpbiQYDVt8tLR85Zemm99tA_o"
+      }
+    },
     "agroforestry_categories": {
       "flow_type": "data_list",
       "flow_name": "agroforestry_categories",
@@ -151,6 +171,41 @@
         }
       }
     },
+    "home_practice": {
+      "flow_type": "data_list",
+      "data_list_name": "home_practice",
+      "flow_name": "home_practice",
+      "_source": {
+        "name": "ae sheets",
+        "path": "data/practices.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1kW7SZtzVhcvQP6ygunzpbiQYDVt8tLR85Zemm99tA_o"
+      }
+    },
+    "ingredients": {
+      "flow_type": "data_list",
+      "data_list_name": "ingredients",
+      "flow_name": "ingredients",
+      "_source": {
+        "name": "ae sheets",
+        "path": "data/practices.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1kW7SZtzVhcvQP6ygunzpbiQYDVt8tLR85Zemm99tA_o"
+      },
+      "_metadata": {
+        "number": {
+          "type": "number"
+        }
+      }
+    },
+    "ingredients_tags": {
+      "flow_type": "data_list",
+      "data_list_name": "ingredients_tags",
+      "flow_name": "ingredients_tags",
+      "_source": {
+        "name": "ae sheets",
+        "path": "data/practices.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1kW7SZtzVhcvQP6ygunzpbiQYDVt8tLR85Zemm99tA_o"
+      }
+    },
     "privacy_policy": {
       "flow_type": "data_list",
       "flow_name": "privacy_policy",
@@ -171,6 +226,16 @@
         "name": "ae sheets",
         "path": "data/deployment_data_AE.xlsx",
         "url": "https://docs.google.com/spreadsheets/d/1yAksd6fqwcKW5RedVXIqnA4qt47U06oT3rM5E6p65iU"
+      }
+    },
+    "library": {
+      "flow_type": "data_list",
+      "flow_name": "library",
+      "data_list_name": "library",
+      "_source": {
+        "name": "ae sheets",
+        "path": "template/AE Library.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1u5BIMzO_V99OX4Z0UDZZIZtY1j76KjWEf37GYAIYVq8"
       }
     },
     "launch_actions": {
@@ -496,12 +561,32 @@
           "flow_type": "template"
         },
         {
-          "flow_name": "sub_agroforestry_about_3",
+          "flow_name": "sub_agroforestry_dynamics_1",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "sub_agroforestry_dynamics",
+          "flow_name": "sub_agroforestry_dynamics_2",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_agroforestry_dynamics_3",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_agroforestry_effect_1",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_agroforestry_effect_2",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_agroforestry_effect_3",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
@@ -517,6 +602,26 @@
         },
         {
           "flow_name": "sub_agroforestry_how_3",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_agroforestry_how_4",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_agroforestry_how_5",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_agroforestry_how_6",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_agroforestry_how_7",
           "flow_subtype": "generated",
           "flow_type": "template"
         }
@@ -543,12 +648,165 @@
           "flow_type": "template"
         },
         {
+          "flow_name": "topic_agroforestry_start_at_effects",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
           "flow_name": "topic_agroforestry_start_at_dynamics",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
           "flow_name": "topic_agroforestry_start_at_how",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        }
+      ]
+    },
+    "gen_farm": {
+      "flow_type": "generator",
+      "flow_name": "gen_farm",
+      "parameter_list": {
+        "input_data_list": "activities",
+        "output_flow_name": "article_@gen.id",
+        "output_flow_type": "template",
+        "output_flow_subtype": "generated"
+      },
+      "_source": {
+        "name": "ae sheets",
+        "path": "template/farm_activities templates.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1BiVFhETFE6O40EPCP7SMjXbNecNTYXSQxZgXzkKHNeg"
+      },
+      "_output_flows": [
+        {
+          "flow_name": "article_bokashi",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "article_garden_compost",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "article_boma_compost",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "article_green_manure",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        }
+      ]
+    },
+    "gen_hp_options_activities": {
+      "flow_type": "generator",
+      "flow_name": "gen_hp_options_activities",
+      "parameter_list": {
+        "input_data_list": "topic",
+        "output_flow_name": "hp_{@gen.id}_activities",
+        "output_flow_type": "template",
+        "output_flow_subtype": "generated"
+      },
+      "_source": {
+        "name": "ae sheets",
+        "path": "template/ae home_practice templates.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1FhCmNiFoqJhs7eO8U53Xg1-x097kvcxY2FjPH95tIvA"
+      },
+      "_output_flows": [
+        {
+          "flow_name": "hp_soil_activities",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "hp_pest_activities",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "hp_nutrition_activities",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "hp_livestock_activities",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "hp_agroforestry_activities",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        }
+      ]
+    },
+    "gen_hp_options_ingredients": {
+      "flow_type": "generator",
+      "flow_name": "gen_hp_options_ingredients",
+      "parameter_list": {
+        "input_data_list": "topic",
+        "output_flow_name": "hp_{@gen.id}_ingredients",
+        "output_flow_type": "template",
+        "output_flow_subtype": "generated"
+      },
+      "_source": {
+        "name": "ae sheets",
+        "path": "template/ae home_practice templates.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1FhCmNiFoqJhs7eO8U53Xg1-x097kvcxY2FjPH95tIvA"
+      },
+      "_output_flows": [
+        {
+          "flow_name": "hp_soil_ingredients",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "hp_pest_ingredients",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "hp_nutrition_ingredients",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "hp_livestock_ingredients",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "hp_agroforestry_ingredients",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        }
+      ]
+    },
+    "gen_ingredients": {
+      "flow_type": "generator",
+      "flow_name": "gen_ingredients",
+      "parameter_list": {
+        "input_data_list": "ingredients",
+        "output_flow_name": "ingredients_{@gen.id}",
+        "output_flow_type": "template",
+        "output_flow_subtype": "generated"
+      },
+      "_source": {
+        "name": "ae sheets",
+        "path": "template/ingredients templates.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1rw6TZvgv-Tw2HdC649VHsDabPfP9lkod_7DJmkaubDU"
+      },
+      "_output_flows": [
+        {
+          "flow_name": "ingredients_bokashi_ing",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "ingredients_garden",
           "flow_subtype": "generated",
           "flow_type": "template"
         }
@@ -575,7 +833,27 @@
           "flow_type": "template"
         },
         {
+          "flow_name": "topic_livestock_start_at_challenges_solutions",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "topic_livestock_start_at_factors_consider",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
           "flow_name": "topic_livestock_start_at_dynamics",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "topic_livestock_start_at_remedies",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "topic_livestock_start_at_dewormers",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
@@ -607,12 +885,32 @@
           "flow_type": "template"
         },
         {
-          "flow_name": "topic_nutrition_start_at_how",
+          "flow_name": "topic_nutrition_start_at_farm_foods",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "topic_nutrition_start_at_vulnerable",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
           "flow_name": "topic_nutrition_start_at_dynamics",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "topic_nutrition_start_at_how",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "topic_nutrition_start_at_value_benefit",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "topic_nutrition_start_at_quality_safety",
           "flow_subtype": "generated",
           "flow_type": "template"
         }
@@ -751,6 +1049,11 @@
       "_output_flows": [
         {
           "flow_name": "topic_soil_start_at_about",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "topic_soil_start_at_nutrient_depletion",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
@@ -960,22 +1263,102 @@
           "flow_type": "template"
         },
         {
-          "flow_name": "sub_livestock_about_3",
+          "flow_name": "sub_livestock_challenges_solutions_1",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "sub_livestock_about_4",
+          "flow_name": "sub_livestock_challenges_solutions_2",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "sub_livestock_dynamics",
+          "flow_name": "sub_livestock_challenges_solutions_3",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_livestock_challenges_solutions_4",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_livestock_factors_consider",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_livestock_dynamics_1",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_livestock_remedies_1",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_livestock_remedies_2",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_livestock_remedies_3",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_livestock_remedies_4",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_livestock_dewormers",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_livestock_dewormers_1",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
           "flow_name": "sub_livestock_how_1",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_livestock_how_2",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_livestock_how_3",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_livestock_how_4",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_livestock_how_5",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_livestock_how_6",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_livestock_how_7",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_livestock_how_8",
           "flow_subtype": "generated",
           "flow_type": "template"
         }
@@ -1012,7 +1395,42 @@
           "flow_type": "template"
         },
         {
-          "flow_name": "sub_nutrition_how_1",
+          "flow_name": "sub_nutrition_farm_food_1",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_nutrition_farm_food_2",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_nutrition_farm_food_3",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_nutrition_vulnerable",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_nutrition_vulnerable",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_nutrition_how_4",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_nutrition_how_5",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_nutrition_dynamics_1",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
@@ -1023,6 +1441,36 @@
         },
         {
           "flow_name": "sub_nutrition_dynamics_3",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_nutrition_value_benefit_1",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_nutrition_value_benefit_2",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_nutrition_value_benefit_3",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_nutrition_quality_safety_1",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_nutrition_quality_safety_2",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_nutrition_quality_safety_3",
           "flow_subtype": "generated",
           "flow_type": "template"
         }
@@ -1054,17 +1502,47 @@
           "flow_type": "template"
         },
         {
-          "flow_name": "sub_pest_about_3",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "sub_pest_dynamics",
+          "flow_name": "sub_pest_dynamics_1",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
           "flow_name": "sub_pest_how_1",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_pest_how_2",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_pest_how_3",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_pest_how_4",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_pest_how_5",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_pest_how_6",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_pest_how_7",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_pest_how_8",
           "flow_subtype": "generated",
           "flow_type": "template"
         }
@@ -1101,7 +1579,47 @@
           "flow_type": "template"
         },
         {
-          "flow_name": "sub_soil_dynamics",
+          "flow_name": "sub_soil_about_4",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_soil_about_5",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_soil_nutrient_depletion_1",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_soil_dynamics_1",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_soil_dynamics_2",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_soil_dynamics_3",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_soil_dynamics_4",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_soil_dynamics_5",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_soil_dynamics_6",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
@@ -1112,6 +1630,16 @@
         },
         {
           "flow_name": "sub_soil_how_2",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_soil_how_3",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_soil_how_4",
           "flow_subtype": "generated",
           "flow_type": "template"
         }
@@ -1213,6 +1741,60 @@
         "url": "https://docs.google.com/spreadsheets/d/1EKtuppn9aL_nQ-_cOVSo8Uaf_FakV0qDxRHKOrP-E1o"
       }
     },
+    "farm": {
+      "flow_type": "template",
+      "flow_name": "farm",
+      "_source": {
+        "name": "ae sheets",
+        "path": "template/farm_activities templates.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1BiVFhETFE6O40EPCP7SMjXbNecNTYXSQxZgXzkKHNeg"
+      }
+    },
+    "farm_activities": {
+      "flow_type": "template",
+      "flow_name": "farm_activities",
+      "_source": {
+        "name": "ae sheets",
+        "path": "template/AE Library.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1u5BIMzO_V99OX4Z0UDZZIZtY1j76KjWEf37GYAIYVq8"
+      }
+    },
+    "farm_activity": {
+      "flow_type": "template",
+      "flow_name": "farm_activity",
+      "_source": {
+        "name": "ae sheets",
+        "path": "template/farm_activities templates.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1BiVFhETFE6O40EPCP7SMjXbNecNTYXSQxZgXzkKHNeg"
+      }
+    },
+    "farm_card": {
+      "flow_type": "template",
+      "flow_name": "farm_card",
+      "_source": {
+        "name": "ae sheets",
+        "path": "template/farm_activities templates.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1BiVFhETFE6O40EPCP7SMjXbNecNTYXSQxZgXzkKHNeg"
+      }
+    },
+    "fav_farm_activities": {
+      "flow_type": "template",
+      "flow_name": "fav_farm_activities",
+      "_source": {
+        "name": "ae sheets",
+        "path": "template/AE Library.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1u5BIMzO_V99OX4Z0UDZZIZtY1j76KjWEf37GYAIYVq8"
+      }
+    },
+    "fav_ingredients_activities": {
+      "flow_type": "template",
+      "flow_name": "fav_ingredients_activities",
+      "_source": {
+        "name": "ae sheets",
+        "path": "template/AE Library.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1u5BIMzO_V99OX4Z0UDZZIZtY1j76KjWEf37GYAIYVq8"
+      }
+    },
     "feedback": {
       "flow_type": "template",
       "flow_name": "feedback",
@@ -1231,6 +1813,86 @@
         "url": "https://docs.google.com/spreadsheets/d/1N1PbL1YvhLQfeshNk-wsBNxsCiPuBOguGSH8JUTdbpw"
       }
     },
+    "article_bokashi": {
+      "flow_name": "article_bokashi",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "article_boma_compost": {
+      "flow_name": "article_boma_compost",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "article_garden_compost": {
+      "flow_name": "article_garden_compost",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "article_green_manure": {
+      "flow_name": "article_green_manure",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "hp_agroforestry_activities": {
+      "flow_name": "hp_agroforestry_activities",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "hp_agroforestry_ingredients": {
+      "flow_name": "hp_agroforestry_ingredients",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "hp_livestock_activities": {
+      "flow_name": "hp_livestock_activities",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "hp_livestock_ingredients": {
+      "flow_name": "hp_livestock_ingredients",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "hp_nutrition_activities": {
+      "flow_name": "hp_nutrition_activities",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "hp_nutrition_ingredients": {
+      "flow_name": "hp_nutrition_ingredients",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "hp_pest_activities": {
+      "flow_name": "hp_pest_activities",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "hp_pest_ingredients": {
+      "flow_name": "hp_pest_ingredients",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "hp_soil_activities": {
+      "flow_name": "hp_soil_activities",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "hp_soil_ingredients": {
+      "flow_name": "hp_soil_ingredients",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "ingredients_bokashi_ing": {
+      "flow_name": "ingredients_bokashi_ing",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "ingredients_garden": {
+      "flow_name": "ingredients_garden",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "sub_agroforestry_about_1": {
       "flow_name": "sub_agroforestry_about_1",
       "flow_subtype": "generated",
@@ -1241,13 +1903,33 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "sub_agroforestry_about_3": {
-      "flow_name": "sub_agroforestry_about_3",
+    "sub_agroforestry_dynamics_1": {
+      "flow_name": "sub_agroforestry_dynamics_1",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "sub_agroforestry_dynamics": {
-      "flow_name": "sub_agroforestry_dynamics",
+    "sub_agroforestry_dynamics_2": {
+      "flow_name": "sub_agroforestry_dynamics_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_agroforestry_dynamics_3": {
+      "flow_name": "sub_agroforestry_dynamics_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_agroforestry_effect_1": {
+      "flow_name": "sub_agroforestry_effect_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_agroforestry_effect_2": {
+      "flow_name": "sub_agroforestry_effect_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_agroforestry_effect_3": {
+      "flow_name": "sub_agroforestry_effect_3",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1266,6 +1948,26 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
+    "sub_agroforestry_how_4": {
+      "flow_name": "sub_agroforestry_how_4",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_agroforestry_how_5": {
+      "flow_name": "sub_agroforestry_how_5",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_agroforestry_how_6": {
+      "flow_name": "sub_agroforestry_how_6",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_agroforestry_how_7": {
+      "flow_name": "sub_agroforestry_how_7",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "sub_livestock_about_1": {
       "flow_name": "sub_livestock_about_1",
       "flow_subtype": "generated",
@@ -1276,23 +1978,103 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "sub_livestock_about_3": {
-      "flow_name": "sub_livestock_about_3",
+    "sub_livestock_challenges_solutions_1": {
+      "flow_name": "sub_livestock_challenges_solutions_1",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "sub_livestock_about_4": {
-      "flow_name": "sub_livestock_about_4",
+    "sub_livestock_challenges_solutions_2": {
+      "flow_name": "sub_livestock_challenges_solutions_2",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "sub_livestock_dynamics": {
-      "flow_name": "sub_livestock_dynamics",
+    "sub_livestock_challenges_solutions_3": {
+      "flow_name": "sub_livestock_challenges_solutions_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_livestock_challenges_solutions_4": {
+      "flow_name": "sub_livestock_challenges_solutions_4",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_livestock_dewormers": {
+      "flow_name": "sub_livestock_dewormers",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_livestock_dewormers_1": {
+      "flow_name": "sub_livestock_dewormers_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_livestock_dynamics_1": {
+      "flow_name": "sub_livestock_dynamics_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_livestock_factors_consider": {
+      "flow_name": "sub_livestock_factors_consider",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     "sub_livestock_how_1": {
       "flow_name": "sub_livestock_how_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_livestock_how_2": {
+      "flow_name": "sub_livestock_how_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_livestock_how_3": {
+      "flow_name": "sub_livestock_how_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_livestock_how_4": {
+      "flow_name": "sub_livestock_how_4",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_livestock_how_5": {
+      "flow_name": "sub_livestock_how_5",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_livestock_how_6": {
+      "flow_name": "sub_livestock_how_6",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_livestock_how_7": {
+      "flow_name": "sub_livestock_how_7",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_livestock_how_8": {
+      "flow_name": "sub_livestock_how_8",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_livestock_remedies_1": {
+      "flow_name": "sub_livestock_remedies_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_livestock_remedies_2": {
+      "flow_name": "sub_livestock_remedies_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_livestock_remedies_3": {
+      "flow_name": "sub_livestock_remedies_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_livestock_remedies_4": {
+      "flow_name": "sub_livestock_remedies_4",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1311,6 +2093,11 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
+    "sub_nutrition_dynamics_1": {
+      "flow_name": "sub_nutrition_dynamics_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "sub_nutrition_dynamics_2": {
       "flow_name": "sub_nutrition_dynamics_2",
       "flow_subtype": "generated",
@@ -1321,8 +2108,63 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "sub_nutrition_how_1": {
-      "flow_name": "sub_nutrition_how_1",
+    "sub_nutrition_farm_food_1": {
+      "flow_name": "sub_nutrition_farm_food_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_nutrition_farm_food_2": {
+      "flow_name": "sub_nutrition_farm_food_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_nutrition_farm_food_3": {
+      "flow_name": "sub_nutrition_farm_food_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_nutrition_how_4": {
+      "flow_name": "sub_nutrition_how_4",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_nutrition_how_5": {
+      "flow_name": "sub_nutrition_how_5",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_nutrition_quality_safety_1": {
+      "flow_name": "sub_nutrition_quality_safety_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_nutrition_quality_safety_2": {
+      "flow_name": "sub_nutrition_quality_safety_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_nutrition_quality_safety_3": {
+      "flow_name": "sub_nutrition_quality_safety_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_nutrition_value_benefit_1": {
+      "flow_name": "sub_nutrition_value_benefit_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_nutrition_value_benefit_2": {
+      "flow_name": "sub_nutrition_value_benefit_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_nutrition_value_benefit_3": {
+      "flow_name": "sub_nutrition_value_benefit_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_nutrition_vulnerable": {
+      "flow_name": "sub_nutrition_vulnerable",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1336,18 +2178,48 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "sub_pest_about_3": {
-      "flow_name": "sub_pest_about_3",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "sub_pest_dynamics": {
-      "flow_name": "sub_pest_dynamics",
+    "sub_pest_dynamics_1": {
+      "flow_name": "sub_pest_dynamics_1",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     "sub_pest_how_1": {
       "flow_name": "sub_pest_how_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_pest_how_2": {
+      "flow_name": "sub_pest_how_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_pest_how_3": {
+      "flow_name": "sub_pest_how_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_pest_how_4": {
+      "flow_name": "sub_pest_how_4",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_pest_how_5": {
+      "flow_name": "sub_pest_how_5",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_pest_how_6": {
+      "flow_name": "sub_pest_how_6",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_pest_how_7": {
+      "flow_name": "sub_pest_how_7",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_pest_how_8": {
+      "flow_name": "sub_pest_how_8",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1366,8 +2238,43 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "sub_soil_dynamics": {
-      "flow_name": "sub_soil_dynamics",
+    "sub_soil_about_4": {
+      "flow_name": "sub_soil_about_4",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_soil_about_5": {
+      "flow_name": "sub_soil_about_5",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_soil_dynamics_1": {
+      "flow_name": "sub_soil_dynamics_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_soil_dynamics_2": {
+      "flow_name": "sub_soil_dynamics_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_soil_dynamics_3": {
+      "flow_name": "sub_soil_dynamics_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_soil_dynamics_4": {
+      "flow_name": "sub_soil_dynamics_4",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_soil_dynamics_5": {
+      "flow_name": "sub_soil_dynamics_5",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_soil_dynamics_6": {
+      "flow_name": "sub_soil_dynamics_6",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1378,6 +2285,21 @@
     },
     "sub_soil_how_2": {
       "flow_name": "sub_soil_how_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_soil_how_3": {
+      "flow_name": "sub_soil_how_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_soil_how_4": {
+      "flow_name": "sub_soil_how_4",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_soil_nutrient_depletion_1": {
+      "flow_name": "sub_soil_nutrient_depletion_1",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1393,6 +2315,11 @@
     },
     "topic_agroforestry_start_at_dynamics": {
       "flow_name": "topic_agroforestry_start_at_dynamics",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "topic_agroforestry_start_at_effects": {
+      "flow_name": "topic_agroforestry_start_at_effects",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1441,13 +2368,33 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
+    "topic_livestock_start_at_challenges_solutions": {
+      "flow_name": "topic_livestock_start_at_challenges_solutions",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "topic_livestock_start_at_dewormers": {
+      "flow_name": "topic_livestock_start_at_dewormers",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "topic_livestock_start_at_dynamics": {
       "flow_name": "topic_livestock_start_at_dynamics",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
+    "topic_livestock_start_at_factors_consider": {
+      "flow_name": "topic_livestock_start_at_factors_consider",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "topic_livestock_start_at_how": {
       "flow_name": "topic_livestock_start_at_how",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "topic_livestock_start_at_remedies": {
+      "flow_name": "topic_livestock_start_at_remedies",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1471,13 +2418,33 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
+    "topic_nutrition_start_at_farm_foods": {
+      "flow_name": "topic_nutrition_start_at_farm_foods",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "topic_nutrition_start_at_how": {
       "flow_name": "topic_nutrition_start_at_how",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
+    "topic_nutrition_start_at_quality_safety": {
+      "flow_name": "topic_nutrition_start_at_quality_safety",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "topic_nutrition_start_at_uncompleted_with_congrats": {
       "flow_name": "topic_nutrition_start_at_uncompleted_with_congrats",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "topic_nutrition_start_at_value_benefit": {
+      "flow_name": "topic_nutrition_start_at_value_benefit",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "topic_nutrition_start_at_vulnerable": {
+      "flow_name": "topic_nutrition_start_at_vulnerable",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1551,6 +2518,11 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
+    "topic_soil_start_at_nutrient_depletion": {
+      "flow_name": "topic_soil_start_at_nutrient_depletion",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "topic_soil_start_at_uncompleted_with_congrats": {
       "flow_name": "topic_soil_start_at_uncompleted_with_congrats",
       "flow_subtype": "generated",
@@ -1565,6 +2537,24 @@
         "url": "https://docs.google.com/spreadsheets/d/1N1PbL1YvhLQfeshNk-wsBNxsCiPuBOguGSH8JUTdbpw"
       }
     },
+    "home_practice_card": {
+      "flow_type": "template",
+      "flow_name": "home_practice_card",
+      "_source": {
+        "name": "ae sheets",
+        "path": "template/ae home_practice templates.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1FhCmNiFoqJhs7eO8U53Xg1-x097kvcxY2FjPH95tIvA"
+      }
+    },
+    "home_practice_options": {
+      "flow_type": "template",
+      "flow_name": "home_practice_options",
+      "_source": {
+        "name": "ae sheets",
+        "path": "template/ae home_practice templates.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1FhCmNiFoqJhs7eO8U53Xg1-x097kvcxY2FjPH95tIvA"
+      }
+    },
     "home_screen": {
       "flow_type": "template",
       "flow_name": "home_screen",
@@ -1572,6 +2562,24 @@
         "name": "ae sheets",
         "path": "template/navigation_templates.xlsx",
         "url": "https://docs.google.com/spreadsheets/d/1N1PbL1YvhLQfeshNk-wsBNxsCiPuBOguGSH8JUTdbpw"
+      }
+    },
+    "ingredients_activities": {
+      "flow_type": "template",
+      "flow_name": "ingredients_activities",
+      "_source": {
+        "name": "ae sheets",
+        "path": "template/AE Library.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1u5BIMzO_V99OX4Z0UDZZIZtY1j76KjWEf37GYAIYVq8"
+      }
+    },
+    "ingredients_activity": {
+      "flow_type": "template",
+      "flow_name": "ingredients_activity",
+      "_source": {
+        "name": "ae sheets",
+        "path": "template/ingredients templates.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1rw6TZvgv-Tw2HdC649VHsDabPfP9lkod_7DJmkaubDU"
       }
     },
     "app_menu_privacy_policy": {
@@ -1594,6 +2602,22 @@
         "url": "https://docs.google.com/spreadsheets/d/1MK70lQxJOsRV3oOn5JQDi9TP-Enua_lXLR-xrCoLESc"
       }
     },
+    "library_temp": {
+      "flow_type": "template",
+      "flow_name": "library_temp",
+      "parameter_list": {
+        "app_config": {
+          "APP_HEADER_DEFAULTS": {
+            "hidden": true
+          }
+        }
+      },
+      "_source": {
+        "name": "ae sheets",
+        "path": "template/AE Library.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1u5BIMzO_V99OX4Z0UDZZIZtY1j76KjWEf37GYAIYVq8"
+      }
+    },
     "media_transcript": {
       "flow_type": "template",
       "flow_name": "media_transcript",
@@ -1610,6 +2634,15 @@
         "name": "ae sheets",
         "path": "template/navigation_templates.xlsx",
         "url": "https://docs.google.com/spreadsheets/d/1N1PbL1YvhLQfeshNk-wsBNxsCiPuBOguGSH8JUTdbpw"
+      }
+    },
+    "overall_activities": {
+      "flow_type": "template",
+      "flow_name": "overall_activities",
+      "_source": {
+        "name": "ae sheets",
+        "path": "template/AE Library.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1u5BIMzO_V99OX4Z0UDZZIZtY1j76KjWEf37GYAIYVq8"
       }
     },
     "pop_up_text": {

@@ -7,42 +7,46 @@
     {
       "id": "@default",
       "status": "draft",
-      "image_asset": "        images/topic/{@row.id}_title_image.svg"
+      "image_asset": "        images/topic/{@row.id}_title_image.svg",
+      "activities_id_list": "[]",
+      "ingredients_id_list": "[]"
     },
     {
       "id": "soil",
       "status": "released",
       "number": "1",
       "title::eng": "Soil Fertility Management",
-      "description::eng": "How well do you know about your farm soil? Let's learn more together."
+      "description::eng": "How well do you know about your farm soil? Let's learn more together.",
+      "activities_id_list": "bokashi; boma_compost; garden_compost; green_manure",
+      "ingredients_id_list": "bokashi_ing; garden"
     },
     {
       "id": "pest",
       "status": "released",
       "number": "2",
       "title::eng": "Pest Management",
-      "description::eng": "Pest management is the smart way to protect your hard work by using nature, tools, and careful monitoring to keep harmful organisms under control. Stopping damage before it starts, ensuring your crops stay healthy and your farm remains productive for years to come."
+      "description::eng": "Keep your farm healthy by spotting pests early. Smart ways, stronger crops."
     },
     {
       "id": "nutrition",
       "status": "released",
       "number": "3",
       "title::eng": "Value Addition & Family Nutrition",
-      "description::eng": "Value addition transforms your raw harvests into high-quality, long-lasting products that increase your farm's income and reduce waste. By processing and preserving these crops, you ensure your family has access to a diverse, nutrient-rich diet all year round."
+      "description::eng": "Get ready to explore ways to process, preserve, and prepare food for better health and higher income."
     },
     {
       "id": "livestock",
       "status": "released",
       "number": "4",
       "title::eng": "Livestock Production",
-      "description::eng": "Livestock Production is the practice of raising and managing animals such as cattle, goats, sheep, poultry, rabbits, donkeys and pigs to produce food and other useful products. By providing proper feeding, housing, healthcare, and breeding, farmers ensure that their animals remain healthy and productive. This helps provide nutritious foods like milk, meat, and eggs, while also generating income and improving the overall livelihood of the farming family."
+      "description::eng": "Better feeding means better health, which leads to higher income. Let’s build your livestock skills."
     },
     {
       "id": "agroforestry",
       "status": "released",
       "number": "5",
       "title::eng": "Climate Change Adaptation",
-      "description::eng": "Building a resilient farm starts with protecting your land from unpredictable weather while enriching it with nature’s own tools. "
+      "description::eng": "Build a resilient farm using nature’s own tools."
     }
   ]
 }

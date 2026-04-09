@@ -68,7 +68,42 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "sub_nutrition_how_1",
+      "flow_name": "sub_nutrition_farm_food_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_nutrition_farm_food_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_nutrition_farm_food_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_nutrition_vulnerable",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_nutrition_vulnerable",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_nutrition_how_4",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_nutrition_how_5",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_nutrition_dynamics_1",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -79,6 +114,36 @@
     },
     {
       "flow_name": "sub_nutrition_dynamics_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_nutrition_value_benefit_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_nutrition_value_benefit_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_nutrition_value_benefit_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_nutrition_quality_safety_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_nutrition_quality_safety_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_nutrition_quality_safety_3",
       "flow_subtype": "generated",
       "flow_type": "template"
     }

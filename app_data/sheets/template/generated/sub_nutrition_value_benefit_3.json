@@ -1,0 +1,54 @@
+{
+  "flow_name": "sub_nutrition_value_benefit_3",
+  "flow_subtype": "generated",
+  "flow_type": "template",
+  "rows": [
+    {
+      "type": "template",
+      "name": "sub",
+      "value": "sub",
+      "action_list": [
+        {
+          "trigger": "completed",
+          "action_id": "emit",
+          "args": [
+            "completed"
+          ],
+          "_raw": "completed | emit: completed"
+        },
+        {
+          "trigger": "uncompleted",
+          "action_id": "emit",
+          "args": [
+            "uncompleted"
+          ],
+          "_raw": "uncompleted | emit: uncompleted"
+        }
+      ],
+      "exclude_from_translation": true,
+      "rows": [
+        {
+          "name": "sub_id",
+          "value": "value_benefit_3",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "sub.sub_id"
+        },
+        {
+          "name": "topic_id",
+          "value": "nutrition",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "sub.topic_id"
+        }
+      ],
+      "_nested_name": "sub"
+    }
+  ]
+}

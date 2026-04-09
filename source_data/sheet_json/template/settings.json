@@ -80,6 +80,7 @@
       "value": "@global.user_id_text",
       "parameter_list": "variant: card;\nicon: @local.user_id_icon;\nicon_secondary_asset: @local.next_icon_asset;\nstyle: no-background;\ntext_align: left;",
       "action_list": "click | pop_up: settings_user_id | fullscreen: true, showCloseButton: false;",
+      "condition": false,
       "exclude_from_translation": true
     },
     {

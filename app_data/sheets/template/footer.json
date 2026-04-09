@@ -7,11 +7,15 @@
       "name": "button_list",
       "value": [
         {
-          "image": "images/icons/house_blue.svg",
+          "image": "images/icons/house_white.svg",
           "target_template": "home_screen"
         },
         {
-          "image": "images/icons/settings.svg",
+          "image": "images/icons/library_down.png",
+          "target_template": "library_temp"
+        },
+        {
+          "image": "images/icons/settings_down.png",
           "target_template": "settings"
         }
       ],

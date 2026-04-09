@@ -17,28 +17,80 @@
       }
     },
     {
-      "id": "dynamics",
+      "id": "challenges_solutions",
       "icon_asset": "images/icons/settings.svg",
-      "title": "Home-made Poutry Feed formulation",
+      "title": "Livestock challenges & solutions",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Home-made Poutry Feed formulation"
+          "eng": "Livestock challenges & solutions"
+        }
+      }
+    },
+    {
+      "id": "factors_consider",
+      "icon_asset": "images/icons/settings.svg",
+      "title": "Feed preparation factors",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Feed preparation factors"
+        }
+      }
+    },
+    {
+      "id": "dynamics",
+      "icon_asset": "images/icons/settings.svg",
+      "title": "Homemade poultry feed",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Homemade poultry feed"
+        }
+      }
+    },
+    {
+      "id": "remedies",
+      "icon_asset": "images/icons/terms_conditions.svg",
+      "title": "Herbal Remedies for Poultry",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Herbal Remedies for Poultry"
+        }
+      }
+    },
+    {
+      "id": "dewormers",
+      "icon_asset": "images/icons/terms_conditions.svg",
+      "title": "Internal parasites control",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Internal parasites control"
         }
       }
     },
     {
       "id": "how",
       "icon_asset": "images/icons/terms_conditions.svg",
-      "title": "Poultry Fermented Feed",
+      "title": "Fermented poultry feed",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Poultry Fermented Feed"
+          "eng": "Fermented poultry feed"
         }
       }
     }

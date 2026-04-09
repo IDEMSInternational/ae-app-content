@@ -1,0 +1,25 @@
+{
+  "flow_type": "generator",
+  "flow_name": "gen_ingredients",
+  "status": "released",
+  "parameter_list": {
+    "input_data_list": "ingredients",
+    "output_flow_name": "ingredients_{@gen.id}",
+    "output_flow_type": "template"
+  },
+  "rows": [
+    {
+      "type": "begin_template",
+      "name": "ingredients_activity",
+      "value": "ingredients_activity",
+      "action_list": "completed | emit: completed; uncompleted | emit: uncompleted;"
+    },
+    {
+      "name": "ingredients_id",
+      "value": "@gen.id"
+    },
+    {
+      "type": "end_template"
+    }
+  ]
+}

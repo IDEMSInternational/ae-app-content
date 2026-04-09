@@ -5,14 +5,33 @@
   "status": "released",
   "rows": [
     {
-      "id": "how",
-      "title::eng": "Food produced and given to vulnerable groups",
-      "icon_asset": "images/icons/settings.svg"
+      "id": "farm_foods",
+      "title::eng": "Types of Food Produced on the Farm",
+      "icon_asset": "images/icons/terms_conditions.svg"
+    },
+    {
+      "id": "vulnerable",
+      "title::eng": "Food for Vulnerable Groups",
+      "icon_asset": "images/topic/nutrition/vulnerable_groups.svg"
     },
     {
       "id": "dynamics",
       "title::eng": "Value Addition and Income Generation",
       "icon_asset": "images/icons/terms_conditions.svg"
+    },
+    {
+      "id": "how",
+      "title::eng": "Food & Nutrition",
+      "icon_asset": "images/topic/nutrition/beverage_meal.svg"
+    },
+    {
+      "id": "value_benefit",
+      "title::eng": "Benefits of Value Addition with Examples"
+    },
+    {
+      "id": "quality_safety",
+      "title::eng": "Quality and Safety of Products",
+      "icon_asset": "images/topic/nutrition/safety_check.svg"
     }
   ]
 }

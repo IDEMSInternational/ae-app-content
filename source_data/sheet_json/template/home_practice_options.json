@@ -1,0 +1,191 @@
+{
+  "flow_type": "template",
+  "flow_name": "home_practice_options",
+  "status": "released",
+  "rows": [
+    {
+      "name": "join",
+      "value": "_",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_id",
+      "value": "soil",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_concat",
+      "value": "topic.@local.topic_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_row",
+      "value": "@data.@local.topic_concat",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "home_practice_type",
+      "value": "ingredients",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "hp_concat",
+      "value": "home_practice.@local.home_practice_type",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "hp_row",
+      "value": "@data.@local.hp_concat",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "ids",
+      "value": "_id_list",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "hps_of_this_type_concat",
+      "value": "topic_row.@local.home_practice_type@local.ids",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "hps_of_this_type_array",
+      "value": "@local.@local.hps_of_this_type_concat",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "debug_1",
+      "value": "hps of this type array: @local.hps_of_this_type_array",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "hps_of_this_type_json",
+      "value": "@calc(@local.hps_of_this_type_array.reduce((acc, item) => ({ ...acc, [item]: { id: item } }), {}))",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "hps_of_this_type_json_string",
+      "value": "@calc(JSON.stringify(@local.hps_of_this_type_json))",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "debug_2",
+      "value": "hps of this type json: @local.hps_of_this_type_json_string",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "now",
+      "value": "@calc(timestamp())",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "click_history",
+      "value": "_click_history",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_items",
+      "name": "items_loop",
+      "value": "@local.hps_of_this_type_json",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "id",
+      "value": "id: @item.id",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "this_concat",
+      "value": "@local.home_practice_type.@item.id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "this_row",
+      "value": "@data.@local.this_concat",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "card_title",
+      "value": "@local.this_row.title",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "card_image",
+      "value": "@local.this_row.image_cover_asset",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "target_template",
+      "value": "article_@item.id",
+      "condition": "@local.home_practice_type == \"activities\"",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "target_template",
+      "value": "ingredients_@item.id",
+      "condition": "@local.home_practice_type == \"ingredients\"",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "click_history_field_name",
+      "value": "hp_@local.topic_id@local.join@local.home_practice_type@local.join@item.id@local.click_history",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "click_history_value",
+      "value": "@fields.@local.click_history_field_name ;  @local.now",
+      "condition": "!!(@fields.@local.click_history_field_name)",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "click_history_value",
+      "value": "@local.now",
+      "condition": "!(@fields.@local.click_history_field_name)",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_task_card",
+      "name": "card_@item.id",
+      "action_list": "click | set_field: @local.click_history_field_name: @local.click_history_value;\nclick | go_to: @local.target_template: dismiss_pop_up: true;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "title",
+      "name": "title",
+      "value": "@local.card_title",
+      "exclude_from_translation": true,
+      "style_list": "flex: 1"
+    },
+    {
+      "type": "image",
+      "name": "image",
+      "value": "@local.card_image",
+      "exclude_from_translation": true,
+      "style_list": "max-width: 100px"
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_task_card",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_items",
+      "exclude_from_translation": true
+    }
+  ]
+}

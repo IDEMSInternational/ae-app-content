@@ -1,0 +1,29 @@
+{
+  "flow_type": "generator",
+  "flow_name": "gen_hp_options_activities",
+  "status": "released",
+  "parameter_list": {
+    "input_data_list": "topic",
+    "output_flow_name": "hp_{@gen.id}_activities",
+    "output_flow_type": "template"
+  },
+  "rows": [
+    {
+      "type": "begin_template",
+      "name": "home_practice_options",
+      "value": "home_practice_options",
+      "parameter_list": "completed | emit: completed; \nuncompleted | emit: uncompleted"
+    },
+    {
+      "name": "topic_id",
+      "value": "@gen.id"
+    },
+    {
+      "name": "home_practice_type",
+      "value": "activities"
+    },
+    {
+      "type": "end_template"
+    }
+  ]
+}

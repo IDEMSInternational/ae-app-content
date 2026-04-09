@@ -55,6 +55,11 @@
       "flow_type": "template"
     },
     {
+      "flow_name": "topic_agroforestry_start_at_effects",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
       "flow_name": "topic_agroforestry_start_at_dynamics",
       "flow_subtype": "generated",
       "flow_type": "template"

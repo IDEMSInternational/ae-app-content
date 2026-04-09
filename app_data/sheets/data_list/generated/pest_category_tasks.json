@@ -32,13 +32,13 @@
     {
       "id": "how",
       "icon_asset": "images/icons/terms_conditions.svg",
-      "title": "Applying IPM in Pest Management/Control",
+      "title": "Using Integrated Pest Management (IPM) to Control Pests",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Applying IPM in Pest Management/Control"
+          "eng": "Using Integrated Pest Management (IPM) to Control Pests"
         }
       }
     }
