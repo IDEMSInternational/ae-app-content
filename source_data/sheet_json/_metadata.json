@@ -10,6 +10,24 @@
   },
   {
     "flow_type": "data_list",
+    "flow_name": "activities",
+    "_source": {
+      "name": "ae sheets",
+      "path": "data/practices.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1kW7SZtzVhcvQP6ygunzpbiQYDVt8tLR85Zemm99tA_o"
+    }
+  },
+  {
+    "flow_type": "data_list",
+    "flow_name": "activities_tags",
+    "_source": {
+      "name": "ae sheets",
+      "path": "data/practices.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1kW7SZtzVhcvQP6ygunzpbiQYDVt8tLR85Zemm99tA_o"
+    }
+  },
+  {
+    "flow_type": "data_list",
     "flow_name": "agroforestry_categories",
     "_source": {
       "name": "ae sheets",
@@ -46,6 +64,33 @@
   },
   {
     "flow_type": "data_list",
+    "flow_name": "home_practice",
+    "_source": {
+      "name": "ae sheets",
+      "path": "data/practices.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1kW7SZtzVhcvQP6ygunzpbiQYDVt8tLR85Zemm99tA_o"
+    }
+  },
+  {
+    "flow_type": "data_list",
+    "flow_name": "ingredients",
+    "_source": {
+      "name": "ae sheets",
+      "path": "data/practices.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1kW7SZtzVhcvQP6ygunzpbiQYDVt8tLR85Zemm99tA_o"
+    }
+  },
+  {
+    "flow_type": "data_list",
+    "flow_name": "ingredients_tags",
+    "_source": {
+      "name": "ae sheets",
+      "path": "data/practices.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1kW7SZtzVhcvQP6ygunzpbiQYDVt8tLR85Zemm99tA_o"
+    }
+  },
+  {
+    "flow_type": "data_list",
     "flow_subtype": "app_config_language_list",
     "flow_name": "language",
     "_source": {
@@ -62,6 +107,15 @@
       "name": "ae sheets",
       "path": "template/app_launch_templates.xlsx",
       "url": "https://docs.google.com/spreadsheets/d/1MK70lQxJOsRV3oOn5JQDi9TP-Enua_lXLR-xrCoLESc"
+    }
+  },
+  {
+    "flow_type": "data_list",
+    "flow_name": "library",
+    "_source": {
+      "name": "ae sheets",
+      "path": "template/AE Library.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1u5BIMzO_V99OX4Z0UDZZIZtY1j76KjWEf37GYAIYVq8"
     }
   },
   {
@@ -226,6 +280,42 @@
       "name": "ae sheets",
       "path": "template/topic_navigation.xlsx",
       "url": "https://docs.google.com/spreadsheets/d/16hjBUZTC8mRiR07TJtBYfkKlFUqVx-lfb2wM1li-KJQ"
+    }
+  },
+  {
+    "flow_type": "generator",
+    "flow_name": "gen_farm",
+    "_source": {
+      "name": "ae sheets",
+      "path": "template/farm_activities templates.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1BiVFhETFE6O40EPCP7SMjXbNecNTYXSQxZgXzkKHNeg"
+    }
+  },
+  {
+    "flow_type": "generator",
+    "flow_name": "gen_hp_options_activities",
+    "_source": {
+      "name": "ae sheets",
+      "path": "template/ae home_practice templates.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1FhCmNiFoqJhs7eO8U53Xg1-x097kvcxY2FjPH95tIvA"
+    }
+  },
+  {
+    "flow_type": "generator",
+    "flow_name": "gen_hp_options_ingredients",
+    "_source": {
+      "name": "ae sheets",
+      "path": "template/ae home_practice templates.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1FhCmNiFoqJhs7eO8U53Xg1-x097kvcxY2FjPH95tIvA"
+    }
+  },
+  {
+    "flow_type": "generator",
+    "flow_name": "gen_ingredients",
+    "_source": {
+      "name": "ae sheets",
+      "path": "template/ingredients templates.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1rw6TZvgv-Tw2HdC649VHsDabPfP9lkod_7DJmkaubDU"
     }
   },
   {
@@ -466,6 +556,60 @@
   },
   {
     "flow_type": "template",
+    "flow_name": "farm",
+    "_source": {
+      "name": "ae sheets",
+      "path": "template/farm_activities templates.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1BiVFhETFE6O40EPCP7SMjXbNecNTYXSQxZgXzkKHNeg"
+    }
+  },
+  {
+    "flow_type": "template",
+    "flow_name": "farm_activities",
+    "_source": {
+      "name": "ae sheets",
+      "path": "template/AE Library.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1u5BIMzO_V99OX4Z0UDZZIZtY1j76KjWEf37GYAIYVq8"
+    }
+  },
+  {
+    "flow_type": "template",
+    "flow_name": "farm_activity",
+    "_source": {
+      "name": "ae sheets",
+      "path": "template/farm_activities templates.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1BiVFhETFE6O40EPCP7SMjXbNecNTYXSQxZgXzkKHNeg"
+    }
+  },
+  {
+    "flow_type": "template",
+    "flow_name": "farm_card",
+    "_source": {
+      "name": "ae sheets",
+      "path": "template/farm_activities templates.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1BiVFhETFE6O40EPCP7SMjXbNecNTYXSQxZgXzkKHNeg"
+    }
+  },
+  {
+    "flow_type": "template",
+    "flow_name": "fav_farm_activities",
+    "_source": {
+      "name": "ae sheets",
+      "path": "template/AE Library.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1u5BIMzO_V99OX4Z0UDZZIZtY1j76KjWEf37GYAIYVq8"
+    }
+  },
+  {
+    "flow_type": "template",
+    "flow_name": "fav_ingredients_activities",
+    "_source": {
+      "name": "ae sheets",
+      "path": "template/AE Library.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1u5BIMzO_V99OX4Z0UDZZIZtY1j76KjWEf37GYAIYVq8"
+    }
+  },
+  {
+    "flow_type": "template",
     "flow_name": "feedback",
     "_source": {
       "name": "ae sheets",
@@ -493,11 +637,56 @@
   },
   {
     "flow_type": "template",
+    "flow_name": "home_practice_card",
+    "_source": {
+      "name": "ae sheets",
+      "path": "template/ae home_practice templates.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1FhCmNiFoqJhs7eO8U53Xg1-x097kvcxY2FjPH95tIvA"
+    }
+  },
+  {
+    "flow_type": "template",
+    "flow_name": "home_practice_options",
+    "_source": {
+      "name": "ae sheets",
+      "path": "template/ae home_practice templates.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1FhCmNiFoqJhs7eO8U53Xg1-x097kvcxY2FjPH95tIvA"
+    }
+  },
+  {
+    "flow_type": "template",
     "flow_name": "home_screen",
     "_source": {
       "name": "ae sheets",
       "path": "template/navigation_templates.xlsx",
       "url": "https://docs.google.com/spreadsheets/d/1N1PbL1YvhLQfeshNk-wsBNxsCiPuBOguGSH8JUTdbpw"
+    }
+  },
+  {
+    "flow_type": "template",
+    "flow_name": "ingredients_activities",
+    "_source": {
+      "name": "ae sheets",
+      "path": "template/AE Library.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1u5BIMzO_V99OX4Z0UDZZIZtY1j76KjWEf37GYAIYVq8"
+    }
+  },
+  {
+    "flow_type": "template",
+    "flow_name": "ingredients_activity",
+    "_source": {
+      "name": "ae sheets",
+      "path": "template/ingredients templates.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1rw6TZvgv-Tw2HdC649VHsDabPfP9lkod_7DJmkaubDU"
+    }
+  },
+  {
+    "flow_type": "template",
+    "flow_name": "library_temp",
+    "_source": {
+      "name": "ae sheets",
+      "path": "template/AE Library.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1u5BIMzO_V99OX4Z0UDZZIZtY1j76KjWEf37GYAIYVq8"
     }
   },
   {
@@ -516,6 +705,15 @@
       "name": "ae sheets",
       "path": "template/navigation_templates.xlsx",
       "url": "https://docs.google.com/spreadsheets/d/1N1PbL1YvhLQfeshNk-wsBNxsCiPuBOguGSH8JUTdbpw"
+    }
+  },
+  {
+    "flow_type": "template",
+    "flow_name": "overall_activities",
+    "_source": {
+      "name": "ae sheets",
+      "path": "template/AE Library.xlsx",
+      "url": "https://docs.google.com/spreadsheets/d/1u5BIMzO_V99OX4Z0UDZZIZtY1j76KjWEf37GYAIYVq8"
     }
   },
   {

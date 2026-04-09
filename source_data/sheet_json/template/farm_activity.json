@@ -1,0 +1,39 @@
+{
+  "flow_type": "template",
+  "flow_name": "farm_activity",
+  "status": "released",
+  "rows": [
+    {
+      "type": "begin_display_group",
+      "name": "heading"
+    },
+    {
+      "type": "title",
+      "name": "title",
+      "value": "@data.library.farm.title",
+      "parameter_list": "style: tiny;"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "begin_items",
+      "value": "@data.activities"
+    },
+    {
+      "type": "begin_template",
+      "name": "card_@item.id",
+      "value": "farm_card"
+    },
+    {
+      "name": "id",
+      "value": "@item.id"
+    },
+    {
+      "type": "end_template"
+    },
+    {
+      "type": "end_items"
+    }
+  ]
+}

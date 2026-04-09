@@ -1,0 +1,18 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "library",
+  "status": "released",
+  "data_list_name": "library",
+  "rows": [
+    {
+      "id": "farm",
+      "name::eng": "Farm Activities",
+      "image_asset": "images/icons/activities.png"
+    },
+    {
+      "id": "ingredients",
+      "name::eng": "Materials used",
+      "image_asset": "images/icons/materials.png"
+    }
+  ]
+}

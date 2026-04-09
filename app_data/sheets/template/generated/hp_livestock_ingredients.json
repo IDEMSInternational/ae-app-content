@@ -1,0 +1,37 @@
+{
+  "flow_name": "hp_livestock_ingredients",
+  "flow_subtype": "generated",
+  "flow_type": "template",
+  "rows": [
+    {
+      "type": "template",
+      "name": "home_practice_options",
+      "value": "home_practice_options",
+      "parameter_list": {
+        "completed | emit": "completed",
+        "uncompleted | emit": "uncompleted"
+      },
+      "rows": [
+        {
+          "name": "topic_id",
+          "value": "livestock",
+          "_translations": {
+            "value": {}
+          },
+          "type": "set_variable",
+          "_nested_name": "home_practice_options.topic_id"
+        },
+        {
+          "name": "home_practice_type",
+          "value": "ingredients",
+          "_translations": {
+            "value": {}
+          },
+          "type": "set_variable",
+          "_nested_name": "home_practice_options.home_practice_type"
+        }
+      ],
+      "_nested_name": "home_practice_options"
+    }
+  ]
+}

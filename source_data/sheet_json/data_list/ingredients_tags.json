@@ -1,0 +1,22 @@
+{
+  "flow_type": "data_list",
+  "data_list_name": "ingredients_tags",
+  "flow_name": "ingredients_tags",
+  "status": "released",
+  "rows": [
+    {
+      "id": "bokashi",
+      "name": "bokashi",
+      "title::eng": "Bokashi",
+      "text::eng": "Ingedients in Bokashi",
+      "description::eng": "Ingedients used to make Bokashi"
+    },
+    {
+      "id": "garden",
+      "name": "garden",
+      "title::eng": "Garden Compost",
+      "text::eng": "Ingedients in Garden Compost",
+      "description::eng": "Ingedients used to make Garden Compost"
+    }
+  ]
+}

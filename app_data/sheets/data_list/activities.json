@@ -1,0 +1,116 @@
+{
+  "flow_type": "data_list",
+  "data_list_name": "activities",
+  "flow_name": "activities",
+  "status": "released",
+  "rows": [
+    {
+      "id": "bokashi",
+      "image_cover_asset": "images/topic/soil_images/bokashi.png",
+      "tag_list": [
+        "bokashi"
+      ],
+      "image_asset": "images/topic/soil_images/bokshi_steps.png",
+      "title": "Bokashi",
+      "_translations": {
+        "title": {},
+        "transcript": {},
+        "text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Bokashi"
+        },
+        "transcript": {
+          "eng": "Steps:\n1. Dissolve molasses and yeast in water, \n2. Start with the large quantity ingredients e g, Manure 1 wb, top soil 1 wb, dry material 1 wb. \n3.After that apply the moderate needed materials, biochar 9 or 12 spades , bran 9 or 12 spades.\n4. Add a handful of ash. \n5. After laying down each material, sprinkle the mixture of molasses and yeast. \n6. Start the next layer using the same procedure. The pile will have three layers. \n7. After finishing all the materials, mix all the materials for uniformity and check the moisture content. \n\n*Turn it twice in a day for the first three days to regulate the temperature. From the 4th day turn it ones daily for the next 11 days. It will be ready after 14 days.*\n\n**Result:**\nAfter a few days, your Bokashi is ready. Apply it to your farm to make the soil fertile, hold water better, and help crops grow strong and healthy."
+        },
+        "text": {
+          "eng": "Steps:\n1. Dissolve molasses and yeast in water, \n2. Start with the large quantity ingredients e g, Manure 1 wb, top soil 1 wb, dry material 1 wb. \n3. After that apply the moderate needed materials, biochar 9 or 12 spades , bran 9 or 12 spades.\n4. Add a handful of ash. \n5. After laying down each material, sprinkle the mixture of molasses and yeast. \n6. Start the next layer using the same procedure. The pile will have three layers. \n7. After finishing all the materials, mix all the materials for uniformity and check the moisture content. \n\n*Turn it twice in a day for the first three days to regulate the temperature. From the 4th day turn it ones daily for the next 11 days. It will be ready after 14 days.*\n\n**Result:**\nAfter a few days, your Bokashi is ready. Apply it to your farm to make the soil fertile, hold water better, and help crops grow strong and healthy."
+        }
+      },
+      "transcript": "Steps:\n1. Dissolve molasses and yeast in water, \n2. Start with the large quantity ingredients e g, Manure 1 wb, top soil 1 wb, dry material 1 wb. \n3.After that apply the moderate needed materials, biochar 9 or 12 spades , bran 9 or 12 spades.\n4. Add a handful of ash. \n5. After laying down each material, sprinkle the mixture of molasses and yeast. \n6. Start the next layer using the same procedure. The pile will have three layers. \n7. After finishing all the materials, mix all the materials for uniformity and check the moisture content. \n\n*Turn it twice in a day for the first three days to regulate the temperature. From the 4th day turn it ones daily for the next 11 days. It will be ready after 14 days.*\n\n**Result:**\nAfter a few days, your Bokashi is ready. Apply it to your farm to make the soil fertile, hold water better, and help crops grow strong and healthy.",
+      "text": "Steps:\n1. Dissolve molasses and yeast in water, \n2. Start with the large quantity ingredients e g, Manure 1 wb, top soil 1 wb, dry material 1 wb. \n3. After that apply the moderate needed materials, biochar 9 or 12 spades , bran 9 or 12 spades.\n4. Add a handful of ash. \n5. After laying down each material, sprinkle the mixture of molasses and yeast. \n6. Start the next layer using the same procedure. The pile will have three layers. \n7. After finishing all the materials, mix all the materials for uniformity and check the moisture content. \n\n*Turn it twice in a day for the first three days to regulate the temperature. From the 4th day turn it ones daily for the next 11 days. It will be ready after 14 days.*\n\n**Result:**\nAfter a few days, your Bokashi is ready. Apply it to your farm to make the soil fertile, hold water better, and help crops grow strong and healthy."
+    },
+    {
+      "id": "garden_compost",
+      "image_cover_asset": "images/topic/soil_images/garden_compost.png",
+      "tag_list": [
+        "garden_compost"
+      ],
+      "image_asset": "images/topic/soil_images/gardencompost_steps.png",
+      "title": "Garden Compost",
+      "_translations": {
+        "title": {},
+        "transcript": {},
+        "text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Garden Compost"
+        },
+        "transcript": {
+          "eng": "Start by layering dry materials, green materials, kitchen waste, and a bit of topsoil, then add water to keep the pile damp, turn it with a thermal stick to aerate it, and let it decompose until the compost is ready to use."
+        },
+        "text": {
+          "eng": "Start by layering dry materials, green materials, kitchen waste, and a bit of topsoil, then add water to keep the pile damp, turn it with a thermal stick to aerate it, and let it decompose until the compost is ready to use."
+        }
+      },
+      "transcript": "Start by layering dry materials, green materials, kitchen waste, and a bit of topsoil, then add water to keep the pile damp, turn it with a thermal stick to aerate it, and let it decompose until the compost is ready to use.",
+      "text": "Start by layering dry materials, green materials, kitchen waste, and a bit of topsoil, then add water to keep the pile damp, turn it with a thermal stick to aerate it, and let it decompose until the compost is ready to use."
+    },
+    {
+      "id": "boma_compost",
+      "image_cover_asset": "images/topic/soil_images/boma_compost.png",
+      "tag_list": [
+        "boma_compost"
+      ],
+      "image_asset": "images/topic/soil_images/boma_steps.png",
+      "title": "Boma Compost",
+      "_translations": {
+        "title": {},
+        "text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Boma Compost"
+        },
+        "text": {
+          "eng": "1.Lay farm residues (like crop waste) in a livestock shed so they absorb animal urine.\n2. Leave the materials for some time so they mix well with the urine.\n3. Collect the decomposed mixture (boma compost).\n4. Apply the compost to your farm."
+        }
+      },
+      "text": "1.Lay farm residues (like crop waste) in a livestock shed so they absorb animal urine.\n2. Leave the materials for some time so they mix well with the urine.\n3. Collect the decomposed mixture (boma compost).\n4. Apply the compost to your farm."
+    },
+    {
+      "id": "green_manure",
+      "image_cover_asset": "images/topic/soil_images/green_manure.png",
+      "tag_list": [
+        "green_manure"
+      ],
+      "image_asset": "images/topic/soil_images/green_manure_steps.png",
+      "title": "Green Manure",
+      "_translations": {
+        "title": {},
+        "transcript": {},
+        "text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Green Manure"
+        },
+        "transcript": {
+          "eng": "Plant leguminous crops such as beans, soya, or lablab, allowing them to grow until about 50% of flowering, then cutting them down before planting your main crop."
+        },
+        "text": {
+          "eng": "1. Plant leguminous crops (such as beans, soya, or lablab).\n2. Allow the crops to grow until about halfway to flowering (around 50%).\n3. Cut down the leguminous plants before they fully mature.\n4. Leave or mix the cut plants into the soil.\n5. Plant your main crop (e.g., maize) in the enriched soil."
+        }
+      },
+      "transcript": "Plant leguminous crops such as beans, soya, or lablab, allowing them to grow until about 50% of flowering, then cutting them down before planting your main crop.",
+      "text": "1. Plant leguminous crops (such as beans, soya, or lablab).\n2. Allow the crops to grow until about halfway to flowering (around 50%).\n3. Cut down the leguminous plants before they fully mature.\n4. Leave or mix the cut plants into the soil.\n5. Plant your main crop (e.g., maize) in the enriched soil."
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "data/practices.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1kW7SZtzVhcvQP6ygunzpbiQYDVt8tLR85Zemm99tA_o"
+  }
+}

@@ -8,46 +8,68 @@
       "id": "about_1",
       "category_id": "about",
       "module_id": "agroforestry",
-      "title::eng": "Agroforestry",
-      "text_1::eng": "Agroforestry is the practice of growing trees and shrubs alongside crops or livestock on the same piece of land. This system improves soil health and provides extra income from fruit, timber, and animal fodder."
+      "title::eng": "Climate Change Adaptation",
+      "text_1::eng": "This is the process of adjusting farming methods to reduce the risks caused by shifting weather patterns. "
     },
     {
       "id": "about_2",
       "category_id": "about",
       "module_id": "agroforestry",
-      "title::eng": "Climate Change Adaptation",
-      "text_1::eng": "Climate change Adaptation is the process of adjusting farming methods to reduce the risks caused by shifting weather patterns. This helps farmers maintain steady food production despite extreme heat, floods, or unpredictable rain."
+      "title::eng": "Agroforestry",
+      "text_1::eng": "Agroforestry is growing trees alongside crops or livestock. ",
+      "text_2::eng": "It boosts your farm’s health and income from fruit and animal fodder."
     },
     {
-      "id": "about_3",
-      "category_id": "about",
-      "module_id": "agroforestry",
-      "title::eng": "Effects of Climate Change on farming",
-      "section_1_title::eng": "Changes in climate",
-      "section_1_text::eng": " * Strong dry winds \n * Prolonged droughts \n * Acid rains \n * Sometimes there is excess rain in a short period, and other times, long rainy seasons \n( causing floods \n * high humidity \n * Increases in strange weeds (invasive species) \n * Increase in sunlight intensity and temperature ",
-      "section_2_title::eng": "Impacts on farming",
-      "section_2_text::eng": " * Shifts in planting/growing seasons \n * Food insecurity, hunger, and malnutrition \n * An increase in the cost of production causes farmers to experience losses \n * Low water levels during dry/drought seasons \n * Flooding causes siltation in dams and lowers water levels \n * Loss of livestock during droughts \n * Widespread diseases that come during drought  and others during rainy seasons \n * Soil erosion  \n * Loss  and extinction of some plant species \n * Displacement of people \n * Low production rates/yields ",
-      "section_3_title::eng": "Farmers’ Copping Strategies",
-      "section_3_text::eng": " * During the rainy season, we build dykes and gabions to control soil erosion \n * Planting trees to attract rain \n * Making terraces\n * Changing crops that we grow to more resistant varieties, so they can grow even \nwhen it is dry \n * Introducing small-scale irrigation \n * Introducing new methods of farming, like zaipits and mulching \n * Enacting laws against environmental degradation. \n * Planting cover crops \n * Water conservation \n * Preserving food"
-    },
-    {
-      "id": "dynamics",
+      "id": "dynamics_1",
       "category_id": "dynamics",
       "module_id": "agroforestry",
       "title::eng": "Global Warming",
-      "text_1::eng": " Also known as the greenhouse effect refers to the gradual increase in the Earth's average surface temperature due to the accumulation of greenhouse gases in the atmosphere.",
-      "text_2::eng": "These gases trap heat that would normally escape into space, causing the Earth's temperature to rise over time.",
-      "section_1_title::eng": "Understanding how excess carbon contributes to global warming.",
-      "section_1_text::eng": "Unlike other greenhouse gases, CO2 is able to trap the infrared/red light that would otherwise be lost into space.<br>\n\nWhen sunlight reaches the Earth, it causes warming of the Earth’s surface, which emits heat in the form of infrared radiation.<br> \n\nCO2 traps this infrared radiation, which hinders it from escaping back into space. The trapped energy causes vibration of CO2 molecules, which re-emits the trapped heat in all directions.<br>\n \nThis causes an increase in the temperatures of the earth’s surface and the atmosphere, the global warming effect.\n",
+      "text_1::eng": "Global warming is the slow rise in the earth’s temperature caused by a build-up of greenhouse gases in the air.",
+      "section_1_title::eng": "How Carbon Dioxide causes warming:",
+      "section_1_text::eng": " * Sunlight heats the Earth.\n * Carbon IV oxide(CO2) keeps some of this heat from going back to space.\n * More CO2 means more heat and a warmer Earth.",
       "section_2_title::eng": "Causes of Increased CO₂ in the Atmosphere",
-      "section_2_text::eng": "The increasing levels of CO2 in the atmosphere can be attributed to human activities like:\n * Deforestation\n * Burning fossil carbon (fossil fuel) for energy.",
-      "section_3_title::eng": "Effects of Global Warming",
-      "section_3_text::eng": " * Excess of CO2 results in more heat being trapped, and in turn raises the Earth’s average temperature, and subsequently enhances the greenhouse effect.",
-      "section_3_button_text::eng": "The resultant repercussions",
-      "section_3_extra_text::eng": " * Melting glaciers and ice caps\n * Extreme weather events/patterns\n * Altered precipitation patterns\n * Rising sea levels, among others.",
-      "section_4_title::eng": "Solutions to Reduce Climate Change",
-      "section_4_text::eng": " * To reduce the devastating impacts of climate change, we have to stop reactivating fossil \ncarbon and find eco-friendly alternatives to provide energy, renewable/green energy \nsources like using solar energy, energy-saving Jikos, and biogas, among others. \n * These should be combined with other sustainable agricultural practices, such as planting more \ntrees, planned grazing, and adding compost manure to enhance soil health. ",
-      "section_4_extra_text::eng": " * All these and other initiatives could, in the long run, help achieve carbon balance, where the amount of carbon emissions released does not exceed nature's capacity to clean them."
+      "section_2_text::eng": " * Cutting trees.\n * Burning coal, oil, and gas for energy."
+    },
+    {
+      "id": "dynamics_2",
+      "category_id": "dynamics",
+      "module_id": "agroforestry",
+      "section_1_title::eng": "Effects of Global Warming",
+      "section_1_text::eng": " * More heat trapped in the air.\n * Earth’s temperature rises.\n * Leads to melting ice, extreme weather, and higher sea levels.",
+      "section_2_title::eng": "Solutions to Reduce Climate Change",
+      "section_2_text::eng": " * Use less fossil fuel; use solar, wind, and energy‑saving stoves.\n * Plant more trees and protect forests.\n * Use good farming practices like planned grazing and adding compost."
+    },
+    {
+      "id": "dynamics_3",
+      "category_id": "dynamics",
+      "module_id": "agroforestry",
+      "title::eng": "Causes:",
+      "section_1_image_asset": "images/topic/climate_change_images/industrial_processes.png",
+      "section_1_title::eng": "Industrial Processes",
+      "section_1_text::eng": "Industrial activities like manufacturing and mining release greenhouse gases by burning fossil fuels and through chemical reactions. These emissions increase atmospheric concentrations of gases like CO2​ and methane, directly driving the rise in global temperatures.",
+      "section_2_title::eng": "Solutions to Reduce Climate Change",
+      "section_2_text::eng": " * Use less fossil fuel; use solar, wind, and energy‑saving stoves.\n * Plant more trees and protect forests.\n * Use good farming practices like planned grazing and adding compost."
+    },
+    {
+      "id": "effect_1",
+      "category_id": "effects",
+      "module_id": "agroforestry",
+      "section_1_title::eng": "The Climatic Changes;",
+      "section_1_text::eng": " * Strong dry winds \n * Prolonged droughts \n * Acid rains \n * Excess rain in a short period, and other times, long rainy seasons (causing floods)\n * High humidity \n * Increases in strange weeds (invasive species) \n * Increase in sunlight intensity and temperature "
+    },
+    {
+      "id": "effect_2",
+      "category_id": "effects",
+      "module_id": "agroforestry",
+      "section_1_title::eng": "Impacts on farming;",
+      "section_1_text::eng": " * Changing planting seasons\n * Hunger and poor nutrition\n * Higher farming costs and losses\n * Low water levels in dry seasons\n * Floods filling dams with soil\n * Animals dying in drought\n * More crop and animal diseases\n * Soil being washed away\n * Some plants disappearing\n * Farmers forced to move\n * Low harvests"
+    },
+    {
+      "id": "effect_3",
+      "category_id": "effects",
+      "module_id": "agroforestry",
+      "section_1_title::eng": "Mitigation Strategies",
+      "section_1_text::eng": " * Build dykes and gabions\n * Plant trees\n * Make terraces\n * Grow drought-resistant crops\n * Use small-scale irrigation\n * Use <b>zai pits</b> and mulching\n * Protect the environment\n * Plant cover crops\n * Save water\n * Preserve food"
     },
     {
       "id": "how_1",
@@ -56,40 +78,64 @@
       "title::eng": "Minimizing water evaporation",
       "text_1::eng": "Farmers can reduce the amount of soil moisture that is lost through evaporation by:",
       "section_1_title::eng": "Introducing shade:",
-      "section_1_text::eng": " * Trees (Agroforestry) and shade nets reduce heat stress for the crop.\nDirect sunlight raises soil temperature and causes soils to dry faster, thus resulting in\nhigher evaporation rates.\n * Agroforestry helps farmers adapt to climate change by diversifying crops and\nintegrating trees into farmlands, which increases resilience to extreme weather and\nimproves soil health.\n * Shading reduces heat stress for crops growing in shade nets, underneath the trees,\nproviding a microclimate and enabling their survival. Trees also provide good\nwindbreaks, protecting the soil from the agents of soil erosion.",
-      "section_2_title::eng": "Soil covering(mulching):",
-      "section_2_text::eng": " * This could be achieved by either dry or live mulching. Dry mulching not only helps prevent moisture evaporation but also offers other benefits, such as controlling soil erosion (minimizing the impacts of raindrops) and enhancing soil fertility as the mulch adds organic matter to the soil upon decomposition. \n * In addition, they make conditions in the soil favourable for macrofauna to thrive. Similarly, live mulches help reduce evaporation by using closer spacing when planting drought-tolerant crops like lablab, so that it establishes and covers the ground faster before the dry season sets in."
+      "section_1_text::eng": "Planting trees or using shade nets keeps crops and soil cooler and moist, reduces water loss, protects plants from strong wind and weather, and improves soil while allowing other crops to grow.",
+      "section_2_title::eng": "Soil cover(mulching):",
+      "section_2_text::eng": "Mulching uses dry or live cover to reduce water loss, protect soil, improve fertility, and support soil organisms."
     },
     {
       "id": "how_2",
       "category_id": "how",
       "module_id": "agroforestry",
       "title::eng": "Embracing Agrobiodiversity",
-      "text_1::eng": "Planting diverse crops and keeping diverse types of livestock: It ensures that farmers produce food multiple times throughout the season rather than just a single harvest at the end of the season. Since multiple varieties have different maturity periods, there is a reduced risk of total crop failure in the event of an in-season drought during critical points in the crop growth cycle when yield is being determined.",
-      "section_1_title::eng": "Diverse fodder crop management",
-      "section_1_text::eng": "It enhances the resilience of livestock systems by ensuring a consistent supply of nutritious feed, improving animal health, and increasingp farm productivity. This approach also offers other mitigation benefits, like carbon sequestration in soils. Strategies include planting a variety of forage crops like\ndrought-tolerant grasses and protein-rich legumes, integrating fodder trees through agroforestry, and conserving fodder for the off-seasons",
-      "section_2_title::eng": "Preserving/Stockpilling food",
-      "section_2_text::eng": "Involves processing foods during periods of abundance/when there is plenty of rainfall and high biomass production, to be used during periods of scarcity. We should preserve;\n * Food for people- solar drying and preservation of vegetables and fruits\n * Feeds for livestock- Fermented feeds, hay, and silage making",
-      "section_3_title::eng": "Harvesting Rain Water",
-      "section_3_text::eng": "Farmers can harvest rainwater and run-off during rainy seasons and store it to be used for irrigation during dry periods/drought. Water tanks and Water pans are used to harvest and store water that is useful in irrigation during the dry season.",
-      "section_4_title::eng": "Microcatchments: Zai Pits and sunken beds",
-      "section_4_text::eng": " * <b>Zai pits</b> are small, individual basins that capture rainfall, concentrating moisture and soil fertility in the crop root zone. Mixed with manure or compost, the pits improve soil structure and water retention.\n * <b>Sunken beds</b> create a depression in the ground that captures and retains rainwater and surface runoff, directing it toward plant roots and reducing evaporation. Sunken design helps reduce water loss, protect seedlings from wind, and maintain cooler, more humid soil conditions.",
-      "section_5_title::eng": "Drought-tolerant/resilient crops",
-      "section_5_text::eng": "These are crops that can withstand drought conditions/ plant varieties that can survive and produce yields under low-water conditions, making them more resilient to drought and climate change. Examples include sorghum, millet, pigeon peas, lablab, and cowpea."
+      "text_1::eng": "Diversifying crops and livestock ensures multiple harvests throughout the season and protects your food supply if drought causes one crop to fail.",
+      "section_1_title::eng": "Diverse fodder management",
+      "section_1_text::eng": " * Cultivating diverse, drought-tolerant fodder crops ensures year-round animal health and productivity while improving soil carbon storage.",
+      "section_1_button_text::eng": "Examples:",
+      "section_1_extra_text::eng": " * Drought-tolerant grasses (e.g., Napier or Rhodes)\n * Legumes (e.g., Alfalfa or Cowpeas)\n * Fodder trees (e.g., Calliandra or Sesbania)\n * Stored silage/hay "
     },
     {
       "id": "how_3",
       "category_id": "how",
       "module_id": "agroforestry",
-      "title::eng": "Excess Water",
-      "section_1_title::eng": "Raised Beds Farming",
-      "section_1_text::eng": "Raised beds improve soil health and drainage, which helps with both waterlogged and drought-prone conditions. They allow for faster soil warming in the spring, extending the growing season, and enable farmers to control soil quality, leading to more sustainable and productive agriculture in a changing climate.",
+      "section_1_title::eng": "Preserving/Stockpilling food",
+      "section_1_text::eng": " * Process and store extra food when harvests are good or rains are plenty.\n * For people: use solar drying to preserve vegetables and fruits.\n * For livestock: make fermented feeds, hay, and silage for use in dry times."
+    },
+    {
+      "id": "how_4",
+      "category_id": "how",
+      "module_id": "agroforestry",
+      "section_1_title::eng": "Planting drought-tolerant crops",
+      "section_1_text::eng": " * These are crops that can grow and give yields with little water.\n * They survive better in dry conditions and changing climate.\n",
+      "section_1_button_text::eng": " Examples:",
+      "section_1_extra_text::eng": " * Sorghum\n * Millet\n * Pigeon peas\n * Lablab\n * Cowpea"
+    },
+    {
+      "id": "how_5",
+      "category_id": "how",
+      "module_id": "agroforestry",
+      "title::eng": "Managing excess water",
+      "section_1_title::eng": "Practicing Raised Beds Farming",
+      "section_1_text::eng": " * Raised beds lift the soil above ground level, so excess water drains away and roots do not rot.\n * The soil also warms up faster and keeps moisture better, helping crops in both wet and dry seasons.",
       "section_2_title::eng": "Contour Farming",
-      "section_2_text::eng": "By reducing erosion, contours prevent the loss of fertile topsoil, enhancing agricultural resilience and maintaining crop yields in the face of variable weather patterns.",
-      "section_3_title::eng": "Growing flood-tolerant crops",
-      "section_3_text::eng": " * Flood-tolerant crops help in maintaining agricultural productivity and food security in areas prone to increased flooding and waterlogging.\n * Examples include rice, arrowroots, and bananas, etc. By developing and planting crop varieties that can withstand these extreme weather conditions, farmers and communities can build resilience to the impacts of a changing climate.",
-      "section_4_title::eng": "Constructing Drainage Channels",
-      "section_4_text::eng": "Drainage Channels help manage excess water from increased rainfall and flooding, a direct consequence of climate change, by improving water table management and reducing runoff. In those drainage channels, water-tolerant crops like bananas and arrowroots could be planted."
+      "section_2_text::eng": " * Plant crops along the slope lines (not straight up and down).\n * This slows water flow, stops soil erosion, and saves fertile topsoil.\n * Keeps good yields even when weather changes a lot."
+    },
+    {
+      "id": "how_6",
+      "category_id": "how",
+      "module_id": "agroforestry",
+      "section_1_title::eng": "Growing flood-tolerant crops",
+      "section_1_text::eng": " * These crops grow well in waterlogged or flooded areas.\n * They keep food production going when rains are too much.\n * <b>Examples:</b> rice, arrowroots, and bananas.",
+      "section_2_title::eng": "Constructing Drainage Channels",
+      "section_2_text::eng": " * Dig channels to remove extra water from heavy rains and floods.\n * This lowers the water table and reduces runoff on the farm.\n * Plant water-tolerant crops like bananas and arrowroots along the channels."
+    },
+    {
+      "id": "how_7",
+      "category_id": "how",
+      "module_id": "agroforestry",
+      "section_1_title::eng": "Microcatchments: Zai Pits and sunken beds",
+      "section_1_text::eng": " * <b>Zai pits:</b> small holes that hold rainwater and manure around the roots, keeping soil moist and fertile.\n * <b>Sunken beds:</b> low beds that collect run‑off, reduce evaporation, and protect young plants from wind and heat.\n",
+      "section_2_title::eng": "Harvesting Rain Water",
+      "section_2_text::eng": " * Collect rainwater and run‑off during the rainy season and store it.\n* Use water tanks or water pans to keep this water for irrigation in dry periods."
     }
   ]
 }

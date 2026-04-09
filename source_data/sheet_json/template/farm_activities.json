@@ -1,0 +1,46 @@
+{
+  "flow_type": "template",
+  "flow_name": "farm_activities",
+  "status": "released",
+  "rows": [
+    {
+      "type": "begin_template",
+      "name": "overall_activities",
+      "value": "overall_activities",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "fav_page",
+      "value": "fav_farm_activities",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "activity",
+      "value": "Farm Activities"
+    },
+    {
+      "name": "tags",
+      "value": "activities_tags",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "data_list",
+      "value": "activities",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "data_list_in_loop",
+      "value": "activities",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "go_to_template_prefix",
+      "value": "article_",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    }
+  ]
+}

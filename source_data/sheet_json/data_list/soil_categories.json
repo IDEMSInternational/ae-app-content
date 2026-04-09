@@ -5,13 +5,18 @@
   "status": "released",
   "rows": [
     {
+      "id": "nutrient_depletion",
+      "title::eng": "Causes of nutrient depletion in soil & solutions",
+      "icon_asset": "images/icons/terms_conditions.svg"
+    },
+    {
       "id": "dynamics",
-      "title::eng": "Understanding Soil Fertility Dynamics ",
+      "title::eng": "Improving soil fertility",
       "icon_asset": "images/icons/settings.svg"
     },
     {
       "id": "how",
-      "title::eng": "Enhancing fertility through Organic Manures ",
+      "title::eng": "Organic Manure",
       "icon_asset": "images/icons/terms_conditions.svg"
     }
   ]

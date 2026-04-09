@@ -1,0 +1,45 @@
+{
+  "flow_type": "template",
+  "flow_name": "ingredients_activities",
+  "status": "released",
+  "rows": [
+    {
+      "type": "begin_template",
+      "name": "overall_activities",
+      "value": "overall_activities",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "fav_page",
+      "value": "fav_ingredients_activities"
+    },
+    {
+      "name": "activity",
+      "value": "Ingredients"
+    },
+    {
+      "name": "tags",
+      "value": "ingredients_tags",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "data_list",
+      "value": "ingredients",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "data_list_in_loop",
+      "value": "ingredients",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "go_to_template_prefix",
+      "value": "ingredients_",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    }
+  ]
+}

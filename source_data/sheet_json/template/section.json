@@ -211,17 +211,17 @@
       "exclude_from_translation": true
     },
     {
-      "type": "text",
-      "name": "section_text",
-      "value": "@local.section_text",
-      "exclude_from_translation": true
-    },
-    {
       "type": "image",
       "name": "image_asset",
       "value": "@local.section_image_asset",
       "condition": "!!(@local.section_image_asset)",
       "parameter_list": "style: rounded_corners;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "section_text",
+      "value": "@local.section_text",
       "exclude_from_translation": true
     },
     {

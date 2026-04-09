@@ -63,12 +63,32 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "sub_agroforestry_about_3",
+      "flow_name": "sub_agroforestry_dynamics_1",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "sub_agroforestry_dynamics",
+      "flow_name": "sub_agroforestry_dynamics_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_agroforestry_dynamics_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_agroforestry_effect_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_agroforestry_effect_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_agroforestry_effect_3",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -84,6 +104,26 @@
     },
     {
       "flow_name": "sub_agroforestry_how_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_agroforestry_how_4",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_agroforestry_how_5",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_agroforestry_how_6",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_agroforestry_how_7",
       "flow_subtype": "generated",
       "flow_type": "template"
     }
