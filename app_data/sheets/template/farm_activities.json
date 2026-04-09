@@ -1,0 +1,80 @@
+{
+  "flow_type": "template",
+  "flow_name": "farm_activities",
+  "status": "released",
+  "rows": [
+    {
+      "type": "template",
+      "name": "overall_activities",
+      "value": "overall_activities",
+      "exclude_from_translation": true,
+      "rows": [
+        {
+          "name": "fav_page",
+          "value": "fav_farm_activities",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "overall_activities.fav_page"
+        },
+        {
+          "name": "activity",
+          "value": "Farm Activities",
+          "_translations": {
+            "value": {}
+          },
+          "type": "set_variable",
+          "_nested_name": "overall_activities.activity"
+        },
+        {
+          "name": "tags",
+          "value": "activities_tags",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "overall_activities.tags"
+        },
+        {
+          "name": "data_list",
+          "value": "activities",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "overall_activities.data_list"
+        },
+        {
+          "name": "data_list_in_loop",
+          "value": "activities",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "overall_activities.data_list_in_loop"
+        },
+        {
+          "name": "go_to_template_prefix",
+          "value": "article_",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "overall_activities.go_to_template_prefix"
+        }
+      ],
+      "_nested_name": "overall_activities"
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "template/AE Library.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1u5BIMzO_V99OX4Z0UDZZIZtY1j76KjWEf37GYAIYVq8"
+  }
+}

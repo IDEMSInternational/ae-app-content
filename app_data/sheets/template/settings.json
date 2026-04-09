@@ -246,6 +246,7 @@
               }
             }
           ],
+          "condition": false,
           "exclude_from_translation": true,
           "_nested_name": "dg_account.button_user_id",
           "_dynamicFields": {

@@ -1,0 +1,120 @@
+{
+  "flow_type": "data_list",
+  "data_list_name": "ingredients",
+  "flow_name": "ingredients",
+  "status": "released",
+  "rows": [
+    {
+      "id": "bokashi_ing",
+      "number": 1,
+      "image_cover_asset": "images/topic/soil_images/bokashi.png",
+      "image_asset": "images/topic/soil_images/bokashi_ing.png",
+      "step_1_image_asset": "images/topic/soil_images/topsoil_manure_dry.png",
+      "step_2_image_asset": "images/topic/soil_images/bran_biochar.png",
+      "step_3_image_asset": "images/topic/soil_images/yeast_molases.png",
+      "step_4_image_asset": "images/topic/soil_images/ash_water.png",
+      "tag_list": [
+        "bokashi"
+      ],
+      "favourite_field": "ltp_activity_bokashi_ing_favourite",
+      "title": "Bokashi Ingredients",
+      "_translations": {
+        "title": {},
+        "intro_text": {},
+        "step_1_text": {},
+        "step_2_text": {},
+        "step_3_text": {},
+        "step_4_text": {},
+        "step_5_text": {},
+        "tips_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Bokashi Ingredients"
+        },
+        "intro_text": {
+          "eng": "Remember to turn **Bokashi** twice in a day for the first three days to regulate the temperature. From the 4th day turn it ones daily for the next 11 days. It will be ready after 14 days."
+        },
+        "step_1_text": {
+          "eng": "* 3 wheelbarrows of Topsoil \n * 3 wheelbarrows of Dry materials \n * 3 wheelbarrows of Manure"
+        },
+        "step_2_text": {
+          "eng": "* 9 -12 spades of Bran / rotten maize flour \n * 9–12 spades of Biochar"
+        },
+        "step_3_text": {
+          "eng": "* 150g of Yeast / sourdough starter(maize flour socked in water ratio 1:1) \n * 2 litres of Molasses / overripe fruits most likely banana because you can mash them"
+        },
+        "step_4_text": {
+          "eng": "* A handfull of Ash/ Rock dust/ phosphite\n * Enough Water"
+        },
+        "step_5_text": {
+          "eng": ""
+        },
+        "tips_text": {
+          "eng": "* **Topsoil:** Introduces beneficial microorganisms that kickstart decomposition.\n * **Dry materials:** Provide carbon and improve aeration for microbial activity.\n * **Manure:** Supplies nitrogen to support rapid microbial growth.\n * **Bran / rotten maize flour:** Acts as food to multiply beneficial microorganisms.\n * **Biochar:** Enhances water retention and improves soil structure.\n * **Yeast / sourdough starter:** Serves as a catalyst to accelerate fermentation.\n * **Water:** Maintains moisture needed for active microbial processes.\n * **Molasses / overripe fruits / coffee water:** Provide quick energy to boost microbial activity.\n * **Rock dust / ash / phosphite:** Add essential minerals like potassium and silicon to enrich the soil."
+        }
+      },
+      "intro_text": "Remember to turn **Bokashi** twice in a day for the first three days to regulate the temperature. From the 4th day turn it ones daily for the next 11 days. It will be ready after 14 days.",
+      "step_1_text": "* 3 wheelbarrows of Topsoil \n * 3 wheelbarrows of Dry materials \n * 3 wheelbarrows of Manure",
+      "step_2_text": "* 9 -12 spades of Bran / rotten maize flour \n * 9–12 spades of Biochar",
+      "step_3_text": "* 150g of Yeast / sourdough starter(maize flour socked in water ratio 1:1) \n * 2 litres of Molasses / overripe fruits most likely banana because you can mash them",
+      "step_4_text": "* A handfull of Ash/ Rock dust/ phosphite\n * Enough Water",
+      "step_5_text": "",
+      "tips_text": "* **Topsoil:** Introduces beneficial microorganisms that kickstart decomposition.\n * **Dry materials:** Provide carbon and improve aeration for microbial activity.\n * **Manure:** Supplies nitrogen to support rapid microbial growth.\n * **Bran / rotten maize flour:** Acts as food to multiply beneficial microorganisms.\n * **Biochar:** Enhances water retention and improves soil structure.\n * **Yeast / sourdough starter:** Serves as a catalyst to accelerate fermentation.\n * **Water:** Maintains moisture needed for active microbial processes.\n * **Molasses / overripe fruits / coffee water:** Provide quick energy to boost microbial activity.\n * **Rock dust / ash / phosphite:** Add essential minerals like potassium and silicon to enrich the soil."
+    },
+    {
+      "id": "garden",
+      "number": 2,
+      "image_cover_asset": "images/topic/soil_images/garden_compost.png",
+      "image_asset": "images/topic/soil_images/gardencompost_ing.png",
+      "step_1_image_asset": "images/topic/soil_images/topsoil_manure_dry.png",
+      "step_2_image_asset": "images/topic/soil_images/kitchen_green.png",
+      "step_3_image_asset": "images/topic/soil_images/stick_water.png",
+      "favourite_field": "ltp_activity_garden_favourite",
+      "title": "Garden Compost Ingredients",
+      "_translations": {
+        "title": {},
+        "step_1_text": {},
+        "step_2_text": {},
+        "step_3_text": {},
+        "step_4_text": {},
+        "tips_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Garden Compost Ingredients"
+        },
+        "step_1_text": {
+          "eng": "* Topsoi\n * Animal manure (cow dung, chicken droppings) \n * Dry leaves and grass"
+        },
+        "step_2_text": {
+          "eng": "* Kitchen waste (vegetable peels, fruit scraps)\n * Green crop residues"
+        },
+        "step_3_text": {
+          "eng": "* Enough Water\n * Long stick"
+        },
+        "step_4_text": {
+          "eng": ""
+        },
+        "tips_text": {
+          "eng": "* **Water:** Keeps the pile damp\n * **Dry materials:** Provide carbon and improve aeration for microbial activity.\n * **Animal manure:** Supplies nitrogen to support rapid microbial growth.            \n * **Topsoil:** Introduces beneficial microorganisms that kickstart decomposition.\n * **Long stick:** To check the compost temperature to avoid overheatting"
+        }
+      },
+      "step_1_text": "* Topsoi\n * Animal manure (cow dung, chicken droppings) \n * Dry leaves and grass",
+      "step_2_text": "* Kitchen waste (vegetable peels, fruit scraps)\n * Green crop residues",
+      "step_3_text": "* Enough Water\n * Long stick",
+      "step_4_text": "",
+      "tips_text": "* **Water:** Keeps the pile damp\n * **Dry materials:** Provide carbon and improve aeration for microbial activity.\n * **Animal manure:** Supplies nitrogen to support rapid microbial growth.            \n * **Topsoil:** Introduces beneficial microorganisms that kickstart decomposition.\n * **Long stick:** To check the compost temperature to avoid overheatting"
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "data/practices.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1kW7SZtzVhcvQP6ygunzpbiQYDVt8tLR85Zemm99tA_o"
+  },
+  "_metadata": {
+    "number": {
+      "type": "number"
+    }
+  }
+}

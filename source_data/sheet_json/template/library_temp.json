@@ -1,0 +1,65 @@
+{
+  "flow_type": "template",
+  "flow_name": "library_temp",
+  "status": "released",
+  "parameter_list": {
+    "app_config": {
+      "APP_HEADER_DEFAULTS": {
+        "hidden": true
+      }
+    }
+  },
+  "rows": [
+    {
+      "type": "title",
+      "value": "Library"
+    },
+    {
+      "name": "activity",
+      "value": "_activities"
+    },
+    {
+      "type": "begin_items",
+      "name": "items_loop",
+      "value": "@data.library",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "join",
+      "value": "_"
+    },
+    {
+      "name": "now",
+      "value": "@calc(timestamp())"
+    },
+    {
+      "name": "click_history",
+      "value": "_click_history"
+    },
+    {
+      "name": "click_history_field_name",
+      "value": "lib@local.join@item.id@local.click_history"
+    },
+    {
+      "name": "click_history_value",
+      "value": "@fields.@local.click_history_field_name ;  @local.now",
+      "condition": "!!(@fields.@local.click_history_field_name)"
+    },
+    {
+      "name": "click_history_value",
+      "value": "@local.now",
+      "condition": "!(@fields.@local.click_history_field_name)"
+    },
+    {
+      "type": "plh_module_list_item",
+      "name": "lib_list_item",
+      "value": "@item.name",
+      "action_list": "click | set_field: @local.click_history_field_name: @local.click_history_value;\nclick |  go_to: @item.id@local.activity",
+      "parameter_list": "module_image_asset: @item.image_asset;\nnav_image_asset: images/icons/expand_circle_right.png;\nvariant: default"
+    },
+    {
+      "type": "end_items",
+      "exclude_from_translation": true
+    }
+  ]
+}

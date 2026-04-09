@@ -1,0 +1,75 @@
+{
+  "flow_type": "data_list",
+  "data_list_name": "activities_tags",
+  "flow_name": "activities_tags",
+  "status": "released",
+  "rows": [
+    {
+      "id": "bokashi",
+      "name": "bokashi",
+      "title": "Bokashi",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Bokashi"
+        },
+        "text": {
+          "eng": "Making Bokashi"
+        },
+        "description": {
+          "eng": "Making Bokashi"
+        }
+      },
+      "text": "Making Bokashi",
+      "description": "Making Bokashi"
+    },
+    {
+      "id": "boma_compost",
+      "name": "boma_compost",
+      "title": "Boma Compost",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Boma Compost"
+        }
+      }
+    },
+    {
+      "id": "garden_compost",
+      "name": "garden_compost",
+      "title": "Garden Compost",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Garden Compost"
+        }
+      }
+    },
+    {
+      "id": "green_manure",
+      "name": "green_manure",
+      "title": "Green Manure",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Green Manure"
+        }
+      }
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "data/practices.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1kW7SZtzVhcvQP6ygunzpbiQYDVt8tLR85Zemm99tA_o"
+  }
+}

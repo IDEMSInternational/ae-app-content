@@ -17,28 +17,41 @@
       }
     },
     {
-      "id": "dynamics",
+      "id": "effects",
       "icon_asset": "images/icons/settings.svg",
-      "title": "The Mechanism/process of Global Warming (greenhouse Effect)",
+      "title": "Effects of Climate Change on farming",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "The Mechanism/process of Global Warming (greenhouse Effect)"
+          "eng": "Effects of Climate Change on farming"
+        }
+      }
+    },
+    {
+      "id": "dynamics",
+      "icon_asset": "images/icons/settings.svg",
+      "title": "The Greenhouse Effect",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "The Greenhouse Effect"
         }
       }
     },
     {
       "id": "how",
       "icon_asset": "images/icons/terms_conditions.svg",
-      "title": "Adaptation / Mitigation Strategies",
+      "title": "Adaptation Strategies",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Adaptation / Mitigation Strategies"
+          "eng": "Adaptation Strategies"
         }
       }
     }

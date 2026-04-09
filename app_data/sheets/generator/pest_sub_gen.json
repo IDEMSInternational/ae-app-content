@@ -63,17 +63,47 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "sub_pest_about_3",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
-      "flow_name": "sub_pest_dynamics",
+      "flow_name": "sub_pest_dynamics_1",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
       "flow_name": "sub_pest_how_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_pest_how_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_pest_how_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_pest_how_4",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_pest_how_5",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_pest_how_6",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_pest_how_7",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_pest_how_8",
       "flow_subtype": "generated",
       "flow_type": "template"
     }

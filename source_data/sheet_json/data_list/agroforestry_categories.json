@@ -5,13 +5,18 @@
   "status": "released",
   "rows": [
     {
+      "id": "effects",
+      "title::eng": "Effects of Climate Change on farming",
+      "icon_asset": "images/icons/settings.svg"
+    },
+    {
       "id": "dynamics",
-      "title::eng": "The Mechanism/process of Global Warming (greenhouse Effect)",
+      "title::eng": "The Greenhouse Effect",
       "icon_asset": "images/icons/settings.svg"
     },
     {
       "id": "how",
-      "title::eng": "Adaptation / Mitigation Strategies",
+      "title::eng": "Adaptation Strategies",
       "icon_asset": "images/icons/terms_conditions.svg"
     }
   ]

@@ -55,12 +55,32 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "topic_nutrition_start_at_how",
+      "flow_name": "topic_nutrition_start_at_farm_foods",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "topic_nutrition_start_at_vulnerable",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
       "flow_name": "topic_nutrition_start_at_dynamics",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "topic_nutrition_start_at_how",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "topic_nutrition_start_at_value_benefit",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "topic_nutrition_start_at_quality_safety",
       "flow_subtype": "generated",
       "flow_type": "template"
     }

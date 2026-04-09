@@ -5,14 +5,38 @@
   "status": "released",
   "rows": [
     {
+      "id": "challenges_solutions",
+      "title::eng": "Livestock challenges & solutions",
+      "icon_asset": "images/icons/settings.svg",
+      "comments": "Challenges experienced in livestock rearing and their solutions"
+    },
+    {
+      "id": "factors_consider",
+      "title::eng": "Feed preparation factors",
+      "icon_asset": "images/icons/settings.svg",
+      "comments": "Factors to consider when preparing feed"
+    },
+    {
       "id": "dynamics",
-      "title::eng": "Home-made Poutry Feed formulation",
-      "icon_asset": "images/icons/settings.svg"
+      "title::eng": "Homemade poultry feed",
+      "icon_asset": "images/icons/settings.svg",
+      "comments": "Home-made Poutry Feed formulation"
+    },
+    {
+      "id": "remedies",
+      "title::eng": "Herbal Remedies for Poultry",
+      "icon_asset": "images/icons/terms_conditions.svg"
+    },
+    {
+      "id": "dewormers",
+      "title::eng": "Internal parasites control",
+      "icon_asset": "images/icons/terms_conditions.svg"
     },
     {
       "id": "how",
-      "title::eng": "Poultry Fermented Feed",
-      "icon_asset": "images/icons/terms_conditions.svg"
+      "title::eng": "Fermented poultry feed",
+      "icon_asset": "images/icons/terms_conditions.svg",
+      "comments": "Poultry Fermented Feed"
     }
   ]
 }

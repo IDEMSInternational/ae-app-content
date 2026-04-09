@@ -1,0 +1,94 @@
+{
+  "flow_type": "template",
+  "flow_name": "home_practice_card",
+  "status": "released",
+  "rows": [
+    {
+      "name": "join",
+      "value": "_",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_id",
+      "value": "soil",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_concat",
+      "value": "topic.@local.topic_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_row",
+      "value": "@data.@local.topic_concat",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "home_practice_type",
+      "value": "ingredients",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "hp_concat",
+      "value": "home_practice.@local.home_practice_type"
+    },
+    {
+      "name": "hp_row",
+      "value": "@data.@local.hp_concat"
+    },
+    {
+      "name": "card_title",
+      "value": "@local.hp_row.title",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "card_icon",
+      "value": "@local.hp_row.icon_asset",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "card_variant",
+      "value": "portrait"
+    },
+    {
+      "name": "task_id",
+      "value": "@local.topic_id@local.join@local.home_practice_type",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "target_template",
+      "value": "hp_@local.task_id",
+      "condition": true,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_task_card",
+      "name": "task_card_@local.home_practice_type",
+      "action_list": "click | pop_up: @local.target_template"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_column",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "image",
+      "name": "image",
+      "value": "@local.card_icon",
+      "style_list": "max-width: 60px;"
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "value": "**@local.card_title**",
+      "parameter_list": "text_align: center",
+      "style_list": "margin: -5px 0;"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "end_task_card"
+    }
+  ]
+}

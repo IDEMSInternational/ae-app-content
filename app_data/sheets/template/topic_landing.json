@@ -296,57 +296,44 @@
       "rows": [
         {
           "type": "display_group",
-          "name": "dg",
-          "exclude_from_translation": true,
-          "rows": [
-            {
-              "name": "top_img",
-              "value": "images/icons/module_map.svg",
-              "_translations": {
-                "value": {}
-              },
-              "style_list": [
-                "max-width: 60px"
-              ],
-              "exclude_from_translation": true,
-              "type": "set_variable",
-              "_nested_name": "topic_card_go_to.dg.top_img"
-            },
-            {
-              "type": "text",
-              "name": "top_txt",
-              "value": "**@local.topic_card_title**",
-              "_translations": {
-                "value": {}
-              },
-              "exclude_from_translation": true,
-              "_nested_name": "topic_card_go_to.dg.top_txt",
-              "_dynamicFields": {
-                "value": [
-                  {
-                    "fullExpression": "**@local.topic_card_title**",
-                    "matchedExpression": "@local.topic_card_title",
-                    "type": "local",
-                    "fieldName": "topic_card_title"
-                  }
-                ]
-              },
-              "_dynamicDependencies": {
-                "@local.topic_card_title": [
-                  "value"
-                ]
-              }
-            }
-          ],
-          "_nested_name": "topic_card_go_to.dg"
-        },
-        {
-          "type": "display_group",
           "name": "dg_column",
           "parameter_list": {
             "style": "column"
           },
           "rows": [
+            {
+              "type": "display_group",
+              "name": "dg",
+              "exclude_from_translation": true,
+              "rows": [
+                {
+                  "type": "text",
+                  "name": "top_txt",
+                  "value": "**@local.topic_card_title**",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "exclude_from_translation": true,
+                  "_nested_name": "topic_card_go_to.dg_column.dg.top_txt",
+                  "_dynamicFields": {
+                    "value": [
+                      {
+                        "fullExpression": "**@local.topic_card_title**",
+                        "matchedExpression": "@local.topic_card_title",
+                        "type": "local",
+                        "fieldName": "topic_card_title"
+                      }
+                    ]
+                  },
+                  "_dynamicDependencies": {
+                    "@local.topic_card_title": [
+                      "value"
+                    ]
+                  }
+                }
+              ],
+              "_nested_name": "topic_card_go_to.dg_column.dg"
+            },
             {
               "name": "sub",
               "value": "_sub_tasks",
@@ -397,6 +384,7 @@
               "parameter_list": {
                 "task_group_data": "@local.sub_data_list_name"
               },
+              "condition": false,
               "exclude_from_translation": true,
               "_nested_name": "topic_card_go_to.dg_column.task_progress_bar",
               "_dynamicFields": {
@@ -497,19 +485,6 @@
               "exclude_from_translation": true,
               "rows": [
                 {
-                  "name": "top_img",
-                  "value": "images/icons/module_map.svg",
-                  "_translations": {
-                    "value": {}
-                  },
-                  "style_list": [
-                    "max-width: 60px"
-                  ],
-                  "exclude_from_translation": true,
-                  "type": "set_variable",
-                  "_nested_name": "topic_card_pop_up.dg_column.dg.top_img"
-                },
-                {
                   "type": "text",
                   "name": "top_txt",
                   "value": "**@local.topic_card_title**",
@@ -587,6 +562,7 @@
               "parameter_list": {
                 "task_group_data": "@local.sub_data_list_name"
               },
+              "condition": false,
               "exclude_from_translation": true,
               "_nested_name": "topic_card_pop_up.dg_column.task_progress_bar",
               "_dynamicFields": {
@@ -653,6 +629,181 @@
           "condition"
         ]
       }
+    },
+    {
+      "name": "title_hp",
+      "value": "Practicals",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "title_hp"
+    },
+    {
+      "type": "text",
+      "name": "text_hp",
+      "value": "**@local.title_hp**",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "_nested_name": "text_hp",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "**@local.title_hp**",
+            "matchedExpression": "@local.title_hp",
+            "type": "local",
+            "fieldName": "title_hp"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.title_hp": [
+          "value"
+        ]
+      }
+    },
+    {
+      "type": "display_grid",
+      "name": "home_practices",
+      "parameter_list": {
+        "item_width": "90px",
+        "item_border": "none"
+      },
+      "exclude_from_translation": true,
+      "rows": [
+        {
+          "type": "items",
+          "name": "home_practice_loop",
+          "value": "@data.home_practice",
+          "exclude_from_translation": true,
+          "rows": [
+            {
+              "type": "template",
+              "name": "card_@item.id",
+              "value": "home_practice_card",
+              "exclude_from_translation": true,
+              "rows": [
+                {
+                  "name": "topic_id",
+                  "value": "@local.topic_id",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "exclude_from_translation": true,
+                  "type": "set_variable",
+                  "_nested_name": "home_practices.home_practice_loop.card_@item.id.topic_id",
+                  "_dynamicFields": {
+                    "value": [
+                      {
+                        "fullExpression": "@local.topic_id",
+                        "matchedExpression": "@local.topic_id",
+                        "type": "local",
+                        "fieldName": "topic_id"
+                      }
+                    ],
+                    "_nested_name": [
+                      {
+                        "fullExpression": "home_practices.home_practice_loop.card_@item.id.topic_id",
+                        "matchedExpression": "@item.id.topic_id",
+                        "type": "item",
+                        "fieldName": "id"
+                      }
+                    ]
+                  },
+                  "_dynamicDependencies": {
+                    "@local.topic_id": [
+                      "value"
+                    ],
+                    "@item.id.topic_id": [
+                      "_nested_name"
+                    ]
+                  }
+                },
+                {
+                  "name": "home_practice_type",
+                  "value": "@item.id",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "exclude_from_translation": true,
+                  "type": "set_variable",
+                  "_nested_name": "home_practices.home_practice_loop.card_@item.id.home_practice_type",
+                  "_dynamicFields": {
+                    "value": [
+                      {
+                        "fullExpression": "@item.id",
+                        "matchedExpression": "@item.id",
+                        "type": "item",
+                        "fieldName": "id"
+                      }
+                    ],
+                    "_nested_name": [
+                      {
+                        "fullExpression": "home_practices.home_practice_loop.card_@item.id.home_practice_type",
+                        "matchedExpression": "@item.id.home_practice_type",
+                        "type": "item",
+                        "fieldName": "id"
+                      }
+                    ]
+                  },
+                  "_dynamicDependencies": {
+                    "@item.id": [
+                      "value"
+                    ],
+                    "@item.id.home_practice_type": [
+                      "_nested_name"
+                    ]
+                  }
+                }
+              ],
+              "_nested_name": "home_practices.home_practice_loop.card_@item.id",
+              "_dynamicFields": {
+                "name": [
+                  {
+                    "fullExpression": "card_@item.id",
+                    "matchedExpression": "@item.id",
+                    "type": "item",
+                    "fieldName": "id"
+                  }
+                ],
+                "_nested_name": [
+                  {
+                    "fullExpression": "home_practices.home_practice_loop.card_@item.id",
+                    "matchedExpression": "@item.id",
+                    "type": "item",
+                    "fieldName": "id"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@item.id": [
+                  "name",
+                  "_nested_name"
+                ]
+              }
+            }
+          ],
+          "_nested_name": "home_practices.home_practice_loop",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@data.home_practice",
+                "matchedExpression": "@data.home_practice",
+                "type": "data",
+                "fieldName": "home_practice"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@data.home_practice": [
+              "value"
+            ]
+          }
+        }
+      ],
+      "_nested_name": "home_practices"
     }
   ],
   "_source": {

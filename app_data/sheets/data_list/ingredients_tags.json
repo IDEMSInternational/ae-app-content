@@ -1,0 +1,59 @@
+{
+  "flow_type": "data_list",
+  "data_list_name": "ingredients_tags",
+  "flow_name": "ingredients_tags",
+  "status": "released",
+  "rows": [
+    {
+      "id": "bokashi",
+      "name": "bokashi",
+      "title": "Bokashi",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Bokashi"
+        },
+        "text": {
+          "eng": "Ingedients in Bokashi"
+        },
+        "description": {
+          "eng": "Ingedients used to make Bokashi"
+        }
+      },
+      "text": "Ingedients in Bokashi",
+      "description": "Ingedients used to make Bokashi"
+    },
+    {
+      "id": "garden",
+      "name": "garden",
+      "title": "Garden Compost",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Garden Compost"
+        },
+        "text": {
+          "eng": "Ingedients in Garden Compost"
+        },
+        "description": {
+          "eng": "Ingedients used to make Garden Compost"
+        }
+      },
+      "text": "Ingedients in Garden Compost",
+      "description": "Ingedients used to make Garden Compost"
+    }
+  ],
+  "_source": {
+    "name": "ae sheets",
+    "path": "data/practices.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1kW7SZtzVhcvQP6ygunzpbiQYDVt8tLR85Zemm99tA_o"
+  }
+}

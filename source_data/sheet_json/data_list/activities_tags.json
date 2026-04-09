@@ -1,0 +1,30 @@
+{
+  "flow_type": "data_list",
+  "data_list_name": "activities_tags",
+  "flow_name": "activities_tags",
+  "status": "released",
+  "rows": [
+    {
+      "id": "bokashi",
+      "name": "bokashi",
+      "title::eng": "Bokashi",
+      "text::eng": "Making Bokashi",
+      "description::eng": "Making Bokashi"
+    },
+    {
+      "id": "boma_compost",
+      "name": "boma_compost",
+      "title::eng": "Boma Compost"
+    },
+    {
+      "id": "garden_compost",
+      "name": "garden_compost",
+      "title::eng": "Garden Compost"
+    },
+    {
+      "id": "green_manure",
+      "name": "green_manure",
+      "title::eng": "Green Manure"
+    }
+  ]
+}

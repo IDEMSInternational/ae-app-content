@@ -91,13 +91,12 @@
     },
     {
       "type": "begin_display_group",
-      "name": "dg",
-      "exclude_from_translation": true
+      "name": "dg_column",
+      "parameter_list": "style: column"
     },
     {
-      "name": "top_img",
-      "value": "images/icons/module_map.svg",
-      "style_list": "max-width: 60px",
+      "type": "begin_display_group",
+      "name": "dg",
       "exclude_from_translation": true
     },
     {
@@ -109,11 +108,6 @@
     {
       "type": "end_display_group",
       "exclude_from_translation": true
-    },
-    {
-      "type": "begin_display_group",
-      "name": "dg_column",
-      "parameter_list": "style: column"
     },
     {
       "name": "sub",
@@ -129,6 +123,7 @@
       "type": "task_progress_bar",
       "name": "task_progress_bar",
       "parameter_list": "task_group_data: @local.sub_data_list_name;",
+      "condition": false,
       "exclude_from_translation": true
     },
     {
@@ -156,12 +151,6 @@
       "exclude_from_translation": true
     },
     {
-      "name": "top_img",
-      "value": "images/icons/module_map.svg",
-      "style_list": "max-width: 60px",
-      "exclude_from_translation": true
-    },
-    {
       "type": "text",
       "name": "top_txt",
       "value": "**@local.topic_card_title**",
@@ -185,6 +174,7 @@
       "type": "task_progress_bar",
       "name": "task_progress_bar",
       "parameter_list": "task_group_data: @local.sub_data_list_name;",
+      "condition": false,
       "exclude_from_translation": true
     },
     {
@@ -192,6 +182,56 @@
     },
     {
       "type": "end_task_card",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "title_hp",
+      "value": "Practicals"
+    },
+    {
+      "type": "text",
+      "name": "text_hp",
+      "value": "**@local.title_hp**",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_grid",
+      "name": "home_practices",
+      "parameter_list": "item_width: 90px; \nitem_border: none",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_items",
+      "name": "home_practice_loop",
+      "value": "@data.home_practice",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_template",
+      "name": "card_@item.id",
+      "value": "home_practice_card",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_id",
+      "value": "@local.topic_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "home_practice_type",
+      "value": "@item.id",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_items",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_grid",
       "exclude_from_translation": true
     }
   ]

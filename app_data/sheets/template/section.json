@@ -1047,31 +1047,6 @@
           "_nested_name": "dg.dg_top"
         },
         {
-          "type": "text",
-          "name": "section_text",
-          "value": "@local.section_text",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "_nested_name": "dg.section_text",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@local.section_text",
-                "matchedExpression": "@local.section_text",
-                "type": "local",
-                "fieldName": "section_text"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@local.section_text": [
-              "value"
-            ]
-          }
-        },
-        {
           "type": "image",
           "name": "image_asset",
           "value": "@local.section_image_asset",
@@ -1106,6 +1081,31 @@
             "@local.section_image_asset": [
               "value",
               "condition"
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "name": "section_text",
+          "value": "@local.section_text",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "_nested_name": "dg.section_text",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@local.section_text",
+                "matchedExpression": "@local.section_text",
+                "type": "local",
+                "fieldName": "section_text"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@local.section_text": [
+              "value"
             ]
           }
         },
