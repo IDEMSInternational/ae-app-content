@@ -12,6 +12,15 @@
       },
       "rows": [
         {
+          "name": "postcompose",
+          "value": "_start_at_uncompleted_with_congrats",
+          "_translations": {
+            "value": {}
+          },
+          "type": "set_variable",
+          "_nested_name": "check_topic_completion.postcompose"
+        },
+        {
           "type": "template",
           "name": "topic_landing",
           "value": "topic_landing",
@@ -67,7 +76,7 @@
             },
             {
               "name": "topic_target_template",
-              "value": "topic_pest",
+              "value": "topic_pest@local.postcompose",
               "_translations": {
                 "value": {}
               },
@@ -75,6 +84,14 @@
               "type": "set_variable",
               "_nested_name": "check_topic_completion.topic_landing.topic_target_template",
               "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "topic_pest@local.postcompose",
+                    "matchedExpression": "@local.postcompose",
+                    "type": "local",
+                    "fieldName": "postcompose"
+                  }
+                ],
                 "condition": [
                   {
                     "fullExpression": "!@item.completed",
@@ -85,6 +102,9 @@
                 ]
               },
               "_dynamicDependencies": {
+                "@local.postcompose": [
+                  "value"
+                ],
                 "!@item.completed": [
                   "condition"
                 ]

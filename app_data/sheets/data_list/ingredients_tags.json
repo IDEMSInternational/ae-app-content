@@ -49,6 +49,236 @@
       },
       "text": "Ingedients in Garden Compost",
       "description": "Ingedients used to make Garden Compost"
+    },
+    {
+      "id": "ash_brew",
+      "name": "ash_brew",
+      "title": "Ash Brew",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Ash Brew"
+        },
+        "text": {
+          "eng": "Ingedients in Ash Brew"
+        },
+        "description": {
+          "eng": "Ingedients used to make Ash Brew"
+        }
+      },
+      "text": "Ingedients in Ash Brew",
+      "description": "Ingedients used to make Ash Brew"
+    },
+    {
+      "id": "tephrosia_solution",
+      "name": "tephrosia_solution",
+      "title": "Tephrosia Solution",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Tephrosia Solution"
+        },
+        "text": {
+          "eng": "Ingedients in Tephrosia Solution"
+        },
+        "description": {
+          "eng": "Ingedients used to make Tephrosia Solution"
+        }
+      },
+      "text": "Ingedients in Tephrosia Solution",
+      "description": "Ingedients used to make Tephrosia Solution"
+    },
+    {
+      "id": "garlic_water",
+      "name": "garlic_water",
+      "title": "Garlic Water",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Garlic Water"
+        },
+        "text": {
+          "eng": "Ingedients in Garlic Water"
+        },
+        "description": {
+          "eng": "Ingedients used to make Garlic Water"
+        }
+      },
+      "text": "Ingedients in Garlic Water",
+      "description": "Ingedients used to make Garlic Water"
+    },
+    {
+      "id": "drying_kales",
+      "name": "drying_kales",
+      "title": "Drying Sukuma Wiki (Kales)",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Drying Sukuma Wiki (Kales)"
+        },
+        "text": {
+          "eng": "Ingedients in Drying Sukuma Wiki (Kales)"
+        },
+        "description": {
+          "eng": "Ingredients used to dry Sukuma Wiki (Kales)"
+        }
+      },
+      "text": "Ingedients in Drying Sukuma Wiki (Kales)",
+      "description": "Ingredients used to dry Sukuma Wiki (Kales)"
+    },
+    {
+      "id": "drying_green_banana",
+      "name": "drying_green_banana",
+      "title": "Drying Green Bananas",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Drying Green Bananas"
+        },
+        "text": {
+          "eng": "Ingredients in Drying Green Bananas"
+        },
+        "description": {
+          "eng": "Ingredients used to dry Green Bananas"
+        }
+      },
+      "text": "Ingredients in Drying Green Bananas",
+      "description": "Ingredients used to dry Green Bananas"
+    },
+    {
+      "id": "yoghurt_preparation",
+      "name": "yoghurt_preparation",
+      "title": "Yoghurt Preparation",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Yoghurt Preparation"
+        },
+        "text": {
+          "eng": "Ingredients in yoghurt preparation"
+        },
+        "description": {
+          "eng": "Ingredients used to prepare yoghurt"
+        }
+      },
+      "text": "Ingredients in yoghurt preparation",
+      "description": "Ingredients used to prepare yoghurt"
+    },
+    {
+      "id": "homemade_feeds",
+      "name": "homemade_feeds",
+      "title": "Homemade poultry feed",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Homemade poultry feed"
+        },
+        "text": {
+          "eng": "Ingredients for homemade poultry feeds"
+        },
+        "description": {
+          "eng": "Ingredients used in preparing homemade poultry feeds"
+        }
+      },
+      "text": "Ingredients for homemade poultry feeds",
+      "description": "Ingredients used in preparing homemade poultry feeds"
+    },
+    {
+      "id": "concotion",
+      "name": "concotion",
+      "title": "Concoction for sneezing/coughs/colds",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Concoction for sneezing/coughs/colds"
+        },
+        "text": {
+          "eng": "Ingredients for reparing concotions for sneezing, coughs and colds in poultry"
+        },
+        "description": {
+          "eng": "Ingredients used in preparing concotions for sneezing, coughs and colds in poultry"
+        }
+      },
+      "text": "Ingredients for reparing concotions for sneezing, coughs and colds in poultry",
+      "description": "Ingredients used in preparing concotions for sneezing, coughs and colds in poultry"
+    },
+    {
+      "id": "silage_making",
+      "name": "silage_making",
+      "title": "Silage Making",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Silage Making"
+        },
+        "text": {
+          "eng": "Ingredients in Making Silage"
+        },
+        "description": {
+          "eng": "Ingredients used in making silage"
+        }
+      },
+      "text": "Ingredients in Making Silage",
+      "description": "Ingredients used in making silage"
+    },
+    {
+      "id": "fermenting_feeds",
+      "name": "fermenting_feeds",
+      "title": "Fermented Feeds",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Fermented Feeds"
+        },
+        "text": {
+          "eng": "Fermented feeds Ingredients"
+        },
+        "description": {
+          "eng": "Ingredients used in preparing fermented feeds"
+        }
+      },
+      "text": "Fermented feeds Ingredients",
+      "description": "Ingredients used in preparing fermented feeds"
     }
   ],
   "_source": {

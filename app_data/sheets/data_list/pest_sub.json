@@ -57,19 +57,23 @@
       "category_id": "dynamics",
       "module_id": "pest",
       "section_1_image_asset": "images/topic/pest_images/pests_collage.png",
-      "section_1_title": "Common pests:",
+      "title": "Soft Bodied Pests",
       "_translations": {
+        "title": {},
         "section_1_title": {},
         "section_1_text": {},
         "section_1_button_text": {},
         "section_1_extra_text": {}
       },
       "_translatedFields": {
+        "title": {
+          "eng": "Soft Bodied Pests"
+        },
         "section_1_title": {
-          "eng": "Common pests:"
+          "eng": "Examples:"
         },
         "section_1_text": {
-          "eng": "* Aphids\n * Whiteflies\n * Bollworms.\n* Rodents and birds."
+          "eng": "* Aphids\n * Whiteflies\n * Bollworms."
         },
         "section_1_button_text": {
           "eng": "Their impacts"
@@ -78,37 +82,100 @@
           "eng": "* Bore holes in plants\n * Harm roots\n * Steal nutrients from your plants."
         }
       },
-      "section_1_text": "* Aphids\n * Whiteflies\n * Bollworms.\n* Rodents and birds.",
+      "section_1_title": "Examples:",
+      "section_1_text": "* Aphids\n * Whiteflies\n * Bollworms.",
       "section_1_button_text": "Their impacts",
       "section_1_extra_text": "* Bore holes in plants\n * Harm roots\n * Steal nutrients from your plants."
+    },
+    {
+      "id": "dynamics_2",
+      "category_id": "dynamics",
+      "module_id": "pest",
+      "title": "Hard Bodied Pests",
+      "_translations": {
+        "title": {},
+        "section_1_button_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Hard Bodied Pests"
+        },
+        "section_1_button_text": {
+          "eng": "Their impacts"
+        }
+      },
+      "section_1_button_text": "Their impacts"
+    },
+    {
+      "id": "dynamics_3",
+      "category_id": "dynamics",
+      "module_id": "pest",
+      "title": "Other Pests",
+      "_translations": {
+        "title": {},
+        "section_1_text": {},
+        "section_1_button_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Other Pests"
+        },
+        "section_1_text": {
+          "eng": "* Rodents and birds."
+        },
+        "section_1_button_text": {
+          "eng": "Their impacts"
+        }
+      },
+      "section_1_text": "* Rodents and birds.",
+      "section_1_button_text": "Their impacts"
+    },
+    {
+      "id": "how",
+      "text_1": "short intro",
+      "_translations": {
+        "text_1": {}
+      },
+      "_translatedFields": {
+        "text_1": {
+          "eng": "short intro"
+        }
+      }
     },
     {
       "id": "how_1",
       "category_id": "how",
       "module_id": "pest",
-      "section_1_title": "Cultural Control – Smart Farming",
+      "image_asset": "images/topic/pest_images/cultural_control_image.png",
+      "title": "Cultural Control",
       "_translations": {
-        "section_1_title": {},
-        "section_1_text": {}
+        "title": {},
+        "section_1_text": {},
+        "section_2_text": {}
       },
       "_translatedFields": {
-        "section_1_title": {
-          "eng": "Cultural Control – Smart Farming"
+        "title": {
+          "eng": "Cultural Control"
         },
         "section_1_text": {
-          "eng": "* Rotate crops and plant at the right time.\n * Grow pest-repellent crops (e.g., onions).\n * Use healthy seeds, fertilizers, and resistant crop varieties.\n * Remove weeds and diseased plants.\n * Harvest on time before pests attack."
+          "eng": "* Rotate crops and plant at the right time.\n * Grow pest-repellent crops (e.g., onions).\n * Harvest on time before pests attack."
+        },
+        "section_2_text": {
+          "eng": "* Use healthy seeds, fertilizers, and resistant crop varieties.\n * Remove weeds and diseased plants."
         }
       },
-      "section_1_text": "* Rotate crops and plant at the right time.\n * Grow pest-repellent crops (e.g., onions).\n * Use healthy seeds, fertilizers, and resistant crop varieties.\n * Remove weeds and diseased plants.\n * Harvest on time before pests attack."
+      "section_1_text": "* Rotate crops and plant at the right time.\n * Grow pest-repellent crops (e.g., onions).\n * Harvest on time before pests attack.",
+      "section_2_text": "* Use healthy seeds, fertilizers, and resistant crop varieties.\n * Remove weeds and diseased plants."
     },
     {
       "id": "how_2",
       "category_id": "how",
       "module_id": "pest",
+      "image_asset": "images/topic/pest_images/biological_control_image.png",
       "title": "Biological Control",
       "_translations": {
         "title": {},
-        "text_1": {},
+        "image_text": {},
         "media_transcript": {},
         "section_1_text": {},
         "section_1_button_text": {},
@@ -122,7 +189,7 @@
         "title": {
           "eng": "Biological Control"
         },
-        "text_1": {
+        "image_text": {
           "eng": "This maintains a healthy balance on your farm without using toxic chemicals."
         },
         "media_transcript": {
@@ -150,7 +217,7 @@
           "eng": "* Plant flowers to attract beneficial insects."
         }
       },
-      "text_1": "This maintains a healthy balance on your farm without using toxic chemicals.",
+      "image_text": "This maintains a healthy balance on your farm without using toxic chemicals.",
       "media_transcript": "",
       "section_1_text": "* Use nature to fight pests by encouraging “good insects”",
       "section_1_button_text": "Examples:",
@@ -169,6 +236,7 @@
       "_translations": {
         "title": {},
         "text_1": {},
+        "text_2": {},
         "media_title": {},
         "media_transcript": {}
       },
@@ -179,6 +247,9 @@
         "text_1": {
           "eng": "It reinforces crop bio-protection especially for leaves."
         },
+        "text_2": {
+          "eng": "Ensure to watch videos at the 'Practical Section' on how to make Ash Brew and the ingredents used."
+        },
         "media_title": {
           "eng": "How to make Ash Brew"
         },
@@ -187,6 +258,7 @@
         }
       },
       "text_1": "It reinforces crop bio-protection especially for leaves.",
+      "text_2": "Ensure to watch videos at the 'Practical Section' on how to make Ash Brew and the ingredents used.",
       "media_title": "How to make Ash Brew",
       "media_transcript": "* Bring water to a boil.\n * Grate the soap and add to water, don't stir until soap is completely melted.\n * Add the ash and stir for 15 minutes(sprinkle cold water on the mix if it starts to boil over).\n * Remove from fire\n * Let it cool down and it is ready for use"
     },
@@ -226,50 +298,16 @@
       "section_1_extra_text": "* Stick to stir\n * One vat or metal barrel\n * Firewood"
     },
     {
-      "id": "how_5",
-      "category_id": "how",
-      "module_id": "pest",
-      "title": "Ash Brew Storage",
-      "_translations": {
-        "title": {},
-        "section_1_title": {},
-        "section_1_text": {},
-        "section_2_title": {},
-        "section_2_text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Ash Brew Storage"
-        },
-        "section_1_title": {
-          "eng": "Storage"
-        },
-        "section_1_text": {
-          "eng": "* Take out liquid and store in a drum.\n * Use remaining solids for washing dishes."
-        },
-        "section_2_title": {
-          "eng": "Usage"
-        },
-        "section_2_text": {
-          "eng": "* Dilute 3-5 litres in 100 litres of water (3-5%) and use as foliar spray\n * Apply when the weather is cool (i.e. evening or morning)\n * Add 2 litres of cooking oil immediately after brewing \n * Oil makes it more efficient in controlling insects with waxy body or scales\n * This practice increases photosynthesis rates"
-        }
-      },
-      "section_1_title": "Storage",
-      "section_1_text": "* Take out liquid and store in a drum.\n * Use remaining solids for washing dishes.",
-      "section_2_title": "Usage",
-      "section_2_text": "* Dilute 3-5 litres in 100 litres of water (3-5%) and use as foliar spray\n * Apply when the weather is cool (i.e. evening or morning)\n * Add 2 litres of cooking oil immediately after brewing \n * Oil makes it more efficient in controlling insects with waxy body or scales\n * This practice increases photosynthesis rates"
-    },
-    {
       "id": "how_6",
       "category_id": "how",
       "module_id": "pest",
-      "section_1_title": "Physical Control",
+      "title": "Physical Control",
       "_translations": {
-        "section_1_title": {},
+        "title": {},
         "section_1_text": {}
       },
       "_translatedFields": {
-        "section_1_title": {
+        "title": {
           "eng": "Physical Control"
         },
         "section_1_text": {
@@ -282,13 +320,13 @@
       "id": "how_7",
       "category_id": "how",
       "module_id": "pest",
-      "section_1_title": "Proper Storage",
+      "title": "Proper Storage",
       "_translations": {
-        "section_1_title": {},
+        "title": {},
         "section_1_text": {}
       },
       "_translatedFields": {
-        "section_1_title": {
+        "title": {
           "eng": "Proper Storage"
         },
         "section_1_text": {

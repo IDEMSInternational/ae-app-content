@@ -78,12 +78,20 @@
       "value": "@local.ingredients_row.tips_text"
     },
     {
+      "name": "tips_2",
+      "value": "@local.ingredients_row.strorage_tips_text"
+    },
+    {
       "name": "title_1",
       "value": "Ingredients"
     },
     {
       "name": "title_2",
       "value": "Tips"
+    },
+    {
+      "name": "title_3",
+      "value": "Storage Tips"
     },
     {
       "type": "begin_accordion",
@@ -182,6 +190,21 @@
       "name": "accordion_content_2",
       "value": "@local.tips_1",
       "condition": "!!(@local.tips_1)"
+    },
+    {
+      "type": "end_accordion_section"
+    },
+    {
+      "type": "begin_accordion_section",
+      "name": "second",
+      "value": "@local.title_3",
+      "condition": "!!(@local.tips_2)"
+    },
+    {
+      "type": "text",
+      "name": "accordion_content_3",
+      "value": "@local.tips_2",
+      "condition": "!!(@local.tips_2)"
     },
     {
       "type": "end_accordion_section"

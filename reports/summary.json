@@ -7,7 +7,7 @@
       },
       {
         "type": "accordion_section",
-        "count": 3
+        "count": 4
       },
       {
         "type": "audio",
@@ -75,7 +75,7 @@
       },
       {
         "type": "set_variable",
-        "count": 733
+        "count": 762
       },
       {
         "type": "simple_checkbox",
@@ -91,11 +91,11 @@
       },
       {
         "type": "template",
-        "count": 186
+        "count": 207
       },
       {
         "type": "text",
-        "count": 59
+        "count": 60
       },
       {
         "type": "text_bubble",
@@ -127,7 +127,7 @@
       },
       {
         "type": "emit: completed",
-        "count": 152
+        "count": 173
       },
       {
         "type": "emit: force_reload",
@@ -143,7 +143,7 @@
       },
       {
         "type": "emit: uncompleted",
-        "count": 158
+        "count": 179
       },
       {
         "type": "feedback",
@@ -191,13 +191,13 @@
     "data": [
       {
         "assets": "total",
-        "KB": "53767 KB",
-        "MB": "53.8 MB"
+        "KB": "77896 KB",
+        "MB": "77.9 MB"
       },
       {
         "assets": "unused",
-        "KB": "22704 KB",
-        "MB": "22.7 MB"
+        "KB": "34213 KB",
+        "MB": "34.2 MB"
       }
     ]
   },
@@ -240,8 +240,16 @@
         "size_kb": 2591
       },
       {
+        "path": "images/topic/Livestock_images/fermented_feeds.png",
+        "size_kb": 2215
+      },
+      {
         "path": "images/topic/Livestock_images/mollasses.jpg",
         "size_kb": 2841
+      },
+      {
+        "path": "images/topic/Livestock_images/poultry_feed.jpeg",
+        "size_kb": 334.8
       },
       {
         "path": "images/topic/Livestock_images/warmwood.png",
@@ -274,6 +282,10 @@
       {
         "path": "images/topic/nutrition/vulnerable_groups.png",
         "size_kb": 187.5
+      },
+      {
+        "path": "images/topic/pest_images/ash_brew_steps.png",
+        "size_kb": 8959.2
       },
       {
         "path": "images/topic/pest_images/banana_aphids.jpg",
@@ -401,18 +413,33 @@
         "missing": true
       },
       {
-        "path": "images/topic/climate_change_images/industrial_processes.png",
-        "count": 2,
-        "missing": true
-      },
-      {
         "path": "images/topic/nutrition/vulnerable_groups.svg",
         "count": 2,
         "missing": true
       },
       {
+        "path": "images/topic/pest_images/poultry_feed.jpeg",
+        "count": 3,
+        "missing": true
+      },
+      {
+        "path": "images/topic/soil_images/ash_brew.png",
+        "count": 3,
+        "missing": true
+      },
+      {
+        "path": "images/topic/soil_images/ash_brew_steps.png",
+        "count": 3,
+        "missing": true
+      },
+      {
         "path": "images/topic/soil_images/compost.png",
         "count": 2,
+        "missing": true
+      },
+      {
+        "path": "images/topic/soil_images/fermented_feeds.png",
+        "count": 1,
         "missing": true
       },
       {
@@ -491,7 +518,7 @@
       },
       {
         "path": "images/icons/terms_conditions.svg",
-        "count": 19,
+        "count": 17,
         "size_kb": 1.5
       },
       {
@@ -571,13 +598,18 @@
       },
       {
         "path": "images/topic/Livestock_images/tithonia concotion.jpeg",
-        "count": 2,
+        "count": 1,
         "size_kb": 298.9
       },
       {
         "path": "images/topic/agroforestry_title_image.svg",
         "count": 3,
         "size_kb": 22.2
+      },
+      {
+        "path": "images/topic/climate_change_images/industrial_processes.png",
+        "count": 2,
+        "size_kb": 251.8
       },
       {
         "path": "images/topic/livestock_title_image.svg",
@@ -610,9 +642,29 @@
         "size_kb": 39.4
       },
       {
+        "path": "images/topic/pest_images/ash_brew.png",
+        "count": 3,
+        "size_kb": 6785
+      },
+      {
         "path": "images/topic/pest_images/ash_brew1.png",
         "count": 2,
         "size_kb": 63.1
+      },
+      {
+        "path": "images/topic/pest_images/ash_brew_ing.png",
+        "count": 3,
+        "size_kb": 82.5
+      },
+      {
+        "path": "images/topic/pest_images/biological_control_image.png",
+        "count": 2,
+        "size_kb": 7951.8
+      },
+      {
+        "path": "images/topic/pest_images/cultural_control_image.png",
+        "count": 2,
+        "size_kb": 9058
       },
       {
         "path": "images/topic/pest_images/pests_collage.png",
@@ -806,7 +858,7 @@
       {
         "type": "template",
         "subtype": "generated",
-        "total": 143
+        "total": 164
       },
       {
         "type": "template",

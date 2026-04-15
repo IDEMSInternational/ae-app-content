@@ -698,6 +698,56 @@
           "flow_name": "article_green_manure",
           "flow_subtype": "generated",
           "flow_type": "template"
+        },
+        {
+          "flow_name": "article_fermented_feed",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "article_ash_brew",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "article_tephrosia_solution",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "article_garlic_water",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "article_poultry_feed",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "article_coughs_concotion",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "article_silage",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "article_drying_kales",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "article_drying_green_banana",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "article_yoghurt_preparation",
+          "flow_subtype": "generated",
+          "flow_type": "template"
         }
       ]
     },
@@ -809,6 +859,56 @@
           "flow_name": "ingredients_garden",
           "flow_subtype": "generated",
           "flow_type": "template"
+        },
+        {
+          "flow_name": "ingredients_ash_brew_ing",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "ingredients_tephrosia_solution_ing",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "ingredients_garlic_water_ing",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "ingredients_fermenting_feeds",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "ingredients_homemade_feeds",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "ingredients_concotion",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "ingredients_silage_making",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "ingredients_drying_kales_vegs",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "ingredients_drying_green_banana_vegs",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "ingredients_yoghurt_preparation_drink",
+          "flow_subtype": "generated",
+          "flow_type": "template"
         }
       ]
     },
@@ -838,12 +938,7 @@
           "flow_type": "template"
         },
         {
-          "flow_name": "topic_livestock_start_at_factors_consider",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "topic_livestock_start_at_dynamics",
+          "flow_name": "topic_livestock_start_at_dewormers",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
@@ -853,7 +948,7 @@
           "flow_type": "template"
         },
         {
-          "flow_name": "topic_livestock_start_at_dewormers",
+          "flow_name": "topic_livestock_start_at_factors_consider",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
@@ -1283,12 +1378,12 @@
           "flow_type": "template"
         },
         {
-          "flow_name": "sub_livestock_factors_consider",
+          "flow_name": "sub_livestock_dewormers_1",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "sub_livestock_dynamics_1",
+          "flow_name": "sub_livestock_dewormers_2",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
@@ -1308,17 +1403,7 @@
           "flow_type": "template"
         },
         {
-          "flow_name": "sub_livestock_remedies_4",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "sub_livestock_dewormers",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "sub_livestock_dewormers_1",
+          "flow_name": "sub_livestock_factors_consider",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
@@ -1359,6 +1444,11 @@
         },
         {
           "flow_name": "sub_livestock_how_8",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_livestock_how_9",
           "flow_subtype": "generated",
           "flow_type": "template"
         }
@@ -1507,6 +1597,21 @@
           "flow_type": "template"
         },
         {
+          "flow_name": "sub_pest_dynamics_2",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_pest_dynamics_3",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_pest_how",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
           "flow_name": "sub_pest_how_1",
           "flow_subtype": "generated",
           "flow_type": "template"
@@ -1523,11 +1628,6 @@
         },
         {
           "flow_name": "sub_pest_how_4",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "sub_pest_how_5",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
@@ -1640,6 +1740,11 @@
         },
         {
           "flow_name": "sub_soil_how_4",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_soil_how_5",
           "flow_subtype": "generated",
           "flow_type": "template"
         }
@@ -1813,6 +1918,11 @@
         "url": "https://docs.google.com/spreadsheets/d/1N1PbL1YvhLQfeshNk-wsBNxsCiPuBOguGSH8JUTdbpw"
       }
     },
+    "article_ash_brew": {
+      "flow_name": "article_ash_brew",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "article_bokashi": {
       "flow_name": "article_bokashi",
       "flow_subtype": "generated",
@@ -1823,13 +1933,58 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
+    "article_coughs_concotion": {
+      "flow_name": "article_coughs_concotion",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "article_drying_green_banana": {
+      "flow_name": "article_drying_green_banana",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "article_drying_kales": {
+      "flow_name": "article_drying_kales",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "article_fermented_feed": {
+      "flow_name": "article_fermented_feed",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "article_garden_compost": {
       "flow_name": "article_garden_compost",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
+    "article_garlic_water": {
+      "flow_name": "article_garlic_water",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "article_green_manure": {
       "flow_name": "article_green_manure",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "article_poultry_feed": {
+      "flow_name": "article_poultry_feed",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "article_silage": {
+      "flow_name": "article_silage",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "article_tephrosia_solution": {
+      "flow_name": "article_tephrosia_solution",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "article_yoghurt_preparation": {
+      "flow_name": "article_yoghurt_preparation",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1883,13 +2038,63 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
+    "ingredients_ash_brew_ing": {
+      "flow_name": "ingredients_ash_brew_ing",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "ingredients_bokashi_ing": {
       "flow_name": "ingredients_bokashi_ing",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
+    "ingredients_concotion": {
+      "flow_name": "ingredients_concotion",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "ingredients_drying_green_banana_vegs": {
+      "flow_name": "ingredients_drying_green_banana_vegs",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "ingredients_drying_kales_vegs": {
+      "flow_name": "ingredients_drying_kales_vegs",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "ingredients_fermenting_feeds": {
+      "flow_name": "ingredients_fermenting_feeds",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "ingredients_garden": {
       "flow_name": "ingredients_garden",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "ingredients_garlic_water_ing": {
+      "flow_name": "ingredients_garlic_water_ing",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "ingredients_homemade_feeds": {
+      "flow_name": "ingredients_homemade_feeds",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "ingredients_silage_making": {
+      "flow_name": "ingredients_silage_making",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "ingredients_tephrosia_solution_ing": {
+      "flow_name": "ingredients_tephrosia_solution_ing",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "ingredients_yoghurt_preparation_drink": {
+      "flow_name": "ingredients_yoghurt_preparation_drink",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1998,18 +2203,13 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "sub_livestock_dewormers": {
-      "flow_name": "sub_livestock_dewormers",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
     "sub_livestock_dewormers_1": {
       "flow_name": "sub_livestock_dewormers_1",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "sub_livestock_dynamics_1": {
-      "flow_name": "sub_livestock_dynamics_1",
+    "sub_livestock_dewormers_2": {
+      "flow_name": "sub_livestock_dewormers_2",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -2058,6 +2258,11 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
+    "sub_livestock_how_9": {
+      "flow_name": "sub_livestock_how_9",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "sub_livestock_remedies_1": {
       "flow_name": "sub_livestock_remedies_1",
       "flow_subtype": "generated",
@@ -2070,11 +2275,6 @@
     },
     "sub_livestock_remedies_3": {
       "flow_name": "sub_livestock_remedies_3",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "sub_livestock_remedies_4": {
-      "flow_name": "sub_livestock_remedies_4",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -2183,6 +2383,21 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
+    "sub_pest_dynamics_2": {
+      "flow_name": "sub_pest_dynamics_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_pest_dynamics_3": {
+      "flow_name": "sub_pest_dynamics_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_pest_how": {
+      "flow_name": "sub_pest_how",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "sub_pest_how_1": {
       "flow_name": "sub_pest_how_1",
       "flow_subtype": "generated",
@@ -2200,11 +2415,6 @@
     },
     "sub_pest_how_4": {
       "flow_name": "sub_pest_how_4",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "sub_pest_how_5": {
-      "flow_name": "sub_pest_how_5",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -2298,6 +2508,11 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
+    "sub_soil_how_5": {
+      "flow_name": "sub_soil_how_5",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "sub_soil_nutrient_depletion_1": {
       "flow_name": "sub_soil_nutrient_depletion_1",
       "flow_subtype": "generated",
@@ -2375,11 +2590,6 @@
     },
     "topic_livestock_start_at_dewormers": {
       "flow_name": "topic_livestock_start_at_dewormers",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "topic_livestock_start_at_dynamics": {
-      "flow_name": "topic_livestock_start_at_dynamics",
       "flow_subtype": "generated",
       "flow_type": "template"
     },

@@ -15,6 +15,10 @@
       "parameter_list": "filter: @item.id == \"@gen.id\""
     },
     {
+      "name": "postcompose",
+      "value": "_start_at_uncompleted_with_congrats"
+    },
+    {
       "type": "begin_template",
       "name": "topic_landing",
       "value": "topic_landing",
@@ -31,7 +35,7 @@
     },
     {
       "name": "topic_target_template",
-      "value": "topic_@gen.id",
+      "value": "topic_@gen.id@local.postcompose",
       "condition": "!@item.completed"
     },
     {

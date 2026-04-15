@@ -60,12 +60,7 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "topic_livestock_start_at_factors_consider",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
-      "flow_name": "topic_livestock_start_at_dynamics",
+      "flow_name": "topic_livestock_start_at_dewormers",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -75,7 +70,7 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "topic_livestock_start_at_dewormers",
+      "flow_name": "topic_livestock_start_at_factors_consider",
       "flow_subtype": "generated",
       "flow_type": "template"
     },

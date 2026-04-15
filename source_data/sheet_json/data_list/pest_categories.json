@@ -6,8 +6,9 @@
   "rows": [
     {
       "id": "dynamics",
-      "title::eng": "Identifying Common pests and their Impacts on crops",
-      "icon_asset": "images/icons/settings.svg"
+      "title::eng": "Common pests and their Impacts on crops",
+      "icon_asset": "images/icons/settings.svg",
+      "Comments": "Soft & hard bodied"
     },
     {
       "id": "how",

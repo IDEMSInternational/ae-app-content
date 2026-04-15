@@ -40,10 +40,14 @@
       "status": "released",
       "number": "2",
       "activities_id_list": [
-        "[]"
+        "ash_brew",
+        "tephrosia_solution",
+        "garlic_water"
       ],
       "ingredients_id_list": [
-        "[]"
+        "ash_brew_ing",
+        "tephrosia_solution_ing",
+        "garlic_water_ing"
       ],
       "image_asset": "images/topic/pest_title_image.svg",
       "title": "Pest Management",
@@ -68,10 +72,14 @@
       "status": "released",
       "number": "3",
       "activities_id_list": [
-        "[]"
+        "drying_kales",
+        "drying_green_banana",
+        "yoghurt_preparation"
       ],
       "ingredients_id_list": [
-        "[]"
+        "drying_kales_vegs",
+        "drying_green_banana_vegs",
+        "yoghurt_preparation_drink"
       ],
       "image_asset": "images/topic/nutrition_title_image.svg",
       "title": "Value Addition & Family Nutrition",
@@ -96,10 +104,16 @@
       "status": "released",
       "number": "4",
       "activities_id_list": [
-        "[]"
+        "fermented_feed",
+        "poultry_feed",
+        "coughs_concotion",
+        "silage"
       ],
       "ingredients_id_list": [
-        "[]"
+        "fermenting_feeds",
+        "homemade_feeds",
+        "concotion",
+        "silage_making"
       ],
       "image_asset": "images/topic/livestock_title_image.svg",
       "title": "Livestock Production",

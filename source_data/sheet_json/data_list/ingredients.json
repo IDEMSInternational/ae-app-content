@@ -30,7 +30,7 @@
       "title::eng": "Garden Compost Ingredients",
       "image_cover_asset": "images/topic/soil_images/garden_compost.png",
       "image_asset": "images/topic/soil_images/gardencompost_ing.png",
-      "step_1_text::eng": " * Topsoi\n * Animal manure (cow dung, chicken droppings) \n * Dry leaves and grass",
+      "step_1_text::eng": " * Topsoil\n * Animal manure (cow dung, chicken droppings) \n * Dry leaves and grass",
       "step_1_image_asset": "images/topic/soil_images/topsoil_manure_dry.png",
       "step_2_text::eng": " * Kitchen waste (vegetable peels, fruit scraps)\n * Green crop residues",
       "step_2_image_asset": "images/topic/soil_images/kitchen_green.png",
@@ -39,6 +39,99 @@
       "step_4_text::eng": "\n\n",
       "tips_text::eng": " * **Water:** Keeps the pile damp\n * **Dry materials:** Provide carbon and improve aeration for microbial activity.\n * **Animal manure:** Supplies nitrogen to support rapid microbial growth.            \n * **Topsoil:** Introduces beneficial microorganisms that kickstart decomposition.\n * **Long stick:** To check the compost temperature to avoid overheatting",
       "favourite_field": "ltp_activity_{@row.id}_favourite"
+    },
+    {
+      "id": "ash_brew_ing",
+      "number": 3,
+      "title::eng": "Ash Brew Ingredients",
+      "image_cover_asset": "images/topic/soil_images/ash_brew.png",
+      "image_asset": "images/topic/pest_images/ash_brew_ing.png",
+      "step_1_text::eng": " * 10 kg of <b>ash</b> (well sifted)\n * 1 kg of bar <b>soap</b> (avoid soaps with cemicals and detergents)\n * 40 litres of <b>water</b>",
+      "step_5_text::eng": "\n",
+      "tips_text::eng": " * **Hardwood Ash:** Provides high levels of potassium and silica to strengthen plant cell walls against sucking pests.\n * **Bar Soap:** Acts as a surfactant (sticker) to ensure the brew coats the insects and clings to waxy leaf surfaces.\n * **Boiling Process:** Accelerates the extraction of active minerals and helps the soap dissolve into a uniform solution.\n * **Sifting:** Removes large charcoal chunks to prevent the nozzle of your sprayer from clogging.\n * **Dilution:** Ensures the solution is gentle enough not to scorch young, tender leaves while remaining toxic to pests.",
+      "strorage_tips_text::eng": " * Take out liquid and store in a drum.\n * Use remaining solids for washing dishes.",
+      "usage_tips_text::eng": " * Dilute 3-5 litres in 100 litres of water (3-5%) and use as foliar spray\n * Apply when the weather is cool (i.e. evening or morning)\n * Add 2 litres of cooking oil immediately after brewing \n * Oil makes it more efficient in controlling insects with waxy body or scales\n * This practice increases photosynthesis rates",
+      "tag_list": "ash_brew",
+      "favourite_field": "ltp_activity_{@row.id}_favourite"
+    },
+    {
+      "id": "tephrosia_solution_ing",
+      "number": 4,
+      "title::eng": "Tephrosia Solution Ingredients",
+      "image_cover_asset": "images/topic/soil_images/ash_brew.png",
+      "image_asset": "images/topic/pest_images/ash_brew_ing.png",
+      "step_1_text::eng": "<span> * 5 kg of fresh Tephrosia leaves (mature about to flower </span><span><i>tephrosia</i></span><span> leaves work best).<br/> * 20 liters of water.</span>",
+      "tips_text::eng": " * **Fresh Green Leaves:** Contain the highest concentration of rotenone, the natural chemical that paralyzes pests.\n * **Pounding/Crushing:** Breaks down plant fibers to release the active insecticidal compounds into the water.\n * **Shade Drying:** If storing leaves, dry them out of direct sunlight to prevent the UV rays from breaking down the active chemicals.\n * **Late Afternoon Spraying:** Prevents the solution from evaporating too quickly and protects beneficial pollinators like bees.\n * **Straining:** Using a fine cloth ensures a smooth liquid that won't block manual or knapsack sprayers.",
+      "tag_list": "tephrosia_solution",
+      "favourite_field": "ltp_activity_{@row.id}_favourite"
+    },
+    {
+      "id": "garlic_water_ing",
+      "number": 5,
+      "title::eng": "Garlic Water Ingredients",
+      "image_cover_asset": "images/topic/soil_images/ash_brew.png",
+      "image_asset": "images/topic/pest_images/ash_brew_ing.png",
+      "step_1_text::eng": " * 10 cloves of garlic\n * 2 ginger roots or 100g of ginger\n * 2 tablespoons of bar soap/Neem oil\n * 10 red peppers (medium size)\n * 1 litre of clean water\n * Pestle and a mortar/gretor",
+      "tips_text::eng": " * **Crushed Cloves:** Releases Allicin, the strong-smelling compound that confuses and repels searching pests.\n * **Soaking Time:** Allows for maximum infusion of oils into the water for a more potent repellent.\n * **Vegetable Oil (Optional):** Helps the garlic scent linger longer on the plants after application.\n * **Small Batch Usage:** Best used within 24 hours, as the active repellent compounds degrade quickly once exposed to air.\n * **Targeted Application:** Focus on the undersides of leaves where aphids and mites typically congregate.",
+      "tag_list": "garlic_water",
+      "favourite_field": "ltp_activity_{@row.id}_favourite"
+    },
+    {
+      "id": "fermenting_feeds",
+      "number": 6,
+      "title::eng": "Fermented feeds \nIngredients",
+      "step_1_text::eng": "Carbohydrate sources (70%)\nProtein sources (25%)\nFats and oils\nVitamins and minerals (5%)\nMinerals\nMicrobes\nMollasses\nStorage containers",
+      "tips_text::eng": " * **Molasses:** is a source of energy for microbes. Drives the fermentation process and improves the taste of the feed when fed to the birds.\n * Microbes turn fresh feed into a safe, preserved, and more nutritious feed by controlling fermentation.\n * Microbes can be added to drinking water or sprayed in the poultry house to reduce the ammonia smell.\n * To get the birds used to the taste and smell of the fermented feeds, at first mix with other feeds.\n * Fermented feeds can be used as daily diet or on occasion.\n",
+      "strorage_tips_text::eng": "Store the container in a cool and dry place free from rats and direct sunlight or disturbances.",
+      "favourite_field": "ltp_activity_{@row.id}_favourite"
+    },
+    {
+      "id": "homemade_feeds",
+      "number": 7,
+      "title::eng": "Homemade chickmash\nIngredients",
+      "intro_text::eng": "When mixing the ingredients, start with the heaviest and finish with the lightest.",
+      "step_1_text::eng": " * Maize (njenga) - 12kg \n * Maize bran (Ngozi ya mahindi) - 3kg\n * Maize germ (moyo) - 3kg \n * Wheat/rice bran - 3kg \n * Soya (njenga) - 4kg \n * Sunflower white or black (oil extracted) - 2.17 kg \n * Fishmeal - 1.33 kg \n * DCP - 0.3 kg \n * Lime (calcium) - 0.4 kg \n * Salt - 0.1 kg \n * Chick premix - 0.3kg \n * Lysine - 0.1 kg \n * Methionine -  0.1kg \n * Toxin binder - 0.2kg",
+      "tips_text::eng": " * ** Maize (njenga), Maize germ (moyo), Maize bran (ngozi ya mahindi), Wheat/rice bran:** Provide major sources of energy.\n * ** Soya (njenga), Sunflower, Fishmeal:** Provide proteins for body building\n * ** DCP & Lime:**  phosphorus and calcium for strong bones and eggshells\n * ** Salt:** Provides sodium and chloride for body balance\n * ** Chick premix:** Source of vitamins and trace minerals\n * ** Toxin binders:** Breaks harmful toxins into harmless parts.\n * ** Lysine and methionine:** Essential amino acids needed for growth.\n * **  Suppliments of DCP are crushed eggshells or bones . \n* The chickmash is used as a feed for chicks below 8 weeks*\n",
+      "strorage_tips_text::eng": "Store in a cool and dry place",
+      "favourite_field": "ltp_activity_{@row.id}_favourite"
+    },
+    {
+      "id": "concotion",
+      "number": 8,
+      "title::eng": "Cough Concoction for Poultry",
+      "image_asset": "images/topic/Livestock_images/tithonia concotion.jpeg",
+      "step_1_text::eng": " * Ginger - Thumb size \n * Tumeric - thumbnail  \n * Hot pepper 4- 5 \n * Garlic - 2 cloves \n * Tithonia leaves - handful  \n * Aloe Vera  - 2-4",
+      "tips_text::eng": " * **Ginger:** Acts as a natural stimulant and antimicrobial agent that supports digestion and disease resistance.\n * **Turmeric:** Suppresses harmful microbes during fermentation and improves the medicinal value of the concoction.\n * **Hot peppers (chillies):** Contain capsaicin, which acts as a natural pest repellent and antimicrobial agent. They also help deter insects and harmful organisms.\n * **Garlic:** Enhances disease control and improves the overall effectiveness of the mixture.\n * **Tithonia leaves:** Improve the nutritional value of the mixture and support microbial fermentation.\n * **Aloe vera:** Contains enzymes and bioactive compounds that support fermentation and improve the stability of the mixture.\n * **Water:** Allows proper fermentation or dilution for application.",
+      "strorage_tips_text::eng": "Store using a container",
+      "favourite_field": "ltp_activity_{@row.id}_favourite"
+    },
+    {
+      "id": "silage_making",
+      "number": 9,
+      "title::eng": "Silage Making Ingredients",
+      "step_1_text::eng": "* Fodder materials to be preserved, eg, Napier\n* Maize bran - CHO reduces the moisture content\n* Molasses\n* Chaff cutter/panga\n* Airtight container",
+      "tips_text::eng": " * **Fodder materials:** Provides bulk, nutrients, and fiber needed for good-quality livestock feed after fermentation.\n * **Maize bran:** Absorb excess moisture from the fodder and provides carbohydrates that support fermentation.\n * **Molasses:** Acts as a fermentation booster while improving taste and energy value.\n *Chopping fodder into small pieces increases compaction, removes air spaces, and speeds up fermentation.\n * **Airtight container (e.g., silo, polythene bag, drum):** This is used to exclude air. \n * Silage fermentation must occur in anaerobic (oxygen-free) conditions; otherwise, the fodder will rot instead of fermenting. \n* Silage making relies on chopping fodder, balancing moisture, adding energy sources, and sealing everything airtight to allow beneficial fermentation and prevent spoilage.",
+      "strorage_tips_text::eng": "* Keep the silage in airtight conditions.\nYou can use:\n   * Paper bags\n   * Skyplast bags\n   * Hermetic bags\n * Airtight storage ensures proper preservation and long shelf life.",
+      "favourite_field": "ltp_activity_{@row.id}_favourite"
+    },
+    {
+      "id": "drying_kales_vegs",
+      "number": 10,
+      "title::eng": "Drying Sukuma Wiki (Kales)",
+      "step_1_text::eng": "* Fresh green and healthy sukuma wiki (kales) leaves\n* Warm water\n* Clean cold water\n* Salt\n* Basin\n* Drying rack / clean raised drying surface\n* Solar dryer or clean shaded drying place"
+    },
+    {
+      "id": "drying_green_banana_vegs",
+      "number": 11,
+      "title::eng": "Drying Green Bananas",
+      "intro_text::eng": "The dried banana pieces can be stored for a long time. They can also be crushed or milled into banana flour for porridge, or other food uses.",
+      "step_1_text::eng": "* Fresh mature green bananas\n* Clean water\n* Garlic water (or salted water)\n* Cold water\n* Knife\n* Basin\n* Solar dryer or drying tray"
+    },
+    {
+      "id": "yoghurt_preparation_drink",
+      "number": 12,
+      "title::eng": "Yoghurt Preparation",
+      "step_1_text::eng": "* Fresh milk\n* Plain yoghurt (starter culture)\n* Sugar (optional)\n* Lemon (ndimu)\n* Beetroot\n* Vanilla flavour\n* Strawberry flavour\n* Jug\n* Sufuria (cooking pot)\n* Sieve or clean cloth for filtering\n* Clean fermentation container / barrel\n* Thermometer (optional)\n* Refrigerator or cool storage place"
     }
   ]
 }

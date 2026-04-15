@@ -4,7 +4,7 @@
 | type | count |
 | --- | --- |
 | accordion | 2 |
-| accordion_section | 3 |
+| accordion_section | 4 |
 | audio | 2 |
 | button | 28 |
 | combo_box | 3 |
@@ -21,12 +21,12 @@
 | qr_code | 2 |
 | round_button | 2 |
 | select_text | 2 |
-| set_variable | 733 |
+| set_variable | 762 |
 | simple_checkbox | 1 |
 | task_card | 9 |
 | task_progress_bar | 3 |
-| template | 186 |
-| text | 59 |
+| template | 207 |
+| text | 60 |
 | text_bubble | 1 |
 | title | 24 |
 | toggle_bar | 4 |
@@ -40,11 +40,11 @@
 | type | count |
 | --- | --- |
 | app_update | 1 |
-| emit: completed | 152 |
+| emit: completed | 173 |
 | emit: force_reload | 2 |
 | emit: force_reprocess | 6 |
 | emit: server_sync | 5 |
-| emit: uncompleted | 158 |
+| emit: uncompleted | 179 |
 | feedback | 2 |
 | go_to | 16 |
 | pop_up | 11 |
@@ -62,8 +62,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 53767 KB | 53.8 MB |
-| unused | 22704 KB | 22.7 MB |
+| total | 77896 KB | 77.9 MB |
+| unused | 34213 KB | 34.2 MB |
 </details>
 
 <details open>
@@ -82,7 +82,9 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/chevron_back_white.svg | 1.3 |
 | images/icons/chevron_forward_white.svg | 1.3 |
 | images/topic/Livestock_images/African marigold.png | 2591 |
+| images/topic/Livestock_images/fermented_feeds.png | 2215 |
 | images/topic/Livestock_images/mollasses.jpg | 2841 |
+| images/topic/Livestock_images/poultry_feed.jpeg | 334.8 |
 | images/topic/Livestock_images/warmwood.png | 2833.6 |
 | images/topic/Livestock_images/wormwood2.jpg | 6731.8 |
 | images/topic/climate_change_images/Copy of diversity.png | 496.8 |
@@ -91,6 +93,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/topic/nutrition/farm_food.svg | 1245.8 |
 | images/topic/nutrition/types_food.svg | 78.4 |
 | images/topic/nutrition/vulnerable_groups.png | 187.5 |
+| images/topic/pest_images/ash_brew_steps.png | 8959.2 |
 | images/topic/pest_images/banana_aphids.jpg | 30.4 |
 | images/topic/pest_images/bean_weevil.jpg | 76.7 |
 | images/topic/pest_images/cabbage_moth.jpg | 30.8 |
@@ -128,9 +131,12 @@ Assets that have references within sheets but do not appear in app-data
 | images/icons/tick.svg | 1 |
 | images/icons/tick_white.svg | 1 |
 | images/shield.svg | 1 |
-| images/topic/climate_change_images/industrial_processes.png | 2 |
 | images/topic/nutrition/vulnerable_groups.svg | 2 |
+| images/topic/pest_images/poultry_feed.jpeg | 3 |
+| images/topic/soil_images/ash_brew.png | 3 |
+| images/topic/soil_images/ash_brew_steps.png | 3 |
 | images/topic/soil_images/compost.png | 2 |
+| images/topic/soil_images/fermented_feeds.png | 1 |
 | lottie/bulging_circles.json | 1 |
 </details>
 
@@ -154,7 +160,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/profile.svg | 1.1 | 1 |
 | images/icons/settings.svg | 4.3 | 16 |
 | images/icons/settings_down.png | 20.3 | 1 |
-| images/icons/terms_conditions.svg | 1.5 | 19 |
+| images/icons/terms_conditions.svg | 1.5 | 17 |
 | images/icons/user_id.svg | 2 | 1 |
 | images/logo/IDEMS_logo.png | 6.7 | 1 |
 | images/logo/innodems.png | 87.3 | 1 |
@@ -170,15 +176,20 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/topic/Livestock_images/pawpaw seeds.png | 2399 | 2 |
 | images/topic/Livestock_images/rosemary.png | 4835.5 | 2 |
 | images/topic/Livestock_images/tephrosia1.jpg | 5770.9 | 2 |
-| images/topic/Livestock_images/tithonia concotion.jpeg | 298.9 | 2 |
+| images/topic/Livestock_images/tithonia concotion.jpeg | 298.9 | 1 |
 | images/topic/agroforestry_title_image.svg | 22.2 | 3 |
+| images/topic/climate_change_images/industrial_processes.png | 251.8 | 2 |
 | images/topic/livestock_title_image.svg | 30.2 | 3 |
 | images/topic/nutrition/balanced_diet_meal.png | 1489.8 | 2 |
 | images/topic/nutrition/beverage_meal.svg | 0.5 | 2 |
 | images/topic/nutrition/safety_check.svg | 0.4 | 2 |
 | images/topic/nutrition/value_addition_milk.png | 1665.4 | 2 |
 | images/topic/nutrition_title_image.svg | 39.4 | 3 |
+| images/topic/pest_images/ash_brew.png | 6785 | 3 |
 | images/topic/pest_images/ash_brew1.png | 63.1 | 2 |
+| images/topic/pest_images/ash_brew_ing.png | 82.5 | 3 |
+| images/topic/pest_images/biological_control_image.png | 7951.8 | 2 |
+| images/topic/pest_images/cultural_control_image.png | 9058 | 2 |
 | images/topic/pest_images/pests_collage.png | 2583.3 | 2 |
 | images/topic/pest_title_image.svg | 150.8 | 3 |
 | images/topic/soil_images/agroecology.png | 764.2 | 2 |
@@ -223,6 +234,6 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | generator |  | 20 |
 | global |  | 3 |
 | template |  | 48 |
-| template | generated | 143 |
+| template | generated | 164 |
 | template | legal_terms | 2 |
 </details>

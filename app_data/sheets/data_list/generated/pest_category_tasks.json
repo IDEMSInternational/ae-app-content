@@ -19,15 +19,16 @@
     {
       "id": "dynamics",
       "icon_asset": "images/icons/settings.svg",
-      "title": "Identifying Common pests and their Impacts on crops",
+      "title": "Common pests and their Impacts on crops",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Identifying Common pests and their Impacts on crops"
+          "eng": "Common pests and their Impacts on crops"
         }
-      }
+      },
+      "Comments": "Soft & hard bodied"
     },
     {
       "id": "how",
