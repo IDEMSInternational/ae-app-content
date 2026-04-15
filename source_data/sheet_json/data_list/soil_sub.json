@@ -136,19 +136,21 @@
     },
     {
       "id": "how_3",
-      "title::eng": "Compost manure",
-      "text_1::eng": "There are two types of compost: **Boma compost and Garden compost.**\nThe time it takes for compost to be ready depends on the size of the pile, the materials used, and the moisture content—smaller piles generally take longer to decompose. ",
-      "text_2::eng": "The compost **always** be kept under shade to avoid direct sunlight that makes the compost loose its nutrients.",
       "section_1_title::eng": "Boma Compost",
       "section_1_text::eng": "Made by laying farm residues in a livestock shed to collect animal urine, which is rich in nitrogen. After some time, the mixture is collected and applied to your farm. ",
-      "section_2_image_asset": "images/topic/soil_images/compost.png",
-      "section_2_title::eng": "Garden Compost",
-      "section_2_text::eng": "Garden Compost is an organic fertilizer made by decomposing natural materials, primarily crop residues, until they turn into a rich, soil-like substance.",
-      "section_2_button_text::eng": "More",
-      "section_2_extra_text::eng": "When collecting materials, the focus is on adding nutrients the soil needs, especially nitrogen (N), phosphorus (P), and potassium (K)."
+      "section_2_text::eng": "The compost should**always** be kept under shade to avoid direct sunlight that makes the compost loose its nutrients."
     },
     {
       "id": "how_4",
+      "section_1_image_asset": "images/topic/soil_images/compost.png",
+      "section_1_title::eng": "Garden Compost",
+      "section_1_text::eng": "Garden Compost is an organic fertilizer made by decomposing natural materials, primarily crop residues, until they turn into a rich, soil-like substance under a shade to avoid direct sunlight that makes the compost loose its nutrients..",
+      "section_1_button_text::eng": "More",
+      "section_1_extra_text::eng": "When collecting materials, the focus is on adding nutrients the soil needs, especially nitrogen (N), phosphorus (P), and potassium (K).",
+      "section_2_text::eng": "The taken for compost to be ready depends on the size of the pile, the materials used, and the moisture content—smaller piles generally take longer to decompose. "
+    },
+    {
+      "id": "how_5",
       "section_1_title::eng": "Green Manure",
       "section_1_text::eng": "Involves planting leguminous crops such as beans, soya, or lablab, allowing them to grow until about 50% of flowering, then cutting them down before planting your main crop.",
       "section_1_button_text::eng": "More",

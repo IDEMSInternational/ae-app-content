@@ -131,6 +131,10 @@
     "md5Checksum": "10dd0608b82f673e60c230c56d7f2ed5",
     "size_kb": 3391.3
   },
+  "images/topic/Livestock_images/fermented_feeds.png": {
+    "md5Checksum": "74004ee7d1c7635d0f4a752436fb7268",
+    "size_kb": 2215
+  },
   "images/topic/Livestock_images/hygine.png": {
     "md5Checksum": "0e7fbc7e3d3c3ce2803772527b3d9371",
     "size_kb": 3027.1
@@ -146,6 +150,10 @@
   "images/topic/Livestock_images/pawpaw seeds.png": {
     "md5Checksum": "9b411678353fa7a52d5cac7019724ca1",
     "size_kb": 2399
+  },
+  "images/topic/Livestock_images/poultry_feed.jpeg": {
+    "md5Checksum": "2702d7f97edb806a369b649445e6a7df",
+    "size_kb": 334.8
   },
   "images/topic/Livestock_images/rosemary.png": {
     "md5Checksum": "65a6b1c86b0210262c3a21d977d7c9ce",
@@ -178,6 +186,10 @@
   "images/topic/climate_change_images/Copy of resilience.png": {
     "md5Checksum": "e70b96cb8b66020e782291cfe9009e23",
     "size_kb": 275.8
+  },
+  "images/topic/climate_change_images/industrial_processes.png": {
+    "md5Checksum": "0fc691ed719bb16abba1bbe89d70917f",
+    "size_kb": 251.8
   },
   "images/topic/livestock_title_image.svg": {
     "md5Checksum": "83d1595e08289a5bb47a8566fc543656",
@@ -219,9 +231,21 @@
     "md5Checksum": "f572707355eeb0b3df7fa83b3a94ace3",
     "size_kb": 39.4
   },
+  "images/topic/pest_images/ash_brew.png": {
+    "md5Checksum": "dc22ae37b17bbf9c0dcd9f019f96e940",
+    "size_kb": 6785
+  },
   "images/topic/pest_images/ash_brew1.png": {
     "md5Checksum": "2549dd0d57dce101caaef3473038dfa9",
     "size_kb": 63.1
+  },
+  "images/topic/pest_images/ash_brew_ing.png": {
+    "md5Checksum": "40ada5d63a04d2494feadbff99047d2d",
+    "size_kb": 82.5
+  },
+  "images/topic/pest_images/ash_brew_steps.png": {
+    "md5Checksum": "9774ed15074c27be25a6925551d3eba9",
+    "size_kb": 8959.2
   },
   "images/topic/pest_images/banana_aphids.jpg": {
     "md5Checksum": "cc7027c0ed0172520064691d357ba1f7",
@@ -231,9 +255,17 @@
     "md5Checksum": "645e91aee359d16730a04e22e1b54d68",
     "size_kb": 76.7
   },
+  "images/topic/pest_images/biological_control_image.png": {
+    "md5Checksum": "cf0327c210e1abebc3685f0754e69bc1",
+    "size_kb": 7951.8
+  },
   "images/topic/pest_images/cabbage_moth.jpg": {
     "md5Checksum": "bc781f04f34db31a89df22ff25f1626e",
     "size_kb": 30.8
+  },
+  "images/topic/pest_images/cultural_control_image.png": {
+    "md5Checksum": "00017d68e8be99db6e95c2c207a39bcb",
+    "size_kb": 9058
   },
   "images/topic/pest_images/pest_aphids.PNG": {
     "md5Checksum": "5c8df2d4bd27fb1f6c641a96ae119104",

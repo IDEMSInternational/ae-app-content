@@ -1,12 +1,12 @@
 {
-  "flow_name": "sub_pest_how_5",
+  "flow_name": "ingredients_homemade_feeds",
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [
     {
       "type": "template",
-      "name": "sub",
-      "value": "sub",
+      "name": "ingredients_activity",
+      "value": "ingredients_activity",
       "action_list": [
         {
           "trigger": "completed",
@@ -25,30 +25,18 @@
           "_raw": "uncompleted | emit: uncompleted"
         }
       ],
-      "exclude_from_translation": true,
       "rows": [
         {
-          "name": "sub_id",
-          "value": "how_5",
+          "name": "ingredients_id",
+          "value": "homemade_feeds",
           "_translations": {
             "value": {}
           },
-          "exclude_from_translation": true,
           "type": "set_variable",
-          "_nested_name": "sub.sub_id"
-        },
-        {
-          "name": "topic_id",
-          "value": "pest",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "_nested_name": "sub.topic_id"
+          "_nested_name": "ingredients_activity.ingredients_id"
         }
       ],
-      "_nested_name": "sub"
+      "_nested_name": "ingredients_activity"
     }
   ]
 }

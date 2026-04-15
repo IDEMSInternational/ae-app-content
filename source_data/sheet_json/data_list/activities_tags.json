@@ -31,6 +31,76 @@
       "title::eng": "Green Manure",
       "text::eng": "Making Green Manure",
       "description::eng": "Making Green Manure"
+    },
+    {
+      "id": "ash_brew",
+      "name": "ash_brew",
+      "title::eng": "Ash Brew",
+      "text::eng": "Making Ash Brew",
+      "description::eng": "Making Ash Brew"
+    },
+    {
+      "id": "tephrosia_solution",
+      "name": "tephrosia_solution",
+      "title::eng": "Tephrosia Solution",
+      "text::eng": "Making Tephrosia Solution",
+      "description::eng": "Making Tephrosia Solution"
+    },
+    {
+      "id": "garlic_water",
+      "name": "garlic_water",
+      "title::eng": "Garlic Water",
+      "text::eng": "Making Garlic Water",
+      "description::eng": "Making Garlic Water"
+    },
+    {
+      "id": "drying_kales",
+      "name": "drying_kales",
+      "title::eng": "Sukuma Wiki (Kales)",
+      "text::eng": "Drying Sukuma Wiki (Kales)",
+      "description::eng": "Drying Sukuma Wiki (Kales)"
+    },
+    {
+      "id": "drying_green_banana",
+      "name": "drying_green_banana",
+      "title::eng": "Green Bananas",
+      "text::eng": "Drying Green Bananas",
+      "description::eng": "Drying Green Bananas"
+    },
+    {
+      "id": "yoghurt_preparation",
+      "name": "yoghurt_preparation",
+      "title::eng": "Yoghurt Preparation",
+      "text::eng": "Making Yoghurt",
+      "description::eng": "Making Yoghurt"
+    },
+    {
+      "id": "poultry_feed",
+      "name": "poultry_feed",
+      "title::eng": "Homemade poultry feed",
+      "text::eng": "Preparing homemade poultry feeds",
+      "description::eng": "Preparing homemade poultry feeds"
+    },
+    {
+      "id": "coughs_concotion",
+      "name": "coughs_concotion",
+      "title::eng": "Concoction for sneezing/coughs/colds",
+      "text::eng": "Preparing concotions for sneezing, coughs and colds in poultry",
+      "description::eng": "Preparing concotions for sneezing, coughs and colds in poultry"
+    },
+    {
+      "id": "silage",
+      "name": "silage",
+      "title::eng": "Silage Making",
+      "text::eng": "Making Silage",
+      "description::eng": "Making Silage"
+    },
+    {
+      "id": "fermented_feed",
+      "name": "fermented_feed",
+      "title::eng": "Fermented Feeds",
+      "text::eng": "Preparing fermented feeds",
+      "description::eng": "Preparing fermented feeds"
     }
   ]
 }

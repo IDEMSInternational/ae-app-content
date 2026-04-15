@@ -1,12 +1,12 @@
 {
-  "flow_name": "sub_livestock_dynamics_1",
+  "flow_name": "article_yoghurt_preparation",
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [
     {
       "type": "template",
-      "name": "sub",
-      "value": "sub",
+      "name": "farm",
+      "value": "farm",
       "action_list": [
         {
           "trigger": "completed",
@@ -25,30 +25,18 @@
           "_raw": "uncompleted | emit: uncompleted"
         }
       ],
-      "exclude_from_translation": true,
       "rows": [
         {
-          "name": "sub_id",
-          "value": "dynamics_1",
+          "name": "id",
+          "value": "yoghurt_preparation",
           "_translations": {
             "value": {}
           },
-          "exclude_from_translation": true,
           "type": "set_variable",
-          "_nested_name": "sub.sub_id"
-        },
-        {
-          "name": "topic_id",
-          "value": "livestock",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "_nested_name": "sub.topic_id"
+          "_nested_name": "farm.id"
         }
       ],
-      "_nested_name": "sub"
+      "_nested_name": "farm"
     }
   ]
 }

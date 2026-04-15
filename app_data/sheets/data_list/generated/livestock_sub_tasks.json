@@ -230,6 +230,222 @@
       "completed": false
     },
     {
+      "id": "dewormers_1",
+      "category_id": "dewormers",
+      "module_id": "livestock",
+      "title": "Dewormers",
+      "_translations": {
+        "title": {},
+        "section_1_title": {},
+        "section_1_text": {},
+        "section_2_title": {},
+        "section_2_text": {},
+        "section_2_button_text": {},
+        "section_2_extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Dewormers"
+        },
+        "section_1_title": {
+          "eng": "Wormwood"
+        },
+        "section_1_text": {
+          "eng": "Crush and soak in water for 30–35 minutes to make a deworming solution."
+        },
+        "section_2_title": {
+          "eng": "Tephrosia"
+        },
+        "section_2_text": {
+          "eng": "* It is used as both internal & external parasite control\n * To use it, soak dried Tephrosia powder in water in a 1:10 ratio overnight.\n * Strain and use the liquid"
+        },
+        "section_2_button_text": {
+          "eng": "Directions for use"
+        },
+        "section_2_extra_text": {
+          "eng": "<b>Internally:</b>\n * Use 2 ml for adult birds\n * For chicks under 8 weeks use 1 ml\n\n <b> Externally:</b>\n\n * Dip birds in solution twice a week. (Do NOT dip incubating or laying birds.)\n \n* For laying/incubating birds, mix dry <b>Tephrosia powder or leaves</b> into bedding."
+        }
+      },
+      "section_1_title": "Wormwood",
+      "section_1_text": "Crush and soak in water for 30–35 minutes to make a deworming solution.",
+      "section_2_title": "Tephrosia",
+      "section_2_text": "* It is used as both internal & external parasite control\n * To use it, soak dried Tephrosia powder in water in a 1:10 ratio overnight.\n * Strain and use the liquid",
+      "section_2_button_text": "Directions for use",
+      "section_2_extra_text": "<b>Internally:</b>\n * Use 2 ml for adult birds\n * For chicks under 8 weeks use 1 ml\n\n <b> Externally:</b>\n\n * Dip birds in solution twice a week. (Do NOT dip incubating or laying birds.)\n \n* For laying/incubating birds, mix dry <b>Tephrosia powder or leaves</b> into bedding.",
+      "section_1_image_asset": "images/topic/Livestock_images/Wormwood.jpg",
+      "section_2_image_asset": "images/topic/Livestock_images/tephrosia1.jpg",
+      "completed": false
+    },
+    {
+      "id": "dewormers_2",
+      "category_id": "dewormers",
+      "module_id": "livestock",
+      "title": "Dewormers",
+      "_translations": {
+        "title": {},
+        "section_1_title": {},
+        "section_1_text": {},
+        "section_1_button_text": {},
+        "section_2_title": {},
+        "section_2_text": {},
+        "section_2_button_text": {},
+        "section_2_extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Dewormers"
+        },
+        "section_1_title": {
+          "eng": "Pawpaw Seeds"
+        },
+        "section_1_text": {
+          "eng": "Dry, crush to powder, and mix small amounts into feed."
+        },
+        "section_1_button_text": {
+          "eng": ""
+        },
+        "section_2_title": {
+          "eng": "Pawpaw leaves"
+        },
+        "section_2_text": {
+          "eng": "Use crushed pawpaw leaves (male or female) for coccidiosis (blood in droppings)"
+        },
+        "section_2_button_text": {
+          "eng": "Procedure"
+        },
+        "section_2_extra_text": {
+          "eng": "* Soak in water, ferment with molasses for 3 days.\n * Mix with drinking water at 1 part mixture: 2 parts water.\n * Hanging the leaves also helps, but is less effective."
+        }
+      },
+      "section_1_title": "Pawpaw Seeds",
+      "section_1_text": "Dry, crush to powder, and mix small amounts into feed.",
+      "section_1_button_text": "",
+      "section_2_title": "Pawpaw leaves",
+      "section_2_text": "Use crushed pawpaw leaves (male or female) for coccidiosis (blood in droppings)",
+      "section_2_button_text": "Procedure",
+      "section_2_extra_text": "* Soak in water, ferment with molasses for 3 days.\n * Mix with drinking water at 1 part mixture: 2 parts water.\n * Hanging the leaves also helps, but is less effective.",
+      "section_1_image_asset": "images/topic/Livestock_images/pawpaw seeds.png",
+      "section_2_image_asset": "images/topic/Livestock_images/pawpaw leaves.png",
+      "completed": false
+    },
+    {
+      "id": "remedies_1",
+      "category_id": "remedies",
+      "module_id": "livestock",
+      "_translatedFields": {
+        "text_1": {
+          "eng": "Some natural management practices supporting herbal remedies are:"
+        },
+        "section_1_title": {
+          "eng": "African/Mexican Marigold"
+        },
+        "section_1_text": {
+          "eng": "Hang inside the poultry house or use as bedding."
+        },
+        "section_2_title": {
+          "eng": "Basil"
+        },
+        "section_2_text": {
+          "eng": "Hang in the house or spray extract."
+        },
+        "section_3_title": {
+          "eng": "Marigold + Tobacco Leaves + Basil"
+        },
+        "section_3_text": {
+          "eng": "Burn mixture near the poultry house to repel pests."
+        }
+      },
+      "text_1": "Some natural management practices supporting herbal remedies are:",
+      "_translations": {
+        "text_1": {},
+        "section_1_title": {},
+        "section_1_text": {},
+        "section_2_title": {},
+        "section_2_text": {},
+        "section_3_title": {},
+        "section_3_text": {}
+      },
+      "section_1_title": "African/Mexican Marigold",
+      "section_1_text": "Hang inside the poultry house or use as bedding.",
+      "section_2_title": "Basil",
+      "section_2_text": "Hang in the house or spray extract.",
+      "section_1_image_asset": "images/topic/Livestock_images/Marigold.jpg",
+      "section_2_image_asset": "images/topic/Livestock_images/Basil.png",
+      "section_3_image_asset": "images/topic/Livestock_images/Basil,marigold,tobacco.png",
+      "section_3_title": "Marigold + Tobacco Leaves + Basil",
+      "section_3_text": "Burn mixture near the poultry house to repel pests.",
+      "completed": false
+    },
+    {
+      "id": "remedies_2",
+      "category_id": "remedies",
+      "module_id": "livestock",
+      "_translatedFields": {
+        "section_1_title": {
+          "eng": "Lemon grass"
+        },
+        "section_1_text": {
+          "eng": "Dry and place in incubating/brooding houses, or plant around the poultry house (rosemary works too)"
+        },
+        "section_2_title": {
+          "eng": "Rosemary"
+        },
+        "section_2_text": {
+          "eng": "Prepare as a tea for drinking water or dry and mix into feed; hanging inside the house helps the air quality"
+        }
+      },
+      "section_1_title": "Lemon grass",
+      "_translations": {
+        "section_1_title": {},
+        "section_1_text": {},
+        "section_2_title": {},
+        "section_2_text": {}
+      },
+      "section_1_text": "Dry and place in incubating/brooding houses, or plant around the poultry house (rosemary works too)",
+      "section_2_title": "Rosemary",
+      "section_2_text": "Prepare as a tea for drinking water or dry and mix into feed; hanging inside the house helps the air quality",
+      "section_1_image_asset": "images/topic/Livestock_images/Lemon grass.png",
+      "section_2_image_asset": "images/topic/Livestock_images/rosemary.png",
+      "completed": false
+    },
+    {
+      "id": "remedies_3",
+      "category_id": "remedies",
+      "module_id": "livestock",
+      "_translatedFields": {
+        "text_1": {
+          "eng": "Some ways of ensuring proper poultry health through general management practices and environmental sanitation are:"
+        },
+        "section_1_title": {
+          "eng": "Clear Bushes"
+        },
+        "section_1_text": {
+          "eng": "Keep vegetation short around poultry houses to reduce hiding spots for pests."
+        },
+        "section_2_title": {
+          "eng": "Maintain Hygiene"
+        },
+        "section_2_text": {
+          "eng": "Clean houses regularly to prevent disease."
+        }
+      },
+      "text_1": "Some ways of ensuring proper poultry health through general management practices and environmental sanitation are:",
+      "_translations": {
+        "text_1": {},
+        "section_1_title": {},
+        "section_1_text": {},
+        "section_2_title": {},
+        "section_2_text": {}
+      },
+      "section_1_title": "Clear Bushes",
+      "section_1_text": "Keep vegetation short around poultry houses to reduce hiding spots for pests.",
+      "section_2_title": "Maintain Hygiene",
+      "section_2_text": "Clean houses regularly to prevent disease.",
+      "section_1_image_asset": "images/topic/Livestock_images/bush_clearing.png",
+      "section_2_image_asset": "images/topic/Livestock_images/hygine.png",
+      "completed": false
+    },
+    {
       "id": "factors_consider",
       "category_id": "factors_consider",
       "module_id": "livestock",
@@ -290,340 +506,58 @@
       "completed": false
     },
     {
-      "id": "dynamics_1",
-      "category_id": "dynamics",
-      "module_id": "livestock",
-      "_translatedFields": {
-        "section_2_title": {
-          "eng": "Ingredients for preparing a 30kg chick mash"
-        },
-        "section_2_text": {
-          "eng": "* Maize (njenga) - 12kg \n * Maize bran (Ngozi ya mahindi) - 3kg\n * Maize germ (moyo) - 3kg \n * Wheat/rice bran - 3kg \n * Soya (njenga) - 4kg \n * Sunflower white or black (oil extracted) - 2.17 kg \n * Fishmeal - 1.33 kg \n * DCP - 0.3 kg \n * Lime (calcium) - 0.4 kg \n * Salt - 0.1 kg \n * Chick premix - 0.3kg \n * Lysine - 0.1 kg \n * Methionine -  0.1kg \n * Toxin binder - 0.2kg"
-        },
-        "section_2_button_text": {
-          "eng": "Procedure"
-        },
-        "section_2_extra_text": {
-          "eng": "* Measure all ingredients accurately\n * To mix the ingredients:\n \n   * Add heavy ingredients first\n   * Add medium‑weight ingredients\n   * Add light ingredients last\n * Mix thoroughly for even blending\n * Store feed in a clean, dry place"
-        },
-        "section_3_title": {
-          "eng": "Explanation"
-        },
-        "section_3_text": {
-          "eng": "* Toxin binders are used to break harmful toxins into harmless parts. \n * Lysine and methionine are essential amino acids needed for growth.\n * Suppliments of DCP are crushed eggshells or bones ."
-        }
-      },
-      "section_2_title": "Ingredients for preparing a 30kg chick mash",
-      "_translations": {
-        "section_2_title": {},
-        "section_2_text": {},
-        "section_2_button_text": {},
-        "section_2_extra_text": {},
-        "section_3_title": {},
-        "section_3_text": {}
-      },
-      "section_2_text": "* Maize (njenga) - 12kg \n * Maize bran (Ngozi ya mahindi) - 3kg\n * Maize germ (moyo) - 3kg \n * Wheat/rice bran - 3kg \n * Soya (njenga) - 4kg \n * Sunflower white or black (oil extracted) - 2.17 kg \n * Fishmeal - 1.33 kg \n * DCP - 0.3 kg \n * Lime (calcium) - 0.4 kg \n * Salt - 0.1 kg \n * Chick premix - 0.3kg \n * Lysine - 0.1 kg \n * Methionine -  0.1kg \n * Toxin binder - 0.2kg",
-      "section_2_button_text": "Procedure",
-      "section_2_extra_text": "* Measure all ingredients accurately\n * To mix the ingredients:\n \n   * Add heavy ingredients first\n   * Add medium‑weight ingredients\n   * Add light ingredients last\n * Mix thoroughly for even blending\n * Store feed in a clean, dry place",
-      "section_3_title": "Explanation",
-      "section_3_text": "* Toxin binders are used to break harmful toxins into harmless parts. \n * Lysine and methionine are essential amino acids needed for growth.\n * Suppliments of DCP are crushed eggshells or bones .",
-      "completed": false
-    },
-    {
-      "id": "remedies_1",
-      "category_id": "remedies",
-      "module_id": "livestock",
-      "_translatedFields": {
-        "section_1_title": {
-          "eng": "African/Mexican Marigold"
-        },
-        "section_1_text": {
-          "eng": "Hang inside the poultry house or use as bedding."
-        },
-        "section_2_title": {
-          "eng": "Basil"
-        },
-        "section_2_text": {
-          "eng": "Hang in the house or spray extract."
-        },
-        "section_3_title": {
-          "eng": "Marigold + Tobacco Leaves + Basil"
-        },
-        "section_3_text": {
-          "eng": "Burn mixture near the poultry house to repel pests."
-        }
-      },
-      "section_1_title": "African/Mexican Marigold",
-      "_translations": {
-        "section_1_title": {},
-        "section_1_text": {},
-        "section_2_title": {},
-        "section_2_text": {},
-        "section_3_title": {},
-        "section_3_text": {}
-      },
-      "section_1_text": "Hang inside the poultry house or use as bedding.",
-      "section_2_title": "Basil",
-      "section_2_text": "Hang in the house or spray extract.",
-      "section_3_title": "Marigold + Tobacco Leaves + Basil",
-      "section_3_text": "Burn mixture near the poultry house to repel pests.",
-      "section_1_image_asset": "images/topic/Livestock_images/Marigold.jpg",
-      "section_2_image_asset": "images/topic/Livestock_images/Basil.png",
-      "section_3_image_asset": "images/topic/Livestock_images/Basil,marigold,tobacco.png",
-      "completed": false
-    },
-    {
-      "id": "remedies_2",
-      "category_id": "remedies",
-      "module_id": "livestock",
-      "_translatedFields": {
-        "section_1_title": {
-          "eng": "Lemon grass"
-        },
-        "section_1_text": {
-          "eng": "Dry and place in incubating/brooding houses, or plant around the poultry house (rosemary works too)"
-        },
-        "section_2_title": {
-          "eng": "Rosemary"
-        },
-        "section_2_text": {
-          "eng": "Prepare as a tea for drinking water or dry and mix into feed; hanging inside the house helps the air quality"
-        }
-      },
-      "section_1_title": "Lemon grass",
-      "_translations": {
-        "section_1_title": {},
-        "section_1_text": {},
-        "section_2_title": {},
-        "section_2_text": {}
-      },
-      "section_1_text": "Dry and place in incubating/brooding houses, or plant around the poultry house (rosemary works too)",
-      "section_2_title": "Rosemary",
-      "section_2_text": "Prepare as a tea for drinking water or dry and mix into feed; hanging inside the house helps the air quality",
-      "section_1_image_asset": "images/topic/Livestock_images/Lemon grass.png",
-      "section_2_image_asset": "images/topic/Livestock_images/rosemary.png",
-      "completed": false
-    },
-    {
-      "id": "remedies_3",
-      "category_id": "remedies",
-      "module_id": "livestock",
-      "_translatedFields": {
-        "text_1": {
-          "eng": "Some natural management practices supporting herbal remedies are:"
-        },
-        "section_1_title": {
-          "eng": "Clear Bushes"
-        },
-        "section_1_text": {
-          "eng": "Keep vegetation short around poultry houses to reduce hiding spots for pests."
-        },
-        "section_2_title": {
-          "eng": "Maintain Hygiene"
-        },
-        "section_2_text": {
-          "eng": "Clean houses regularly to prevent disease."
-        }
-      },
-      "text_1": "Some natural management practices supporting herbal remedies are:",
-      "_translations": {
-        "text_1": {},
-        "section_1_title": {},
-        "section_1_text": {},
-        "section_2_title": {},
-        "section_2_text": {}
-      },
-      "section_1_title": "Clear Bushes",
-      "section_1_text": "Keep vegetation short around poultry houses to reduce hiding spots for pests.",
-      "section_2_title": "Maintain Hygiene",
-      "section_2_text": "Clean houses regularly to prevent disease.",
-      "section_1_image_asset": "images/topic/Livestock_images/bush_clearing.png",
-      "section_2_image_asset": "images/topic/Livestock_images/hygine.png",
-      "completed": false
-    },
-    {
-      "id": "remedies_4",
-      "category_id": "remedies",
-      "module_id": "livestock",
-      "_translatedFields": {
-        "section_1_title": {
-          "eng": "Concoction for sneezing, coughs, and colds (for 10 birds)"
-        },
-        "section_1_text": {
-          "eng": "Ingredients \n * Ginger - Thumb size \n * Tumeric - thumbnail  \n * Hot pepper 4- 5 \n * Garlic - 2 cloves \n * Tithonia leaves - handful  \n * Aloe Vera  - 2-4"
-        },
-        "section_1_button_text": {
-          "eng": "Preparation Steps"
-        },
-        "section_1_extra_text": {
-          "eng": "1.  Soak the ingredients for 30–45 minutes. \n2. Add clean water equal to the amount of the mixture (slaking). \n3. Dosage options:\n * 1 tablespoon in 2 liters of drinking water, or\n * 1 ml using a syringe (morning & evening), or\n * A single drop of the undiluted mixture for severe cases."
-        }
-      },
-      "section_1_title": "Concoction for sneezing, coughs, and colds (for 10 birds)",
-      "_translations": {
-        "section_1_title": {},
-        "section_1_text": {},
-        "section_1_button_text": {},
-        "section_1_extra_text": {}
-      },
-      "section_1_text": "Ingredients \n * Ginger - Thumb size \n * Tumeric - thumbnail  \n * Hot pepper 4- 5 \n * Garlic - 2 cloves \n * Tithonia leaves - handful  \n * Aloe Vera  - 2-4",
-      "section_1_button_text": "Preparation Steps",
-      "section_1_extra_text": "1.  Soak the ingredients for 30–45 minutes. \n2. Add clean water equal to the amount of the mixture (slaking). \n3. Dosage options:\n * 1 tablespoon in 2 liters of drinking water, or\n * 1 ml using a syringe (morning & evening), or\n * A single drop of the undiluted mixture for severe cases.",
-      "section_1_image_asset": "images/topic/Livestock_images/tithonia concotion.jpeg",
-      "completed": false
-    },
-    {
-      "id": "dewormers",
-      "category_id": "dewormers",
-      "module_id": "livestock",
-      "title": "Dewormers",
-      "_translations": {
-        "title": {},
-        "section_1_title": {},
-        "section_1_text": {},
-        "section_1_button_text": {},
-        "section_2_title": {},
-        "section_2_text": {},
-        "section_2_button_text": {},
-        "section_2_extra_text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Dewormers"
-        },
-        "section_1_title": {
-          "eng": "Pawpaw Seeds"
-        },
-        "section_1_text": {
-          "eng": "Dry, crush to powder, and mix small amounts into feed."
-        },
-        "section_1_button_text": {
-          "eng": ""
-        },
-        "section_2_title": {
-          "eng": "Pawpaw leaves"
-        },
-        "section_2_text": {
-          "eng": "Use crushed pawpaw leaves (male or female) for coccidiosis (blood in droppings)"
-        },
-        "section_2_button_text": {
-          "eng": "Procedure"
-        },
-        "section_2_extra_text": {
-          "eng": "* Soak in water, ferment with molasses for 3 days.\n * Mix with drinking water at 1 part mixture: 2 parts water.\n * Hanging the leaves also helps, but is less effective."
-        }
-      },
-      "section_1_title": "Pawpaw Seeds",
-      "section_1_text": "Dry, crush to powder, and mix small amounts into feed.",
-      "section_1_button_text": "",
-      "section_2_title": "Pawpaw leaves",
-      "section_2_text": "Use crushed pawpaw leaves (male or female) for coccidiosis (blood in droppings)",
-      "section_2_button_text": "Procedure",
-      "section_2_extra_text": "* Soak in water, ferment with molasses for 3 days.\n * Mix with drinking water at 1 part mixture: 2 parts water.\n * Hanging the leaves also helps, but is less effective.",
-      "section_1_image_asset": "images/topic/Livestock_images/pawpaw seeds.png",
-      "section_2_image_asset": "images/topic/Livestock_images/pawpaw leaves.png",
-      "completed": false
-    },
-    {
-      "id": "dewormers_1",
-      "category_id": "dewormers",
-      "module_id": "livestock",
-      "title": "Dewormers",
-      "_translations": {
-        "title": {},
-        "section_1_title": {},
-        "section_1_text": {},
-        "section_2_title": {},
-        "section_2_text": {},
-        "section_2_button_text": {},
-        "section_2_extra_text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Dewormers"
-        },
-        "section_1_title": {
-          "eng": "Wormwood"
-        },
-        "section_1_text": {
-          "eng": "Crush and soak in water for 30–35 minutes to make a deworming solution."
-        },
-        "section_2_title": {
-          "eng": "Tephrosia"
-        },
-        "section_2_text": {
-          "eng": "* It is used as both internal & external parasite control\n * To use it, soak dried Tephrosia powder in water in a 1:10 ratio overnight.\n * Strain and use the liquid"
-        },
-        "section_2_button_text": {
-          "eng": "Directions for use"
-        },
-        "section_2_extra_text": {
-          "eng": "<b>Internally:</b>\n * Use 2 ml for adult birds\n * For chicks under 8 weeks use 1 ml\n\n <b> Externally:</b>\n\n * Dip birds in solution twice a week. (Do NOT dip incubating or laying birds.)\n \n* For laying/incubating birds, mix dry <b>Tephrosia powder or leaves</b> into bedding."
-        }
-      },
-      "section_1_title": "Wormwood",
-      "section_1_text": "Crush and soak in water for 30–35 minutes to make a deworming solution.",
-      "section_2_title": "Tephrosia",
-      "section_2_text": "* It is used as both internal & external parasite control\n * To use it, soak dried Tephrosia powder in water in a 1:10 ratio overnight.\n * Strain and use the liquid",
-      "section_2_button_text": "Directions for use",
-      "section_2_extra_text": "<b>Internally:</b>\n * Use 2 ml for adult birds\n * For chicks under 8 weeks use 1 ml\n\n <b> Externally:</b>\n\n * Dip birds in solution twice a week. (Do NOT dip incubating or laying birds.)\n \n* For laying/incubating birds, mix dry <b>Tephrosia powder or leaves</b> into bedding.",
-      "section_1_image_asset": "images/topic/Livestock_images/Wormwood.jpg",
-      "section_2_image_asset": "images/topic/Livestock_images/tephrosia1.jpg",
-      "completed": false
-    },
-    {
       "id": "how_1",
       "category_id": "how",
       "module_id": "livestock",
       "_translatedFields": {
         "text_1": {
-          "eng": "Fermented feeds are prepared without air (anaerobic conditions) using microorganisms. This process improves nutrient absorption and digestibility."
+          "eng": "These are types of livestock feeds that can be prepared at home using locally available farm and simple household materials, mainly aimed at reducing the cost of feeding livestock"
         },
-        "media_title": {
-          "eng": "How to prepare fermented feeds"
+        "text_2": {
+          "eng": "Ensure to watch videos at the 'Practical Section' on how to make these feeds and the ingredents used."
         }
       },
-      "text_1": "Fermented feeds are prepared without air (anaerobic conditions) using microorganisms. This process improves nutrient absorption and digestibility.",
+      "text_1": "These are types of livestock feeds that can be prepared at home using locally available farm and simple household materials, mainly aimed at reducing the cost of feeding livestock",
       "_translations": {
         "text_1": {},
-        "media_title": {}
+        "text_2": {}
       },
-      "media_type": "video",
-      "media_title": "How to prepare fermented feeds",
+      "text_2": "Ensure to watch videos at the 'Practical Section' on how to make these feeds and the ingredents used.",
       "completed": false
     },
     {
       "id": "how_2",
       "category_id": "how",
       "module_id": "livestock",
-      "title": "Ingredients for preparing fermented feeds",
+      "title": "Fermented Feeds",
       "_translations": {
         "title": {},
         "text_1": {},
-        "section_1_title": {}
+        "text_2": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Ingredients for preparing fermented feeds"
+          "eng": "Fermented Feeds"
         },
         "text_1": {
-          "eng": "We use locally available materials, following the Go–Grow–Glow ratio:\n * 70% Go (Carbohydrates)\n * 25% Grow (Proteins)\n * 5% Glow (Vitamins & Minerals)"
+          "eng": "Fermented feeds are prepared without air (anaerobic conditions) using microorganisms. This process improves nutrient absorption and digestibility."
         },
-        "section_1_title": {
-          "eng": ""
+        "text_2": {
+          "eng": "We use locally available materials, following the Go–Grow–Glow ratio:\n * 70% Go (Carbohydrates)\n * 25% Grow (Proteins)\n * 5% Glow (Vitamins & Minerals)"
         }
       },
-      "text_1": "We use locally available materials, following the Go–Grow–Glow ratio:\n * 70% Go (Carbohydrates)\n * 25% Grow (Proteins)\n * 5% Glow (Vitamins & Minerals)",
-      "section_1_title": "",
+      "text_1": "Fermented feeds are prepared without air (anaerobic conditions) using microorganisms. This process improves nutrient absorption and digestibility.",
+      "text_2": "We use locally available materials, following the Go–Grow–Glow ratio:\n * 70% Go (Carbohydrates)\n * 25% Grow (Proteins)\n * 5% Glow (Vitamins & Minerals)",
       "completed": false
     },
     {
       "id": "how_3",
       "category_id": "how",
       "module_id": "livestock",
-      "title": "Examples of Go foods",
+      "title": "Fermented Feeds",
       "_translations": {
         "title": {},
+        "text_1": {},
         "section_1_title": {},
         "section_1_text": {},
         "section_1_button_text": {},
@@ -643,6 +577,9 @@
       },
       "_translatedFields": {
         "title": {
+          "eng": "Fermented Feeds"
+        },
+        "text_1": {
           "eng": "Examples of Go foods"
         },
         "section_1_title": {
@@ -694,6 +631,7 @@
           "eng": "* Sugarcane juice molasses\n * Sugar beet molasses"
         }
       },
+      "text_1": "Examples of Go foods",
       "section_1_title": "",
       "section_1_text": "Cereals",
       "section_1_button_text": "Examples",
@@ -716,9 +654,10 @@
       "id": "how_4",
       "category_id": "how",
       "module_id": "livestock",
-      "title": "Examples of Grow foods",
+      "title": "Fermented Feeds",
       "_translations": {
         "title": {},
+        "text_1": {},
         "section_1_text": {},
         "section_1_button_text": {},
         "section_1_extra_text": {},
@@ -734,6 +673,9 @@
       },
       "_translatedFields": {
         "title": {
+          "eng": "Fermented Feeds"
+        },
+        "text_1": {
           "eng": "Examples of Grow foods"
         },
         "section_1_text": {
@@ -773,6 +715,7 @@
           "eng": "* coconut oil\n * palm oil\n * cooking oil\n * sunflower oil\n * castor oil\n * avocado oil"
         }
       },
+      "text_1": "Examples of Grow foods",
       "section_1_text": "Legumes",
       "section_1_button_text": "Examples",
       "section_1_extra_text": "* soya beans\n * lablab \n * beanspigeon peas\n * horse beans\n * chickpeas\n * cowpeas\n * mucuna",
@@ -791,9 +734,10 @@
       "id": "how_5",
       "category_id": "how",
       "module_id": "livestock",
-      "title": "Examples of Glow foods",
+      "title": "Fermented Feeds",
       "_translations": {
         "title": {},
+        "text_1": {},
         "section_1_text": {},
         "section_1_button_text": {},
         "section_1_extra_text": {},
@@ -806,6 +750,9 @@
       },
       "_translatedFields": {
         "title": {
+          "eng": "Fermented Feeds"
+        },
+        "text_1": {
           "eng": "Examples of Glow foods"
         },
         "section_1_text": {
@@ -836,6 +783,7 @@
           "eng": "* molasses + ripe fruits (banana, pawpaw)\n * watermelon\n * guava\n * white sapote"
         }
       },
+      "text_1": "Examples of Glow foods",
       "section_1_text": "Leafy vegetables",
       "section_1_button_text": "Examples",
       "section_1_extra_text": "* kales\n * spinach\n * lettuce\n * cabbage\n * amaranth",
@@ -851,19 +799,24 @@
       "id": "how_6",
       "category_id": "how",
       "module_id": "livestock",
-      "title": "Other useful additives",
+      "title": "Fermented Feeds",
       "_translations": {
         "title": {},
+        "text_1": {},
         "section_1_text": {}
       },
       "_translatedFields": {
         "title": {
+          "eng": "Fermented Feeds"
+        },
+        "text_1": {
           "eng": "Other useful additives"
         },
         "section_1_text": {
           "eng": "* Cooked rice (for indigenous microbes)\n * Organic manure (microbe starter)\n * Poultry microbes / EM\n * Banana stems & leaves\n * Weeds: blackjack, gallant soldier, wandering jew\n * Napier grass, arrowroot leaves, pumpkin leaves"
         }
       },
+      "text_1": "Other useful additives",
       "section_1_text": "* Cooked rice (for indigenous microbes)\n * Organic manure (microbe starter)\n * Poultry microbes / EM\n * Banana stems & leaves\n * Weeds: blackjack, gallant soldier, wandering jew\n * Napier grass, arrowroot leaves, pumpkin leaves",
       "completed": false
     },
@@ -871,7 +824,16 @@
       "id": "how_7",
       "category_id": "how",
       "module_id": "livestock",
+      "title": "Fermented Feeds",
+      "_translations": {
+        "title": {},
+        "section_1_title": {},
+        "section_1_text": {}
+      },
       "_translatedFields": {
+        "title": {
+          "eng": "Fermented Feeds"
+        },
         "section_1_title": {
           "eng": "Benefits of Fermenting Animal Feed"
         },
@@ -880,10 +842,6 @@
         }
       },
       "section_1_title": "Benefits of Fermenting Animal Feed",
-      "_translations": {
-        "section_1_title": {},
-        "section_1_text": {}
-      },
       "section_1_text": "* Improves birds’ gut health.\n * Lowers feeding costs by using local materials and weeds.\n * Fermentation starts digestion, making feed easier to digest and nutrients easier to absorb.\n * Adds probiotics that boost immunity.\n * Preserves feed during seasons of plenty for use in dry periods.\n * Reduces anti-nutritional factors in certain ingredients (e.g., fodder trees, soya), thereby increasing nutrient availability.",
       "completed": false
     },
@@ -891,50 +849,51 @@
       "id": "how_8",
       "category_id": "how",
       "module_id": "livestock",
+      "title": "Homemade Poultry Feed",
+      "_translations": {
+        "title": {},
+        "text_1": {},
+        "image_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Homemade Poultry Feed"
+        },
+        "text_1": {
+          "eng": "It is feed you formulate and mix yourself to meet the nutritional needs of your animals."
+        },
+        "image_text": {
+          "eng": "* The main purpose of homemade feed is to:\n\n * Reduce feeding costs*\n * Use locally available resources*\n * Control the quality of feed given to animals*"
+        }
+      },
+      "text_1": "It is feed you formulate and mix yourself to meet the nutritional needs of your animals.",
+      "image_asset": "images/topic/pest_images/poultry_feed.jpeg",
+      "image_text": "* The main purpose of homemade feed is to:\n\n * Reduce feeding costs*\n * Use locally available resources*\n * Control the quality of feed given to animals*",
+      "completed": false
+    },
+    {
+      "id": "how_9",
+      "category_id": "how",
+      "module_id": "livestock",
       "title": "Silage Making",
       "_translations": {
         "title": {},
         "text_1": {},
-        "section_1_title": {},
-        "section_1_text": {},
-        "section_1_button_text": {},
-        "section_1_extra_text": {},
-        "section_2_title": {},
-        "section_2_text": {}
+        "text_2": {}
       },
       "_translatedFields": {
         "title": {
           "eng": "Silage Making"
         },
         "text_1": {
+          "eng": "Silage making is the process of preserving fresh green plant material such as maize, sorghum, or grass by creating conditions that allow it to ferment naturally in the absence of air."
+        },
+        "text_2": {
           "eng": "It is a method of preserving animal feed during seasons of plenty, so it can be used when feed is scarce."
-        },
-        "section_1_title": {
-          "eng": "Materials Needed"
-        },
-        "section_1_text": {
-          "eng": "* Fodder materials to be preserved, eg, Napier\n* Maize bran - CHO reduces the moisture content\n* Molasses\n* Chaff cutter/panga\n* Airtight container"
-        },
-        "section_1_button_text": {
-          "eng": "Procedure"
-        },
-        "section_1_extra_text": {
-          "eng": "1. Cut Napier into small pieces (about 2 cm).\n2. Place a 15 cm layer of chopped Napier in the container and compact it firmly.\n3. Add a handful of maize bran.\n4. Sprinkle molasses mixed with water in a 1:5 ratio (molasses : water).\n * Molasses provides lactic acid for microbes and helps compaction.\n5. Compact again and cover tightly.\n6. Repeat layering, adding bran and molasses, until the container is full."
-        },
-        "section_2_title": {
-          "eng": "Important Note"
-        },
-        "section_2_text": {
-          "eng": "Keep the silage in airtight conditions.\nYou can use:\n * Paper bags\n * Skyplast bags\n * Hermetic bags"
         }
       },
-      "text_1": "It is a method of preserving animal feed during seasons of plenty, so it can be used when feed is scarce.",
-      "section_1_title": "Materials Needed",
-      "section_1_text": "* Fodder materials to be preserved, eg, Napier\n* Maize bran - CHO reduces the moisture content\n* Molasses\n* Chaff cutter/panga\n* Airtight container",
-      "section_1_button_text": "Procedure",
-      "section_1_extra_text": "1. Cut Napier into small pieces (about 2 cm).\n2. Place a 15 cm layer of chopped Napier in the container and compact it firmly.\n3. Add a handful of maize bran.\n4. Sprinkle molasses mixed with water in a 1:5 ratio (molasses : water).\n * Molasses provides lactic acid for microbes and helps compaction.\n5. Compact again and cover tightly.\n6. Repeat layering, adding bran and molasses, until the container is full.",
-      "section_2_title": "Important Note",
-      "section_2_text": "Keep the silage in airtight conditions.\nYou can use:\n * Paper bags\n * Skyplast bags\n * Hermetic bags",
+      "text_1": "Silage making is the process of preserving fresh green plant material such as maize, sorghum, or grass by creating conditions that allow it to ferment naturally in the absence of air.",
+      "text_2": "It is a method of preserving animal feed during seasons of plenty, so it can be used when feed is scarce.",
       "completed": false
     }
   ],

@@ -1,12 +1,12 @@
 {
-  "flow_name": "topic_livestock_start_at_dynamics",
+  "flow_name": "sub_livestock_how_9",
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [
     {
       "type": "template",
-      "name": "topic_start_at_cat",
-      "value": "topic_start_at_cat",
+      "name": "sub",
+      "value": "sub",
       "action_list": [
         {
           "trigger": "completed",
@@ -25,27 +25,30 @@
           "_raw": "uncompleted | emit: uncompleted"
         }
       ],
+      "exclude_from_translation": true,
       "rows": [
+        {
+          "name": "sub_id",
+          "value": "how_9",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "sub.sub_id"
+        },
         {
           "name": "topic_id",
           "value": "livestock",
           "_translations": {
             "value": {}
           },
+          "exclude_from_translation": true,
           "type": "set_variable",
-          "_nested_name": "topic_start_at_cat.topic_id"
-        },
-        {
-          "name": "category_id",
-          "value": "dynamics",
-          "_translations": {
-            "value": {}
-          },
-          "type": "set_variable",
-          "_nested_name": "topic_start_at_cat.category_id"
+          "_nested_name": "sub.topic_id"
         }
       ],
-      "_nested_name": "topic_start_at_cat"
+      "_nested_name": "sub"
     }
   ]
 }

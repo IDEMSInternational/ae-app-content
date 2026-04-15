@@ -1,5 +1,5 @@
 {
-  "flow_name": "sub_livestock_remedies_4",
+  "flow_name": "sub_livestock_dewormers_2",
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [
@@ -29,7 +29,7 @@
       "rows": [
         {
           "name": "sub_id",
-          "value": "remedies_4",
+          "value": "dewormers_2",
           "_translations": {
             "value": {}
           },

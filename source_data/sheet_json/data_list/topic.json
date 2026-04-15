@@ -25,21 +25,27 @@
       "status": "released",
       "number": "2",
       "title::eng": "Pest Management",
-      "description::eng": "Keep your farm healthy by spotting pests early. Smart ways, stronger crops."
+      "description::eng": "Keep your farm healthy by spotting pests early. Smart ways, stronger crops.",
+      "activities_id_list": "ash_brew; tephrosia_solution; garlic_water",
+      "ingredients_id_list": "ash_brew_ing; tephrosia_solution_ing; garlic_water_ing"
     },
     {
       "id": "nutrition",
       "status": "released",
       "number": "3",
       "title::eng": "Value Addition & Family Nutrition",
-      "description::eng": "Get ready to explore ways to process, preserve, and prepare food for better health and higher income."
+      "description::eng": "Get ready to explore ways to process, preserve, and prepare food for better health and higher income.",
+      "activities_id_list": "drying_kales; drying_green_banana; yoghurt_preparation",
+      "ingredients_id_list": "drying_kales_vegs; drying_green_banana_vegs; yoghurt_preparation_drink"
     },
     {
       "id": "livestock",
       "status": "released",
       "number": "4",
       "title::eng": "Livestock Production",
-      "description::eng": "Better feeding means better health, which leads to higher income. Let’s build your livestock skills."
+      "description::eng": "Better feeding means better health, which leads to higher income. Let’s build your livestock skills.",
+      "activities_id_list": "fermented_feed; poultry_feed; coughs_concotion; silage",
+      "ingredients_id_list": "fermenting_feeds; homemade_feeds; concotion; silage_making"
     },
     {
       "id": "agroforestry",

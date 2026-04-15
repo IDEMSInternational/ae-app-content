@@ -83,12 +83,12 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "sub_livestock_factors_consider",
+      "flow_name": "sub_livestock_dewormers_1",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "sub_livestock_dynamics_1",
+      "flow_name": "sub_livestock_dewormers_2",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -108,17 +108,7 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "sub_livestock_remedies_4",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
-      "flow_name": "sub_livestock_dewormers",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
-      "flow_name": "sub_livestock_dewormers_1",
+      "flow_name": "sub_livestock_factors_consider",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -159,6 +149,11 @@
     },
     {
       "flow_name": "sub_livestock_how_8",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_livestock_how_9",
       "flow_subtype": "generated",
       "flow_type": "template"
     }

@@ -24,25 +24,48 @@
       "id": "dynamics_1",
       "category_id": "dynamics",
       "module_id": "pest",
+      "title::eng": "Soft Bodied Pests",
       "section_1_image_asset": "images/topic/pest_images/pests_collage.png",
-      "section_1_title::eng": "Common pests:",
-      "section_1_text::eng": " * Aphids\n * Whiteflies\n * Bollworms.\n* Rodents and birds. ",
+      "section_1_title::eng": "Examples:",
+      "section_1_text::eng": " * Aphids\n * Whiteflies\n * Bollworms.",
       "section_1_button_text::eng": "Their impacts",
       "section_1_extra_text::eng": " * Bore holes in plants\n * Harm roots\n * Steal nutrients from your plants."
+    },
+    {
+      "id": "dynamics_2",
+      "category_id": "dynamics",
+      "module_id": "pest",
+      "title::eng": "Hard Bodied Pests",
+      "section_1_button_text::eng": "Their impacts"
+    },
+    {
+      "id": "dynamics_3",
+      "category_id": "dynamics",
+      "module_id": "pest",
+      "title::eng": "Other Pests",
+      "section_1_text::eng": "* Rodents and birds. ",
+      "section_1_button_text::eng": "Their impacts"
+    },
+    {
+      "id": "how",
+      "text_1::eng": "short intro"
     },
     {
       "id": "how_1",
       "category_id": "how",
       "module_id": "pest",
-      "section_1_title::eng": "Cultural Control – Smart Farming",
-      "section_1_text::eng": " * Rotate crops and plant at the right time.\n * Grow pest-repellent crops (e.g., onions).\n * Use healthy seeds, fertilizers, and resistant crop varieties.\n * Remove weeds and diseased plants.\n * Harvest on time before pests attack."
+      "title::eng": "Cultural Control",
+      "image_asset": "images/topic/pest_images/cultural_control_image.png",
+      "section_1_text::eng": " * Rotate crops and plant at the right time.\n * Grow pest-repellent crops (e.g., onions).\n * Harvest on time before pests attack.",
+      "section_2_text::eng": " * Use healthy seeds, fertilizers, and resistant crop varieties.\n * Remove weeds and diseased plants."
     },
     {
       "id": "how_2",
       "category_id": "how",
       "module_id": "pest",
       "title::eng": "Biological Control ",
-      "text_1::eng": "This maintains a healthy balance on your farm without using toxic chemicals.",
+      "image_asset": "images/topic/pest_images/biological_control_image.png",
+      "image_text::eng": "This maintains a healthy balance on your farm without using toxic chemicals.",
       "media_transcript::eng": " ",
       "section_1_text::eng": " * Use nature to fight pests by encouraging “good insects” ",
       "section_1_button_text::eng": "Examples:",
@@ -58,6 +81,7 @@
       "module_id": "pest",
       "title::eng": "Ash Brew",
       "text_1::eng": "It reinforces crop bio-protection especially for leaves.",
+      "text_2::eng": "Ensure to watch videos at the 'Practical Section' on how to make Ash Brew and the ingredents used.",
       "media_type": "video",
       "media_title::eng": "How to make Ash Brew",
       "media_transcript::eng": " * Bring water to a boil.\n * Grate the soap and add to water, don't stir until soap is completely melted.\n * Add the ash and stir for 15 minutes(sprinkle cold water on the mix if it starts to boil over).\n * Remove from fire\n * Let it cool down and it is ready for use"
@@ -74,27 +98,17 @@
       "section_1_extra_text::eng": " * Stick to stir\n * One vat or metal barrel\n * Firewood"
     },
     {
-      "id": "how_5",
-      "category_id": "how",
-      "module_id": "pest",
-      "title::eng": "Ash Brew Storage",
-      "section_1_title::eng": "Storage",
-      "section_1_text::eng": " * Take out liquid and store in a drum.\n * Use remaining solids for washing dishes.",
-      "section_2_title::eng": "Usage",
-      "section_2_text::eng": " * Dilute 3-5 litres in 100 litres of water (3-5%) and use as foliar spray\n * Apply when the weather is cool (i.e. evening or morning)\n * Add 2 litres of cooking oil immediately after brewing \n * Oil makes it more efficient in controlling insects with waxy body or scales\n * This practice increases photosynthesis rates"
-    },
-    {
       "id": "how_6",
       "category_id": "how",
       "module_id": "pest",
-      "section_1_title::eng": "Physical Control",
+      "title::eng": "Physical Control",
       "section_1_text::eng": " * Use scarecrows to keep birds away.\n * Set traps and use nets, screens, or fences.\n * Pick pests off by hand."
     },
     {
       "id": "how_7",
       "category_id": "how",
       "module_id": "pest",
-      "section_1_title::eng": "Proper Storage",
+      "title::eng": "Proper Storage",
       "section_1_text::eng": " * Dry maize and cereals well properly to make them hard for weevils not to attack.\n * Store in hermetic bags or silos to prevent pests."
     },
     {

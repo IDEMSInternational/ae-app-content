@@ -95,6 +95,236 @@
       },
       "text": "Making Green Manure",
       "description": "Making Green Manure"
+    },
+    {
+      "id": "ash_brew",
+      "name": "ash_brew",
+      "title": "Ash Brew",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Ash Brew"
+        },
+        "text": {
+          "eng": "Making Ash Brew"
+        },
+        "description": {
+          "eng": "Making Ash Brew"
+        }
+      },
+      "text": "Making Ash Brew",
+      "description": "Making Ash Brew"
+    },
+    {
+      "id": "tephrosia_solution",
+      "name": "tephrosia_solution",
+      "title": "Tephrosia Solution",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Tephrosia Solution"
+        },
+        "text": {
+          "eng": "Making Tephrosia Solution"
+        },
+        "description": {
+          "eng": "Making Tephrosia Solution"
+        }
+      },
+      "text": "Making Tephrosia Solution",
+      "description": "Making Tephrosia Solution"
+    },
+    {
+      "id": "garlic_water",
+      "name": "garlic_water",
+      "title": "Garlic Water",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Garlic Water"
+        },
+        "text": {
+          "eng": "Making Garlic Water"
+        },
+        "description": {
+          "eng": "Making Garlic Water"
+        }
+      },
+      "text": "Making Garlic Water",
+      "description": "Making Garlic Water"
+    },
+    {
+      "id": "drying_kales",
+      "name": "drying_kales",
+      "title": "Sukuma Wiki (Kales)",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Sukuma Wiki (Kales)"
+        },
+        "text": {
+          "eng": "Drying Sukuma Wiki (Kales)"
+        },
+        "description": {
+          "eng": "Drying Sukuma Wiki (Kales)"
+        }
+      },
+      "text": "Drying Sukuma Wiki (Kales)",
+      "description": "Drying Sukuma Wiki (Kales)"
+    },
+    {
+      "id": "drying_green_banana",
+      "name": "drying_green_banana",
+      "title": "Green Bananas",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Green Bananas"
+        },
+        "text": {
+          "eng": "Drying Green Bananas"
+        },
+        "description": {
+          "eng": "Drying Green Bananas"
+        }
+      },
+      "text": "Drying Green Bananas",
+      "description": "Drying Green Bananas"
+    },
+    {
+      "id": "yoghurt_preparation",
+      "name": "yoghurt_preparation",
+      "title": "Yoghurt Preparation",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Yoghurt Preparation"
+        },
+        "text": {
+          "eng": "Making Yoghurt"
+        },
+        "description": {
+          "eng": "Making Yoghurt"
+        }
+      },
+      "text": "Making Yoghurt",
+      "description": "Making Yoghurt"
+    },
+    {
+      "id": "poultry_feed",
+      "name": "poultry_feed",
+      "title": "Homemade poultry feed",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Homemade poultry feed"
+        },
+        "text": {
+          "eng": "Preparing homemade poultry feeds"
+        },
+        "description": {
+          "eng": "Preparing homemade poultry feeds"
+        }
+      },
+      "text": "Preparing homemade poultry feeds",
+      "description": "Preparing homemade poultry feeds"
+    },
+    {
+      "id": "coughs_concotion",
+      "name": "coughs_concotion",
+      "title": "Concoction for sneezing/coughs/colds",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Concoction for sneezing/coughs/colds"
+        },
+        "text": {
+          "eng": "Preparing concotions for sneezing, coughs and colds in poultry"
+        },
+        "description": {
+          "eng": "Preparing concotions for sneezing, coughs and colds in poultry"
+        }
+      },
+      "text": "Preparing concotions for sneezing, coughs and colds in poultry",
+      "description": "Preparing concotions for sneezing, coughs and colds in poultry"
+    },
+    {
+      "id": "silage",
+      "name": "silage",
+      "title": "Silage Making",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Silage Making"
+        },
+        "text": {
+          "eng": "Making Silage"
+        },
+        "description": {
+          "eng": "Making Silage"
+        }
+      },
+      "text": "Making Silage",
+      "description": "Making Silage"
+    },
+    {
+      "id": "fermented_feed",
+      "name": "fermented_feed",
+      "title": "Fermented Feeds",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Fermented Feeds"
+        },
+        "text": {
+          "eng": "Preparing fermented feeds"
+        },
+        "description": {
+          "eng": "Preparing fermented feeds"
+        }
+      },
+      "text": "Preparing fermented feeds",
+      "description": "Preparing fermented feeds"
     }
   ],
   "_source": {

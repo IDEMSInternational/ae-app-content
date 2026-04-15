@@ -68,6 +68,21 @@
       "flow_type": "template"
     },
     {
+      "flow_name": "sub_pest_dynamics_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_pest_dynamics_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_pest_how",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
       "flow_name": "sub_pest_how_1",
       "flow_subtype": "generated",
       "flow_type": "template"
@@ -84,11 +99,6 @@
     },
     {
       "flow_name": "sub_pest_how_4",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
-      "flow_name": "sub_pest_how_5",
       "flow_subtype": "generated",
       "flow_type": "template"
     },

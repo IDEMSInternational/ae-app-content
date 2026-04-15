@@ -54,6 +54,56 @@
       "flow_name": "ingredients_garden",
       "flow_subtype": "generated",
       "flow_type": "template"
+    },
+    {
+      "flow_name": "ingredients_ash_brew_ing",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "ingredients_tephrosia_solution_ing",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "ingredients_garlic_water_ing",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "ingredients_fermenting_feeds",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "ingredients_homemade_feeds",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "ingredients_concotion",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "ingredients_silage_making",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "ingredients_drying_kales_vegs",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "ingredients_drying_green_banana_vegs",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "ingredients_yoghurt_preparation_drink",
+      "flow_subtype": "generated",
+      "flow_type": "template"
     }
   ]
 }

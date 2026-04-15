@@ -18,28 +18,15 @@
       }
     },
     {
-      "id": "factors_consider",
-      "icon_asset": "images/icons/settings.svg",
-      "title": "Feed preparation factors",
+      "id": "dewormers",
+      "icon_asset": "images/icons/terms_conditions.svg",
+      "title": "Internal parasites control",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Feed preparation factors"
-        }
-      }
-    },
-    {
-      "id": "dynamics",
-      "icon_asset": "images/icons/settings.svg",
-      "title": "Homemade poultry feed",
-      "_translations": {
-        "title": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Homemade poultry feed"
+          "eng": "Internal parasites control"
         }
       }
     },
@@ -57,28 +44,28 @@
       }
     },
     {
-      "id": "dewormers",
-      "icon_asset": "images/icons/terms_conditions.svg",
-      "title": "Internal parasites control",
+      "id": "factors_consider",
+      "icon_asset": "images/icons/settings.svg",
+      "title": "Feed preparation factors",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Internal parasites control"
+          "eng": "Feed preparation factors"
         }
       }
     },
     {
       "id": "how",
-      "icon_asset": "images/icons/terms_conditions.svg",
-      "title": "Fermented poultry feed",
+      "icon_asset": "images/icons/settings.svg",
+      "title": "Making Livestock Feeds",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Fermented poultry feed"
+          "eng": "Making Livestock Feeds"
         }
       }
     }
