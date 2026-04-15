@@ -4,8 +4,8 @@
 | type | count |
 | --- | --- |
 | accordion | 2 |
-| accordion_section | 4 |
-| audio | 2 |
+| accordion_section | 5 |
+| audio | 5 |
 | button | 28 |
 | combo_box | 3 |
 | data_items | 17 |
@@ -21,12 +21,12 @@
 | qr_code | 2 |
 | round_button | 2 |
 | select_text | 2 |
-| set_variable | 762 |
+| set_variable | 764 |
 | simple_checkbox | 1 |
 | task_card | 9 |
 | task_progress_bar | 3 |
 | template | 207 |
-| text | 60 |
+| text | 61 |
 | text_bubble | 1 |
 | title | 24 |
 | toggle_bar | 4 |
@@ -62,8 +62,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 77896 KB | 77.9 MB |
-| unused | 34213 KB | 34.2 MB |
+| total | 80446 KB | 80.4 MB |
+| unused | 31663 KB | 31.7 MB |
 </details>
 
 <details open>
@@ -82,9 +82,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/chevron_back_white.svg | 1.3 |
 | images/icons/chevron_forward_white.svg | 1.3 |
 | images/topic/Livestock_images/African marigold.png | 2591 |
-| images/topic/Livestock_images/fermented_feeds.png | 2215 |
 | images/topic/Livestock_images/mollasses.jpg | 2841 |
-| images/topic/Livestock_images/poultry_feed.jpeg | 334.8 |
 | images/topic/Livestock_images/warmwood.png | 2833.6 |
 | images/topic/Livestock_images/wormwood2.jpg | 6731.8 |
 | images/topic/climate_change_images/Copy of diversity.png | 496.8 |
@@ -132,11 +130,10 @@ Assets that have references within sheets but do not appear in app-data
 | images/icons/tick_white.svg | 1 |
 | images/shield.svg | 1 |
 | images/topic/nutrition/vulnerable_groups.svg | 2 |
-| images/topic/pest_images/poultry_feed.jpeg | 3 |
+| images/topic/pest_images/poultry_feed.jpeg | 2 |
 | images/topic/soil_images/ash_brew.png | 3 |
 | images/topic/soil_images/ash_brew_steps.png | 3 |
 | images/topic/soil_images/compost.png | 2 |
-| images/topic/soil_images/fermented_feeds.png | 1 |
 | lottie/bulging_circles.json | 1 |
 </details>
 
@@ -171,9 +168,11 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/topic/Livestock_images/Marigold.jpg | 190.9 | 2 |
 | images/topic/Livestock_images/Wormwood.jpg | 8469.9 | 2 |
 | images/topic/Livestock_images/bush_clearing.png | 3391.3 | 2 |
+| images/topic/Livestock_images/fermented_feeds.png | 2215 | 1 |
 | images/topic/Livestock_images/hygine.png | 3027.1 | 2 |
 | images/topic/Livestock_images/pawpaw leaves.png | 2455.6 | 2 |
 | images/topic/Livestock_images/pawpaw seeds.png | 2399 | 2 |
+| images/topic/Livestock_images/poultry_feed.jpeg | 334.8 | 1 |
 | images/topic/Livestock_images/rosemary.png | 4835.5 | 2 |
 | images/topic/Livestock_images/tephrosia1.jpg | 5770.9 | 2 |
 | images/topic/Livestock_images/tithonia concotion.jpeg | 298.9 | 1 |

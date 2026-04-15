@@ -75,23 +75,31 @@
     },
     {
       "name": "tips_1",
-      "value": "@local.ingredients_row.tips_text"
+      "value": "@local.ingredients_row.transcript"
     },
     {
       "name": "tips_2",
-      "value": "@local.ingredients_row.strorage_tips_text"
+      "value": "@local.ingredients_row.storage_transcript"
+    },
+    {
+      "name": "tips_3",
+      "value": "@local.ingredients_row.usage_transcript"
     },
     {
       "name": "title_1",
-      "value": "Ingredients"
+      "value": "Materials Used"
     },
     {
       "name": "title_2",
-      "value": "Tips"
+      "value": "More about our Materials"
     },
     {
       "name": "title_3",
       "value": "Storage Tips"
+    },
+    {
+      "name": "title_4",
+      "value": "Usage Tips"
     },
     {
       "type": "begin_accordion",
@@ -189,14 +197,21 @@
       "type": "text",
       "name": "accordion_content_2",
       "value": "@local.tips_1",
-      "condition": "!!(@local.tips_1)"
+      "condition": "@local.ingredients_row.media_type_1 != \"audio\""
+    },
+    {
+      "type": "audio",
+      "name": "audio",
+      "value": "@local.ingredients_row.transcript",
+      "condition": "@local.ingredients_row.media_type_1 == \"audio\"",
+      "parameter_list": "transcript_text: @local.ingredients_row.transcript"
     },
     {
       "type": "end_accordion_section"
     },
     {
       "type": "begin_accordion_section",
-      "name": "second",
+      "name": "third",
       "value": "@local.title_3",
       "condition": "!!(@local.tips_2)"
     },
@@ -204,7 +219,36 @@
       "type": "text",
       "name": "accordion_content_3",
       "value": "@local.tips_2",
+      "condition": "@local.ingredients_row.media_type_2 != \"audio\""
+    },
+    {
+      "type": "audio",
+      "name": "audio",
+      "value": "@local.ingredients_row.storage_transcript",
+      "condition": "@local.ingredients_row.media_type_2 == \"audio\"",
+      "parameter_list": "transcript_text: @local.ingredients_row.storage_transcript"
+    },
+    {
+      "type": "end_accordion_section"
+    },
+    {
+      "type": "begin_accordion_section",
+      "name": "forth",
+      "value": "@local.title_4",
       "condition": "!!(@local.tips_2)"
+    },
+    {
+      "type": "text",
+      "name": "accordion_content_4",
+      "value": "@local.tips_3",
+      "condition": "@local.ingredients_row.media_type_3 != \"audio\""
+    },
+    {
+      "type": "audio",
+      "name": "audio",
+      "value": "@local.ingredients_row.usage_transcript",
+      "condition": "@local.ingredients_row.media_type_3 == \"audio\"",
+      "parameter_list": "transcript_text: @local.ingredients_row.usage_transcript"
     },
     {
       "type": "end_accordion_section"

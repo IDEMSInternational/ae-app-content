@@ -26,7 +26,7 @@
         "step_3_text": {},
         "step_4_text": {},
         "step_5_text": {},
-        "tips_text": {}
+        "transcript": {}
       },
       "_translatedFields": {
         "title": {
@@ -50,7 +50,7 @@
         "step_5_text": {
           "eng": ""
         },
-        "tips_text": {
+        "transcript": {
           "eng": "* **Topsoil:** Introduces beneficial microorganisms that kickstart decomposition.\n * **Dry materials:** Provide carbon and improve aeration for microbial activity.\n * **Manure:** Supplies nitrogen to support rapid microbial growth.\n * **Bran / rotten maize flour:** Acts as food to multiply beneficial microorganisms.\n * **Biochar:** Enhances water retention and improves soil structure.\n * **Yeast / sourdough starter:** Serves as a catalyst to accelerate fermentation.\n * **Water:** Maintains moisture needed for active microbial processes.\n * **Molasses / overripe fruits / coffee water:** Provide quick energy to boost microbial activity.\n * **Rock dust / ash / phosphite:** Add essential minerals like potassium and silicon to enrich the soil."
         }
       },
@@ -60,7 +60,7 @@
       "step_3_text": "* 150g of Yeast / sourdough starter(maize flour socked in water ratio 1:1) \n * 2 litres of Molasses / overripe fruits most likely banana because you can mash them",
       "step_4_text": "* A handfull of Ash/ Rock dust/ phosphite\n * Enough Water",
       "step_5_text": "",
-      "tips_text": "* **Topsoil:** Introduces beneficial microorganisms that kickstart decomposition.\n * **Dry materials:** Provide carbon and improve aeration for microbial activity.\n * **Manure:** Supplies nitrogen to support rapid microbial growth.\n * **Bran / rotten maize flour:** Acts as food to multiply beneficial microorganisms.\n * **Biochar:** Enhances water retention and improves soil structure.\n * **Yeast / sourdough starter:** Serves as a catalyst to accelerate fermentation.\n * **Water:** Maintains moisture needed for active microbial processes.\n * **Molasses / overripe fruits / coffee water:** Provide quick energy to boost microbial activity.\n * **Rock dust / ash / phosphite:** Add essential minerals like potassium and silicon to enrich the soil."
+      "transcript": "* **Topsoil:** Introduces beneficial microorganisms that kickstart decomposition.\n * **Dry materials:** Provide carbon and improve aeration for microbial activity.\n * **Manure:** Supplies nitrogen to support rapid microbial growth.\n * **Bran / rotten maize flour:** Acts as food to multiply beneficial microorganisms.\n * **Biochar:** Enhances water retention and improves soil structure.\n * **Yeast / sourdough starter:** Serves as a catalyst to accelerate fermentation.\n * **Water:** Maintains moisture needed for active microbial processes.\n * **Molasses / overripe fruits / coffee water:** Provide quick energy to boost microbial activity.\n * **Rock dust / ash / phosphite:** Add essential minerals like potassium and silicon to enrich the soil."
     },
     {
       "id": "garden",
@@ -78,7 +78,7 @@
         "step_2_text": {},
         "step_3_text": {},
         "step_4_text": {},
-        "tips_text": {}
+        "transcript": {}
       },
       "_translatedFields": {
         "title": {
@@ -96,7 +96,7 @@
         "step_4_text": {
           "eng": ""
         },
-        "tips_text": {
+        "transcript": {
           "eng": "* **Water:** Keeps the pile damp\n * **Dry materials:** Provide carbon and improve aeration for microbial activity.\n * **Animal manure:** Supplies nitrogen to support rapid microbial growth.            \n * **Topsoil:** Introduces beneficial microorganisms that kickstart decomposition.\n * **Long stick:** To check the compost temperature to avoid overheatting"
         }
       },
@@ -104,7 +104,7 @@
       "step_2_text": "* Kitchen waste (vegetable peels, fruit scraps)\n * Green crop residues",
       "step_3_text": "* Enough Water\n * Long stick",
       "step_4_text": "",
-      "tips_text": "* **Water:** Keeps the pile damp\n * **Dry materials:** Provide carbon and improve aeration for microbial activity.\n * **Animal manure:** Supplies nitrogen to support rapid microbial growth.            \n * **Topsoil:** Introduces beneficial microorganisms that kickstart decomposition.\n * **Long stick:** To check the compost temperature to avoid overheatting"
+      "transcript": "* **Water:** Keeps the pile damp\n * **Dry materials:** Provide carbon and improve aeration for microbial activity.\n * **Animal manure:** Supplies nitrogen to support rapid microbial growth.            \n * **Topsoil:** Introduces beneficial microorganisms that kickstart decomposition.\n * **Long stick:** To check the compost temperature to avoid overheatting"
     },
     {
       "id": "ash_brew_ing",
@@ -120,9 +120,9 @@
         "title": {},
         "step_1_text": {},
         "step_5_text": {},
-        "tips_text": {},
-        "strorage_tips_text": {},
-        "usage_tips_text": {}
+        "transcript": {},
+        "storage_transcript": {},
+        "usage_transcript": {}
       },
       "_translatedFields": {
         "title": {
@@ -134,21 +134,21 @@
         "step_5_text": {
           "eng": ""
         },
-        "tips_text": {
+        "transcript": {
           "eng": "* **Hardwood Ash:** Provides high levels of potassium and silica to strengthen plant cell walls against sucking pests.\n * **Bar Soap:** Acts as a surfactant (sticker) to ensure the brew coats the insects and clings to waxy leaf surfaces.\n * **Boiling Process:** Accelerates the extraction of active minerals and helps the soap dissolve into a uniform solution.\n * **Sifting:** Removes large charcoal chunks to prevent the nozzle of your sprayer from clogging.\n * **Dilution:** Ensures the solution is gentle enough not to scorch young, tender leaves while remaining toxic to pests."
         },
-        "strorage_tips_text": {
+        "storage_transcript": {
           "eng": "* Take out liquid and store in a drum.\n * Use remaining solids for washing dishes."
         },
-        "usage_tips_text": {
+        "usage_transcript": {
           "eng": "* Dilute 3-5 litres in 100 litres of water (3-5%) and use as foliar spray\n * Apply when the weather is cool (i.e. evening or morning)\n * Add 2 litres of cooking oil immediately after brewing \n * Oil makes it more efficient in controlling insects with waxy body or scales\n * This practice increases photosynthesis rates"
         }
       },
       "step_1_text": "* 10 kg of <b>ash</b> (well sifted)\n * 1 kg of bar <b>soap</b> (avoid soaps with cemicals and detergents)\n * 40 litres of <b>water</b>",
       "step_5_text": "",
-      "tips_text": "* **Hardwood Ash:** Provides high levels of potassium and silica to strengthen plant cell walls against sucking pests.\n * **Bar Soap:** Acts as a surfactant (sticker) to ensure the brew coats the insects and clings to waxy leaf surfaces.\n * **Boiling Process:** Accelerates the extraction of active minerals and helps the soap dissolve into a uniform solution.\n * **Sifting:** Removes large charcoal chunks to prevent the nozzle of your sprayer from clogging.\n * **Dilution:** Ensures the solution is gentle enough not to scorch young, tender leaves while remaining toxic to pests.",
-      "strorage_tips_text": "* Take out liquid and store in a drum.\n * Use remaining solids for washing dishes.",
-      "usage_tips_text": "* Dilute 3-5 litres in 100 litres of water (3-5%) and use as foliar spray\n * Apply when the weather is cool (i.e. evening or morning)\n * Add 2 litres of cooking oil immediately after brewing \n * Oil makes it more efficient in controlling insects with waxy body or scales\n * This practice increases photosynthesis rates"
+      "transcript": "* **Hardwood Ash:** Provides high levels of potassium and silica to strengthen plant cell walls against sucking pests.\n * **Bar Soap:** Acts as a surfactant (sticker) to ensure the brew coats the insects and clings to waxy leaf surfaces.\n * **Boiling Process:** Accelerates the extraction of active minerals and helps the soap dissolve into a uniform solution.\n * **Sifting:** Removes large charcoal chunks to prevent the nozzle of your sprayer from clogging.\n * **Dilution:** Ensures the solution is gentle enough not to scorch young, tender leaves while remaining toxic to pests.",
+      "storage_transcript": "* Take out liquid and store in a drum.\n * Use remaining solids for washing dishes.",
+      "usage_transcript": "* Dilute 3-5 litres in 100 litres of water (3-5%) and use as foliar spray\n * Apply when the weather is cool (i.e. evening or morning)\n * Add 2 litres of cooking oil immediately after brewing \n * Oil makes it more efficient in controlling insects with waxy body or scales\n * This practice increases photosynthesis rates"
     },
     {
       "id": "tephrosia_solution_ing",
@@ -163,7 +163,7 @@
       "_translations": {
         "title": {},
         "step_1_text": {},
-        "tips_text": {}
+        "transcript": {}
       },
       "_translatedFields": {
         "title": {
@@ -172,12 +172,12 @@
         "step_1_text": {
           "eng": "<span> * 5 kg of fresh Tephrosia leaves (mature about to flower </span><span><i>tephrosia</i></span><span> leaves work best).<br/> * 20 liters of water.</span>"
         },
-        "tips_text": {
+        "transcript": {
           "eng": "* **Fresh Green Leaves:** Contain the highest concentration of rotenone, the natural chemical that paralyzes pests.\n * **Pounding/Crushing:** Breaks down plant fibers to release the active insecticidal compounds into the water.\n * **Shade Drying:** If storing leaves, dry them out of direct sunlight to prevent the UV rays from breaking down the active chemicals.\n * **Late Afternoon Spraying:** Prevents the solution from evaporating too quickly and protects beneficial pollinators like bees.\n * **Straining:** Using a fine cloth ensures a smooth liquid that won't block manual or knapsack sprayers."
         }
       },
       "step_1_text": "<span> * 5 kg of fresh Tephrosia leaves (mature about to flower </span><span><i>tephrosia</i></span><span> leaves work best).<br/> * 20 liters of water.</span>",
-      "tips_text": "* **Fresh Green Leaves:** Contain the highest concentration of rotenone, the natural chemical that paralyzes pests.\n * **Pounding/Crushing:** Breaks down plant fibers to release the active insecticidal compounds into the water.\n * **Shade Drying:** If storing leaves, dry them out of direct sunlight to prevent the UV rays from breaking down the active chemicals.\n * **Late Afternoon Spraying:** Prevents the solution from evaporating too quickly and protects beneficial pollinators like bees.\n * **Straining:** Using a fine cloth ensures a smooth liquid that won't block manual or knapsack sprayers."
+      "transcript": "* **Fresh Green Leaves:** Contain the highest concentration of rotenone, the natural chemical that paralyzes pests.\n * **Pounding/Crushing:** Breaks down plant fibers to release the active insecticidal compounds into the water.\n * **Shade Drying:** If storing leaves, dry them out of direct sunlight to prevent the UV rays from breaking down the active chemicals.\n * **Late Afternoon Spraying:** Prevents the solution from evaporating too quickly and protects beneficial pollinators like bees.\n * **Straining:** Using a fine cloth ensures a smooth liquid that won't block manual or knapsack sprayers."
     },
     {
       "id": "garlic_water_ing",
@@ -192,7 +192,7 @@
       "_translations": {
         "title": {},
         "step_1_text": {},
-        "tips_text": {}
+        "transcript": {}
       },
       "_translatedFields": {
         "title": {
@@ -201,12 +201,12 @@
         "step_1_text": {
           "eng": "* 10 cloves of garlic\n * 2 ginger roots or 100g of ginger\n * 2 tablespoons of bar soap/Neem oil\n * 10 red peppers (medium size)\n * 1 litre of clean water\n * Pestle and a mortar/gretor"
         },
-        "tips_text": {
+        "transcript": {
           "eng": "* **Crushed Cloves:** Releases Allicin, the strong-smelling compound that confuses and repels searching pests.\n * **Soaking Time:** Allows for maximum infusion of oils into the water for a more potent repellent.\n * **Vegetable Oil (Optional):** Helps the garlic scent linger longer on the plants after application.\n * **Small Batch Usage:** Best used within 24 hours, as the active repellent compounds degrade quickly once exposed to air.\n * **Targeted Application:** Focus on the undersides of leaves where aphids and mites typically congregate."
         }
       },
       "step_1_text": "* 10 cloves of garlic\n * 2 ginger roots or 100g of ginger\n * 2 tablespoons of bar soap/Neem oil\n * 10 red peppers (medium size)\n * 1 litre of clean water\n * Pestle and a mortar/gretor",
-      "tips_text": "* **Crushed Cloves:** Releases Allicin, the strong-smelling compound that confuses and repels searching pests.\n * **Soaking Time:** Allows for maximum infusion of oils into the water for a more potent repellent.\n * **Vegetable Oil (Optional):** Helps the garlic scent linger longer on the plants after application.\n * **Small Batch Usage:** Best used within 24 hours, as the active repellent compounds degrade quickly once exposed to air.\n * **Targeted Application:** Focus on the undersides of leaves where aphids and mites typically congregate."
+      "transcript": "* **Crushed Cloves:** Releases Allicin, the strong-smelling compound that confuses and repels searching pests.\n * **Soaking Time:** Allows for maximum infusion of oils into the water for a more potent repellent.\n * **Vegetable Oil (Optional):** Helps the garlic scent linger longer on the plants after application.\n * **Small Batch Usage:** Best used within 24 hours, as the active repellent compounds degrade quickly once exposed to air.\n * **Targeted Application:** Focus on the undersides of leaves where aphids and mites typically congregate."
     },
     {
       "id": "fermenting_feeds",
@@ -216,8 +216,8 @@
       "_translations": {
         "title": {},
         "step_1_text": {},
-        "tips_text": {},
-        "strorage_tips_text": {}
+        "transcript": {},
+        "storage_transcript": {}
       },
       "_translatedFields": {
         "title": {
@@ -226,16 +226,16 @@
         "step_1_text": {
           "eng": "Carbohydrate sources (70%)\nProtein sources (25%)\nFats and oils\nVitamins and minerals (5%)\nMinerals\nMicrobes\nMollasses\nStorage containers"
         },
-        "tips_text": {
+        "transcript": {
           "eng": "* **Molasses:** is a source of energy for microbes. Drives the fermentation process and improves the taste of the feed when fed to the birds.\n * Microbes turn fresh feed into a safe, preserved, and more nutritious feed by controlling fermentation.\n * Microbes can be added to drinking water or sprayed in the poultry house to reduce the ammonia smell.\n * To get the birds used to the taste and smell of the fermented feeds, at first mix with other feeds.\n * Fermented feeds can be used as daily diet or on occasion."
         },
-        "strorage_tips_text": {
+        "storage_transcript": {
           "eng": "Store the container in a cool and dry place free from rats and direct sunlight or disturbances."
         }
       },
       "step_1_text": "Carbohydrate sources (70%)\nProtein sources (25%)\nFats and oils\nVitamins and minerals (5%)\nMinerals\nMicrobes\nMollasses\nStorage containers",
-      "tips_text": "* **Molasses:** is a source of energy for microbes. Drives the fermentation process and improves the taste of the feed when fed to the birds.\n * Microbes turn fresh feed into a safe, preserved, and more nutritious feed by controlling fermentation.\n * Microbes can be added to drinking water or sprayed in the poultry house to reduce the ammonia smell.\n * To get the birds used to the taste and smell of the fermented feeds, at first mix with other feeds.\n * Fermented feeds can be used as daily diet or on occasion.",
-      "strorage_tips_text": "Store the container in a cool and dry place free from rats and direct sunlight or disturbances."
+      "transcript": "* **Molasses:** is a source of energy for microbes. Drives the fermentation process and improves the taste of the feed when fed to the birds.\n * Microbes turn fresh feed into a safe, preserved, and more nutritious feed by controlling fermentation.\n * Microbes can be added to drinking water or sprayed in the poultry house to reduce the ammonia smell.\n * To get the birds used to the taste and smell of the fermented feeds, at first mix with other feeds.\n * Fermented feeds can be used as daily diet or on occasion.",
+      "storage_transcript": "Store the container in a cool and dry place free from rats and direct sunlight or disturbances."
     },
     {
       "id": "homemade_feeds",
@@ -246,8 +246,8 @@
         "title": {},
         "intro_text": {},
         "step_1_text": {},
-        "tips_text": {},
-        "strorage_tips_text": {}
+        "transcript": {},
+        "storage_transcript": {}
       },
       "_translatedFields": {
         "title": {
@@ -259,17 +259,17 @@
         "step_1_text": {
           "eng": "* Maize (njenga) - 12kg \n * Maize bran (Ngozi ya mahindi) - 3kg\n * Maize germ (moyo) - 3kg \n * Wheat/rice bran - 3kg \n * Soya (njenga) - 4kg \n * Sunflower white or black (oil extracted) - 2.17 kg \n * Fishmeal - 1.33 kg \n * DCP - 0.3 kg \n * Lime (calcium) - 0.4 kg \n * Salt - 0.1 kg \n * Chick premix - 0.3kg \n * Lysine - 0.1 kg \n * Methionine -  0.1kg \n * Toxin binder - 0.2kg"
         },
-        "tips_text": {
+        "transcript": {
           "eng": "* ** Maize (njenga), Maize germ (moyo), Maize bran (ngozi ya mahindi), Wheat/rice bran:** Provide major sources of energy.\n * ** Soya (njenga), Sunflower, Fishmeal:** Provide proteins for body building\n * ** DCP & Lime:**  phosphorus and calcium for strong bones and eggshells\n * ** Salt:** Provides sodium and chloride for body balance\n * ** Chick premix:** Source of vitamins and trace minerals\n * ** Toxin binders:** Breaks harmful toxins into harmless parts.\n * ** Lysine and methionine:** Essential amino acids needed for growth.\n * **  Suppliments of DCP are crushed eggshells or bones . \n* The chickmash is used as a feed for chicks below 8 weeks*"
         },
-        "strorage_tips_text": {
+        "storage_transcript": {
           "eng": "Store in a cool and dry place"
         }
       },
       "intro_text": "When mixing the ingredients, start with the heaviest and finish with the lightest.",
       "step_1_text": "* Maize (njenga) - 12kg \n * Maize bran (Ngozi ya mahindi) - 3kg\n * Maize germ (moyo) - 3kg \n * Wheat/rice bran - 3kg \n * Soya (njenga) - 4kg \n * Sunflower white or black (oil extracted) - 2.17 kg \n * Fishmeal - 1.33 kg \n * DCP - 0.3 kg \n * Lime (calcium) - 0.4 kg \n * Salt - 0.1 kg \n * Chick premix - 0.3kg \n * Lysine - 0.1 kg \n * Methionine -  0.1kg \n * Toxin binder - 0.2kg",
-      "tips_text": "* ** Maize (njenga), Maize germ (moyo), Maize bran (ngozi ya mahindi), Wheat/rice bran:** Provide major sources of energy.\n * ** Soya (njenga), Sunflower, Fishmeal:** Provide proteins for body building\n * ** DCP & Lime:**  phosphorus and calcium for strong bones and eggshells\n * ** Salt:** Provides sodium and chloride for body balance\n * ** Chick premix:** Source of vitamins and trace minerals\n * ** Toxin binders:** Breaks harmful toxins into harmless parts.\n * ** Lysine and methionine:** Essential amino acids needed for growth.\n * **  Suppliments of DCP are crushed eggshells or bones . \n* The chickmash is used as a feed for chicks below 8 weeks*",
-      "strorage_tips_text": "Store in a cool and dry place"
+      "transcript": "* ** Maize (njenga), Maize germ (moyo), Maize bran (ngozi ya mahindi), Wheat/rice bran:** Provide major sources of energy.\n * ** Soya (njenga), Sunflower, Fishmeal:** Provide proteins for body building\n * ** DCP & Lime:**  phosphorus and calcium for strong bones and eggshells\n * ** Salt:** Provides sodium and chloride for body balance\n * ** Chick premix:** Source of vitamins and trace minerals\n * ** Toxin binders:** Breaks harmful toxins into harmless parts.\n * ** Lysine and methionine:** Essential amino acids needed for growth.\n * **  Suppliments of DCP are crushed eggshells or bones . \n* The chickmash is used as a feed for chicks below 8 weeks*",
+      "storage_transcript": "Store in a cool and dry place"
     },
     {
       "id": "concotion",
@@ -280,8 +280,8 @@
       "_translations": {
         "title": {},
         "step_1_text": {},
-        "tips_text": {},
-        "strorage_tips_text": {}
+        "transcript": {},
+        "storage_transcript": {}
       },
       "_translatedFields": {
         "title": {
@@ -290,16 +290,16 @@
         "step_1_text": {
           "eng": "* Ginger - Thumb size \n * Tumeric - thumbnail  \n * Hot pepper 4- 5 \n * Garlic - 2 cloves \n * Tithonia leaves - handful  \n * Aloe Vera  - 2-4"
         },
-        "tips_text": {
+        "transcript": {
           "eng": "* **Ginger:** Acts as a natural stimulant and antimicrobial agent that supports digestion and disease resistance.\n * **Turmeric:** Suppresses harmful microbes during fermentation and improves the medicinal value of the concoction.\n * **Hot peppers (chillies):** Contain capsaicin, which acts as a natural pest repellent and antimicrobial agent. They also help deter insects and harmful organisms.\n * **Garlic:** Enhances disease control and improves the overall effectiveness of the mixture.\n * **Tithonia leaves:** Improve the nutritional value of the mixture and support microbial fermentation.\n * **Aloe vera:** Contains enzymes and bioactive compounds that support fermentation and improve the stability of the mixture.\n * **Water:** Allows proper fermentation or dilution for application."
         },
-        "strorage_tips_text": {
+        "storage_transcript": {
           "eng": "Store using a container"
         }
       },
       "step_1_text": "* Ginger - Thumb size \n * Tumeric - thumbnail  \n * Hot pepper 4- 5 \n * Garlic - 2 cloves \n * Tithonia leaves - handful  \n * Aloe Vera  - 2-4",
-      "tips_text": "* **Ginger:** Acts as a natural stimulant and antimicrobial agent that supports digestion and disease resistance.\n * **Turmeric:** Suppresses harmful microbes during fermentation and improves the medicinal value of the concoction.\n * **Hot peppers (chillies):** Contain capsaicin, which acts as a natural pest repellent and antimicrobial agent. They also help deter insects and harmful organisms.\n * **Garlic:** Enhances disease control and improves the overall effectiveness of the mixture.\n * **Tithonia leaves:** Improve the nutritional value of the mixture and support microbial fermentation.\n * **Aloe vera:** Contains enzymes and bioactive compounds that support fermentation and improve the stability of the mixture.\n * **Water:** Allows proper fermentation or dilution for application.",
-      "strorage_tips_text": "Store using a container"
+      "transcript": "* **Ginger:** Acts as a natural stimulant and antimicrobial agent that supports digestion and disease resistance.\n * **Turmeric:** Suppresses harmful microbes during fermentation and improves the medicinal value of the concoction.\n * **Hot peppers (chillies):** Contain capsaicin, which acts as a natural pest repellent and antimicrobial agent. They also help deter insects and harmful organisms.\n * **Garlic:** Enhances disease control and improves the overall effectiveness of the mixture.\n * **Tithonia leaves:** Improve the nutritional value of the mixture and support microbial fermentation.\n * **Aloe vera:** Contains enzymes and bioactive compounds that support fermentation and improve the stability of the mixture.\n * **Water:** Allows proper fermentation or dilution for application.",
+      "storage_transcript": "Store using a container"
     },
     {
       "id": "silage_making",
@@ -309,8 +309,8 @@
       "_translations": {
         "title": {},
         "step_1_text": {},
-        "tips_text": {},
-        "strorage_tips_text": {}
+        "transcript": {},
+        "storage_transcript": {}
       },
       "_translatedFields": {
         "title": {
@@ -319,16 +319,16 @@
         "step_1_text": {
           "eng": "* Fodder materials to be preserved, eg, Napier\n* Maize bran - CHO reduces the moisture content\n* Molasses\n* Chaff cutter/panga\n* Airtight container"
         },
-        "tips_text": {
+        "transcript": {
           "eng": "* **Fodder materials:** Provides bulk, nutrients, and fiber needed for good-quality livestock feed after fermentation.\n * **Maize bran:** Absorb excess moisture from the fodder and provides carbohydrates that support fermentation.\n * **Molasses:** Acts as a fermentation booster while improving taste and energy value.\n *Chopping fodder into small pieces increases compaction, removes air spaces, and speeds up fermentation.\n * **Airtight container (e.g., silo, polythene bag, drum):** This is used to exclude air. \n * Silage fermentation must occur in anaerobic (oxygen-free) conditions; otherwise, the fodder will rot instead of fermenting. \n* Silage making relies on chopping fodder, balancing moisture, adding energy sources, and sealing everything airtight to allow beneficial fermentation and prevent spoilage."
         },
-        "strorage_tips_text": {
+        "storage_transcript": {
           "eng": "* Keep the silage in airtight conditions.\nYou can use:\n   * Paper bags\n   * Skyplast bags\n   * Hermetic bags\n * Airtight storage ensures proper preservation and long shelf life."
         }
       },
       "step_1_text": "* Fodder materials to be preserved, eg, Napier\n* Maize bran - CHO reduces the moisture content\n* Molasses\n* Chaff cutter/panga\n* Airtight container",
-      "tips_text": "* **Fodder materials:** Provides bulk, nutrients, and fiber needed for good-quality livestock feed after fermentation.\n * **Maize bran:** Absorb excess moisture from the fodder and provides carbohydrates that support fermentation.\n * **Molasses:** Acts as a fermentation booster while improving taste and energy value.\n *Chopping fodder into small pieces increases compaction, removes air spaces, and speeds up fermentation.\n * **Airtight container (e.g., silo, polythene bag, drum):** This is used to exclude air. \n * Silage fermentation must occur in anaerobic (oxygen-free) conditions; otherwise, the fodder will rot instead of fermenting. \n* Silage making relies on chopping fodder, balancing moisture, adding energy sources, and sealing everything airtight to allow beneficial fermentation and prevent spoilage.",
-      "strorage_tips_text": "* Keep the silage in airtight conditions.\nYou can use:\n   * Paper bags\n   * Skyplast bags\n   * Hermetic bags\n * Airtight storage ensures proper preservation and long shelf life."
+      "transcript": "* **Fodder materials:** Provides bulk, nutrients, and fiber needed for good-quality livestock feed after fermentation.\n * **Maize bran:** Absorb excess moisture from the fodder and provides carbohydrates that support fermentation.\n * **Molasses:** Acts as a fermentation booster while improving taste and energy value.\n *Chopping fodder into small pieces increases compaction, removes air spaces, and speeds up fermentation.\n * **Airtight container (e.g., silo, polythene bag, drum):** This is used to exclude air. \n * Silage fermentation must occur in anaerobic (oxygen-free) conditions; otherwise, the fodder will rot instead of fermenting. \n* Silage making relies on chopping fodder, balancing moisture, adding energy sources, and sealing everything airtight to allow beneficial fermentation and prevent spoilage.",
+      "storage_transcript": "* Keep the silage in airtight conditions.\nYou can use:\n   * Paper bags\n   * Skyplast bags\n   * Hermetic bags\n * Airtight storage ensures proper preservation and long shelf life."
     },
     {
       "id": "drying_kales_vegs",

@@ -379,7 +379,7 @@
     },
     {
       "name": "tips_1",
-      "value": "@local.ingredients_row.tips_text",
+      "value": "@local.ingredients_row.transcript",
       "_translations": {
         "value": {}
       },
@@ -388,22 +388,22 @@
       "_dynamicFields": {
         "value": [
           {
-            "fullExpression": "@local.ingredients_row.tips_text",
-            "matchedExpression": "@local.ingredients_row.tips_text",
+            "fullExpression": "@local.ingredients_row.transcript",
+            "matchedExpression": "@local.ingredients_row.transcript",
             "type": "local",
             "fieldName": "ingredients_row"
           }
         ]
       },
       "_dynamicDependencies": {
-        "@local.ingredients_row.tips_text": [
+        "@local.ingredients_row.transcript": [
           "value"
         ]
       }
     },
     {
       "name": "tips_2",
-      "value": "@local.ingredients_row.strorage_tips_text",
+      "value": "@local.ingredients_row.storage_transcript",
       "_translations": {
         "value": {}
       },
@@ -412,22 +412,46 @@
       "_dynamicFields": {
         "value": [
           {
-            "fullExpression": "@local.ingredients_row.strorage_tips_text",
-            "matchedExpression": "@local.ingredients_row.strorage_tips_text",
+            "fullExpression": "@local.ingredients_row.storage_transcript",
+            "matchedExpression": "@local.ingredients_row.storage_transcript",
             "type": "local",
             "fieldName": "ingredients_row"
           }
         ]
       },
       "_dynamicDependencies": {
-        "@local.ingredients_row.strorage_tips_text": [
+        "@local.ingredients_row.storage_transcript": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "tips_3",
+      "value": "@local.ingredients_row.usage_transcript",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "tips_3",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.ingredients_row.usage_transcript",
+            "matchedExpression": "@local.ingredients_row.usage_transcript",
+            "type": "local",
+            "fieldName": "ingredients_row"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.ingredients_row.usage_transcript": [
           "value"
         ]
       }
     },
     {
       "name": "title_1",
-      "value": "Ingredients",
+      "value": "Materials Used",
       "_translations": {
         "value": {}
       },
@@ -436,7 +460,7 @@
     },
     {
       "name": "title_2",
-      "value": "Tips",
+      "value": "More about our Materials",
       "_translations": {
         "value": {}
       },
@@ -451,6 +475,15 @@
       },
       "type": "set_variable",
       "_nested_name": "title_3"
+    },
+    {
+      "name": "title_4",
+      "value": "Usage Tips",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "title_4"
     },
     {
       "type": "accordion",
@@ -869,7 +902,7 @@
               "_translations": {
                 "value": {}
               },
-              "condition": "!!(@local.tips_1)",
+              "condition": "@local.ingredients_row.media_type_1 != \"audio\"",
               "_nested_name": "accordion.second.accordion_content_2",
               "_dynamicFields": {
                 "value": [
@@ -882,16 +915,68 @@
                 ],
                 "condition": [
                   {
-                    "fullExpression": "!!(@local.tips_1)",
-                    "matchedExpression": "@local.tips_1",
+                    "fullExpression": "@local.ingredients_row.media_type_1 != \"audio\"",
+                    "matchedExpression": "@local.ingredients_row.media_type_1",
                     "type": "local",
-                    "fieldName": "tips_1"
+                    "fieldName": "ingredients_row"
                   }
                 ]
               },
               "_dynamicDependencies": {
                 "@local.tips_1": [
+                  "value"
+                ],
+                "@local.ingredients_row.media_type_1": [
+                  "condition"
+                ]
+              }
+            },
+            {
+              "type": "audio",
+              "name": "audio",
+              "value": "@local.ingredients_row.transcript",
+              "_translations": {
+                "value": {}
+              },
+              "condition": "@local.ingredients_row.media_type_1 == \"audio\"",
+              "parameter_list": {
+                "transcript_text": "@local.ingredients_row.transcript"
+              },
+              "_nested_name": "accordion.second.audio",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@local.ingredients_row.transcript",
+                    "matchedExpression": "@local.ingredients_row.transcript",
+                    "type": "local",
+                    "fieldName": "ingredients_row"
+                  }
+                ],
+                "condition": [
+                  {
+                    "fullExpression": "@local.ingredients_row.media_type_1 == \"audio\"",
+                    "matchedExpression": "@local.ingredients_row.media_type_1",
+                    "type": "local",
+                    "fieldName": "ingredients_row"
+                  }
+                ],
+                "parameter_list": {
+                  "transcript_text": [
+                    {
+                      "fullExpression": "@local.ingredients_row.transcript",
+                      "matchedExpression": "@local.ingredients_row.transcript",
+                      "type": "local",
+                      "fieldName": "ingredients_row"
+                    }
+                  ]
+                }
+              },
+              "_dynamicDependencies": {
+                "@local.ingredients_row.transcript": [
                   "value",
+                  "parameter_list.transcript_text"
+                ],
+                "@local.ingredients_row.media_type_1": [
                   "condition"
                 ]
               }
@@ -927,7 +1012,7 @@
         },
         {
           "type": "accordion_section",
-          "name": "second",
+          "name": "third",
           "value": "@local.title_3",
           "condition": "!!(@local.tips_2)",
           "rows": [
@@ -938,8 +1023,8 @@
               "_translations": {
                 "value": {}
               },
-              "condition": "!!(@local.tips_2)",
-              "_nested_name": "accordion.second.accordion_content_3",
+              "condition": "@local.ingredients_row.media_type_2 != \"audio\"",
+              "_nested_name": "accordion.third.accordion_content_3",
               "_dynamicFields": {
                 "value": [
                   {
@@ -951,22 +1036,74 @@
                 ],
                 "condition": [
                   {
-                    "fullExpression": "!!(@local.tips_2)",
-                    "matchedExpression": "@local.tips_2",
+                    "fullExpression": "@local.ingredients_row.media_type_2 != \"audio\"",
+                    "matchedExpression": "@local.ingredients_row.media_type_2",
                     "type": "local",
-                    "fieldName": "tips_2"
+                    "fieldName": "ingredients_row"
                   }
                 ]
               },
               "_dynamicDependencies": {
                 "@local.tips_2": [
+                  "value"
+                ],
+                "@local.ingredients_row.media_type_2": [
+                  "condition"
+                ]
+              }
+            },
+            {
+              "type": "audio",
+              "name": "audio",
+              "value": "@local.ingredients_row.storage_transcript",
+              "_translations": {
+                "value": {}
+              },
+              "condition": "@local.ingredients_row.media_type_2 == \"audio\"",
+              "parameter_list": {
+                "transcript_text": "@local.ingredients_row.storage_transcript"
+              },
+              "_nested_name": "accordion.third.audio",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@local.ingredients_row.storage_transcript",
+                    "matchedExpression": "@local.ingredients_row.storage_transcript",
+                    "type": "local",
+                    "fieldName": "ingredients_row"
+                  }
+                ],
+                "condition": [
+                  {
+                    "fullExpression": "@local.ingredients_row.media_type_2 == \"audio\"",
+                    "matchedExpression": "@local.ingredients_row.media_type_2",
+                    "type": "local",
+                    "fieldName": "ingredients_row"
+                  }
+                ],
+                "parameter_list": {
+                  "transcript_text": [
+                    {
+                      "fullExpression": "@local.ingredients_row.storage_transcript",
+                      "matchedExpression": "@local.ingredients_row.storage_transcript",
+                      "type": "local",
+                      "fieldName": "ingredients_row"
+                    }
+                  ]
+                }
+              },
+              "_dynamicDependencies": {
+                "@local.ingredients_row.storage_transcript": [
                   "value",
+                  "parameter_list.transcript_text"
+                ],
+                "@local.ingredients_row.media_type_2": [
                   "condition"
                 ]
               }
             }
           ],
-          "_nested_name": "accordion.second",
+          "_nested_name": "accordion.third",
           "_dynamicFields": {
             "value": [
               {
@@ -987,6 +1124,127 @@
           },
           "_dynamicDependencies": {
             "@local.title_3": [
+              "value"
+            ],
+            "@local.tips_2": [
+              "condition"
+            ]
+          }
+        },
+        {
+          "type": "accordion_section",
+          "name": "forth",
+          "value": "@local.title_4",
+          "condition": "!!(@local.tips_2)",
+          "rows": [
+            {
+              "type": "text",
+              "name": "accordion_content_4",
+              "value": "@local.tips_3",
+              "_translations": {
+                "value": {}
+              },
+              "condition": "@local.ingredients_row.media_type_3 != \"audio\"",
+              "_nested_name": "accordion.forth.accordion_content_4",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@local.tips_3",
+                    "matchedExpression": "@local.tips_3",
+                    "type": "local",
+                    "fieldName": "tips_3"
+                  }
+                ],
+                "condition": [
+                  {
+                    "fullExpression": "@local.ingredients_row.media_type_3 != \"audio\"",
+                    "matchedExpression": "@local.ingredients_row.media_type_3",
+                    "type": "local",
+                    "fieldName": "ingredients_row"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.tips_3": [
+                  "value"
+                ],
+                "@local.ingredients_row.media_type_3": [
+                  "condition"
+                ]
+              }
+            },
+            {
+              "type": "audio",
+              "name": "audio",
+              "value": "@local.ingredients_row.usage_transcript",
+              "_translations": {
+                "value": {}
+              },
+              "condition": "@local.ingredients_row.media_type_3 == \"audio\"",
+              "parameter_list": {
+                "transcript_text": "@local.ingredients_row.usage_transcript"
+              },
+              "_nested_name": "accordion.forth.audio",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@local.ingredients_row.usage_transcript",
+                    "matchedExpression": "@local.ingredients_row.usage_transcript",
+                    "type": "local",
+                    "fieldName": "ingredients_row"
+                  }
+                ],
+                "condition": [
+                  {
+                    "fullExpression": "@local.ingredients_row.media_type_3 == \"audio\"",
+                    "matchedExpression": "@local.ingredients_row.media_type_3",
+                    "type": "local",
+                    "fieldName": "ingredients_row"
+                  }
+                ],
+                "parameter_list": {
+                  "transcript_text": [
+                    {
+                      "fullExpression": "@local.ingredients_row.usage_transcript",
+                      "matchedExpression": "@local.ingredients_row.usage_transcript",
+                      "type": "local",
+                      "fieldName": "ingredients_row"
+                    }
+                  ]
+                }
+              },
+              "_dynamicDependencies": {
+                "@local.ingredients_row.usage_transcript": [
+                  "value",
+                  "parameter_list.transcript_text"
+                ],
+                "@local.ingredients_row.media_type_3": [
+                  "condition"
+                ]
+              }
+            }
+          ],
+          "_nested_name": "accordion.forth",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@local.title_4",
+                "matchedExpression": "@local.title_4",
+                "type": "local",
+                "fieldName": "title_4"
+              }
+            ],
+            "condition": [
+              {
+                "fullExpression": "!!(@local.tips_2)",
+                "matchedExpression": "@local.tips_2",
+                "type": "local",
+                "fieldName": "tips_2"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@local.title_4": [
               "value"
             ],
             "@local.tips_2": [
