@@ -1,4 +1,136 @@
 {
+  "audios/ash_ brew_usage.mp3": {
+    "md5Checksum": "68ca7298924e0f261556ca094965755b",
+    "size_kb": 82.6
+  },
+  "audios/ash_brew_ingredients.mp3": {
+    "md5Checksum": "8a97462f9d4e7df58a5171198b560f35",
+    "size_kb": 404.9
+  },
+  "audios/ash_brew_preparation.mp3": {
+    "md5Checksum": "f152fab213b5e86412ac082a269bc253",
+    "size_kb": 130.5
+  },
+  "audios/ash_brew_storage.mp3": {
+    "md5Checksum": "ba53a8d5cc7035e9eba556180659efdd",
+    "size_kb": 67.4
+  },
+  "audios/biological_control.mp3": {
+    "md5Checksum": "1a72237c68fc2a7a1a4dcd32c972f228",
+    "size_kb": 107.9
+  },
+  "audios/botanical_control.mp3": {
+    "md5Checksum": "cae798a7e8cbf4fbd783b91b5225330e",
+    "size_kb": 131.5
+  },
+  "audios/cultural_control.mp3": {
+    "md5Checksum": "f717aecef260e6cb46e752336715a71f",
+    "size_kb": 404
+  },
+  "audios/feeding-factors.mp3": {
+    "md5Checksum": "134f665ed13d98afa2c0036206a41d76",
+    "size_kb": 141.5
+  },
+  "audios/fermented_feeds_benefits.mp3": {
+    "md5Checksum": "022cad962f9cc99250afc9b7475901fe",
+    "size_kb": 175.4
+  },
+  "audios/fermented_ingredients.mp3": {
+    "md5Checksum": "2c034aa4ce0b19e218fa4d4f279a6faa",
+    "size_kb": 714.8
+  },
+  "audios/fermented_preparation steps.mp3": {
+    "md5Checksum": "491ca54675da27e4800624fc5dc3a929",
+    "size_kb": 511.2
+  },
+  "audios/homemade_benefits.mp3": {
+    "md5Checksum": "3df8b08e71bdfb31d6275d7647f82144",
+    "size_kb": 63.6
+  },
+  "audios/nutrition/below_age5_foods.mp3": {
+    "md5Checksum": "1353ae3ad83147c99ca41165143b7325",
+    "size_kb": 233
+  },
+  "audios/nutrition/elderly.mp3": {
+    "md5Checksum": "2e4fd0abb6e903181d7e7ae5fea1c34b",
+    "size_kb": 289
+  },
+  "audios/nutrition/pregnant_mothers_foods.mp3": {
+    "md5Checksum": "b34f6c13caa92a102d2ce4fe34686e60",
+    "size_kb": 166.3
+  },
+  "audios/nutrition/sick_foods.mp3": {
+    "md5Checksum": "0bf2157de1c681792cfb676c1d1825b5",
+    "size_kb": 136.8
+  },
+  "audios/nutrition/sukuma_wiki_prep.mp3": {
+    "md5Checksum": "cd9bdb30a544fef8030d4a89f23d66c2",
+    "size_kb": 313.9
+  },
+  "audios/nutrition/yourghut_prep.mp3": {
+    "md5Checksum": "cc5d09754dfbf958d443ae4e7def5695",
+    "size_kb": 459.5
+  },
+  "audios/soil/abt_bokashi.mp3": {
+    "md5Checksum": "24f947c625e972a7da9974fade43a180",
+    "size_kb": 214.2
+  },
+  "audios/soil/abt_boma.mp3": {
+    "md5Checksum": "e76645f64c1b81981af8e6def1906b03",
+    "size_kb": 229.2
+  },
+  "audios/soil/abt_garden.mp3": {
+    "md5Checksum": "74375dca4c6a650bd3dbc5cd49f7d26e",
+    "size_kb": 336.4
+  },
+  "audios/soil/abt_greenmanure.mp3": {
+    "md5Checksum": "c739e364d7ea24c10ff6003285384061",
+    "size_kb": 241.8
+  },
+  "audios/soil/bokashi_ingredients.mp3": {
+    "md5Checksum": "f26dc0f9becaedc4d848bfeb1074bde2",
+    "size_kb": 323.2
+  },
+  "audios/soil/bokashi_procedure.mp3": {
+    "md5Checksum": "38f20499c6762c4be7ae17ea48e0f74f",
+    "size_kb": 357.7
+  },
+  "audios/soil/diversity.mp3": {
+    "md5Checksum": "3924ff97b979298a77b9100e5089a6e5",
+    "size_kb": 226.3
+  },
+  "audios/soil/garden_compost_ingredients.mp3": {
+    "md5Checksum": "d53cb6da0386a568e1c7d41e6e4a06df",
+    "size_kb": 117.6
+  },
+  "audios/soil/garden_compost_preparation.mp3": {
+    "md5Checksum": "1b950cee4b6b6be8028be2357ea09736",
+    "size_kb": 172.4
+  },
+  "audios/soil/resilience.mp3": {
+    "md5Checksum": "7cbbd360c65e5ab3028a5d094976dafa",
+    "size_kb": 214.9
+  },
+  "audios/soil/rotation.mp3": {
+    "md5Checksum": "46afcc914dbd4597d78d71a5fd7a95c6",
+    "size_kb": 208.5
+  },
+  "audios/tephrosia_ingredients.mp3": {
+    "md5Checksum": "fcfedc5b1d75ce1fb781344501cce802",
+    "size_kb": 218.8
+  },
+  "audios/tephrosia_prep.mp3": {
+    "md5Checksum": "a1b8c4d40383d2cb9ab6b94a26f9e423",
+    "size_kb": 394.4
+  },
+  "audios/tephrosia_preparation.mp3": {
+    "md5Checksum": "96476820c79297375a33a225e5cada1a",
+    "size_kb": 306.9
+  },
+  "audios/useful_additives.mp3": {
+    "md5Checksum": "4848c8510f359efc4491de95453e2e2b",
+    "size_kb": 133.5
+  },
   "cook_traditional.svg": {
     "md5Checksum": "1b8ee5d230c11101a9f665a3e0958dfc",
     "size_kb": 140.7
@@ -30,6 +162,66 @@
   "images/icons/books.svg": {
     "md5Checksum": "4ccb990e101b79ff8868a37b17aa629b",
     "size_kb": 0.9
+  },
+  "images/icons/categories/about.png": {
+    "md5Checksum": "35a18cb9ae6a58502463024788f28b22",
+    "size_kb": 12.5
+  },
+  "images/icons/categories/adaptation.png": {
+    "md5Checksum": "42bc361c17598820701192b4d5b771fc",
+    "size_kb": 25.2
+  },
+  "images/icons/categories/causes_climate.png": {
+    "md5Checksum": "a236d9a89040e46c2e007dc27ab11e05",
+    "size_kb": 232.9
+  },
+  "images/icons/categories/common_pests.png": {
+    "md5Checksum": "479538b8514cd7aef91adcaa3427c8c8",
+    "size_kb": 21.4
+  },
+  "images/icons/categories/effects_climate.png": {
+    "md5Checksum": "b6aecce693c5871420b462fdf144179d",
+    "size_kb": 209.2
+  },
+  "images/icons/categories/epm.png": {
+    "md5Checksum": "cab13e30cc33687f579d44cd139e626d",
+    "size_kb": 16.9
+  },
+  "images/icons/categories/feed_prep.png": {
+    "md5Checksum": "3d798c569197b3d8d7e8b76a323ea952",
+    "size_kb": 16.5
+  },
+  "images/icons/categories/green_house.png": {
+    "md5Checksum": "b83f3617d8f594290c9660cc2c6cc9b9",
+    "size_kb": 18.7
+  },
+  "images/icons/categories/home_remedy.png": {
+    "md5Checksum": "f03892cb0d4b05d46a74b62bc43bdff0",
+    "size_kb": 21.5
+  },
+  "images/icons/categories/improve_soil_fertility.png": {
+    "md5Checksum": "cfaf10a5d29a70c164c1d32234470239",
+    "size_kb": 17.1
+  },
+  "images/icons/categories/internal_pest_control.png": {
+    "md5Checksum": "d777da626a37c412b7008704414f9b08",
+    "size_kb": 15.7
+  },
+  "images/icons/categories/livestock_challenges.png": {
+    "md5Checksum": "af3261d3afb0ed8733345b7330b08f9a",
+    "size_kb": 22.4
+  },
+  "images/icons/categories/livestock_feeds.png": {
+    "md5Checksum": "862bb076df943ca0861c29093f482812",
+    "size_kb": 21.7
+  },
+  "images/icons/categories/nutrient_depletion.png": {
+    "md5Checksum": "d9f6be227060a59f3a611f4210cd38a9",
+    "size_kb": 24
+  },
+  "images/icons/categories/organic_manure.png": {
+    "md5Checksum": "404bb45d13bbbafaf0dcd9a6105833e1",
+    "size_kb": 21.9
   },
   "images/icons/chevron_back_white.svg": {
     "md5Checksum": "a4baa37914bd75a9661409448b0ca174",
@@ -99,101 +291,221 @@
     "md5Checksum": "21a95d3e386ed06e3097913311aa1364",
     "size_kb": 87.3
   },
-  "images/topic/Livestock_images/African marigold.png": {
-    "md5Checksum": "a67b75e02dd980cac6772e9f393577e7",
-    "size_kb": 2591
+  "images/topic/Livestock_images/Basil,marigold,tobacco.jpeg": {
+    "md5Checksum": "acc1f457376fa40b5ebedd636dce1c10",
+    "size_kb": 398.8
   },
-  "images/topic/Livestock_images/Basil,marigold,tobacco.png": {
-    "md5Checksum": "a5e20cd787d0019563e30fb81d6f9f8b",
-    "size_kb": 2464.1
+  "images/topic/Livestock_images/Basil.jpeg": {
+    "md5Checksum": "187199efc49ed791c1a0b64c6630c20d",
+    "size_kb": 398.2
   },
-  "images/topic/Livestock_images/Basil.png": {
-    "md5Checksum": "d4e1d5854fd3a0693271f370797dd562",
-    "size_kb": 2385.6
+  "images/topic/Livestock_images/CONCOCTION.jpeg": {
+    "md5Checksum": "396a16fc28175048c9d4b4056987a711",
+    "size_kb": 398.6
   },
-  "images/topic/Livestock_images/Lemon grass.png": {
-    "md5Checksum": "381fc589aedd1ec9a16fc7b97b460eef",
-    "size_kb": 2678.3
+  "images/topic/Livestock_images/FERMENTED.jpeg": {
+    "md5Checksum": "0641526635ef1d8455d97c90bbae75ad",
+    "size_kb": 398.8
   },
-  "images/topic/Livestock_images/Livestock types.png": {
-    "md5Checksum": "4e6d78c117bae181d08081be7155d7a8",
-    "size_kb": 2875.4
+  "images/topic/Livestock_images/Lemon grass.jpeg": {
+    "md5Checksum": "22ec6b9c6249312d80723004241a43b2",
+    "size_kb": 398.9
+  },
+  "images/topic/Livestock_images/Livestock types.jpeg": {
+    "md5Checksum": "f1176ec96ff03a085f257b4965d52431",
+    "size_kb": 398.4
   },
   "images/topic/Livestock_images/Marigold.jpg": {
-    "md5Checksum": "7ecf41cab592235511d47f638d7e244d",
-    "size_kb": 190.9
+    "md5Checksum": "ccb36261cae04f533b51059816ceedd9",
+    "size_kb": 398.8
   },
   "images/topic/Livestock_images/Wormwood.jpg": {
-    "md5Checksum": "5ef2b1dfb8aabe9f4301168301b05879",
-    "size_kb": 8469.9
+    "md5Checksum": "e29ad48ce4fa868cd6cbd8a256562a6b",
+    "size_kb": 398.4
   },
-  "images/topic/Livestock_images/bush_clearing.png": {
-    "md5Checksum": "10dd0608b82f673e60c230c56d7f2ed5",
-    "size_kb": 3391.3
+  "images/topic/Livestock_images/bush_clearing.jpeg": {
+    "md5Checksum": "eb3d44b916edfd07142079ca287b71a3",
+    "size_kb": 398.4
   },
-  "images/topic/Livestock_images/fermented_feeds.png": {
-    "md5Checksum": "74004ee7d1c7635d0f4a752436fb7268",
-    "size_kb": 2215
+  "images/topic/Livestock_images/concoction_cover.jpeg": {
+    "md5Checksum": "139a07748ba3a7b31c53267d6850ea2e",
+    "size_kb": 398.7
   },
-  "images/topic/Livestock_images/hygine.png": {
-    "md5Checksum": "0e7fbc7e3d3c3ce2803772527b3d9371",
-    "size_kb": 3027.1
+  "images/topic/Livestock_images/fermentation.jpeg": {
+    "md5Checksum": "8a411784e83d39b32fc1947622a11cf6",
+    "size_kb": 398.5
+  },
+  "images/topic/Livestock_images/fermented_feeds.jpeg": {
+    "md5Checksum": "9c792b689ad4278d35bd2c623ec209aa",
+    "size_kb": 398.6
+  },
+  "images/topic/Livestock_images/fermented_ingredients.jpeg": {
+    "md5Checksum": "82cca2737e75635296ee37c02751f806",
+    "size_kb": 398.9
+  },
+  "images/topic/Livestock_images/homemade_ingredients.jpeg": {
+    "md5Checksum": "0f9d5cafdb7ab7275cc761e1b635b4d3",
+    "size_kb": 398.8
+  },
+  "images/topic/Livestock_images/homemade_steps.jpeg": {
+    "md5Checksum": "bc6660e1ca8bfffa110376eb63ab07d9",
+    "size_kb": 398.9
+  },
+  "images/topic/Livestock_images/hygine.jpeg": {
+    "md5Checksum": "98e9036b7e89c0104a34672a791aa5bd",
+    "size_kb": 398.7
   },
   "images/topic/Livestock_images/mollasses.jpg": {
-    "md5Checksum": "98e464afe6618acd5b5751ad11d5a4f5",
-    "size_kb": 2841
+    "md5Checksum": "4a60f30381b652ca14fddf51e0b7b3dc",
+    "size_kb": 399
   },
-  "images/topic/Livestock_images/pawpaw leaves.png": {
-    "md5Checksum": "66b0ee46761dfc916c863d4245d84373",
-    "size_kb": 2455.6
+  "images/topic/Livestock_images/pawpaw leaves.jpeg": {
+    "md5Checksum": "b26c15fba6f73d7870f2d34ba22f8b34",
+    "size_kb": 398
   },
-  "images/topic/Livestock_images/pawpaw seeds.png": {
-    "md5Checksum": "9b411678353fa7a52d5cac7019724ca1",
-    "size_kb": 2399
+  "images/topic/Livestock_images/pawpaw seeds.jpeg": {
+    "md5Checksum": "a6a477e9ba512af402683da2ead6ea94",
+    "size_kb": 398.3
   },
   "images/topic/Livestock_images/poultry_feed.jpeg": {
     "md5Checksum": "2702d7f97edb806a369b649445e6a7df",
     "size_kb": 334.8
   },
-  "images/topic/Livestock_images/rosemary.png": {
-    "md5Checksum": "65a6b1c86b0210262c3a21d977d7c9ce",
-    "size_kb": 4835.5
+  "images/topic/Livestock_images/rosemary.jpeg": {
+    "md5Checksum": "04b1cd4365f06e846a53b267b5f56d8c",
+    "size_kb": 398.5
+  },
+  "images/topic/Livestock_images/silage1.jpeg": {
+    "md5Checksum": "ae678596131b483300b54acecd039d26",
+    "size_kb": 398
+  },
+  "images/topic/Livestock_images/silage_definition.jpeg": {
+    "md5Checksum": "a609776ff2d02af8d3aad4148c19f5bb",
+    "size_kb": 398.1
+  },
+  "images/topic/Livestock_images/silage_ingredients.jpeg": {
+    "md5Checksum": "87811fe8b6ce351c5870985833f944f0",
+    "size_kb": 398.5
+  },
+  "images/topic/Livestock_images/silage_steps.jpeg": {
+    "md5Checksum": "60fddc2e6e28a670ac5dbfdb3b4d6f37",
+    "size_kb": 399
   },
   "images/topic/Livestock_images/tephrosia1.jpg": {
-    "md5Checksum": "3790c0a45b13e3792410e1b41a08f458",
-    "size_kb": 5770.9
+    "md5Checksum": "46824357f456cf72f2bd1da69ba8780c",
+    "size_kb": 398.2
   },
   "images/topic/Livestock_images/tithonia concotion.jpeg": {
     "md5Checksum": "3070b3c2c414f19ed0848896f407e815",
     "size_kb": 298.9
   },
-  "images/topic/Livestock_images/warmwood.png": {
-    "md5Checksum": "f4219c2f48f12892e0e1f3c2a6f69048",
-    "size_kb": 2833.6
-  },
-  "images/topic/Livestock_images/wormwood2.jpg": {
-    "md5Checksum": "ffbea41557b981e5e78b7062b8bce532",
-    "size_kb": 6731.8
-  },
   "images/topic/agroforestry_title_image.svg": {
     "md5Checksum": "c88678418bf2fed848c23303a7cb731b",
     "size_kb": 22.2
   },
-  "images/topic/climate_change_images/Copy of diversity.png": {
-    "md5Checksum": "09cd7aa44e1885f26ad23e359078eee2",
-    "size_kb": 496.8
+  "images/topic/climate_change_images/agrobiodiversity.png": {
+    "md5Checksum": "e8ee83e075d86ca5f1be876410f9c56c",
+    "size_kb": 261.6
   },
-  "images/topic/climate_change_images/Copy of resilience.png": {
-    "md5Checksum": "e70b96cb8b66020e782291cfe9009e23",
-    "size_kb": 275.8
+  "images/topic/climate_change_images/contour_farming.png": {
+    "md5Checksum": "86ac484fb447b44cb6e7d2fd600f090f",
+    "size_kb": 291.2
   },
-  "images/topic/climate_change_images/industrial_processes.png": {
-    "md5Checksum": "0fc691ed719bb16abba1bbe89d70917f",
-    "size_kb": 251.8
+  "images/topic/climate_change_images/diverse_fodder.png": {
+    "md5Checksum": "e9035e40efdac1ba7f8f9b9565ceea17",
+    "size_kb": 212.6
+  },
+  "images/topic/climate_change_images/drainage.png": {
+    "md5Checksum": "7711b5144b98028ee241a37a0cfbf52a",
+    "size_kb": 262.1
+  },
+  "images/topic/climate_change_images/flood_tolerant.png": {
+    "md5Checksum": "32e2f34d25e2f11235b404f5eb2a5f43",
+    "size_kb": 235.4
+  },
+  "images/topic/climate_change_images/microcatchment_steps.png": {
+    "md5Checksum": "072a472e785750f4137710c6f5556d4a",
+    "size_kb": 205
+  },
+  "images/topic/climate_change_images/mulch.png": {
+    "md5Checksum": "3c9b38c035bf6c91b01d2c68f7f01deb",
+    "size_kb": 120.3
+  },
+  "images/topic/climate_change_images/mulching.png": {
+    "md5Checksum": "cff27e5f68f332c2304ba1d404b321bc",
+    "size_kb": 744.2
+  },
+  "images/topic/climate_change_images/mulching_ing.png": {
+    "md5Checksum": "f8374cfd7b827d0587f29d2fb4cb1394",
+    "size_kb": 165.7
+  },
+  "images/topic/climate_change_images/mulching_practice.png": {
+    "md5Checksum": "66249382a78b1458db39ac2e323d785a",
+    "size_kb": 270
+  },
+  "images/topic/climate_change_images/mulching_steps.png": {
+    "md5Checksum": "10e7627a8b6a5336d7acac8982befaf7",
+    "size_kb": 195.4
+  },
+  "images/topic/climate_change_images/rainwater_harvesting.png": {
+    "md5Checksum": "a783329513eb57a2670d6f546727896b",
+    "size_kb": 195.4
+  },
+  "images/topic/climate_change_images/raised_bed.png": {
+    "md5Checksum": "69d428408c6ecf619865ab7472c0ae85",
+    "size_kb": 261.1
+  },
+  "images/topic/climate_change_images/resilient_crops.png": {
+    "md5Checksum": "bfcb4528f2b5c457e8f8d38b77d97651",
+    "size_kb": 232.8
+  },
+  "images/topic/climate_change_images/shading.png": {
+    "md5Checksum": "82f502c8d366ea84cbe01415f13b2447",
+    "size_kb": 225
+  },
+  "images/topic/climate_change_images/stockpiling.png": {
+    "md5Checksum": "e2d1bac0a9bf51e5a759c059646a5733",
+    "size_kb": 233.7
+  },
+  "images/topic/climate_change_images/sunken_bed.png": {
+    "md5Checksum": "7fa4494e6380e02a24f534ad1154dfab",
+    "size_kb": 95
+  },
+  "images/topic/climate_change_images/sunken_bed_ing.png": {
+    "md5Checksum": "1e97ca05fb335488c351b6af2d1e12e7",
+    "size_kb": 127.7
+  },
+  "images/topic/climate_change_images/sunken_bed_steps.png": {
+    "md5Checksum": "c2e30f65577eecb35ef310b26451c7f8",
+    "size_kb": 190
+  },
+  "images/topic/climate_change_images/sunken_beds.png": {
+    "md5Checksum": "f1e700720843c66aada6633079c95014",
+    "size_kb": 190.8
+  },
+  "images/topic/climate_change_images/zai_pit.png": {
+    "md5Checksum": "5a817de1f57c16cfd1af4baca13c9650",
+    "size_kb": 149.9
+  },
+  "images/topic/climate_change_images/zai_pit_ing.png": {
+    "md5Checksum": "95d523be3a6e30bc398b4216d1a77280",
+    "size_kb": 160
+  },
+  "images/topic/climate_change_images/zai_pit_steps.png": {
+    "md5Checksum": "9b3d2fc6617ca56d94cbd1df859573e7",
+    "size_kb": 153.8
+  },
+  "images/topic/climate_change_images/zai_pits.png": {
+    "md5Checksum": "fea524651d8b52b50ec605d4bc741849",
+    "size_kb": 211.9
   },
   "images/topic/livestock_title_image.svg": {
     "md5Checksum": "83d1595e08289a5bb47a8566fc543656",
     "size_kb": 30.2
+  },
+  "images/topic/nutrition/avoid_single_food_diet.png": {
+    "md5Checksum": "70ac0ebd7bbd50f5b6d2b888328d7ee1",
+    "size_kb": 174.9
   },
   "images/topic/nutrition/balanced_diet.png": {
     "md5Checksum": "14551e4bbac46d87e0b8c6cd984466e4",
@@ -203,13 +515,53 @@
     "md5Checksum": "9997b95f1493d9bfbe499effe66296a8",
     "size_kb": 1489.8
   },
+  "images/topic/nutrition/banana_preparation.png": {
+    "md5Checksum": "449e12f21ca606d21e77cf68cde3e237",
+    "size_kb": 50.4
+  },
+  "images/topic/nutrition/banana_steps.png": {
+    "md5Checksum": "0e6b67e4e740b0b5f0658bc903660887",
+    "size_kb": 2446.1
+  },
   "images/topic/nutrition/beverage_meal.svg": {
     "md5Checksum": "25b9bc6dd148a4b33ed4770f9ff13940",
     "size_kb": 0.5
   },
+  "images/topic/nutrition/children_need_balanced_diet.png": {
+    "md5Checksum": "cdc7527366629d7e5edc7527cb581899",
+    "size_kb": 166.1
+  },
+  "images/topic/nutrition/drink_enough_fluids.png": {
+    "md5Checksum": "0d61d01759a23ad38d4cc809ea4e87f2",
+    "size_kb": 164.2
+  },
+  "images/topic/nutrition/eat_variety_of_foods.png": {
+    "md5Checksum": "44d12bdbd8dfd233f9f2910a3baeb57d",
+    "size_kb": 201.4
+  },
   "images/topic/nutrition/farm_food.svg": {
     "md5Checksum": "3737818c820e50f6e5c7bb9be78c5f4a",
     "size_kb": 1245.8
+  },
+  "images/topic/nutrition/glow_foods.png": {
+    "md5Checksum": "a5d69032145cdb172ebd55e1e03b2a6c",
+    "size_kb": 568.9
+  },
+  "images/topic/nutrition/go_foods.png": {
+    "md5Checksum": "01ab85f09fa66475938146689b549135",
+    "size_kb": 709.4
+  },
+  "images/topic/nutrition/grow_foods.png": {
+    "md5Checksum": "4f88c031686dcaa5bc6787f436b35831",
+    "size_kb": 635
+  },
+  "images/topic/nutrition/kales_preparation.png": {
+    "md5Checksum": "f7a0662725a54520d86e8089b3375a42",
+    "size_kb": 38.9
+  },
+  "images/topic/nutrition/kales_steps.png": {
+    "md5Checksum": "e6c696e887b24b2bfbaaadd91a855e47",
+    "size_kb": 2535.1
   },
   "images/topic/nutrition/safety_check.svg": {
     "md5Checksum": "7ee8ee1a8e1dfb50affae83746485c5c",
@@ -223,73 +575,137 @@
     "md5Checksum": "d4b25b5e3021cae4eaae3b79de852d01",
     "size_kb": 1665.4
   },
+  "images/topic/nutrition/value_benefit/banana.jpg": {
+    "md5Checksum": "7c620409d4f9e907685f43aa3338e000",
+    "size_kb": 6.4
+  },
+  "images/topic/nutrition/value_benefit/cassava.jpg": {
+    "md5Checksum": "5ac713b548ab005b701828f28b7ab202",
+    "size_kb": 1456
+  },
+  "images/topic/nutrition/value_benefit/fish.jpeg": {
+    "md5Checksum": "38ab1983b53a58445714840ca226516c",
+    "size_kb": 14.3
+  },
+  "images/topic/nutrition/value_benefit/fresh_kales.jpg": {
+    "md5Checksum": "874457ab5870fb7868f600d86b08079b",
+    "size_kb": 598.7
+  },
+  "images/topic/nutrition/value_benefit/ground-nuts.jpg": {
+    "md5Checksum": "34205f0cc1c0b96a0480ab9a74efce6e",
+    "size_kb": 141.6
+  },
+  "images/topic/nutrition/value_benefit/soya-beans.png": {
+    "md5Checksum": "4ea0d96715eb38c48d99a484cd9a7236",
+    "size_kb": 167.5
+  },
+  "images/topic/nutrition/value_benefit/sweet_potatoes.jpg": {
+    "md5Checksum": "576b8a97a1162f5a7a045d455f02835c",
+    "size_kb": 5.6
+  },
+  "images/topic/nutrition/vulnerable/children-below-age-5.png": {
+    "md5Checksum": "2354a066800f969120fa8555d23a275f",
+    "size_kb": 105.2
+  },
+  "images/topic/nutrition/vulnerable/elderly.png": {
+    "md5Checksum": "e52932b1b8bc913ed25ece1ba19bee4b",
+    "size_kb": 273.2
+  },
+  "images/topic/nutrition/vulnerable/pregnant.png": {
+    "md5Checksum": "efe37d3a7b6e33b56cd7bdac7eb96615",
+    "size_kb": 328.1
+  },
+  "images/topic/nutrition/vulnerable/sick-person.png": {
+    "md5Checksum": "77fade41ea74b598d2dda8fb243dabc4",
+    "size_kb": 267.2
+  },
   "images/topic/nutrition/vulnerable_groups.png": {
     "md5Checksum": "661e2c9fa15132c0e1cf9460301dc6cb",
     "size_kb": 187.5
+  },
+  "images/topic/nutrition/yoghurt_preparation.png": {
+    "md5Checksum": "10a6912b32a21f0ce19d7ae3dbf68e7c",
+    "size_kb": 41.9
+  },
+  "images/topic/nutrition/yoghurt_steps.png": {
+    "md5Checksum": "e1cdf9b5cdfd1f8691a676006d9bb590",
+    "size_kb": 2032.9
   },
   "images/topic/nutrition_title_image.svg": {
     "md5Checksum": "f572707355eeb0b3df7fa83b3a94ace3",
     "size_kb": 39.4
   },
   "images/topic/pest_images/ash_brew.png": {
-    "md5Checksum": "dc22ae37b17bbf9c0dcd9f019f96e940",
-    "size_kb": 6785
+    "md5Checksum": "d11934ce12fafdf7169a8aa20a5afbb9",
+    "size_kb": 83.9
   },
   "images/topic/pest_images/ash_brew1.png": {
     "md5Checksum": "2549dd0d57dce101caaef3473038dfa9",
     "size_kb": 63.1
   },
   "images/topic/pest_images/ash_brew_ing.png": {
-    "md5Checksum": "40ada5d63a04d2494feadbff99047d2d",
-    "size_kb": 82.5
+    "md5Checksum": "d5a130a0b12bf420906545016a6e294f",
+    "size_kb": 70.6
   },
   "images/topic/pest_images/ash_brew_steps.png": {
-    "md5Checksum": "9774ed15074c27be25a6925551d3eba9",
-    "size_kb": 8959.2
-  },
-  "images/topic/pest_images/banana_aphids.jpg": {
-    "md5Checksum": "cc7027c0ed0172520064691d357ba1f7",
-    "size_kb": 30.4
-  },
-  "images/topic/pest_images/bean_weevil.jpg": {
-    "md5Checksum": "645e91aee359d16730a04e22e1b54d68",
-    "size_kb": 76.7
+    "md5Checksum": "8770bda4de06458f417bf2c94ab1b547",
+    "size_kb": 230.7
   },
   "images/topic/pest_images/biological_control_image.png": {
-    "md5Checksum": "cf0327c210e1abebc3685f0754e69bc1",
-    "size_kb": 7951.8
+    "md5Checksum": "5833d2738fe8591e1a75e58b3cbea217",
+    "size_kb": 134.7
   },
-  "images/topic/pest_images/cabbage_moth.jpg": {
-    "md5Checksum": "bc781f04f34db31a89df22ff25f1626e",
-    "size_kb": 30.8
+  "images/topic/pest_images/botanical_methods_image.png": {
+    "md5Checksum": "2ae39548afdc36a07680038d0f8859af",
+    "size_kb": 202.5
   },
   "images/topic/pest_images/cultural_control_image.png": {
-    "md5Checksum": "00017d68e8be99db6e95c2c207a39bcb",
-    "size_kb": 9058
+    "md5Checksum": "9b48cb2bb51844455ac19eca4b62eb91",
+    "size_kb": 187.6
   },
-  "images/topic/pest_images/pest_aphids.PNG": {
-    "md5Checksum": "5c8df2d4bd27fb1f6c641a96ae119104",
-    "size_kb": 178.5
+  "images/topic/pest_images/garlic_water.png": {
+    "md5Checksum": "ce817e84b28d57d3b8c12647ed6df76c",
+    "size_kb": 116
   },
-  "images/topic/pest_images/pest_maize_stalk_borer.jpg": {
-    "md5Checksum": "c38a05e21afe3c9793989a666bc1a04d",
-    "size_kb": 1567
+  "images/topic/pest_images/garlic_water_ing.png": {
+    "md5Checksum": "fbf86cee7e258e6b5e31e5eb6c243190",
+    "size_kb": 73.3
   },
-  "images/topic/pest_images/pest_wasp.PNG": {
-    "md5Checksum": "125e2eb8182e594ac7f49be9e7cedaab",
-    "size_kb": 165.4
+  "images/topic/pest_images/garlic_water_steps.png": {
+    "md5Checksum": "bf02ad074987b41c768f99e54b43b163",
+    "size_kb": 249.6
   },
-  "images/topic/pest_images/pests_collage.png": {
-    "md5Checksum": "49351a4056a3d960fc5f737e50a9bbf1",
-    "size_kb": 2583.3
+  "images/topic/pest_images/pest_hardbodies.png": {
+    "md5Checksum": "c416db3d45faa9eb0cab88e8fbbfd02a",
+    "size_kb": 182.8
   },
-  "images/topic/pest_images/pests_ladybird.jpg": {
-    "md5Checksum": "d406e572e3167045cbaac739c3a8d43d",
-    "size_kb": 46.8
+  "images/topic/pest_images/pest_otherpests.png": {
+    "md5Checksum": "ee53d95e96f9dacb9370260668aff255",
+    "size_kb": 168.4
   },
-  "images/topic/pest_images/rat.jpg": {
-    "md5Checksum": "9311449b7a809e39c706712afb1d5af5",
-    "size_kb": 15.6
+  "images/topic/pest_images/pest_softbodies.png": {
+    "md5Checksum": "2d16ea3b34207fdeb93fffb89832b511",
+    "size_kb": 105.8
+  },
+  "images/topic/pest_images/physical_control_image.png": {
+    "md5Checksum": "7cc67c53939fac479d8421de8577599a",
+    "size_kb": 265.3
+  },
+  "images/topic/pest_images/proper_storage_image.png": {
+    "md5Checksum": "608078b887ac316eb1b02b442f8e63d2",
+    "size_kb": 180.6
+  },
+  "images/topic/pest_images/tephrosia_solution.png": {
+    "md5Checksum": "b097469d369e08a91b9397bf5f9164f2",
+    "size_kb": 97.6
+  },
+  "images/topic/pest_images/tephrosia_solution_ing.png": {
+    "md5Checksum": "946866e729f55caf7f0e077221bf9f83",
+    "size_kb": 47.7
+  },
+  "images/topic/pest_images/tephrosia_solution_steps.png": {
+    "md5Checksum": "6b21c7261ae89a6d2d2c5c44f95b56af",
+    "size_kb": 245.6
   },
   "images/topic/pest_title_image.svg": {
     "md5Checksum": "3f03dd17d731d0186a7625a9a28c0cb3",
@@ -299,17 +715,13 @@
     "md5Checksum": "eed9b6e2033e3efe28ff710096a1af0d",
     "size_kb": 764.2
   },
-  "images/topic/soil_images/ash_water.png": {
-    "md5Checksum": "f0d78bc47d3520b23580afa378f221b3",
-    "size_kb": 117.3
-  },
   "images/topic/soil_images/bokashi.png": {
     "md5Checksum": "525ccc46b28ebc46d0191c62bdeaaa65",
     "size_kb": 40.1
   },
   "images/topic/soil_images/bokashi_ing.png": {
-    "md5Checksum": "a8f049ed62b0a08b4a7cb515d889ee94",
-    "size_kb": 130.8
+    "md5Checksum": "f2b98029b630b46e8abc0b9d4dc495eb",
+    "size_kb": 130.7
   },
   "images/topic/soil_images/bokshi_steps.png": {
     "md5Checksum": "c6982a3db5f2d704abe4ee272e956c9b",
@@ -323,9 +735,13 @@
     "md5Checksum": "9778e5865a4d2a351cceff2c6d4ae099",
     "size_kb": 266.8
   },
-  "images/topic/soil_images/bran_biochar.png": {
-    "md5Checksum": "854e59a20ded64be2602a189735c4857",
-    "size_kb": 56.2
+  "images/topic/soil_images/burning_residue.png": {
+    "md5Checksum": "aaa12fa6a90d675f04bbe16a63e50d07",
+    "size_kb": 331.3
+  },
+  "images/topic/soil_images/chemicals.png": {
+    "md5Checksum": "4423852a3f57e8e55d2aa32d2280d192",
+    "size_kb": 327.6
   },
   "images/topic/soil_images/crop_rotation.png": {
     "md5Checksum": "5202b727511008b4324355841b7e555c",
@@ -380,8 +796,8 @@
     "size_kb": 41.2
   },
   "images/topic/soil_images/gardencompost_ing.png": {
-    "md5Checksum": "2639e33fe923fd3350dc573409f8d206",
-    "size_kb": 190.8
+    "md5Checksum": "e28120e177c925ce17bbf7fe5cf80edf",
+    "size_kb": 82.3
   },
   "images/topic/soil_images/gardencompost_steps.png": {
     "md5Checksum": "a732ce8554189d8711fdd1159289ed92",
@@ -399,9 +815,9 @@
     "md5Checksum": "95622c58102ed0efe85edaa20787fcae",
     "size_kb": 280.9
   },
-  "images/topic/soil_images/kitchen_green.png": {
-    "md5Checksum": "814cc77c74c405f2c8b75f261c656328",
-    "size_kb": 61.7
+  "images/topic/soil_images/monocropping.png": {
+    "md5Checksum": "9760f762fecbb3b8e31f129619440210",
+    "size_kb": 203.5
   },
   "images/topic/soil_images/recycling.png": {
     "md5Checksum": "48ee4c1bfeb69adac510f3c14692453d",
@@ -415,21 +831,13 @@
     "md5Checksum": "9cac89aac6ad892ae5f56c60705cc6c1",
     "size_kb": 646.9
   },
-  "images/topic/soil_images/stick_water.png": {
-    "md5Checksum": "5234be082fa9570d17bf92650af1458a",
-    "size_kb": 30.6
-  },
-  "images/topic/soil_images/topsoil_manure_dry.png": {
-    "md5Checksum": "105f9047622f505ffe82a1d37201ea21",
-    "size_kb": 107.6
+  "images/topic/soil_images/soil_erosion.png": {
+    "md5Checksum": "de2ffd87c0ebbee983408608e0a575b4",
+    "size_kb": 339.7
   },
   "images/topic/soil_images/unhealthy_soil.png": {
     "md5Checksum": "4205169788c31fd67b3c5d8171c5edfa",
     "size_kb": 589.2
-  },
-  "images/topic/soil_images/yeast_molases.png": {
-    "md5Checksum": "f6ffdcff6bae50eb9c077c29b5cb96af",
-    "size_kb": 369.3
   },
   "images/topic/soil_title_image.svg": {
     "md5Checksum": "0b8bfc185a0db469da909678ec73a086",

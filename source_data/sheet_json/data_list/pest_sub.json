@@ -17,15 +17,16 @@
       "category_id": "about",
       "module_id": "pest",
       "title::eng": "Pest Management",
-      "text_1::eng": "Pest management uses natural and chemical tools to monitor and control pests before they cause damage. ",
-      "text_2::eng": " The goal is to protect your crops and livestock while keeping your farm healthy and profitable."
+      "text_1::eng": "Pest management involves using natural and chemical tools to monitor and control pests before they cause damage. ",
+      "text_2::eng": "The goal is to protect your crops and livestock while keeping your farm healthy and profitable."
     },
     {
       "id": "dynamics_1",
       "category_id": "dynamics",
       "module_id": "pest",
       "title::eng": "Soft Bodied Pests",
-      "section_1_image_asset": "images/topic/pest_images/pests_collage.png",
+      "text_1::eng": "Soft-bodied pests are insects with soft outer layers that damage crops by feeding on plant sap and tissues.",
+      "section_1_image_asset": "images/topic/pest_images/pest_softbodies.png",
       "section_1_title::eng": "Examples:",
       "section_1_text::eng": " * Aphids\n * Whiteflies\n * Bollworms.",
       "section_1_button_text::eng": "Their impacts",
@@ -36,90 +37,86 @@
       "category_id": "dynamics",
       "module_id": "pest",
       "title::eng": "Hard Bodied Pests",
-      "section_1_button_text::eng": "Their impacts"
+      "text_1::eng": "Hard bodied pests have a tough outer shell or exoskeleton that protects them from the environment, predators, and even some chemicals.",
+      "section_1_image_asset": "images/topic/pest_images/pest_hardbodies.png\n ",
+      "section_1_title::eng": "Examples:\n ",
+      "section_1_text::eng": " * Beetles\n * Weevils\n * Stalk Borers\n ",
+      "section_1_button_text::eng": "Their impacts",
+      "section_1_extra_text::eng": " * Chew leaves, fruits or grains\n * Makes holes into the heart of the plant \n * Feed on and damage roots\n * Transmit harmful bacteria and diseases"
     },
     {
       "id": "dynamics_3",
       "category_id": "dynamics",
       "module_id": "pest",
       "title::eng": "Other Pests",
-      "section_1_text::eng": "* Rodents and birds. ",
-      "section_1_button_text::eng": "Their impacts"
-    },
-    {
-      "id": "how",
-      "text_1::eng": "short intro"
+      "section_1_image_asset": "images/topic/pest_images/pest_otherpests.png\n ",
+      "section_1_title::eng": "Examples:",
+      "section_1_text::eng": " * Rats\n * Mice\n * Weaver birds\n",
+      "section_1_button_text::eng": "Their impacts",
+      "section_1_extra_text::eng": " * Damage crops and stored harvest\n * Contaminate food with droppings\n * Carry and transmit diseases"
     },
     {
       "id": "how_1",
       "category_id": "how",
       "module_id": "pest",
-      "title::eng": "Cultural Control",
-      "image_asset": "images/topic/pest_images/cultural_control_image.png",
-      "section_1_text::eng": " * Rotate crops and plant at the right time.\n * Grow pest-repellent crops (e.g., onions).\n * Harvest on time before pests attack.",
-      "section_2_text::eng": " * Use healthy seeds, fertilizers, and resistant crop varieties.\n * Remove weeds and diseased plants."
+      "title::eng": "How to Control Pests",
+      "text_1::eng": "To protect your crops from harmful insects naturally, these simple, safe, and affordable methods will help you manage pests using resources already available in your home and farm."
     },
     {
       "id": "how_2",
       "category_id": "how",
       "module_id": "pest",
-      "title::eng": "Biological Control ",
-      "image_asset": "images/topic/pest_images/biological_control_image.png",
-      "image_text::eng": "This maintains a healthy balance on your farm without using toxic chemicals.",
-      "media_transcript::eng": " ",
-      "section_1_text::eng": " * Use nature to fight pests by encouraging “good insects” ",
-      "section_1_button_text::eng": "Examples:",
-      "section_1_extra_text::eng": " * Ladybirds feeds on aphids\n * Wasps feeds on insects\n * Cat eats rats",
-      "section_2_text::eng": " * Use natural biopesticides",
-      "section_2_button_text::eng": "Example:",
-      "section_2_extra_text::eng": " *  Ash\n * Soap\n * Ash brew\n * Hot pepper.",
-      "section_3_text::eng": " * Plant flowers to attract beneficial insects."
+      "title::eng": "Cultural Control",
+      "text_1::eng": "This involves using farming practices and field management to prevent and manage pests.",
+      "image_asset": "images/topic/pest_images/cultural_control_image.png",
+      "media_type": "audio",
+      "media_title::eng": "Examples of Cultural Practices",
+      "media_asset": "audios/cultural_control.mp3\n ",
+      "media_transcript::eng": "Examples of Cultural Practices are:\n 1. Rotate crops and plant at the right time.\n 2. Grow pest-repellent crops (e.g., onions).\n 3. Harvest on time before pests attack.\n 4. Use healthy seeds, fertilizers, and resistant crop varieties.\n 5. Remove weeds and diseased plants."
     },
     {
       "id": "how_3",
       "category_id": "how",
       "module_id": "pest",
-      "title::eng": "Ash Brew",
-      "text_1::eng": "It reinforces crop bio-protection especially for leaves.",
-      "text_2::eng": "Ensure to watch videos at the 'Practical Section' on how to make Ash Brew and the ingredents used.",
-      "media_type": "video",
-      "media_title::eng": "How to make Ash Brew",
-      "media_transcript::eng": " * Bring water to a boil.\n * Grate the soap and add to water, don't stir until soap is completely melted.\n * Add the ash and stir for 15 minutes(sprinkle cold water on the mix if it starts to boil over).\n * Remove from fire\n * Let it cool down and it is ready for use"
+      "title::eng": "Biological Control ",
+      "text_1::eng": "It involves using natural enemies like predators, parasites, and pathogens to manage and control pest populations.",
+      "image_asset": "images/topic/pest_images/biological_control_image.png\n ",
+      "media_type": "audio",
+      "media_title::eng": "Biological control practices",
+      "media_asset": "audios/biological_control.mp3\n ",
+      "media_transcript::eng": "As farmers, we can use nature’s own army to protect our harvests through biological control. This simply means encouraging the \"good insects\" to fight pests for us. For example, ladybirds feed on destructive aphids, wasps hunt down harmful insects, and a farm cat will eat the rats in your grain stores. "
     },
     {
       "id": "how_4",
       "category_id": "how",
       "module_id": "pest",
-      "title::eng": "Ash Brew Ingredients",
-      "section_1_image_asset": "images/topic/pest_images/ash_brew1.png\n",
-      "section_1_title::eng": "Ingedients used:",
-      "section_1_text::eng": " * 10 kg of <b>ash</b> (well sifted)\n * 1 kg of bar <b>soap</b> (avoid soaps with cemicals and detergents)\n * 40 litres of <b>water</b>",
-      "section_1_button_text::eng": "Materials:",
-      "section_1_extra_text::eng": " * Stick to stir\n * One vat or metal barrel\n * Firewood"
+      "title::eng": "Physical Control",
+      "section_1_image_asset": "images/topic/pest_images/physical_control_image.png\n ",
+      "section_1_text::eng": " * Use **scarecrows** to keep birds away.\n * Set traps and use nets, screens, or fences.\n * Pick pests off by hand."
+    },
+    {
+      "id": "how_5",
+      "category_id": "how",
+      "module_id": "pest",
+      "title::eng": "Botanical Methods",
+      "text_1::eng": "Involves using plant extracts as natural insecticides to control pests.",
+      "text_2::eng": "Ensure you watch videos in the ***'Practical Section'*** on how to make these plant extracts and the ingredents used.",
+      "media_type": "audio",
+      "media_title::eng": "Botanical control practices",
+      "media_asset": "audios/botanical_control.mp3\n ",
+      "media_transcript::eng": "We can also protect our crops using natural, homemade biopesticides like wood ash, soap, an ash brew, or hot pepper instead of expensive chemicals. To invite more of these helpful insects to your farm, simply plant flowers around your fields. By combining natural enemies with simple homemade solutions, you save money, protect your soil, and let nature work for you.",
+      "section_1_image_asset": "images/topic/pest_images/botanical_methods_image.png\n ",
+      "section_1_text::eng": "These plants have chemicals that make crops taste bad to pests, so they stay away.",
+      "section_1_button_text::eng": "Examples: ",
+      "section_1_extra_text::eng": " * Neem plant\n * Tithonia\n * Aloe vera\n * Tephrosia."
     },
     {
       "id": "how_6",
       "category_id": "how",
       "module_id": "pest",
-      "title::eng": "Physical Control",
-      "section_1_text::eng": " * Use scarecrows to keep birds away.\n * Set traps and use nets, screens, or fences.\n * Pick pests off by hand."
-    },
-    {
-      "id": "how_7",
-      "category_id": "how",
-      "module_id": "pest",
       "title::eng": "Proper Storage",
-      "section_1_text::eng": " * Dry maize and cereals well properly to make them hard for weevils not to attack.\n * Store in hermetic bags or silos to prevent pests."
-    },
-    {
-      "id": "how_8",
-      "category_id": "how",
-      "module_id": "pest",
-      "title::eng": "Botanical Methods",
-      "text_1::eng": "Involves using plant extracts as natural insecticides to control pests.",
-      "section_1_text::eng": "These plants have chemicals that make crops taste bad to pests, so they stay away.",
-      "section_1_button_text::eng": "Plants you can use; ",
-      "section_1_extra_text::eng": " * Neen \n * Tithonia\n * Aloe vera\n * Tephrosia."
+      "section_1_image_asset": "images/topic/pest_images/proper_storage_image.png\n ",
+      "section_1_text::eng": " * Dry maize and cereals properly to make them too hard for weevils to attack.\n * Store in hermetic bags or silos to prevent pests."
     }
   ]
 }

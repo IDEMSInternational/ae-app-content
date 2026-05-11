@@ -5,7 +5,7 @@
   "rows": [
     {
       "id": "about",
-      "icon_asset": "images/icons/about_ae.svg",
+      "icon_asset": "images/icons/categories/about.png",
       "title": "About",
       "_translations": {
         "title": {}
@@ -18,33 +18,33 @@
     },
     {
       "id": "challenges_solutions",
-      "icon_asset": "images/icons/settings.svg",
-      "title": "Livestock challenges & solutions",
+      "icon_asset": "images/icons/categories/livestock_challenges.png",
+      "title": "Livestock Challenges & Solutions",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Livestock challenges & solutions"
+          "eng": "Livestock Challenges & Solutions"
         }
       }
     },
     {
       "id": "dewormers",
-      "icon_asset": "images/icons/terms_conditions.svg",
-      "title": "Internal parasites control",
+      "icon_asset": "images/icons/categories/internal_pest_control.png",
+      "title": "Internal Parasites Control",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Internal parasites control"
+          "eng": "Internal Parasites Control"
         }
       }
     },
     {
       "id": "remedies",
-      "icon_asset": "images/icons/terms_conditions.svg",
+      "icon_asset": "images/icons/categories/home_remedy.png",
       "title": "Herbal Remedies for Poultry",
       "_translations": {
         "title": {}
@@ -57,20 +57,20 @@
     },
     {
       "id": "factors_consider",
-      "icon_asset": "images/icons/settings.svg",
-      "title": "Feed preparation factors",
+      "icon_asset": "images/icons/categories/feed_prep.png",
+      "title": "Feed Preparation Factors",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Feed preparation factors"
+          "eng": "Feed Preparation Factors"
         }
       }
     },
     {
       "id": "how",
-      "icon_asset": "images/icons/settings.svg",
+      "icon_asset": "images/icons/categories/livestock_feeds.png",
       "title": "Making Livestock Feeds",
       "_translations": {
         "title": {}

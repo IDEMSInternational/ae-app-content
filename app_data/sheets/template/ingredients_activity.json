@@ -486,6 +486,58 @@
       "_nested_name": "title_4"
     },
     {
+      "type": "audio",
+      "name": "audio",
+      "value": "@local.ingredients_row.media_asset",
+      "_translations": {
+        "value": {}
+      },
+      "condition": "@local.ingredients_row.media_type == \"audio\"",
+      "parameter_list": {
+        "transcript_text": "@local.ingredients_row.ing_transcript"
+      },
+      "_nested_name": "audio",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.ingredients_row.media_asset",
+            "matchedExpression": "@local.ingredients_row.media_asset",
+            "type": "local",
+            "fieldName": "ingredients_row"
+          }
+        ],
+        "condition": [
+          {
+            "fullExpression": "@local.ingredients_row.media_type == \"audio\"",
+            "matchedExpression": "@local.ingredients_row.media_type",
+            "type": "local",
+            "fieldName": "ingredients_row"
+          }
+        ],
+        "parameter_list": {
+          "transcript_text": [
+            {
+              "fullExpression": "@local.ingredients_row.ing_transcript",
+              "matchedExpression": "@local.ingredients_row.ing_transcript",
+              "type": "local",
+              "fieldName": "ingredients_row"
+            }
+          ]
+        }
+      },
+      "_dynamicDependencies": {
+        "@local.ingredients_row.media_asset": [
+          "value"
+        ],
+        "@local.ingredients_row.media_type": [
+          "condition"
+        ],
+        "@local.ingredients_row.ing_transcript": [
+          "parameter_list.transcript_text"
+        ]
+      }
+    },
+    {
       "type": "accordion",
       "name": "accordion",
       "rows": [
@@ -934,7 +986,7 @@
             {
               "type": "audio",
               "name": "audio",
-              "value": "@local.ingredients_row.transcript",
+              "value": "@local.ingredients_row.media_asset_1",
               "_translations": {
                 "value": {}
               },
@@ -946,8 +998,8 @@
               "_dynamicFields": {
                 "value": [
                   {
-                    "fullExpression": "@local.ingredients_row.transcript",
-                    "matchedExpression": "@local.ingredients_row.transcript",
+                    "fullExpression": "@local.ingredients_row.media_asset_1",
+                    "matchedExpression": "@local.ingredients_row.media_asset_1",
                     "type": "local",
                     "fieldName": "ingredients_row"
                   }
@@ -972,12 +1024,14 @@
                 }
               },
               "_dynamicDependencies": {
-                "@local.ingredients_row.transcript": [
-                  "value",
-                  "parameter_list.transcript_text"
+                "@local.ingredients_row.media_asset_1": [
+                  "value"
                 ],
                 "@local.ingredients_row.media_type_1": [
                   "condition"
+                ],
+                "@local.ingredients_row.transcript": [
+                  "parameter_list.transcript_text"
                 ]
               }
             }
@@ -1055,7 +1109,7 @@
             {
               "type": "audio",
               "name": "audio",
-              "value": "@local.ingredients_row.storage_transcript",
+              "value": "@local.ingredients_row.media_asset_2",
               "_translations": {
                 "value": {}
               },
@@ -1067,8 +1121,8 @@
               "_dynamicFields": {
                 "value": [
                   {
-                    "fullExpression": "@local.ingredients_row.storage_transcript",
-                    "matchedExpression": "@local.ingredients_row.storage_transcript",
+                    "fullExpression": "@local.ingredients_row.media_asset_2",
+                    "matchedExpression": "@local.ingredients_row.media_asset_2",
                     "type": "local",
                     "fieldName": "ingredients_row"
                   }
@@ -1093,12 +1147,14 @@
                 }
               },
               "_dynamicDependencies": {
-                "@local.ingredients_row.storage_transcript": [
-                  "value",
-                  "parameter_list.transcript_text"
+                "@local.ingredients_row.media_asset_2": [
+                  "value"
                 ],
                 "@local.ingredients_row.media_type_2": [
                   "condition"
+                ],
+                "@local.ingredients_row.storage_transcript": [
+                  "parameter_list.transcript_text"
                 ]
               }
             }
@@ -1135,7 +1191,7 @@
           "type": "accordion_section",
           "name": "forth",
           "value": "@local.title_4",
-          "condition": "!!(@local.tips_2)",
+          "condition": "!!(@local.tips_3)",
           "rows": [
             {
               "type": "text",
@@ -1176,7 +1232,7 @@
             {
               "type": "audio",
               "name": "audio",
-              "value": "@local.ingredients_row.usage_transcript",
+              "value": "@local.ingredients_row.media_asset_3",
               "_translations": {
                 "value": {}
               },
@@ -1188,8 +1244,8 @@
               "_dynamicFields": {
                 "value": [
                   {
-                    "fullExpression": "@local.ingredients_row.usage_transcript",
-                    "matchedExpression": "@local.ingredients_row.usage_transcript",
+                    "fullExpression": "@local.ingredients_row.media_asset_3",
+                    "matchedExpression": "@local.ingredients_row.media_asset_3",
                     "type": "local",
                     "fieldName": "ingredients_row"
                   }
@@ -1214,12 +1270,14 @@
                 }
               },
               "_dynamicDependencies": {
-                "@local.ingredients_row.usage_transcript": [
-                  "value",
-                  "parameter_list.transcript_text"
+                "@local.ingredients_row.media_asset_3": [
+                  "value"
                 ],
                 "@local.ingredients_row.media_type_3": [
                   "condition"
+                ],
+                "@local.ingredients_row.usage_transcript": [
+                  "parameter_list.transcript_text"
                 ]
               }
             }
@@ -1236,10 +1294,10 @@
             ],
             "condition": [
               {
-                "fullExpression": "!!(@local.tips_2)",
-                "matchedExpression": "@local.tips_2",
+                "fullExpression": "!!(@local.tips_3)",
+                "matchedExpression": "@local.tips_3",
                 "type": "local",
-                "fieldName": "tips_2"
+                "fieldName": "tips_3"
               }
             ]
           },
@@ -1247,7 +1305,7 @@
             "@local.title_4": [
               "value"
             ],
-            "@local.tips_2": [
+            "@local.tips_3": [
               "condition"
             ]
           }

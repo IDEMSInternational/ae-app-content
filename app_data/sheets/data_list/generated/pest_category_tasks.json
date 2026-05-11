@@ -5,7 +5,7 @@
   "rows": [
     {
       "id": "about",
-      "icon_asset": "images/icons/about_ae.svg",
+      "icon_asset": "images/icons/categories/about.png",
       "title": "About",
       "_translations": {
         "title": {}
@@ -18,28 +18,28 @@
     },
     {
       "id": "dynamics",
-      "icon_asset": "images/icons/settings.svg",
-      "title": "Common pests and their Impacts on crops",
+      "icon_asset": "images/icons/categories/common_pests.png",
+      "title": "Common pests and their impacts on crops",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Common pests and their Impacts on crops"
+          "eng": "Common pests and their impacts on crops"
         }
       },
       "Comments": "Soft & hard bodied"
     },
     {
       "id": "how",
-      "icon_asset": "images/icons/terms_conditions.svg",
-      "title": "Using Integrated Pest Management (IPM) to Control Pests",
+      "icon_asset": "images/icons/categories/epm.png",
+      "title": "Ecological Pest Management",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Using Integrated Pest Management (IPM) to Control Pests"
+          "eng": "Ecological Pest Management"
         }
       }
     }

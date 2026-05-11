@@ -17,7 +17,7 @@
       "number": "1",
       "title::eng": "Soil Fertility Management",
       "description::eng": "How well do you know about your farm soil? Let's learn more together.",
-      "activities_id_list": "bokashi; boma_compost; garden_compost; green_manure",
+      "activities_id_list": "bokashi; garden_compost; ",
       "ingredients_id_list": "bokashi_ing; garden"
     },
     {
@@ -25,9 +25,9 @@
       "status": "released",
       "number": "2",
       "title::eng": "Pest Management",
-      "description::eng": "Keep your farm healthy by spotting pests early. Smart ways, stronger crops.",
-      "activities_id_list": "ash_brew; tephrosia_solution; garlic_water",
-      "ingredients_id_list": "ash_brew_ing; tephrosia_solution_ing; garlic_water_ing"
+      "description::eng": "Keep your farm healthy by spotting pests early. Use of smart ways, leads to stronger crops.",
+      "activities_id_list": "ash_brew; tephrosia_solution",
+      "ingredients_id_list": "ash_brew_ing; tephrosia_solution_ing"
     },
     {
       "id": "nutrition",
@@ -35,8 +35,8 @@
       "number": "3",
       "title::eng": "Value Addition & Family Nutrition",
       "description::eng": "Get ready to explore ways to process, preserve, and prepare food for better health and higher income.",
-      "activities_id_list": "drying_kales; drying_green_banana; yoghurt_preparation",
-      "ingredients_id_list": "drying_kales_vegs; drying_green_banana_vegs; yoghurt_preparation_drink"
+      "activities_id_list": "drying_kales; yoghurt_preparation",
+      "ingredients_id_list": "drying_kales_vegs;  yoghurt_preparation_drink"
     },
     {
       "id": "livestock",
@@ -44,15 +44,17 @@
       "number": "4",
       "title::eng": "Livestock Production",
       "description::eng": "Better feeding means better health, which leads to higher income. Let’s build your livestock skills.",
-      "activities_id_list": "fermented_feed; poultry_feed; coughs_concotion; silage",
-      "ingredients_id_list": "fermenting_feeds; homemade_feeds; concotion; silage_making"
+      "activities_id_list": "fermented_feed",
+      "ingredients_id_list": "fermenting_feeds"
     },
     {
       "id": "agroforestry",
       "status": "released",
       "number": "5",
       "title::eng": "Climate Change Adaptation",
-      "description::eng": "Build a resilient farm using nature’s own tools."
+      "description::eng": "Build a resilient farm using nature’s own tools.",
+      "activities_id_list": "mulching;\nzai_pit;\nsunken_bed",
+      "ingredients_id_list": "mulching_ing;\nzai_pit_ing;\nsunken_bed_ing"
     }
   ]
 }

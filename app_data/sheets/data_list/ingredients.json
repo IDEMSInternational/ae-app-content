@@ -9,10 +9,8 @@
       "number": 1,
       "image_cover_asset": "images/topic/soil_images/bokashi.png",
       "image_asset": "images/topic/soil_images/bokashi_ing.png",
-      "step_1_image_asset": "images/topic/soil_images/topsoil_manure_dry.png",
-      "step_2_image_asset": "images/topic/soil_images/bran_biochar.png",
-      "step_3_image_asset": "images/topic/soil_images/yeast_molases.png",
-      "step_4_image_asset": "images/topic/soil_images/ash_water.png",
+      "media_type": "audio",
+      "media_asset": "audios/soil/bokashi_ingredients.mp3",
       "tag_list": [
         "bokashi"
       ],
@@ -21,12 +19,8 @@
       "_translations": {
         "title": {},
         "intro_text": {},
-        "step_1_text": {},
-        "step_2_text": {},
-        "step_3_text": {},
-        "step_4_text": {},
-        "step_5_text": {},
-        "transcript": {}
+        "ing_transcript": {},
+        "step_5_text": {}
       },
       "_translatedFields": {
         "title": {
@@ -35,82 +29,56 @@
         "intro_text": {
           "eng": "Remember to turn **Bokashi** twice in a day for the first three days to regulate the temperature. From the 4th day turn it ones daily for the next 11 days. It will be ready after 14 days."
         },
-        "step_1_text": {
-          "eng": "* 3 wheelbarrows of Topsoil \n * 3 wheelbarrows of Dry materials \n * 3 wheelbarrows of Manure"
-        },
-        "step_2_text": {
-          "eng": "* 9 -12 spades of Bran / rotten maize flour \n * 9–12 spades of Biochar"
-        },
-        "step_3_text": {
-          "eng": "* 150g of Yeast / sourdough starter(maize flour socked in water ratio 1:1) \n * 2 litres of Molasses / overripe fruits most likely banana because you can mash them"
-        },
-        "step_4_text": {
-          "eng": "* A handfull of Ash/ Rock dust/ phosphite\n * Enough Water"
+        "ing_transcript": {
+          "eng": "3 wheelbarrows of topsoil... introduces beneficial microorganisms that help start decomposition.\n3 wheelbarrows of dry materials... provide carbon and improve aeration for microbial activity.\n3 wheelbarrows of manure... supply nitrogen to support rapid microbial growth.\n9 to 12 spades of bran... act as food to multiply beneficial microorganisms.\n9 to 12 spades of biochar... help improve water retention and soil structure. It also helps hold nutrients needed by crops... protecting the compost from leaching and evaporation.\nYeast or sourdough starter... helps speed up the fermentation process.\nWater... enough to maintain the moisture needed for active microbial processes.\n2 litres of molasses... or 2 kilograms of overripe fruits... or 20 litres of coffee water... provide quick energy to boost microbial activity.\nRock dust... ash... or phosphite... add important minerals like potassium and silicon to enrich the soil."
         },
         "step_5_text": {
           "eng": ""
-        },
-        "transcript": {
-          "eng": "* **Topsoil:** Introduces beneficial microorganisms that kickstart decomposition.\n * **Dry materials:** Provide carbon and improve aeration for microbial activity.\n * **Manure:** Supplies nitrogen to support rapid microbial growth.\n * **Bran / rotten maize flour:** Acts as food to multiply beneficial microorganisms.\n * **Biochar:** Enhances water retention and improves soil structure.\n * **Yeast / sourdough starter:** Serves as a catalyst to accelerate fermentation.\n * **Water:** Maintains moisture needed for active microbial processes.\n * **Molasses / overripe fruits / coffee water:** Provide quick energy to boost microbial activity.\n * **Rock dust / ash / phosphite:** Add essential minerals like potassium and silicon to enrich the soil."
         }
       },
       "intro_text": "Remember to turn **Bokashi** twice in a day for the first three days to regulate the temperature. From the 4th day turn it ones daily for the next 11 days. It will be ready after 14 days.",
-      "step_1_text": "* 3 wheelbarrows of Topsoil \n * 3 wheelbarrows of Dry materials \n * 3 wheelbarrows of Manure",
-      "step_2_text": "* 9 -12 spades of Bran / rotten maize flour \n * 9–12 spades of Biochar",
-      "step_3_text": "* 150g of Yeast / sourdough starter(maize flour socked in water ratio 1:1) \n * 2 litres of Molasses / overripe fruits most likely banana because you can mash them",
-      "step_4_text": "* A handfull of Ash/ Rock dust/ phosphite\n * Enough Water",
-      "step_5_text": "",
-      "transcript": "* **Topsoil:** Introduces beneficial microorganisms that kickstart decomposition.\n * **Dry materials:** Provide carbon and improve aeration for microbial activity.\n * **Manure:** Supplies nitrogen to support rapid microbial growth.\n * **Bran / rotten maize flour:** Acts as food to multiply beneficial microorganisms.\n * **Biochar:** Enhances water retention and improves soil structure.\n * **Yeast / sourdough starter:** Serves as a catalyst to accelerate fermentation.\n * **Water:** Maintains moisture needed for active microbial processes.\n * **Molasses / overripe fruits / coffee water:** Provide quick energy to boost microbial activity.\n * **Rock dust / ash / phosphite:** Add essential minerals like potassium and silicon to enrich the soil."
+      "ing_transcript": "3 wheelbarrows of topsoil... introduces beneficial microorganisms that help start decomposition.\n3 wheelbarrows of dry materials... provide carbon and improve aeration for microbial activity.\n3 wheelbarrows of manure... supply nitrogen to support rapid microbial growth.\n9 to 12 spades of bran... act as food to multiply beneficial microorganisms.\n9 to 12 spades of biochar... help improve water retention and soil structure. It also helps hold nutrients needed by crops... protecting the compost from leaching and evaporation.\nYeast or sourdough starter... helps speed up the fermentation process.\nWater... enough to maintain the moisture needed for active microbial processes.\n2 litres of molasses... or 2 kilograms of overripe fruits... or 20 litres of coffee water... provide quick energy to boost microbial activity.\nRock dust... ash... or phosphite... add important minerals like potassium and silicon to enrich the soil.",
+      "step_5_text": ""
     },
     {
       "id": "garden",
       "number": 2,
       "image_cover_asset": "images/topic/soil_images/garden_compost.png",
       "image_asset": "images/topic/soil_images/gardencompost_ing.png",
-      "step_1_image_asset": "images/topic/soil_images/topsoil_manure_dry.png",
-      "step_2_image_asset": "images/topic/soil_images/kitchen_green.png",
-      "step_3_image_asset": "images/topic/soil_images/stick_water.png",
+      "media_type": "audio",
+      "media_asset": "audios/garden_compost_ingredients.mp3",
       "favourite_field": "ltp_activity_garden_favourite",
       "title": "Garden Compost Ingredients",
       "_translations": {
         "title": {},
-        "step_1_text": {},
-        "step_2_text": {},
-        "step_3_text": {},
-        "step_4_text": {},
-        "transcript": {}
+        "ing_transcript": {},
+        "step_4_text": {}
       },
       "_translatedFields": {
         "title": {
           "eng": "Garden Compost Ingredients"
         },
-        "step_1_text": {
-          "eng": "* Topsoil\n * Animal manure (cow dung, chicken droppings) \n * Dry leaves and grass"
-        },
-        "step_2_text": {
-          "eng": "* Kitchen waste (vegetable peels, fruit scraps)\n * Green crop residues"
-        },
-        "step_3_text": {
-          "eng": "* Enough Water\n * Long stick"
+        "ing_transcript": {
+          "eng": "\" * **Water:** Keeps the pile moist \n * **Dry materials:** Provide carbon and improve aeration for microbial activity.\n * **Green materials:** Provide the compost with nitrogen, mostly at 50 %flowering stage  \n * **Topsoil:** Introduces beneficial microorganisms that kickstart decomposition.\n * **Long stick:** To check the compost temperature to avoid overheating.\""
         },
         "step_4_text": {
           "eng": ""
-        },
-        "transcript": {
-          "eng": "* **Water:** Keeps the pile damp\n * **Dry materials:** Provide carbon and improve aeration for microbial activity.\n * **Animal manure:** Supplies nitrogen to support rapid microbial growth.            \n * **Topsoil:** Introduces beneficial microorganisms that kickstart decomposition.\n * **Long stick:** To check the compost temperature to avoid overheatting"
         }
       },
-      "step_1_text": "* Topsoil\n * Animal manure (cow dung, chicken droppings) \n * Dry leaves and grass",
-      "step_2_text": "* Kitchen waste (vegetable peels, fruit scraps)\n * Green crop residues",
-      "step_3_text": "* Enough Water\n * Long stick",
-      "step_4_text": "",
-      "transcript": "* **Water:** Keeps the pile damp\n * **Dry materials:** Provide carbon and improve aeration for microbial activity.\n * **Animal manure:** Supplies nitrogen to support rapid microbial growth.            \n * **Topsoil:** Introduces beneficial microorganisms that kickstart decomposition.\n * **Long stick:** To check the compost temperature to avoid overheatting"
+      "ing_transcript": "\" * **Water:** Keeps the pile moist \n * **Dry materials:** Provide carbon and improve aeration for microbial activity.\n * **Green materials:** Provide the compost with nitrogen, mostly at 50 %flowering stage  \n * **Topsoil:** Introduces beneficial microorganisms that kickstart decomposition.\n * **Long stick:** To check the compost temperature to avoid overheating.\"",
+      "step_4_text": ""
     },
     {
       "id": "ash_brew_ing",
       "number": 3,
-      "image_cover_asset": "images/topic/soil_images/ash_brew.png",
+      "image_cover_asset": "images/topic/pest_images/ash_brew.png",
       "image_asset": "images/topic/pest_images/ash_brew_ing.png",
+      "media_type": "audio",
+      "media_asset": "audios/ash_brew_ingredients.mp3",
+      "media_asset_2": "audios/ash_brew_storage.mp3",
+      "media_type_2": "audio",
+      "media_asset_3": "audios/ash_ brew_usage.mp3",
+      "media_type_3": "audio",
       "tag_list": [
         "ash_brew"
       ],
@@ -118,9 +86,7 @@
       "title": "Ash Brew Ingredients",
       "_translations": {
         "title": {},
-        "step_1_text": {},
-        "step_5_text": {},
-        "transcript": {},
+        "ing_transcript": {},
         "storage_transcript": {},
         "usage_transcript": {}
       },
@@ -128,33 +94,27 @@
         "title": {
           "eng": "Ash Brew Ingredients"
         },
-        "step_1_text": {
-          "eng": "* 10 kg of <b>ash</b> (well sifted)\n * 1 kg of bar <b>soap</b> (avoid soaps with cemicals and detergents)\n * 40 litres of <b>water</b>"
-        },
-        "step_5_text": {
-          "eng": ""
-        },
-        "transcript": {
-          "eng": "* **Hardwood Ash:** Provides high levels of potassium and silica to strengthen plant cell walls against sucking pests.\n * **Bar Soap:** Acts as a surfactant (sticker) to ensure the brew coats the insects and clings to waxy leaf surfaces.\n * **Boiling Process:** Accelerates the extraction of active minerals and helps the soap dissolve into a uniform solution.\n * **Sifting:** Removes large charcoal chunks to prevent the nozzle of your sprayer from clogging.\n * **Dilution:** Ensures the solution is gentle enough not to scorch young, tender leaves while remaining toxic to pests."
+        "ing_transcript": {
+          "eng": "10kg of hardwood ash, well sifted to remove large charcoal chunks, preventing the clogging of the sprayer nozzle. Ash provides high levels of potassium and silica, which help strengthen plant cell walls against sucking pests.\n\n1kg of bar soap. It is important to avoid soaps with chemicals and detergents. The soap acts as a surfactant, helping the solution stick to insects and cling to waxy leaf surfaces.\n\n40ltr of water are used to dilute the solution, ensuring it is gentle enough not to scorch young, tender leaves while still remaining toxic to pests.\n\nThe boiling process helps accelerate the extraction of active minerals and ensures the soap dissolves into a uniform solution."
         },
         "storage_transcript": {
-          "eng": "* Take out liquid and store in a drum.\n * Use remaining solids for washing dishes."
+          "eng": "* Take out liquid and store in a drum.\n* Use remaining solids for washing dishes."
         },
         "usage_transcript": {
-          "eng": "* Dilute 3-5 litres in 100 litres of water (3-5%) and use as foliar spray\n * Apply when the weather is cool (i.e. evening or morning)\n * Add 2 litres of cooking oil immediately after brewing \n * Oil makes it more efficient in controlling insects with waxy body or scales\n * This practice increases photosynthesis rates"
+          "eng": "* Apply when the weather is cool (i.e., evening or morning)\n* Add 2 litres of cooking oil immediately after brewing\n* Oil makes it more efficient in controlling insects with a waxy body or scales\n* This practice increases photosynthesis rates."
         }
       },
-      "step_1_text": "* 10 kg of <b>ash</b> (well sifted)\n * 1 kg of bar <b>soap</b> (avoid soaps with cemicals and detergents)\n * 40 litres of <b>water</b>",
-      "step_5_text": "",
-      "transcript": "* **Hardwood Ash:** Provides high levels of potassium and silica to strengthen plant cell walls against sucking pests.\n * **Bar Soap:** Acts as a surfactant (sticker) to ensure the brew coats the insects and clings to waxy leaf surfaces.\n * **Boiling Process:** Accelerates the extraction of active minerals and helps the soap dissolve into a uniform solution.\n * **Sifting:** Removes large charcoal chunks to prevent the nozzle of your sprayer from clogging.\n * **Dilution:** Ensures the solution is gentle enough not to scorch young, tender leaves while remaining toxic to pests.",
-      "storage_transcript": "* Take out liquid and store in a drum.\n * Use remaining solids for washing dishes.",
-      "usage_transcript": "* Dilute 3-5 litres in 100 litres of water (3-5%) and use as foliar spray\n * Apply when the weather is cool (i.e. evening or morning)\n * Add 2 litres of cooking oil immediately after brewing \n * Oil makes it more efficient in controlling insects with waxy body or scales\n * This practice increases photosynthesis rates"
+      "ing_transcript": "10kg of hardwood ash, well sifted to remove large charcoal chunks, preventing the clogging of the sprayer nozzle. Ash provides high levels of potassium and silica, which help strengthen plant cell walls against sucking pests.\n\n1kg of bar soap. It is important to avoid soaps with chemicals and detergents. The soap acts as a surfactant, helping the solution stick to insects and cling to waxy leaf surfaces.\n\n40ltr of water are used to dilute the solution, ensuring it is gentle enough not to scorch young, tender leaves while still remaining toxic to pests.\n\nThe boiling process helps accelerate the extraction of active minerals and ensures the soap dissolves into a uniform solution.",
+      "storage_transcript": "* Take out liquid and store in a drum.\n* Use remaining solids for washing dishes.",
+      "usage_transcript": "* Apply when the weather is cool (i.e., evening or morning)\n* Add 2 litres of cooking oil immediately after brewing\n* Oil makes it more efficient in controlling insects with a waxy body or scales\n* This practice increases photosynthesis rates."
     },
     {
       "id": "tephrosia_solution_ing",
       "number": 4,
-      "image_cover_asset": "images/topic/soil_images/ash_brew.png",
-      "image_asset": "images/topic/pest_images/ash_brew_ing.png",
+      "image_cover_asset": "images/topic/pest_images/tephrosia_solution.png",
+      "image_asset": "images/topic/pest_images/tephrosia_solution_ing.png",
+      "media_asset_1": "audios/tephrosia_ingredients.mp3",
+      "media_type_1": "audio",
       "tag_list": [
         "tephrosia_solution"
       ],
@@ -170,20 +130,20 @@
           "eng": "Tephrosia Solution Ingredients"
         },
         "step_1_text": {
-          "eng": "<span> * 5 kg of fresh Tephrosia leaves (mature about to flower </span><span><i>tephrosia</i></span><span> leaves work best).<br/> * 20 liters of water.</span>"
+          "eng": "* 5 kg of fresh Tephrosia leaves that are about to flower.\n * 20 liters of water."
         },
         "transcript": {
-          "eng": "* **Fresh Green Leaves:** Contain the highest concentration of rotenone, the natural chemical that paralyzes pests.\n * **Pounding/Crushing:** Breaks down plant fibers to release the active insecticidal compounds into the water.\n * **Shade Drying:** If storing leaves, dry them out of direct sunlight to prevent the UV rays from breaking down the active chemicals.\n * **Late Afternoon Spraying:** Prevents the solution from evaporating too quickly and protects beneficial pollinators like bees.\n * **Straining:** Using a fine cloth ensures a smooth liquid that won't block manual or knapsack sprayers."
+          "eng": "* **Tephrosia Leaves:** Contain the highest concentration of rotenone, the natural chemical that paralyzes pests.\n * **Pounding/Crushing:** Breaks down plant fibers to release the active insecticidal compounds into the water.\n * **Shade Drying:** If storing leaves, dry them out of direct sunlight to prevent the UV rays from breaking down the active chemicals.\n * **Late Afternoon Spraying:** Prevents the solution from evaporating too quickly and protects beneficial pollinators like bees.\n * **Straining:** Using a fine cloth ensures a smooth liquid that won't block manual or knapsack sprayers."
         }
       },
-      "step_1_text": "<span> * 5 kg of fresh Tephrosia leaves (mature about to flower </span><span><i>tephrosia</i></span><span> leaves work best).<br/> * 20 liters of water.</span>",
-      "transcript": "* **Fresh Green Leaves:** Contain the highest concentration of rotenone, the natural chemical that paralyzes pests.\n * **Pounding/Crushing:** Breaks down plant fibers to release the active insecticidal compounds into the water.\n * **Shade Drying:** If storing leaves, dry them out of direct sunlight to prevent the UV rays from breaking down the active chemicals.\n * **Late Afternoon Spraying:** Prevents the solution from evaporating too quickly and protects beneficial pollinators like bees.\n * **Straining:** Using a fine cloth ensures a smooth liquid that won't block manual or knapsack sprayers."
+      "step_1_text": "* 5 kg of fresh Tephrosia leaves that are about to flower.\n * 20 liters of water.",
+      "transcript": "* **Tephrosia Leaves:** Contain the highest concentration of rotenone, the natural chemical that paralyzes pests.\n * **Pounding/Crushing:** Breaks down plant fibers to release the active insecticidal compounds into the water.\n * **Shade Drying:** If storing leaves, dry them out of direct sunlight to prevent the UV rays from breaking down the active chemicals.\n * **Late Afternoon Spraying:** Prevents the solution from evaporating too quickly and protects beneficial pollinators like bees.\n * **Straining:** Using a fine cloth ensures a smooth liquid that won't block manual or knapsack sprayers."
     },
     {
       "id": "garlic_water_ing",
       "number": 5,
-      "image_cover_asset": "images/topic/soil_images/ash_brew.png",
-      "image_asset": "images/topic/pest_images/ash_brew_ing.png",
+      "image_cover_asset": "images/topic/pest_images/garlic_water.png",
+      "image_asset": "images/topic/pest_images/garlic_water_ing.png",
       "tag_list": [
         "garlic_water"
       ],
@@ -211,35 +171,36 @@
     {
       "id": "fermenting_feeds",
       "number": 6,
+      "image_cover_asset": "images/topic/Livestock_images/fermented_feeds.jpeg",
+      "image_asset": "images/topic/Livestock_images/fermented_ingredients.jpeg",
+      "media_type": "audio",
+      "media_asset": "audios/fermented_ingredients.mp3",
       "favourite_field": "ltp_activity_fermenting_feeds_favourite",
       "title": "Fermented feeds \nIngredients",
       "_translations": {
         "title": {},
-        "step_1_text": {},
-        "transcript": {},
+        "ing_transcript": {},
         "storage_transcript": {}
       },
       "_translatedFields": {
         "title": {
           "eng": "Fermented feeds \nIngredients"
         },
-        "step_1_text": {
-          "eng": "Carbohydrate sources (70%)\nProtein sources (25%)\nFats and oils\nVitamins and minerals (5%)\nMinerals\nMicrobes\nMollasses\nStorage containers"
-        },
-        "transcript": {
-          "eng": "* **Molasses:** is a source of energy for microbes. Drives the fermentation process and improves the taste of the feed when fed to the birds.\n * Microbes turn fresh feed into a safe, preserved, and more nutritious feed by controlling fermentation.\n * Microbes can be added to drinking water or sprayed in the poultry house to reduce the ammonia smell.\n * To get the birds used to the taste and smell of the fermented feeds, at first mix with other feeds.\n * Fermented feeds can be used as daily diet or on occasion."
+        "ing_transcript": {
+          "eng": "Carbohydrates sources 70%\nExamples; cereals -maize, millet, sorghum, wheat, oats, rice etc. Grain by products ie maize bran , maize germ, wheat bran, wheat Pollard, rice bran etc.\nRoot crops- cassava, sweet potatoes, arrow roots, yams \nFruits : cooking banana variety\n\nProteins sources 25%\nAzolla, legumes ie soya , lablab, cowpea, pegion pea, common beans etc, fodder shrubs leaves ie calliandra, sesbania, leucaena, Gliricidia, mulberry, moringa etc\nFishmeal, cotton cake, sunflower cake, pumpkin seeds,grain amaranth, blood meal etc.,\n\nVitamin and mineral sources 5%\nLeafy vegetables, well ripened fruits ie banana, jackfruit, white sapote, custard apple,,mango, pineapple etc. Pumpkin ,,,\nStockfed lime, Dicalcium phosphate, egg shells, sea salt/table salt, burnt animal bones etc. \n\nOthers\nMolasses,microbes, water, weeds(blackjack, gallant soldiers, wandering Jews), banana leaves, banana stems (young or white inner part), grasses ( Nappier), comfrey leaves \n\n\" * **Molasses:** is a source of energy for microbes. Drives the fermentation process and improves the taste of the feed when fed to the birds.\n * Microbes turn fresh feed into a safe, preserved, and more nutritious feed by controlling fermentation.\n * Microbes can be added to drinking water or sprayed in the poultry house to reduce the ammonia smell.\n * To get the birds used to the taste and smell of the fermented feeds, at first mix with other feeds for a period of 1 week or 2 then they will love the feeds and there will be no wastage.\n * Fermented feeds can be used as a daily diet or on occasion."
         },
         "storage_transcript": {
           "eng": "Store the container in a cool and dry place free from rats and direct sunlight or disturbances."
         }
       },
-      "step_1_text": "Carbohydrate sources (70%)\nProtein sources (25%)\nFats and oils\nVitamins and minerals (5%)\nMinerals\nMicrobes\nMollasses\nStorage containers",
-      "transcript": "* **Molasses:** is a source of energy for microbes. Drives the fermentation process and improves the taste of the feed when fed to the birds.\n * Microbes turn fresh feed into a safe, preserved, and more nutritious feed by controlling fermentation.\n * Microbes can be added to drinking water or sprayed in the poultry house to reduce the ammonia smell.\n * To get the birds used to the taste and smell of the fermented feeds, at first mix with other feeds.\n * Fermented feeds can be used as daily diet or on occasion.",
+      "ing_transcript": "Carbohydrates sources 70%\nExamples; cereals -maize, millet, sorghum, wheat, oats, rice etc. Grain by products ie maize bran , maize germ, wheat bran, wheat Pollard, rice bran etc.\nRoot crops- cassava, sweet potatoes, arrow roots, yams \nFruits : cooking banana variety\n\nProteins sources 25%\nAzolla, legumes ie soya , lablab, cowpea, pegion pea, common beans etc, fodder shrubs leaves ie calliandra, sesbania, leucaena, Gliricidia, mulberry, moringa etc\nFishmeal, cotton cake, sunflower cake, pumpkin seeds,grain amaranth, blood meal etc.,\n\nVitamin and mineral sources 5%\nLeafy vegetables, well ripened fruits ie banana, jackfruit, white sapote, custard apple,,mango, pineapple etc. Pumpkin ,,,\nStockfed lime, Dicalcium phosphate, egg shells, sea salt/table salt, burnt animal bones etc. \n\nOthers\nMolasses,microbes, water, weeds(blackjack, gallant soldiers, wandering Jews), banana leaves, banana stems (young or white inner part), grasses ( Nappier), comfrey leaves \n\n\" * **Molasses:** is a source of energy for microbes. Drives the fermentation process and improves the taste of the feed when fed to the birds.\n * Microbes turn fresh feed into a safe, preserved, and more nutritious feed by controlling fermentation.\n * Microbes can be added to drinking water or sprayed in the poultry house to reduce the ammonia smell.\n * To get the birds used to the taste and smell of the fermented feeds, at first mix with other feeds for a period of 1 week or 2 then they will love the feeds and there will be no wastage.\n * Fermented feeds can be used as a daily diet or on occasion.",
       "storage_transcript": "Store the container in a cool and dry place free from rats and direct sunlight or disturbances."
     },
     {
       "id": "homemade_feeds",
       "number": 7,
+      "image_cover_asset": "images/topic/Livestock_images/poultry_feed.jpeg",
+      "image_asset": "images/topic/Livestock_images/homemade_ingredients.jpeg",
       "favourite_field": "ltp_activity_homemade_feeds_favourite",
       "title": "Homemade chickmash\nIngredients",
       "_translations": {
@@ -247,7 +208,8 @@
         "intro_text": {},
         "step_1_text": {},
         "transcript": {},
-        "storage_transcript": {}
+        "storage_transcript": {},
+        "usage_transcript": {}
       },
       "_translatedFields": {
         "title": {
@@ -260,20 +222,25 @@
           "eng": "* Maize (njenga) - 12kg \n * Maize bran (Ngozi ya mahindi) - 3kg\n * Maize germ (moyo) - 3kg \n * Wheat/rice bran - 3kg \n * Soya (njenga) - 4kg \n * Sunflower white or black (oil extracted) - 2.17 kg \n * Fishmeal - 1.33 kg \n * DCP - 0.3 kg \n * Lime (calcium) - 0.4 kg \n * Salt - 0.1 kg \n * Chick premix - 0.3kg \n * Lysine - 0.1 kg \n * Methionine -  0.1kg \n * Toxin binder - 0.2kg"
         },
         "transcript": {
-          "eng": "* ** Maize (njenga), Maize germ (moyo), Maize bran (ngozi ya mahindi), Wheat/rice bran:** Provide major sources of energy.\n * ** Soya (njenga), Sunflower, Fishmeal:** Provide proteins for body building\n * ** DCP & Lime:**  phosphorus and calcium for strong bones and eggshells\n * ** Salt:** Provides sodium and chloride for body balance\n * ** Chick premix:** Source of vitamins and trace minerals\n * ** Toxin binders:** Breaks harmful toxins into harmless parts.\n * ** Lysine and methionine:** Essential amino acids needed for growth.\n * **  Suppliments of DCP are crushed eggshells or bones . \n* The chickmash is used as a feed for chicks below 8 weeks*"
+          "eng": "* **Maize (njenga), Maize germ (moyo), Maize bran (ngozi ya mahindi), Wheat/rice bran:** Provide major sources of energy.\n * **Soya (njenga), Sunflower, Fishmeal:** Provide proteins for body building\n * **DCP & Lime:**  phosphorus and calcium for strong bones and eggshells\n * **Salt:** Provides sodium and chloride for body balance\n * **Chick premix:** Source of vitamins and trace minerals\n * **Toxin binders:** Breaks harmful toxins into harmless parts.\n * **Lysine and methionine:** Essential amino acids needed for growth.\n * Supplements of DCP are crushed eggshells or bones ."
         },
         "storage_transcript": {
           "eng": "Store in a cool and dry place"
+        },
+        "usage_transcript": {
+          "eng": "*The chickmash is used as a feed for chicks below 8 weeks*"
         }
       },
       "intro_text": "When mixing the ingredients, start with the heaviest and finish with the lightest.",
       "step_1_text": "* Maize (njenga) - 12kg \n * Maize bran (Ngozi ya mahindi) - 3kg\n * Maize germ (moyo) - 3kg \n * Wheat/rice bran - 3kg \n * Soya (njenga) - 4kg \n * Sunflower white or black (oil extracted) - 2.17 kg \n * Fishmeal - 1.33 kg \n * DCP - 0.3 kg \n * Lime (calcium) - 0.4 kg \n * Salt - 0.1 kg \n * Chick premix - 0.3kg \n * Lysine - 0.1 kg \n * Methionine -  0.1kg \n * Toxin binder - 0.2kg",
-      "transcript": "* ** Maize (njenga), Maize germ (moyo), Maize bran (ngozi ya mahindi), Wheat/rice bran:** Provide major sources of energy.\n * ** Soya (njenga), Sunflower, Fishmeal:** Provide proteins for body building\n * ** DCP & Lime:**  phosphorus and calcium for strong bones and eggshells\n * ** Salt:** Provides sodium and chloride for body balance\n * ** Chick premix:** Source of vitamins and trace minerals\n * ** Toxin binders:** Breaks harmful toxins into harmless parts.\n * ** Lysine and methionine:** Essential amino acids needed for growth.\n * **  Suppliments of DCP are crushed eggshells or bones . \n* The chickmash is used as a feed for chicks below 8 weeks*",
-      "storage_transcript": "Store in a cool and dry place"
+      "transcript": "* **Maize (njenga), Maize germ (moyo), Maize bran (ngozi ya mahindi), Wheat/rice bran:** Provide major sources of energy.\n * **Soya (njenga), Sunflower, Fishmeal:** Provide proteins for body building\n * **DCP & Lime:**  phosphorus and calcium for strong bones and eggshells\n * **Salt:** Provides sodium and chloride for body balance\n * **Chick premix:** Source of vitamins and trace minerals\n * **Toxin binders:** Breaks harmful toxins into harmless parts.\n * **Lysine and methionine:** Essential amino acids needed for growth.\n * Supplements of DCP are crushed eggshells or bones .",
+      "storage_transcript": "Store in a cool and dry place",
+      "usage_transcript": "*The chickmash is used as a feed for chicks below 8 weeks*"
     },
     {
       "id": "concotion",
       "number": 8,
+      "image_cover_asset": "images/topic/Livestock_images/concoction_cover.jpeg",
       "image_asset": "images/topic/Livestock_images/tithonia concotion.jpeg",
       "favourite_field": "ltp_activity_concotion_favourite",
       "title": "Cough Concoction for Poultry",
@@ -304,6 +271,8 @@
     {
       "id": "silage_making",
       "number": 9,
+      "image_cover_asset": "images/topic/Livestock_images/silage1.jpeg",
+      "image_asset": "images/topic/Livestock_images/silage_ingredients.jpeg",
       "favourite_field": "ltp_activity_silage_making_favourite",
       "title": "Silage Making Ingredients",
       "_translations": {
@@ -320,14 +289,14 @@
           "eng": "* Fodder materials to be preserved, eg, Napier\n* Maize bran - CHO reduces the moisture content\n* Molasses\n* Chaff cutter/panga\n* Airtight container"
         },
         "transcript": {
-          "eng": "* **Fodder materials:** Provides bulk, nutrients, and fiber needed for good-quality livestock feed after fermentation.\n * **Maize bran:** Absorb excess moisture from the fodder and provides carbohydrates that support fermentation.\n * **Molasses:** Acts as a fermentation booster while improving taste and energy value.\n *Chopping fodder into small pieces increases compaction, removes air spaces, and speeds up fermentation.\n * **Airtight container (e.g., silo, polythene bag, drum):** This is used to exclude air. \n * Silage fermentation must occur in anaerobic (oxygen-free) conditions; otherwise, the fodder will rot instead of fermenting. \n* Silage making relies on chopping fodder, balancing moisture, adding energy sources, and sealing everything airtight to allow beneficial fermentation and prevent spoilage."
+          "eng": "* **Fodder materials:** Provides bulk, nutrients, and fiber needed for good-quality livestock feed after fermentation.\n * **Maize bran:** Absorb excess moisture from the fodder and provides carbohydrates that support fermentation.\n * **Molasses:** Acts as a fermentation booster while improving taste and energy value.\n * Chopping fodder into small pieces increases compaction, removes air spaces, and speeds up fermentation.\n * **Airtight container (e.g., silo, polythene bag, drum):** This is used to exclude air. \n * Silage fermentation must occur in anaerobic (oxygen-free) conditions; otherwise, the fodder will rot instead of fermenting. \n* Silage making relies on chopping fodder, balancing moisture, adding energy sources, and sealing everything airtight to allow beneficial fermentation and prevent spoilage."
         },
         "storage_transcript": {
           "eng": "* Keep the silage in airtight conditions.\nYou can use:\n   * Paper bags\n   * Skyplast bags\n   * Hermetic bags\n * Airtight storage ensures proper preservation and long shelf life."
         }
       },
       "step_1_text": "* Fodder materials to be preserved, eg, Napier\n* Maize bran - CHO reduces the moisture content\n* Molasses\n* Chaff cutter/panga\n* Airtight container",
-      "transcript": "* **Fodder materials:** Provides bulk, nutrients, and fiber needed for good-quality livestock feed after fermentation.\n * **Maize bran:** Absorb excess moisture from the fodder and provides carbohydrates that support fermentation.\n * **Molasses:** Acts as a fermentation booster while improving taste and energy value.\n *Chopping fodder into small pieces increases compaction, removes air spaces, and speeds up fermentation.\n * **Airtight container (e.g., silo, polythene bag, drum):** This is used to exclude air. \n * Silage fermentation must occur in anaerobic (oxygen-free) conditions; otherwise, the fodder will rot instead of fermenting. \n* Silage making relies on chopping fodder, balancing moisture, adding energy sources, and sealing everything airtight to allow beneficial fermentation and prevent spoilage.",
+      "transcript": "* **Fodder materials:** Provides bulk, nutrients, and fiber needed for good-quality livestock feed after fermentation.\n * **Maize bran:** Absorb excess moisture from the fodder and provides carbohydrates that support fermentation.\n * **Molasses:** Acts as a fermentation booster while improving taste and energy value.\n * Chopping fodder into small pieces increases compaction, removes air spaces, and speeds up fermentation.\n * **Airtight container (e.g., silo, polythene bag, drum):** This is used to exclude air. \n * Silage fermentation must occur in anaerobic (oxygen-free) conditions; otherwise, the fodder will rot instead of fermenting. \n* Silage making relies on chopping fodder, balancing moisture, adding energy sources, and sealing everything airtight to allow beneficial fermentation and prevent spoilage.",
       "storage_transcript": "* Keep the silage in airtight conditions.\nYou can use:\n   * Paper bags\n   * Skyplast bags\n   * Hermetic bags\n * Airtight storage ensures proper preservation and long shelf life."
     },
     {
@@ -388,6 +357,116 @@
         }
       },
       "step_1_text": "* Fresh milk\n* Plain yoghurt (starter culture)\n* Sugar (optional)\n* Lemon (ndimu)\n* Beetroot\n* Vanilla flavour\n* Strawberry flavour\n* Jug\n* Sufuria (cooking pot)\n* Sieve or clean cloth for filtering\n* Clean fermentation container / barrel\n* Thermometer (optional)\n* Refrigerator or cool storage place"
+    },
+    {
+      "id": "mulching_ing",
+      "number": 3,
+      "image_cover_asset": "images/topic/climate_change_images/mulch.png",
+      "image_asset": "images/topic/climate_change_images/mulching_ing.png",
+      "title": "Mulching Ingredients",
+      "_translations": {
+        "title": {},
+        "intro_text": {},
+        "step_1_text": {},
+        "step_5_text": {},
+        "transcript": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Mulching Ingredients"
+        },
+        "intro_text": {
+          "eng": "Mulching helps to conserve soil moisture, suppress weed growth, and improve soil health as organic materials decompose over time."
+        },
+        "step_1_text": {
+          "eng": "* Dry leaves\n * Grass clippings\n * Straw/hay\n * Sawdust/Wood chips\n * Farmyard manure/compost\n * Water"
+        },
+        "step_5_text": {
+          "eng": ""
+        },
+        "transcript": {
+          "eng": "* **Dry leaves, grass clippings, straw, hay:** Provide a protective cover that suppresses weeds by blocking sunlight and conserves moisture by reducing evaporation.\n * **Wood chips / sawdust:** Improve soil structure over time and provide long-term coverage to regulate soil temperature.\n * **Farmyard manure / compost:** Enhances soil fertility and adds organic matter as it decomposes.\n * **Water:** Helps settle the mulch and ensures the underlying soil remains hydrated to support beneficial soil organisms.\n * **Temperature Regulation:** Insulates the soil, keeping it cooler in the summer and warmer in the winter to protect plant roots.\n * **Soil Erosion Control:** Acts as a physical barrier to shield the soil from the direct impact of raindrops and wind."
+        }
+      },
+      "intro_text": "Mulching helps to conserve soil moisture, suppress weed growth, and improve soil health as organic materials decompose over time.",
+      "step_1_text": "* Dry leaves\n * Grass clippings\n * Straw/hay\n * Sawdust/Wood chips\n * Farmyard manure/compost\n * Water",
+      "step_5_text": "",
+      "transcript": "* **Dry leaves, grass clippings, straw, hay:** Provide a protective cover that suppresses weeds by blocking sunlight and conserves moisture by reducing evaporation.\n * **Wood chips / sawdust:** Improve soil structure over time and provide long-term coverage to regulate soil temperature.\n * **Farmyard manure / compost:** Enhances soil fertility and adds organic matter as it decomposes.\n * **Water:** Helps settle the mulch and ensures the underlying soil remains hydrated to support beneficial soil organisms.\n * **Temperature Regulation:** Insulates the soil, keeping it cooler in the summer and warmer in the winter to protect plant roots.\n * **Soil Erosion Control:** Acts as a physical barrier to shield the soil from the direct impact of raindrops and wind."
+    },
+    {
+      "id": "zai_pit_ing",
+      "number": 3,
+      "image_cover_asset": "images/topic/climate_change_images/zai_pit.png",
+      "image_asset": "images/topic/climate_change_images/zai_pit_ing.png",
+      "title": "Zai Pit Ingredients",
+      "_translations": {
+        "title": {},
+        "intro_text": {},
+        "step_1_text": {},
+        "step_2_text": {},
+        "step_5_text": {},
+        "transcript": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Zai Pit Ingredients"
+        },
+        "intro_text": {
+          "eng": "Zai pits help harvest runoff water and concentrate manure or compost, allowing crops to thrive in dry or degraded soils."
+        },
+        "step_1_text": {
+          "eng": "* 2-3 handfuls (200g - 600g) of organic fertilisers or compost \n * Manure\n * Dry plant biomass\n * Topsoil"
+        },
+        "step_2_text": {
+          "eng": "* 1 bucket of Compost or well-rotted Manure \n * 1 bucket of Dry plant biomass or Mulch \n * 1 bucket of Topsoil (for covering)"
+        },
+        "step_5_text": {
+          "eng": ""
+        },
+        "transcript": {
+          "eng": "* **Organic Material (Manure/Compost/Dry Biomass):** Attracts termites and microorganisms that improve soil structure and nutrient availability.\n * **Water Harvesting:** The pits act as micro-catchments that trap rainfall and runoff, reducing water stress during droughts.\n * **Nutrient Concentration:** Placing amendments directly in the pit prevents them from being washed away and focuses fertility near the crop roots.\n * **Topsoil Ridges:** Excavated soil formed into ridges helps capture additional runoff and directs it into the pits.\n * **Termite Activity:** Termites digging channels in the soil increase water infiltration and speed up the decomposition of organic matter.\n * **Soil Rehabilitation:** Breaks up hardpan layers, making degraded or encrusted land productive again."
+        }
+      },
+      "intro_text": "Zai pits help harvest runoff water and concentrate manure or compost, allowing crops to thrive in dry or degraded soils.",
+      "step_1_text": "* 2-3 handfuls (200g - 600g) of organic fertilisers or compost \n * Manure\n * Dry plant biomass\n * Topsoil",
+      "step_2_text": "* 1 bucket of Compost or well-rotted Manure \n * 1 bucket of Dry plant biomass or Mulch \n * 1 bucket of Topsoil (for covering)",
+      "step_5_text": "",
+      "transcript": "* **Organic Material (Manure/Compost/Dry Biomass):** Attracts termites and microorganisms that improve soil structure and nutrient availability.\n * **Water Harvesting:** The pits act as micro-catchments that trap rainfall and runoff, reducing water stress during droughts.\n * **Nutrient Concentration:** Placing amendments directly in the pit prevents them from being washed away and focuses fertility near the crop roots.\n * **Topsoil Ridges:** Excavated soil formed into ridges helps capture additional runoff and directs it into the pits.\n * **Termite Activity:** Termites digging channels in the soil increase water infiltration and speed up the decomposition of organic matter.\n * **Soil Rehabilitation:** Breaks up hardpan layers, making degraded or encrusted land productive again."
+    },
+    {
+      "id": "sunken_bed_ing",
+      "number": 3,
+      "image_cover_asset": "images/topic/climate_change_images/sunken_bed.png",
+      "image_asset": "images/topic/climate_change_images/sunken_bed_ing.png",
+      "title": "Sunken Bed Ingredients",
+      "_translations": {
+        "title": {},
+        "intro_text": {},
+        "step_1_text": {},
+        "step_5_text": {},
+        "transcript": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Sunken Bed Ingredients"
+        },
+        "intro_text": {
+          "eng": "A sunken bed helps to collect and conserve water, making it ideal for growing vegetables in dry or arid areas."
+        },
+        "step_1_text": {
+          "eng": "* Topsoil \n * Well-rotted manure or compost \n * Dry organic matter (leaves, grass) \n * Water"
+        },
+        "step_5_text": {
+          "eng": ""
+        },
+        "transcript": {
+          "eng": "* **Topsoil:** Provides the base for the bed and introduces native microorganisms.\n * **Well-rotted manure or compost:** Boosts soil fertility, improves structure, and adds organic matter to support plant health.\n * **Dry organic matter (leaves or grass):** Acts as a carbon source and mulch to retain moisture and suppress weeds.\n * **Water:** Concentrates in the recessed area to ensure deep infiltration and keep roots cool.\n * **Protective Profile:** The sunken design shields plants from drying winds and helps regulate soil temperature."
+        }
+      },
+      "intro_text": "A sunken bed helps to collect and conserve water, making it ideal for growing vegetables in dry or arid areas.",
+      "step_1_text": "* Topsoil \n * Well-rotted manure or compost \n * Dry organic matter (leaves, grass) \n * Water",
+      "step_5_text": "",
+      "transcript": "* **Topsoil:** Provides the base for the bed and introduces native microorganisms.\n * **Well-rotted manure or compost:** Boosts soil fertility, improves structure, and adds organic matter to support plant health.\n * **Dry organic matter (leaves or grass):** Acts as a carbon source and mulch to retain moisture and suppress weeds.\n * **Water:** Concentrates in the recessed area to ensure deep infiltration and keep roots cool.\n * **Protective Profile:** The sunken design shields plants from drying winds and helps regulate soil temperature."
     }
   ],
   "_source": {

@@ -59,6 +59,13 @@
       "condition": "!!@local.row_data.title"
     },
     {
+      "type": "image",
+      "name": "image_asset",
+      "value": "@local.row_data.image_asset",
+      "exclude_from_translation": true,
+      "condition": "!!@local.row_data.image_asset"
+    },
+    {
       "type": "audio",
       "name": "audio",
       "value": "@local.row_data.media_asset",
@@ -72,13 +79,6 @@
       "value": "@local.row_data.media_asset",
       "exclude_from_translation": true,
       "condition": "@local.row_data.media_type == \"video\""
-    },
-    {
-      "type": "image",
-      "name": "image_asset",
-      "value": "@local.row_data.image_asset",
-      "exclude_from_translation": true,
-      "condition": "!!@local.row_data.image_asset"
     },
     {
       "type": "text",

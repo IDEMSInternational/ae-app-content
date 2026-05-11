@@ -58,6 +58,7 @@
     {
       "name": "card_icon",
       "value": "@local.category_row.icon_asset",
+      "style_list": "height: 90px;\nwidth: 90px;",
       "exclude_from_translation": true
     },
     {

@@ -177,9 +177,6 @@
           "_translations": {
             "value": {}
           },
-          "style_list": [
-            "flex: 1"
-          ],
           "exclude_from_translation": true,
           "_nested_name": "top.title",
           "_dynamicFields": {
@@ -206,7 +203,8 @@
             "value": {}
           },
           "style_list": [
-            "flex: 1"
+            "height: 90px",
+            "width: 90px"
           ],
           "exclude_from_translation": true,
           "_nested_name": "top.image",

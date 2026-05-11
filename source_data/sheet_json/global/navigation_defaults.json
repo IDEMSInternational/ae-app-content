@@ -97,6 +97,11 @@
       "type": "declare_global_constant",
       "name": "general",
       "value": "General"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "continue",
+      "value": "Continue"
     }
   ]
 }

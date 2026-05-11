@@ -101,6 +101,27 @@
       "title::eng": "Fermented Feeds",
       "text::eng": "Preparing fermented feeds",
       "description::eng": "Preparing fermented feeds"
+    },
+    {
+      "id": "mulching",
+      "name": "mulching",
+      "title::eng": "Mulching",
+      "text::eng": "Mulching",
+      "description::eng": "Mulching"
+    },
+    {
+      "id": "zai_pit",
+      "name": "zai_pit",
+      "title::eng": "Zai Pits",
+      "text::eng": "Making Zai Pits",
+      "description::eng": "Making Zai Pits"
+    },
+    {
+      "id": "sunken_bed",
+      "name": "sunken_bed",
+      "title::eng": "Sunken Beds",
+      "text::eng": "Making Sunken Beds",
+      "description::eng": "Making a sunken bed"
     }
   ]
 }

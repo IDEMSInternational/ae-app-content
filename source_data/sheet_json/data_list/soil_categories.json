@@ -6,18 +6,18 @@
   "rows": [
     {
       "id": "nutrient_depletion",
-      "title::eng": "Causes of nutrient depletion in soil & solutions",
-      "icon_asset": "images/icons/terms_conditions.svg"
+      "title::eng": "Nutrient depletion in soil & solutions",
+      "icon_asset": "images/icons/categories/nutrient_depletion.png"
     },
     {
       "id": "dynamics",
       "title::eng": "Improving soil fertility",
-      "icon_asset": "images/icons/settings.svg"
+      "icon_asset": "images/icons/categories/improve_soil_fertility.png"
     },
     {
       "id": "how",
-      "title::eng": "Organic Manure",
-      "icon_asset": "images/icons/terms_conditions.svg"
+      "title::eng": "Organic manure",
+      "icon_asset": "images/icons/categories/organic_manure.png"
     }
   ]
 }

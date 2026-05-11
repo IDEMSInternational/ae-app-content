@@ -102,6 +102,13 @@
       "value": "Usage Tips"
     },
     {
+      "type": "audio",
+      "name": "audio",
+      "value": "@local.ingredients_row.media_asset",
+      "condition": "@local.ingredients_row.media_type == \"audio\"",
+      "parameter_list": "transcript_text: @local.ingredients_row.ing_transcript"
+    },
+    {
       "type": "begin_accordion",
       "name": "accordion"
     },
@@ -202,7 +209,7 @@
     {
       "type": "audio",
       "name": "audio",
-      "value": "@local.ingredients_row.transcript",
+      "value": "@local.ingredients_row.media_asset_1",
       "condition": "@local.ingredients_row.media_type_1 == \"audio\"",
       "parameter_list": "transcript_text: @local.ingredients_row.transcript"
     },
@@ -224,7 +231,7 @@
     {
       "type": "audio",
       "name": "audio",
-      "value": "@local.ingredients_row.storage_transcript",
+      "value": "@local.ingredients_row.media_asset_2",
       "condition": "@local.ingredients_row.media_type_2 == \"audio\"",
       "parameter_list": "transcript_text: @local.ingredients_row.storage_transcript"
     },
@@ -235,7 +242,7 @@
       "type": "begin_accordion_section",
       "name": "forth",
       "value": "@local.title_4",
-      "condition": "!!(@local.tips_2)"
+      "condition": "!!(@local.tips_3)"
     },
     {
       "type": "text",
@@ -246,7 +253,7 @@
     {
       "type": "audio",
       "name": "audio",
-      "value": "@local.ingredients_row.usage_transcript",
+      "value": "@local.ingredients_row.media_asset_3",
       "condition": "@local.ingredients_row.media_type_3 == \"audio\"",
       "parameter_list": "transcript_text: @local.ingredients_row.usage_transcript"
     },

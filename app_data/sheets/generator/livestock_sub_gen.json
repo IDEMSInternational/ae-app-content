@@ -108,6 +108,11 @@
       "flow_type": "template"
     },
     {
+      "flow_name": "sub_livestock_remedies_4",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
       "flow_name": "sub_livestock_factors_consider",
       "flow_subtype": "generated",
       "flow_type": "template"
@@ -154,6 +159,11 @@
     },
     {
       "flow_name": "sub_livestock_how_9",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_livestock_how_10",
       "flow_subtype": "generated",
       "flow_type": "template"
     }

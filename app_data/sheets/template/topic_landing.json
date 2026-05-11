@@ -384,7 +384,6 @@
               "parameter_list": {
                 "task_group_data": "@local.sub_data_list_name"
               },
-              "condition": false,
               "exclude_from_translation": true,
               "_nested_name": "topic_card_go_to.dg_column.task_progress_bar",
               "_dynamicFields": {
@@ -562,7 +561,6 @@
               "parameter_list": {
                 "task_group_data": "@local.sub_data_list_name"
               },
-              "condition": false,
               "exclude_from_translation": true,
               "_nested_name": "topic_card_pop_up.dg_column.task_progress_bar",
               "_dynamicFields": {

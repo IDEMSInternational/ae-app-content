@@ -6,28 +6,28 @@
   "rows": [
     {
       "id": "challenges_solutions",
-      "title::eng": "Livestock challenges & solutions",
-      "icon_asset": "images/icons/settings.svg"
+      "title::eng": "Livestock Challenges & Solutions",
+      "icon_asset": "images/icons/categories/livestock_challenges.png"
     },
     {
       "id": "dewormers",
-      "title::eng": "Internal parasites control",
-      "icon_asset": "images/icons/terms_conditions.svg"
+      "title::eng": "Internal Parasites Control",
+      "icon_asset": "images/icons/categories/internal_pest_control.png"
     },
     {
       "id": "remedies",
       "title::eng": "Herbal Remedies for Poultry",
-      "icon_asset": "images/icons/terms_conditions.svg"
+      "icon_asset": "images/icons/categories/home_remedy.png"
     },
     {
       "id": "factors_consider",
-      "title::eng": "Feed preparation factors",
-      "icon_asset": "images/icons/settings.svg"
+      "title::eng": "Feed Preparation Factors",
+      "icon_asset": "images/icons/categories/feed_prep.png"
     },
     {
       "id": "how",
       "title::eng": "Making Livestock Feeds",
-      "icon_asset": "images/icons/settings.svg"
+      "icon_asset": "images/icons/categories/livestock_feeds.png"
     }
   ]
 }

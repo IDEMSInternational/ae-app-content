@@ -114,6 +114,7 @@
       "value": "@global.terms_and_conditions",
       "parameter_list": "variant: card;\nicon: @local.terms_icon;\nicon_secondary_asset: @local.next_icon_asset;\nstyle: no-background;\ntext_align: left;",
       "action_list": "click | pop_up: settings_terms | fullscreen: true, showCloseButton: false;",
+      "condition": false,
       "exclude_from_translation": true
     },
     {
@@ -122,6 +123,7 @@
       "value": "@global.privacy_policy",
       "parameter_list": "variant: card;\nicon: @local.privacy_icon;\nicon_secondary_asset: @local.next_icon_asset;\nstyle: no-background;\ntext_align: left;",
       "action_list": "click | pop_up: settings_privacy_policy | fullscreen: true, showCloseButton: false;",
+      "condition": false,
       "exclude_from_translation": true
     },
     {

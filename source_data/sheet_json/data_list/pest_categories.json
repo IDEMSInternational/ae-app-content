@@ -6,14 +6,14 @@
   "rows": [
     {
       "id": "dynamics",
-      "title::eng": "Common pests and their Impacts on crops",
-      "icon_asset": "images/icons/settings.svg",
+      "title::eng": "Common pests and their impacts on crops",
+      "icon_asset": "images/icons/categories/common_pests.png",
       "Comments": "Soft & hard bodied"
     },
     {
       "id": "how",
-      "title::eng": "Using Integrated Pest Management (IPM) to Control Pests",
-      "icon_asset": "images/icons/terms_conditions.svg"
+      "title::eng": "Ecological Pest Management",
+      "icon_asset": "images/icons/categories/epm.png"
     }
   ]
 }
