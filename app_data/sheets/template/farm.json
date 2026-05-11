@@ -271,6 +271,43 @@
       }
     },
     {
+      "type": "image",
+      "name": "image_asset",
+      "value": "@local.row_data.image_asset",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "condition": "!!@local.row_data.image_asset",
+      "_nested_name": "image_asset",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.row_data.image_asset",
+            "matchedExpression": "@local.row_data.image_asset",
+            "type": "local",
+            "fieldName": "row_data"
+          }
+        ],
+        "condition": [
+          {
+            "fullExpression": "!!@local.row_data.image_asset",
+            "matchedExpression": "!@local.row_data.image_asset",
+            "type": "local",
+            "fieldName": "row_data"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.row_data.image_asset": [
+          "value"
+        ],
+        "!@local.row_data.image_asset": [
+          "condition"
+        ]
+      }
+    },
+    {
       "type": "audio",
       "name": "audio",
       "value": "@local.row_data.media_asset",
@@ -356,43 +393,6 @@
           "value"
         ],
         "@local.row_data.media_type": [
-          "condition"
-        ]
-      }
-    },
-    {
-      "type": "image",
-      "name": "image_asset",
-      "value": "@local.row_data.image_asset",
-      "_translations": {
-        "value": {}
-      },
-      "exclude_from_translation": true,
-      "condition": "!!@local.row_data.image_asset",
-      "_nested_name": "image_asset",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "@local.row_data.image_asset",
-            "matchedExpression": "@local.row_data.image_asset",
-            "type": "local",
-            "fieldName": "row_data"
-          }
-        ],
-        "condition": [
-          {
-            "fullExpression": "!!@local.row_data.image_asset",
-            "matchedExpression": "!@local.row_data.image_asset",
-            "type": "local",
-            "fieldName": "row_data"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@local.row_data.image_asset": [
-          "value"
-        ],
-        "!@local.row_data.image_asset": [
           "condition"
         ]
       }

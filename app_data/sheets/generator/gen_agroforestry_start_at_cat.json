@@ -55,12 +55,12 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "topic_agroforestry_start_at_effects",
+      "flow_name": "topic_agroforestry_start_at_causes",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "topic_agroforestry_start_at_dynamics",
+      "flow_name": "topic_agroforestry_start_at_impact",
       "flow_subtype": "generated",
       "flow_type": "template"
     },

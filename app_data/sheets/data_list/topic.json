@@ -10,9 +10,7 @@
       "number": "1",
       "activities_id_list": [
         "bokashi",
-        "boma_compost",
-        "garden_compost",
-        "green_manure"
+        "garden_compost"
       ],
       "ingredients_id_list": [
         "bokashi_ing",
@@ -40,13 +38,11 @@
       "number": "2",
       "activities_id_list": [
         "ash_brew",
-        "tephrosia_solution",
-        "garlic_water"
+        "tephrosia_solution"
       ],
       "ingredients_id_list": [
         "ash_brew_ing",
-        "tephrosia_solution_ing",
-        "garlic_water_ing"
+        "tephrosia_solution_ing"
       ],
       "image_asset": "images/topic/pest_title_image.svg",
       "title": "Pest Management",
@@ -59,10 +55,10 @@
           "eng": "Pest Management"
         },
         "description": {
-          "eng": "Keep your farm healthy by spotting pests early. Smart ways, stronger crops."
+          "eng": "Keep your farm healthy by spotting pests early. Use of smart ways, leads to stronger crops."
         }
       },
-      "description": "Keep your farm healthy by spotting pests early. Smart ways, stronger crops."
+      "description": "Keep your farm healthy by spotting pests early. Use of smart ways, leads to stronger crops."
     },
     {
       "id": "nutrition",
@@ -70,12 +66,10 @@
       "number": "3",
       "activities_id_list": [
         "drying_kales",
-        "drying_green_banana",
         "yoghurt_preparation"
       ],
       "ingredients_id_list": [
         "drying_kales_vegs",
-        "drying_green_banana_vegs",
         "yoghurt_preparation_drink"
       ],
       "image_asset": "images/topic/nutrition_title_image.svg",
@@ -99,16 +93,10 @@
       "status": "released",
       "number": "4",
       "activities_id_list": [
-        "fermented_feed",
-        "poultry_feed",
-        "coughs_concotion",
-        "silage"
+        "fermented_feed"
       ],
       "ingredients_id_list": [
-        "fermenting_feeds",
-        "homemade_feeds",
-        "concotion",
-        "silage_making"
+        "fermenting_feeds"
       ],
       "image_asset": "images/topic/livestock_title_image.svg",
       "title": "Livestock Production",
@@ -130,13 +118,17 @@
       "id": "agroforestry",
       "status": "released",
       "number": "5",
-      "image_asset": "images/topic/agroforestry_title_image.svg",
       "activities_id_list": [
-        "[]"
+        "mulching",
+        "zai_pit",
+        "sunken_bed"
       ],
       "ingredients_id_list": [
-        "[]"
+        "mulching_ing",
+        "zai_pit_ing",
+        "sunken_bed_ing"
       ],
+      "image_asset": "images/topic/agroforestry_title_image.svg",
       "title": "Climate Change Adaptation",
       "_translations": {
         "title": {},

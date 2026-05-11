@@ -87,6 +87,27 @@
       "title::eng": "Fermented Feeds",
       "text::eng": "Fermented feeds Ingredients",
       "description::eng": "Ingredients used in preparing fermented feeds"
+    },
+    {
+      "id": "mulching",
+      "name": "mulching",
+      "title::eng": "Mulching",
+      "text::eng": "Ingredients in Mulching",
+      "description::eng": "Ingredients used to make Mulch"
+    },
+    {
+      "id": "zai_pit",
+      "name": "zai_pit",
+      "title::eng": "Zai Pit",
+      "text::eng": "Ingredients in Zai Pits",
+      "description::eng": "Ingredients used in preparing Zai pits"
+    },
+    {
+      "id": "sunken_bed",
+      "name": "sunken_bed",
+      "title::eng": "Sunken Bed",
+      "text::eng": "Ingredients in Sunken Bed",
+      "description::eng": "Ingredients used in making Sunken Beds"
     }
   ]
 }

@@ -117,35 +117,27 @@
           "eng": "Healthy Soil"
         },
         "text_1": {
-          "eng": "Charteristics of healthy soil are:"
+          "eng": "Characteristics of healthy soil are:"
         },
         "image_text": {
-          "eng": "* Contains compost (decomposed plant material)\n * Soft and easy to dig/work\n * Holds moisture well\n * Supports strong, healthy crops\n * Has micro-organisims like: termites, ants, worms, etc"
+          "eng": "* Contains compost (decomposed plant material)\n * Soft and easy to dig/work\n * Holds moisture well\n * Supports strong, healthy crops\n * Has micro-organisms like: termites, ants, worms, etc"
         }
       },
-      "text_1": "Charteristics of healthy soil are:",
-      "image_text": "* Contains compost (decomposed plant material)\n * Soft and easy to dig/work\n * Holds moisture well\n * Supports strong, healthy crops\n * Has micro-organisims like: termites, ants, worms, etc"
+      "text_1": "Characteristics of healthy soil are:",
+      "image_text": "* Contains compost (decomposed plant material)\n * Soft and easy to dig/work\n * Holds moisture well\n * Supports strong, healthy crops\n * Has micro-organisms like: termites, ants, worms, etc"
     },
     {
       "id": "nutrient_depletion_1",
       "category_id": "nutrient_depletion",
       "module_id": "soil",
+      "section_1_image_asset": "images/topic/soil_images/chemicals.png",
       "section_2_image_asset": "",
       "text_1": "Here are some of the things that makes our soil loose fertility and their solutions",
       "_translations": {
         "text_1": {},
         "section_1_text": {},
         "section_1_button_text": {},
-        "section_1_extra_text": {},
-        "section_2_text": {},
-        "section_2_button_text": {},
-        "section_2_extra_text": {},
-        "section_3_text": {},
-        "section_3_button_text": {},
-        "section_3_extra_text": {},
-        "section_4_text": {},
-        "section_4_button_text": {},
-        "section_4_extra_text": {}
+        "section_1_extra_text": {}
       },
       "_translatedFields": {
         "text_1": {
@@ -159,47 +151,86 @@
         },
         "section_1_extra_text": {
           "eng": "Use organic manure like:\n * Garden compost\n * Farm yard manure\n * Bokashi\n * Green manure"
-        },
-        "section_2_text": {
-          "eng": "Burning of crop residue"
-        },
-        "section_2_button_text": {
-          "eng": "Solution"
-        },
-        "section_2_extra_text": {
-          "eng": "* Recycle feed animals.\n * Lay down for livestock to sleep so as to trap the animal waste like urine then use it as manure on your farm."
-        },
-        "section_3_text": {
-          "eng": "Mono cropping- Planting one type of crop"
-        },
-        "section_3_button_text": {
-          "eng": "Solution"
-        },
-        "section_3_extra_text": {
-          "eng": "Do crop rotation and ensure you check the nutients the crops are offering to the soil"
-        },
-        "section_4_text": {
-          "eng": "Soil erossion"
-        },
-        "section_4_button_text": {
-          "eng": "Solution"
-        },
-        "section_4_extra_text": {
-          "eng": "Use cover crops and terraces"
         }
       },
       "section_1_text": "Use of chemicals",
       "section_1_button_text": "Solution",
-      "section_1_extra_text": "Use organic manure like:\n * Garden compost\n * Farm yard manure\n * Bokashi\n * Green manure",
-      "section_2_text": "Burning of crop residue",
-      "section_2_button_text": "Solution",
-      "section_2_extra_text": "* Recycle feed animals.\n * Lay down for livestock to sleep so as to trap the animal waste like urine then use it as manure on your farm.",
-      "section_3_text": "Mono cropping- Planting one type of crop",
-      "section_3_button_text": "Solution",
-      "section_3_extra_text": "Do crop rotation and ensure you check the nutients the crops are offering to the soil",
-      "section_4_text": "Soil erossion",
-      "section_4_button_text": "Solution",
-      "section_4_extra_text": "Use cover crops and terraces"
+      "section_1_extra_text": "Use organic manure like:\n * Garden compost\n * Farm yard manure\n * Bokashi\n * Green manure"
+    },
+    {
+      "id": "nutrient_depletion_2",
+      "category_id": "nutrient_depletion",
+      "module_id": "soil",
+      "section_1_image_asset": "images/topic/soil_images/soil_erosion.png",
+      "section_1_text": "Soil erossion",
+      "_translations": {
+        "section_1_text": {},
+        "section_1_button_text": {},
+        "section_1_extra_text": {}
+      },
+      "_translatedFields": {
+        "section_1_text": {
+          "eng": "Soil erossion"
+        },
+        "section_1_button_text": {
+          "eng": "Solution"
+        },
+        "section_1_extra_text": {
+          "eng": "Use cover crops and terraces"
+        }
+      },
+      "section_1_button_text": "Solution",
+      "section_1_extra_text": "Use cover crops and terraces"
+    },
+    {
+      "id": "nutrient_depletion_3",
+      "category_id": "nutrient_depletion",
+      "module_id": "soil",
+      "section_1_image_asset": "images/topic/soil_images/burning_residue.png",
+      "section_1_text": "Burning of crop residue",
+      "_translations": {
+        "section_1_text": {},
+        "section_1_button_text": {},
+        "section_1_extra_text": {}
+      },
+      "_translatedFields": {
+        "section_1_text": {
+          "eng": "Burning of crop residue"
+        },
+        "section_1_button_text": {
+          "eng": "Solution"
+        },
+        "section_1_extra_text": {
+          "eng": "Recycle:\n * Feed animals.\n * Lay down for livestock to sleep so as to trap the animal waste like urine then use it as manure on your farm."
+        }
+      },
+      "section_1_button_text": "Solution",
+      "section_1_extra_text": "Recycle:\n * Feed animals.\n * Lay down for livestock to sleep so as to trap the animal waste like urine then use it as manure on your farm."
+    },
+    {
+      "id": "nutrient_depletion_4",
+      "category_id": "nutrient_depletion",
+      "module_id": "soil",
+      "section_1_image_asset": "images/topic/soil_images/monocropping.png",
+      "section_1_text": "Mono cropping- Planting one type of crop",
+      "_translations": {
+        "section_1_text": {},
+        "section_1_button_text": {},
+        "section_1_extra_text": {}
+      },
+      "_translatedFields": {
+        "section_1_text": {
+          "eng": "Mono cropping- Planting one type of crop"
+        },
+        "section_1_button_text": {
+          "eng": "Solution"
+        },
+        "section_1_extra_text": {
+          "eng": "Practice crop rotation and ensure you check the nutients the crops are offering to the soil"
+        }
+      },
+      "section_1_button_text": "Solution",
+      "section_1_extra_text": "Practice crop rotation and ensure you check the nutients the crops are offering to the soil"
     },
     {
       "id": "dynamics_1",
@@ -230,131 +261,107 @@
       "id": "dynamics_2",
       "category_id": "dynamics",
       "module_id": "soil",
-      "section_1_image_asset": "images/topic/soil_images/diversity.png",
-      "section_1_title": "Diversity",
+      "image_asset": "images/topic/soil_images/diversity.png",
+      "media_type": "audio",
+      "media_asset": "audios/soil/diversity.mp3",
+      "title": "Diversity",
       "_translations": {
-        "section_1_title": {},
-        "section_1_text": {},
-        "section_1_button_text": {},
-        "section_1_extra_text": {}
+        "title": {},
+        "media_transcript": {}
       },
       "_translatedFields": {
-        "section_1_title": {
+        "title": {
           "eng": "Diversity"
         },
-        "section_1_text": {
-          "eng": "Plant different crops and keep different varieties of animals."
-        },
-        "section_1_button_text": {
-          "eng": "More"
-        },
-        "section_1_extra_text": {
-          "eng": "Some plants grow fast, some slow this way, if one fails, others still give you food and income. \nYou can also harvest more than once in a season and have a balanced diet for your family.\nhelps with pest control too"
+        "media_transcript": {
+          "eng": "Plant different crops and keep different varieties of animals. Some plants grow fast, some slow this way, if one fails, others still give you food and income. \nYou can also harvest more than once in a season and have a balanced diet for your family.\nhelps with pest control too\""
         }
       },
-      "section_1_text": "Plant different crops and keep different varieties of animals.",
-      "section_1_button_text": "More",
-      "section_1_extra_text": "Some plants grow fast, some slow this way, if one fails, others still give you food and income. \nYou can also harvest more than once in a season and have a balanced diet for your family.\nhelps with pest control too"
+      "media_transcript": "Plant different crops and keep different varieties of animals. Some plants grow fast, some slow this way, if one fails, others still give you food and income. \nYou can also harvest more than once in a season and have a balanced diet for your family.\nhelps with pest control too\""
     },
     {
       "id": "dynamics_3",
       "category_id": "dynamics",
       "module_id": "soil",
-      "section_1_image_asset": "images/topic/soil_images/recycling.png",
-      "section_1_title": "Recycling",
+      "image_asset": "images/topic/soil_images/recycling.png",
+      "title": "Recycling",
       "_translations": {
-        "section_1_title": {},
-        "section_1_text": {}
+        "title": {},
+        "image_text": {}
       },
       "_translatedFields": {
-        "section_1_title": {
+        "title": {
           "eng": "Recycling"
         },
-        "section_1_text": {
+        "image_text": {
           "eng": "Use farm waste, like cow dung, to make compost or biogas—it can make your soil fertile and save money.\nplants to eat people and livestock to manure"
         }
       },
-      "section_1_text": "Use farm waste, like cow dung, to make compost or biogas—it can make your soil fertile and save money.\nplants to eat people and livestock to manure"
+      "image_text": "Use farm waste, like cow dung, to make compost or biogas—it can make your soil fertile and save money.\nplants to eat people and livestock to manure"
     },
     {
       "id": "dynamics_4",
       "category_id": "dynamics",
       "module_id": "soil",
-      "section_1_image_asset": "images/topic/soil_images/crop_rotation.png",
-      "section_1_title": "Crop rotation",
+      "image_asset": "images/topic/soil_images/crop_rotation.png",
+      "media_type": "audio",
+      "media_asset": "audios/soil/rotation.mp3",
+      "title": "Crop rotation",
       "_translations": {
-        "section_1_title": {},
-        "section_1_text": {},
-        "section_1_button_text": {},
-        "section_1_extra_text": {}
+        "title": {},
+        "media_transcript": {}
       },
       "_translatedFields": {
-        "section_1_title": {
+        "title": {
           "eng": "Crop rotation"
         },
-        "section_1_text": {
-          "eng": "Don’t plant the same crop in the same spot every year."
-        },
-        "section_1_button_text": {
-          "eng": "More"
-        },
-        "section_1_extra_text": {
-          "eng": "Some crops take a lot of nutrients from the soil, others give back. Rotating them keeps the soil rich and prevents it from getting tired."
+        "media_transcript": {
+          "eng": "Don’t plant the same crop in the same spot every year. Some crops take a lot of nutrients from the soil, others give back. Rotating them keeps the soil rich and prevents it from getting tired."
         }
       },
-      "section_1_text": "Don’t plant the same crop in the same spot every year.",
-      "section_1_button_text": "More",
-      "section_1_extra_text": "Some crops take a lot of nutrients from the soil, others give back. Rotating them keeps the soil rich and prevents it from getting tired."
+      "media_transcript": "Don’t plant the same crop in the same spot every year. Some crops take a lot of nutrients from the soil, others give back. Rotating them keeps the soil rich and prevents it from getting tired."
     },
     {
       "id": "dynamics_5",
       "category_id": "dynamics",
       "module_id": "soil",
-      "section_1_image_asset": "images/topic/soil_images/resilience.png",
-      "section_1_title": "Resilience",
+      "image_asset": "images/topic/soil_images/resilience.png",
+      "media_type": "audio",
+      "media_asset": "audios/soil/resilience.mp3",
+      "title": "Resilience",
       "_translations": {
-        "section_1_title": {},
-        "section_1_text": {},
-        "section_1_button_text": {},
-        "section_1_extra_text": {}
+        "title": {},
+        "media_transcript": {}
       },
       "_translatedFields": {
-        "section_1_title": {
+        "title": {
           "eng": "Resilience"
         },
-        "section_1_text": {
-          "eng": "Choose crops and animals that survive well in your area."
-        },
-        "section_1_button_text": {
-          "eng": "More"
-        },
-        "section_1_extra_text": {
-          "eng": "Some crops and animals can handle dry spells, others wet conditions. This way, your farm can recover from tough weather."
+        "media_transcript": {
+          "eng": "Choose crops and animals that survive well in your area. Some crops and animals can handle dry spells, others wet conditions. This way, your farm can recover from tough weather."
         }
       },
-      "section_1_text": "Choose crops and animals that survive well in your area.",
-      "section_1_button_text": "More",
-      "section_1_extra_text": "Some crops and animals can handle dry spells, others wet conditions. This way, your farm can recover from tough weather."
+      "media_transcript": "Choose crops and animals that survive well in your area. Some crops and animals can handle dry spells, others wet conditions. This way, your farm can recover from tough weather."
     },
     {
       "id": "dynamics_6",
       "category_id": "dynamics",
       "module_id": "soil",
-      "section_1_image_asset": "images/topic/soil_images/sharing_knowledge.png",
-      "section_1_title": "Sharing of knowledge",
+      "image_asset": "images/topic/soil_images/sharing_knowledge.png",
+      "title": "Sharing of knowledge",
       "_translations": {
-        "section_1_title": {},
-        "section_1_text": {}
+        "title": {},
+        "image_text": {}
       },
       "_translatedFields": {
-        "section_1_title": {
+        "title": {
           "eng": "Sharing of knowledge"
         },
-        "section_1_text": {
+        "image_text": {
           "eng": "Talk with other farmers, share your ideas and learn from theirs."
         }
       },
-      "section_1_text": "Talk with other farmers, share your ideas and learn from theirs."
+      "image_text": "Talk with other farmers, share your ideas and learn from theirs."
     },
     {
       "id": "how_1",
@@ -370,111 +377,98 @@
           "eng": "These are organic manure that you can make at your home using basic materials that are easily found in your home and farm."
         },
         "text_2": {
-          "eng": "Ensure to watch videos at the 'Practical Section' on how to make these manures and the ingredents used."
+          "eng": "Ensure to watch videos in the 'Practical Section' on how to make these manures and the ingredents used."
         }
       },
-      "text_2": "Ensure to watch videos at the 'Practical Section' on how to make these manures and the ingredents used."
+      "text_2": "Ensure to watch videos in the 'Practical Section' on how to make these manures and the ingredents used."
     },
     {
       "id": "how_2",
       "category_id": "how",
       "module_id": "soil",
-      "section_1_title": "Bokashi",
+      "image_asset": "images/topic/soil_images/bokashi.png",
+      "media_type": "audio",
+      "media_asset": "audios/soil/abt_bokashi.mp3",
+      "title": "Bokashi",
       "_translations": {
-        "section_1_title": {},
-        "section_1_text": {}
+        "title": {},
+        "media_transcript": {}
       },
       "_translatedFields": {
-        "section_1_title": {
+        "title": {
           "eng": "Bokashi"
         },
-        "section_1_text": {
+        "media_transcript": {
           "eng": "Bokashi is a type of organic manure that’s faster to make than regular compost. It is partially fermented before use, and decomposition continues even after you apply it to the soil."
         }
       },
-      "section_1_text": "Bokashi is a type of organic manure that’s faster to make than regular compost. It is partially fermented before use, and decomposition continues even after you apply it to the soil."
+      "media_transcript": "Bokashi is a type of organic manure that’s faster to make than regular compost. It is partially fermented before use, and decomposition continues even after you apply it to the soil."
     },
     {
       "id": "how_3",
-      "section_1_title": "Boma Compost",
+      "category_id": "how",
+      "module_id": "soil",
+      "image_asset": "images/topic/soil_images/boma_compost.png",
+      "media_type": "audio",
+      "media_asset": "audios/soil/abt_boma.mp3",
+      "title": "Boma Compost",
       "_translations": {
-        "section_1_title": {},
-        "section_1_text": {},
-        "section_2_text": {}
+        "title": {},
+        "media_transcript": {}
       },
       "_translatedFields": {
-        "section_1_title": {
+        "title": {
           "eng": "Boma Compost"
         },
-        "section_1_text": {
-          "eng": "Made by laying farm residues in a livestock shed to collect animal urine, which is rich in nitrogen. After some time, the mixture is collected and applied to your farm."
-        },
-        "section_2_text": {
-          "eng": "The compost should**always** be kept under shade to avoid direct sunlight that makes the compost loose its nutrients."
+        "media_transcript": {
+          "eng": "Boma Compost is made by placing farm residues in a livestock shed to absorb animal urine, which is rich in nitrogen. After some time, the mixture is collected and applied to the farm.\nIt should always be prepared and kept under shade to prevent nutrient loss from direct sunlight."
         }
       },
-      "section_1_text": "Made by laying farm residues in a livestock shed to collect animal urine, which is rich in nitrogen. After some time, the mixture is collected and applied to your farm.",
-      "section_2_text": "The compost should**always** be kept under shade to avoid direct sunlight that makes the compost loose its nutrients."
+      "media_transcript": "Boma Compost is made by placing farm residues in a livestock shed to absorb animal urine, which is rich in nitrogen. After some time, the mixture is collected and applied to the farm.\nIt should always be prepared and kept under shade to prevent nutrient loss from direct sunlight."
     },
     {
       "id": "how_4",
-      "section_1_image_asset": "images/topic/soil_images/compost.png",
-      "section_1_title": "Garden Compost",
+      "category_id": "how",
+      "module_id": "soil",
+      "image_asset": "images/topic/soil_images/garden_compost.png",
+      "media_type": "audio",
+      "media_asset": "audios/soil/abt_garden.mp3",
+      "title": "Garden Compost",
       "_translations": {
-        "section_1_title": {},
-        "section_1_text": {},
-        "section_1_button_text": {},
-        "section_1_extra_text": {},
-        "section_2_text": {}
+        "title": {},
+        "media_transcript": {}
       },
       "_translatedFields": {
-        "section_1_title": {
+        "title": {
           "eng": "Garden Compost"
         },
-        "section_1_text": {
-          "eng": "Garden Compost is an organic fertilizer made by decomposing natural materials, primarily crop residues, until they turn into a rich, soil-like substance under a shade to avoid direct sunlight that makes the compost loose its nutrients.."
-        },
-        "section_1_button_text": {
-          "eng": "More"
-        },
-        "section_1_extra_text": {
-          "eng": "When collecting materials, the focus is on adding nutrients the soil needs, especially nitrogen (N), phosphorus (P), and potassium (K)."
-        },
-        "section_2_text": {
-          "eng": "The taken for compost to be ready depends on the size of the pile, the materials used, and the moisture content—smaller piles generally take longer to decompose."
+        "media_transcript": {
+          "eng": "Garden compost is an organic fertilizer made by decomposing crop residues under shade until they become a rich, soil-like material.\n\nWhen collecting materials, it is important to choose those that add nutrients to the soil—especially nitrogen, phosphorus, and potassium —to ensure the compost supports healthy plant growth. Time taken for compost to be ready depends on:  The size of the pile, the materials used, and the moisture content.\nSmaller piles generally take longer to decompose."
         }
       },
-      "section_1_text": "Garden Compost is an organic fertilizer made by decomposing natural materials, primarily crop residues, until they turn into a rich, soil-like substance under a shade to avoid direct sunlight that makes the compost loose its nutrients..",
-      "section_1_button_text": "More",
-      "section_1_extra_text": "When collecting materials, the focus is on adding nutrients the soil needs, especially nitrogen (N), phosphorus (P), and potassium (K).",
-      "section_2_text": "The taken for compost to be ready depends on the size of the pile, the materials used, and the moisture content—smaller piles generally take longer to decompose."
+      "media_transcript": "Garden compost is an organic fertilizer made by decomposing crop residues under shade until they become a rich, soil-like material.\n\nWhen collecting materials, it is important to choose those that add nutrients to the soil—especially nitrogen, phosphorus, and potassium —to ensure the compost supports healthy plant growth. Time taken for compost to be ready depends on:  The size of the pile, the materials used, and the moisture content.\nSmaller piles generally take longer to decompose."
     },
     {
       "id": "how_5",
-      "section_1_title": "Green Manure",
+      "category_id": "how",
+      "module_id": "soil",
+      "image_asset": "images/topic/soil_images/green_manure.png",
+      "media_type": "audio",
+      "media_asset": "audios/soil/abt_greenmanure.mp3",
+      "title": "Green Manure",
       "_translations": {
-        "section_1_title": {},
-        "section_1_text": {},
-        "section_1_button_text": {},
-        "section_1_extra_text": {}
+        "title": {},
+        "media_transcript": {}
       },
       "_translatedFields": {
-        "section_1_title": {
+        "title": {
           "eng": "Green Manure"
         },
-        "section_1_text": {
-          "eng": "Involves planting leguminous crops such as beans, soya, or lablab, allowing them to grow until about 50% of flowering, then cutting them down before planting your main crop."
-        },
-        "section_1_button_text": {
-          "eng": "More"
-        },
-        "section_1_extra_text": {
-          "eng": "Lablab is the recommended choice as it serves as a cover crop; its seeds are expensive and highly nutritious."
+        "media_transcript": {
+          "eng": "Green manure involves planting leguminous crops like beans, soya, or lablab, letting them grow until about half flowering, then cutting them down before planting the main crop.\n\nLablab is especially recommended because it acts as a cover crop, and its seeds are both nutritious and valuable."
         }
       },
-      "section_1_text": "Involves planting leguminous crops such as beans, soya, or lablab, allowing them to grow until about 50% of flowering, then cutting them down before planting your main crop.",
-      "section_1_button_text": "More",
-      "section_1_extra_text": "Lablab is the recommended choice as it serves as a cover crop; its seeds are expensive and highly nutritious."
+      "media_transcript": "Green manure involves planting leguminous crops like beans, soya, or lablab, letting them grow until about half flowering, then cutting them down before planting the main crop.\n\nLablab is especially recommended because it acts as a cover crop, and its seeds are both nutritious and valuable."
     }
   ],
   "_source": {

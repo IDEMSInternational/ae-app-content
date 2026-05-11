@@ -8,6 +8,25 @@
       "id": "about_1",
       "category_id": "about",
       "module_id": "agroforestry",
+      "title": "Climate Change",
+      "_translations": {
+        "title": {},
+        "text_1": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Climate Change"
+        },
+        "text_1": {
+          "eng": "Climate change refers to long-term shifts in temperatures and weather patterns."
+        }
+      },
+      "text_1": "Climate change refers to long-term shifts in temperatures and weather patterns."
+    },
+    {
+      "id": "about_2",
+      "category_id": "about",
+      "module_id": "agroforestry",
       "title": "Climate Change Adaptation",
       "_translations": {
         "title": {},
@@ -24,36 +43,30 @@
       "text_1": "This is the process of adjusting farming methods to reduce the risks caused by shifting weather patterns."
     },
     {
-      "id": "about_2",
+      "id": "about_3",
       "category_id": "about",
       "module_id": "agroforestry",
-      "title": "Agroforestry",
+      "title": "Climate Change",
       "_translations": {
         "title": {},
-        "text_1": {},
-        "text_2": {}
+        "text_1": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Agroforestry"
+          "eng": "Climate Change"
         },
         "text_1": {
-          "eng": "Agroforestry is growing trees alongside crops or livestock."
-        },
-        "text_2": {
-          "eng": "It boosts your farm’s health and income from fruit and animal fodder."
+          "eng": "**These changes include:**\n * Strong dry winds \n * Prolonged droughts \n * Acid rains \n * Unpredictable rains and floods\n * High humidity \n * Increases in strange weeds (invasive species) \n * Increase in sunlight intensity and temperature"
         }
       },
-      "text_1": "Agroforestry is growing trees alongside crops or livestock.",
-      "text_2": "It boosts your farm’s health and income from fruit and animal fodder."
+      "text_1": "**These changes include:**\n * Strong dry winds \n * Prolonged droughts \n * Acid rains \n * Unpredictable rains and floods\n * High humidity \n * Increases in strange weeds (invasive species) \n * Increase in sunlight intensity and temperature"
     },
     {
-      "id": "dynamics_1",
-      "category_id": "dynamics",
+      "id": "causes_1",
+      "category_id": "causes",
       "module_id": "agroforestry",
-      "title": "Global Warming",
+      "text_1": "",
       "_translations": {
-        "title": {},
         "text_1": {},
         "section_1_title": {},
         "section_1_text": {},
@@ -61,126 +74,39 @@
         "section_2_text": {}
       },
       "_translatedFields": {
-        "title": {
-          "eng": "Global Warming"
-        },
         "text_1": {
-          "eng": "Global warming is the slow rise in the earth’s temperature caused by a build-up of greenhouse gases in the air."
+          "eng": ""
         },
         "section_1_title": {
-          "eng": "How Carbon Dioxide causes warming:"
+          "eng": "Causes of Climate Change"
         },
         "section_1_text": {
-          "eng": "* Sunlight heats the Earth.\n * Carbon IV oxide(CO2) keeps some of this heat from going back to space.\n * More CO2 means more heat and a warmer Earth."
-        },
-        "section_2_title": {
-          "eng": "Causes of Increased CO₂ in the Atmosphere"
-        },
-        "section_2_text": {
-          "eng": "* Cutting trees.\n * Burning coal, oil, and gas for energy."
-        }
-      },
-      "text_1": "Global warming is the slow rise in the earth’s temperature caused by a build-up of greenhouse gases in the air.",
-      "section_1_title": "How Carbon Dioxide causes warming:",
-      "section_1_text": "* Sunlight heats the Earth.\n * Carbon IV oxide(CO2) keeps some of this heat from going back to space.\n * More CO2 means more heat and a warmer Earth.",
-      "section_2_title": "Causes of Increased CO₂ in the Atmosphere",
-      "section_2_text": "* Cutting trees.\n * Burning coal, oil, and gas for energy."
-    },
-    {
-      "id": "dynamics_2",
-      "category_id": "dynamics",
-      "module_id": "agroforestry",
-      "section_1_title": "Effects of Global Warming",
-      "_translations": {
-        "section_1_title": {},
-        "section_1_text": {},
-        "section_2_title": {},
-        "section_2_text": {}
-      },
-      "_translatedFields": {
-        "section_1_title": {
-          "eng": "Effects of Global Warming"
-        },
-        "section_1_text": {
-          "eng": "* More heat trapped in the air.\n * Earth’s temperature rises.\n * Leads to melting ice, extreme weather, and higher sea levels."
+          "eng": "* Burning coal, oil, and gas for energy.\n * Cutting down of trees and charcoal burning.\n * Keeping large population of cattle, sheep, and goats.\n * Waste Management: Huge dumps of rotting garbage producing methane gas.\n * Growing transport increasing emissions from car engines."
         },
         "section_2_title": {
           "eng": "Solutions to Reduce Climate Change"
         },
         "section_2_text": {
-          "eng": "* Use less fossil fuel; use solar, wind, and energy‑saving stoves.\n * Plant more trees and protect forests.\n * Use good farming practices like planned grazing and adding compost."
+          "eng": "* Using cleaner energy like solar, wind, energy‑saving stoves and less fossil fuel.\n * Plant more trees and protect forests.\n * Smart Livestock Farming\n * Use good farming practices like planned grazing and adding compost."
         }
       },
-      "section_1_text": "* More heat trapped in the air.\n * Earth’s temperature rises.\n * Leads to melting ice, extreme weather, and higher sea levels.",
+      "section_1_title": "Causes of Climate Change",
+      "section_1_text": "* Burning coal, oil, and gas for energy.\n * Cutting down of trees and charcoal burning.\n * Keeping large population of cattle, sheep, and goats.\n * Waste Management: Huge dumps of rotting garbage producing methane gas.\n * Growing transport increasing emissions from car engines.",
       "section_2_title": "Solutions to Reduce Climate Change",
-      "section_2_text": "* Use less fossil fuel; use solar, wind, and energy‑saving stoves.\n * Plant more trees and protect forests.\n * Use good farming practices like planned grazing and adding compost."
+      "section_2_text": "* Using cleaner energy like solar, wind, energy‑saving stoves and less fossil fuel.\n * Plant more trees and protect forests.\n * Smart Livestock Farming\n * Use good farming practices like planned grazing and adding compost."
     },
     {
-      "id": "dynamics_3",
-      "category_id": "dynamics",
+      "id": "impact_1",
+      "category_id": "impact",
       "module_id": "agroforestry",
-      "section_1_image_asset": "images/topic/climate_change_images/industrial_processes.png",
-      "title": "Causes:",
-      "_translations": {
-        "title": {},
-        "section_1_title": {},
-        "section_1_text": {},
-        "section_2_title": {},
-        "section_2_text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Causes:"
-        },
-        "section_1_title": {
-          "eng": "Industrial Processes"
-        },
-        "section_1_text": {
-          "eng": "Industrial activities like manufacturing and mining release greenhouse gases by burning fossil fuels and through chemical reactions. These emissions increase atmospheric concentrations of gases like CO2​ and methane, directly driving the rise in global temperatures."
-        },
-        "section_2_title": {
-          "eng": "Deforestation"
-        },
-        "section_2_text": {
-          "eng": "Deforestation removes natural carbon sinks that absorb CO2​ while simultaneously releasing carbon stored in trees and soil back into the atmosphere. Without replanting, this cycle significantly increases greenhouse gas concentrations."
-        }
-      },
-      "section_1_title": "Industrial Processes",
-      "section_1_text": "Industrial activities like manufacturing and mining release greenhouse gases by burning fossil fuels and through chemical reactions. These emissions increase atmospheric concentrations of gases like CO2​ and methane, directly driving the rise in global temperatures.",
-      "section_2_title": "Deforestation",
-      "section_2_text": "Deforestation removes natural carbon sinks that absorb CO2​ while simultaneously releasing carbon stored in trees and soil back into the atmosphere. Without replanting, this cycle significantly increases greenhouse gas concentrations."
-    },
-    {
-      "id": "effect_1",
-      "category_id": "effects",
-      "module_id": "agroforestry",
-      "section_1_title": "The Climatic Changes;",
+      "section_1_title": "Impacts on farming",
       "_translations": {
         "section_1_title": {},
         "section_1_text": {}
       },
       "_translatedFields": {
         "section_1_title": {
-          "eng": "The Climatic Changes;"
-        },
-        "section_1_text": {
-          "eng": "* Strong dry winds \n * Prolonged droughts \n * Acid rains \n * Excess rain in a short period, and other times, long rainy seasons (causing floods)\n * High humidity \n * Increases in strange weeds (invasive species) \n * Increase in sunlight intensity and temperature"
-        }
-      },
-      "section_1_text": "* Strong dry winds \n * Prolonged droughts \n * Acid rains \n * Excess rain in a short period, and other times, long rainy seasons (causing floods)\n * High humidity \n * Increases in strange weeds (invasive species) \n * Increase in sunlight intensity and temperature"
-    },
-    {
-      "id": "effect_2",
-      "category_id": "effects",
-      "module_id": "agroforestry",
-      "section_1_title": "Impacts on farming;",
-      "_translations": {
-        "section_1_title": {},
-        "section_1_text": {}
-      },
-      "_translatedFields": {
-        "section_1_title": {
-          "eng": "Impacts on farming;"
+          "eng": "Impacts on farming"
         },
         "section_1_text": {
           "eng": "* Changing planting seasons\n * Hunger and poor nutrition\n * Higher farming costs and losses\n * Low water levels in dry seasons\n * Floods filling dams with soil\n * Animals dying in drought\n * More crop and animal diseases\n * Soil being washed away\n * Some plants disappearing\n * Farmers forced to move\n * Low harvests"
@@ -189,28 +115,11 @@
       "section_1_text": "* Changing planting seasons\n * Hunger and poor nutrition\n * Higher farming costs and losses\n * Low water levels in dry seasons\n * Floods filling dams with soil\n * Animals dying in drought\n * More crop and animal diseases\n * Soil being washed away\n * Some plants disappearing\n * Farmers forced to move\n * Low harvests"
     },
     {
-      "id": "effect_3",
-      "category_id": "effects",
-      "module_id": "agroforestry",
-      "section_1_title": "Mitigation Strategies",
-      "_translations": {
-        "section_1_title": {},
-        "section_1_text": {}
-      },
-      "_translatedFields": {
-        "section_1_title": {
-          "eng": "Mitigation Strategies"
-        },
-        "section_1_text": {
-          "eng": "* Build dykes and gabions\n * Plant trees\n * Make terraces\n * Grow drought-resistant crops\n * Use small-scale irrigation\n * Use <b>zai pits</b> and mulching\n * Protect the environment\n * Plant cover crops\n * Save water\n * Preserve food"
-        }
-      },
-      "section_1_text": "* Build dykes and gabions\n * Plant trees\n * Make terraces\n * Grow drought-resistant crops\n * Use small-scale irrigation\n * Use <b>zai pits</b> and mulching\n * Protect the environment\n * Plant cover crops\n * Save water\n * Preserve food"
-    },
-    {
       "id": "how_1",
       "category_id": "how",
       "module_id": "agroforestry",
+      "section_1_image_asset": "images/topic/climate_change_images/shading.png",
+      "section_2_image_asset": "images/topic/climate_change_images/mulching_practice.png",
       "title": "Minimizing water evaporation",
       "_translations": {
         "title": {},
@@ -228,28 +137,29 @@
           "eng": "Farmers can reduce the amount of soil moisture that is lost through evaporation by:"
         },
         "section_1_title": {
-          "eng": "Introducing shade:"
+          "eng": "Introducing shade"
         },
         "section_1_text": {
           "eng": "Planting trees or using shade nets keeps crops and soil cooler and moist, reduces water loss, protects plants from strong wind and weather, and improves soil while allowing other crops to grow."
         },
         "section_2_title": {
-          "eng": "Soil cover(mulching):"
+          "eng": "Soil cover (mulching):"
         },
         "section_2_text": {
           "eng": "Mulching uses dry or live cover to reduce water loss, protect soil, improve fertility, and support soil organisms."
         }
       },
       "text_1": "Farmers can reduce the amount of soil moisture that is lost through evaporation by:",
-      "section_1_title": "Introducing shade:",
+      "section_1_title": "Introducing shade",
       "section_1_text": "Planting trees or using shade nets keeps crops and soil cooler and moist, reduces water loss, protects plants from strong wind and weather, and improves soil while allowing other crops to grow.",
-      "section_2_title": "Soil cover(mulching):",
+      "section_2_title": "Soil cover (mulching):",
       "section_2_text": "Mulching uses dry or live cover to reduce water loss, protect soil, improve fertility, and support soil organisms."
     },
     {
       "id": "how_2",
       "category_id": "how",
       "module_id": "agroforestry",
+      "section_1_image_asset": "images/topic/climate_change_images/diverse_fodder.png",
       "title": "Embracing Agrobiodiversity",
       "_translations": {
         "title": {},
@@ -289,6 +199,7 @@
       "id": "how_3",
       "category_id": "how",
       "module_id": "agroforestry",
+      "section_1_image_asset": "images/topic/climate_change_images/stockpiling.png",
       "section_1_title": "Preserving/Stockpilling food",
       "_translations": {
         "section_1_title": {},
@@ -308,6 +219,7 @@
       "id": "how_4",
       "category_id": "how",
       "module_id": "agroforestry",
+      "section_1_image_asset": "images/topic/climate_change_images/resilient_crops.png",
       "section_1_title": "Planting drought-tolerant crops",
       "_translations": {
         "section_1_title": {},
@@ -337,13 +249,12 @@
       "id": "how_5",
       "category_id": "how",
       "module_id": "agroforestry",
+      "section_1_image_asset": "images/topic/climate_change_images/raised_bed.png",
       "title": "Managing excess water",
       "_translations": {
         "title": {},
         "section_1_title": {},
-        "section_1_text": {},
-        "section_2_title": {},
-        "section_2_text": {}
+        "section_1_text": {}
       },
       "_translatedFields": {
         "title": {
@@ -354,23 +265,37 @@
         },
         "section_1_text": {
           "eng": "* Raised beds lift the soil above ground level, so excess water drains away and roots do not rot.\n * The soil also warms up faster and keeps moisture better, helping crops in both wet and dry seasons."
-        },
-        "section_2_title": {
-          "eng": "Contour Farming"
-        },
-        "section_2_text": {
-          "eng": "* Plant crops along the slope lines (not straight up and down).\n * This slows water flow, stops soil erosion, and saves fertile topsoil.\n * Keeps good yields even when weather changes a lot."
         }
       },
       "section_1_title": "Practicing Raised Beds Farming",
-      "section_1_text": "* Raised beds lift the soil above ground level, so excess water drains away and roots do not rot.\n * The soil also warms up faster and keeps moisture better, helping crops in both wet and dry seasons.",
-      "section_2_title": "Contour Farming",
-      "section_2_text": "* Plant crops along the slope lines (not straight up and down).\n * This slows water flow, stops soil erosion, and saves fertile topsoil.\n * Keeps good yields even when weather changes a lot."
+      "section_1_text": "* Raised beds lift the soil above ground level, so excess water drains away and roots do not rot.\n * The soil also warms up faster and keeps moisture better, helping crops in both wet and dry seasons."
     },
     {
       "id": "how_6",
       "category_id": "how",
       "module_id": "agroforestry",
+      "section_1_image_asset": "images/topic/climate_change_images/contour_farming.png",
+      "section_1_title": "Contour Farming",
+      "_translations": {
+        "section_1_title": {},
+        "section_1_text": {}
+      },
+      "_translatedFields": {
+        "section_1_title": {
+          "eng": "Contour Farming"
+        },
+        "section_1_text": {
+          "eng": "* Plant crops along the slope lines (not straight up and down).\n * This slows water flow, stops soil erosion, and saves fertile topsoil.\n * Keeps good yields even when weather changes a lot."
+        }
+      },
+      "section_1_text": "* Plant crops along the slope lines (not straight up and down).\n * This slows water flow, stops soil erosion, and saves fertile topsoil.\n * Keeps good yields even when weather changes a lot."
+    },
+    {
+      "id": "how_7",
+      "category_id": "how",
+      "module_id": "agroforestry",
+      "section_1_image_asset": "images/topic/climate_change_images/flood_tolerant.png",
+      "section_2_image_asset": "images/topic/climate_change_images/drainage.png",
       "section_1_title": "Growing flood-tolerant crops",
       "_translations": {
         "section_1_title": {},
@@ -397,33 +322,65 @@
       "section_2_text": "* Dig channels to remove extra water from heavy rains and floods.\n * This lowers the water table and reduces runoff on the farm.\n * Plant water-tolerant crops like bananas and arrowroots along the channels."
     },
     {
-      "id": "how_7",
+      "id": "how_8",
       "category_id": "how",
       "module_id": "agroforestry",
-      "section_1_title": "Microcatchments: Zai Pits and sunken beds",
+      "section_1_image_asset": "images/topic/climate_change_images/zai_pits.png",
+      "section_2_image_asset": "images/topic/climate_change_images/sunken_beds.png",
+      "title": "Microcatchments:",
       "_translations": {
+        "title": {},
+        "text_1": {},
         "section_1_title": {},
         "section_1_text": {},
         "section_2_title": {},
         "section_2_text": {}
       },
       "_translatedFields": {
+        "title": {
+          "eng": "Microcatchments:"
+        },
+        "text_1": {
+          "eng": "Ensure you watch videos in the 'Practical Section' on how to make Zai pits and Sunken beds and the tool used."
+        },
         "section_1_title": {
-          "eng": "Microcatchments: Zai Pits and sunken beds"
+          "eng": "Zai Pits"
         },
         "section_1_text": {
-          "eng": "* <b>Zai pits:</b> small holes that hold rainwater and manure around the roots, keeping soil moist and fertile.\n * <b>Sunken beds:</b> low beds that collect run‑off, reduce evaporation, and protect young plants from wind and heat."
+          "eng": "* These are small, individual basins (usually 20–30 cm deep) dug into the soil.\n * They are filled with a mixture of **manure** or **compost** to improve fertility and water-holding capacity."
         },
         "section_2_title": {
-          "eng": "Harvesting Rain Water"
+          "eng": "Sunken Beds"
         },
         "section_2_text": {
+          "eng": "* These are large rectangular or circular areas dug out so the planting surface is below the surrounding ground level.\n * The ***\"sunken\"*** design captures surface runoff and protects young seedlings from drying winds.\n * These beds maintain a cooler, more humid environment for leafy vegetables and herbs."
+        }
+      },
+      "text_1": "Ensure you watch videos in the 'Practical Section' on how to make Zai pits and Sunken beds and the tool used.",
+      "section_1_title": "Zai Pits",
+      "section_1_text": "* These are small, individual basins (usually 20–30 cm deep) dug into the soil.\n * They are filled with a mixture of **manure** or **compost** to improve fertility and water-holding capacity.",
+      "section_2_title": "Sunken Beds",
+      "section_2_text": "* These are large rectangular or circular areas dug out so the planting surface is below the surrounding ground level.\n * The ***\"sunken\"*** design captures surface runoff and protects young seedlings from drying winds.\n * These beds maintain a cooler, more humid environment for leafy vegetables and herbs."
+    },
+    {
+      "id": "how_9",
+      "category_id": "how",
+      "module_id": "agroforestry",
+      "section_1_image_asset": "images/topic/climate_change_images/rainwater_harvesting.png",
+      "section_1_title": "Harvesting Rain Water",
+      "_translations": {
+        "section_1_title": {},
+        "section_1_text": {}
+      },
+      "_translatedFields": {
+        "section_1_title": {
+          "eng": "Harvesting Rain Water"
+        },
+        "section_1_text": {
           "eng": "* Collect rainwater and run‑off during the rainy season and store it.\n* Use water tanks or water pans to keep this water for irrigation in dry periods."
         }
       },
-      "section_1_text": "* <b>Zai pits:</b> small holes that hold rainwater and manure around the roots, keeping soil moist and fertile.\n * <b>Sunken beds:</b> low beds that collect run‑off, reduce evaporation, and protect young plants from wind and heat.",
-      "section_2_title": "Harvesting Rain Water",
-      "section_2_text": "* Collect rainwater and run‑off during the rainy season and store it.\n* Use water tanks or water pans to keep this water for irrigation in dry periods."
+      "section_1_text": "* Collect rainwater and run‑off during the rainy season and store it.\n* Use water tanks or water pans to keep this water for irrigation in dry periods."
     }
   ],
   "_source": {

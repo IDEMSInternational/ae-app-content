@@ -83,6 +83,21 @@
       "flow_type": "template"
     },
     {
+      "flow_name": "sub_soil_nutrient_depletion_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_soil_nutrient_depletion_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_soil_nutrient_depletion_4",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
       "flow_name": "sub_soil_dynamics_1",
       "flow_subtype": "generated",
       "flow_type": "template"

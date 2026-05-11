@@ -114,6 +114,21 @@
       "flow_name": "article_yoghurt_preparation",
       "flow_subtype": "generated",
       "flow_type": "template"
+    },
+    {
+      "flow_name": "article_mulching",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "article_zai_pit",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "article_sunken_bed",
+      "flow_subtype": "generated",
+      "flow_type": "template"
     }
   ]
 }

@@ -325,6 +325,75 @@
       },
       "text": "Preparing fermented feeds",
       "description": "Preparing fermented feeds"
+    },
+    {
+      "id": "mulching",
+      "name": "mulching",
+      "title": "Mulching",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Mulching"
+        },
+        "text": {
+          "eng": "Mulching"
+        },
+        "description": {
+          "eng": "Mulching"
+        }
+      },
+      "text": "Mulching",
+      "description": "Mulching"
+    },
+    {
+      "id": "zai_pit",
+      "name": "zai_pit",
+      "title": "Zai Pits",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Zai Pits"
+        },
+        "text": {
+          "eng": "Making Zai Pits"
+        },
+        "description": {
+          "eng": "Making Zai Pits"
+        }
+      },
+      "text": "Making Zai Pits",
+      "description": "Making Zai Pits"
+    },
+    {
+      "id": "sunken_bed",
+      "name": "sunken_bed",
+      "title": "Sunken Beds",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Sunken Beds"
+        },
+        "text": {
+          "eng": "Making Sunken Beds"
+        },
+        "description": {
+          "eng": "Making a sunken bed"
+        }
+      },
+      "text": "Making Sunken Beds",
+      "description": "Making a sunken bed"
     }
   ],
   "_source": {

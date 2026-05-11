@@ -5,34 +5,34 @@
   "status": "released",
   "rows": [
     {
-      "id": "effects",
-      "icon_asset": "images/icons/settings.svg",
-      "title": "Effects of Climate Change on farming",
+      "id": "causes",
+      "icon_asset": "images/icons/categories/causes_climate.png",
+      "title": "Causes and Solutions",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Effects of Climate Change on farming"
+          "eng": "Causes and Solutions"
         }
       }
     },
     {
-      "id": "dynamics",
-      "icon_asset": "images/icons/settings.svg",
-      "title": "The Greenhouse Effect",
+      "id": "impact",
+      "icon_asset": "images/icons/categories/effects_climate.png",
+      "title": "How Climate Change Affects Farming",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "The Greenhouse Effect"
+          "eng": "How Climate Change Affects Farming"
         }
       }
     },
     {
       "id": "how",
-      "icon_asset": "images/icons/terms_conditions.svg",
+      "icon_asset": "images/icons/categories/adaptation.png",
       "title": "Adaptation Strategies",
       "_translations": {
         "title": {}

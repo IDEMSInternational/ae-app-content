@@ -104,6 +104,21 @@
       "flow_name": "ingredients_yoghurt_preparation_drink",
       "flow_subtype": "generated",
       "flow_type": "template"
+    },
+    {
+      "flow_name": "ingredients_mulching_ing",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "ingredients_zai_pit_ing",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "ingredients_sunken_bed_ing",
+      "flow_subtype": "generated",
+      "flow_type": "template"
     }
   ]
 }

@@ -27,7 +27,7 @@
       "id": "about_2",
       "category_id": "about",
       "module_id": "livestock",
-      "image_asset": "images/topic/Livestock_images/Livestock types.png",
+      "image_asset": "images/topic/Livestock_images/Livestock types.jpeg",
       "title": "Livestock keeping",
       "_translations": {
         "title": {},
@@ -39,14 +39,14 @@
           "eng": "Livestock keeping"
         },
         "text_1": {
-          "eng": "Livestock keeping, also known as animal husbandry, is the practice of raising animals."
+          "eng": "Livestock keeping is the practice of raising animals."
         },
         "image_text": {
-          "eng": "Livestock kept are:\n\n * Cattle, Poultry, sheep, goat, \n * Pigs, Rabbits, and Donkeys"
+          "eng": "Livestock kept are:\n\n Cattle, poultry, sheep, goats, pigs, rabbits, donkeys etc"
         }
       },
-      "text_1": "Livestock keeping, also known as animal husbandry, is the practice of raising animals.",
-      "image_text": "Livestock kept are:\n\n * Cattle, Poultry, sheep, goat, \n * Pigs, Rabbits, and Donkeys"
+      "text_1": "Livestock keeping is the practice of raising animals.",
+      "image_text": "Livestock kept are:\n\n Cattle, poultry, sheep, goats, pigs, rabbits, donkeys etc"
     },
     {
       "id": "challenges_solutions_1",
@@ -74,7 +74,7 @@
           "eng": "Solution"
         },
         "section_1_extra_text": {
-          "eng": "Add value to milk (e.g., make mala / sour milk)."
+          "eng": "Add value to milk (e.g., by making mala or sour milk), which preserves the milk and increases income."
         },
         "section_2_title": {
           "eng": "Diseases and Parasites"
@@ -86,16 +86,16 @@
           "eng": "Solution"
         },
         "section_2_extra_text": {
-          "eng": "* Vaccinate early.\n * Deworm regularly.\n* Maintain hygiene to reduce infections.\n * Call a vet when needed. \n * Isolate sick animals. \n * Cull animals that cannot recover. \n * Remove ticks by hand or spray using dips.\n * Use safe local herbs (e.g., aloe vera, blackjack and tithonia) \n * Provide good feeding to boost immunity."
+          "eng": "* Vaccinate early.\n * Deworm regularly.\n * Maintain hygiene to reduce infections.\n * Call a vet when needed. \n * Isolate sick animals. \n * Cull animals that cannot recover. \n * Remove ticks by hand or spray using dips.\n * Use safe local herbs (e.g., aloe vera, blackjack and tithonia) \n * Provide good feeding to boost immunity."
         }
       },
       "section_1_text": "You may have milk or animals but no reliable market.",
       "section_1_button_text": "Solution",
-      "section_1_extra_text": "Add value to milk (e.g., make mala / sour milk).",
+      "section_1_extra_text": "Add value to milk (e.g., by making mala or sour milk), which preserves the milk and increases income.",
       "section_2_title": "Diseases and Parasites",
       "section_2_text": "Animals get sick easily, leading to low production.",
       "section_2_button_text": "Solution",
-      "section_2_extra_text": "* Vaccinate early.\n * Deworm regularly.\n* Maintain hygiene to reduce infections.\n * Call a vet when needed. \n * Isolate sick animals. \n * Cull animals that cannot recover. \n * Remove ticks by hand or spray using dips.\n * Use safe local herbs (e.g., aloe vera, blackjack and tithonia) \n * Provide good feeding to boost immunity."
+      "section_2_extra_text": "* Vaccinate early.\n * Deworm regularly.\n * Maintain hygiene to reduce infections.\n * Call a vet when needed. \n * Isolate sick animals. \n * Cull animals that cannot recover. \n * Remove ticks by hand or spray using dips.\n * Use safe local herbs (e.g., aloe vera, blackjack and tithonia) \n * Provide good feeding to boost immunity."
     },
     {
       "id": "challenges_solutions_2",
@@ -254,28 +254,28 @@
           "eng": "Tephrosia"
         },
         "section_2_text": {
-          "eng": "* It is used as both internal & external parasite control\n * To use it, soak dried Tephrosia powder in water in a 1:10 ratio overnight.\n * Strain and use the liquid"
+          "eng": "* It is used as both internal & external parasite control\n * To use it, soak dried Tephrosia powder in water in a 1:10 ratio overnight\n * Strain and use the liquid"
         },
         "section_2_button_text": {
           "eng": "Directions for use"
         },
         "section_2_extra_text": {
-          "eng": "<b>Internally:</b>\n * Use 2 ml for adult birds\n * For chicks under 8 weeks use 1 ml\n\n <b> Externally:</b>\n\n * Dip birds in solution twice a week. (Do NOT dip incubating or laying birds.)\n \n* For laying/incubating birds, mix dry <b>Tephrosia powder or leaves</b> into bedding."
+          "eng": "<b>Internally:</b>\n * For adult birds: Give 2 ml of the strained liquid orally.\n * For chicks under 8 weeks: Give 1 ml of the strained liquid orally.\n\n <b> Externally:</b>\n\n * Dip birds in solution twice a week. (Do NOT dip incubating or laying birds.)\n \n* For laying/incubating birds, mix dry <b>Tephrosia powder or leaves</b> into bedding."
         }
       },
       "section_1_title": "Wormwood",
       "section_1_text": "Crush and soak in water for 30–35 minutes to make a deworming solution.",
       "section_2_title": "Tephrosia",
-      "section_2_text": "* It is used as both internal & external parasite control\n * To use it, soak dried Tephrosia powder in water in a 1:10 ratio overnight.\n * Strain and use the liquid",
+      "section_2_text": "* It is used as both internal & external parasite control\n * To use it, soak dried Tephrosia powder in water in a 1:10 ratio overnight\n * Strain and use the liquid",
       "section_2_button_text": "Directions for use",
-      "section_2_extra_text": "<b>Internally:</b>\n * Use 2 ml for adult birds\n * For chicks under 8 weeks use 1 ml\n\n <b> Externally:</b>\n\n * Dip birds in solution twice a week. (Do NOT dip incubating or laying birds.)\n \n* For laying/incubating birds, mix dry <b>Tephrosia powder or leaves</b> into bedding."
+      "section_2_extra_text": "<b>Internally:</b>\n * For adult birds: Give 2 ml of the strained liquid orally.\n * For chicks under 8 weeks: Give 1 ml of the strained liquid orally.\n\n <b> Externally:</b>\n\n * Dip birds in solution twice a week. (Do NOT dip incubating or laying birds.)\n \n* For laying/incubating birds, mix dry <b>Tephrosia powder or leaves</b> into bedding."
     },
     {
       "id": "dewormers_2",
       "category_id": "dewormers",
       "module_id": "livestock",
-      "section_1_image_asset": "images/topic/Livestock_images/pawpaw seeds.png",
-      "section_2_image_asset": "images/topic/Livestock_images/pawpaw leaves.png",
+      "section_1_image_asset": "images/topic/Livestock_images/pawpaw seeds.jpeg",
+      "section_2_image_asset": "images/topic/Livestock_images/pawpaw leaves.jpeg",
       "title": "Dewormers",
       "_translations": {
         "title": {},
@@ -307,10 +307,10 @@
           "eng": "Use crushed pawpaw leaves (male or female) for coccidiosis (blood in droppings)"
         },
         "section_2_button_text": {
-          "eng": "Procedure"
+          "eng": "Directions for use"
         },
         "section_2_extra_text": {
-          "eng": "* Soak in water, ferment with molasses for 3 days.\n * Mix with drinking water at 1 part mixture: 2 parts water.\n * Hanging the leaves also helps, but is less effective."
+          "eng": "* Soak in water, ferment with molasses for 3 days.\n * Mix the fermented mixture with drinking water at the ratio 1 cup mixture: 2 cups water.\n * Hanging the leaves also helps, but is less effective."
         }
       },
       "section_1_title": "Pawpaw Seeds",
@@ -318,21 +318,18 @@
       "section_1_button_text": "",
       "section_2_title": "Pawpaw leaves",
       "section_2_text": "Use crushed pawpaw leaves (male or female) for coccidiosis (blood in droppings)",
-      "section_2_button_text": "Procedure",
-      "section_2_extra_text": "* Soak in water, ferment with molasses for 3 days.\n * Mix with drinking water at 1 part mixture: 2 parts water.\n * Hanging the leaves also helps, but is less effective."
+      "section_2_button_text": "Directions for use",
+      "section_2_extra_text": "* Soak in water, ferment with molasses for 3 days.\n * Mix the fermented mixture with drinking water at the ratio 1 cup mixture: 2 cups water.\n * Hanging the leaves also helps, but is less effective."
     },
     {
       "id": "remedies_1",
       "category_id": "remedies",
       "module_id": "livestock",
-      "section_1_image_asset": "images/topic/Livestock_images/Marigold.jpg",
-      "section_2_image_asset": "images/topic/Livestock_images/Basil.png",
-      "section_3_image_asset": "images/topic/Livestock_images/Basil,marigold,tobacco.png",
+      "section_2_image_asset": "images/topic/Livestock_images/Basil.jpeg",
+      "section_3_image_asset": "images/topic/Livestock_images/Basil,marigold,tobacco.jpeg",
       "text_1": "Some natural management practices supporting herbal remedies are:",
       "_translations": {
         "text_1": {},
-        "section_1_title": {},
-        "section_1_text": {},
         "section_2_title": {},
         "section_2_text": {},
         "section_3_title": {},
@@ -342,17 +339,11 @@
         "text_1": {
           "eng": "Some natural management practices supporting herbal remedies are:"
         },
-        "section_1_title": {
-          "eng": "African/Mexican Marigold"
-        },
-        "section_1_text": {
-          "eng": "Hang inside the poultry house or use as bedding."
-        },
         "section_2_title": {
           "eng": "Basil"
         },
         "section_2_text": {
-          "eng": "Hang in the house or spray extract."
+          "eng": "* Hang in the poultry house\n * Crush the leaves, soak them in water, then strain the liquid and spray it in the poultry house."
         },
         "section_3_title": {
           "eng": "Marigold + Tobacco Leaves + Basil"
@@ -361,10 +352,8 @@
           "eng": "Burn mixture near the poultry house to repel pests."
         }
       },
-      "section_1_title": "African/Mexican Marigold",
-      "section_1_text": "Hang inside the poultry house or use as bedding.",
       "section_2_title": "Basil",
-      "section_2_text": "Hang in the house or spray extract.",
+      "section_2_text": "* Hang in the poultry house\n * Crush the leaves, soak them in water, then strain the liquid and spray it in the poultry house.",
       "section_3_title": "Marigold + Tobacco Leaves + Basil",
       "section_3_text": "Burn mixture near the poultry house to repel pests."
     },
@@ -372,9 +361,9 @@
       "id": "remedies_2",
       "category_id": "remedies",
       "module_id": "livestock",
-      "section_1_image_asset": "images/topic/Livestock_images/Lemon grass.png",
-      "section_2_image_asset": "images/topic/Livestock_images/rosemary.png",
-      "section_1_title": "Lemon grass",
+      "section_1_image_asset": "images/topic/Livestock_images/Lemon grass.jpeg",
+      "section_2_image_asset": "images/topic/Livestock_images/rosemary.jpeg",
+      "section_1_title": "Lemongrass",
       "_translations": {
         "section_1_title": {},
         "section_1_text": {},
@@ -383,28 +372,48 @@
       },
       "_translatedFields": {
         "section_1_title": {
-          "eng": "Lemon grass"
+          "eng": "Lemongrass"
         },
         "section_1_text": {
-          "eng": "Dry and place in incubating/brooding houses, or plant around the poultry house (rosemary works too)"
+          "eng": "* Dry and place in incubating/brooding houses \n * Plant around the poultry house"
         },
         "section_2_title": {
           "eng": "Rosemary"
         },
         "section_2_text": {
-          "eng": "Prepare as a tea for drinking water or dry and mix into feed; hanging inside the house helps the air quality"
+          "eng": "* Prepare as a tea for drinking water\n * Dry and mix into feed\n * Hang inside the house to help the air quality"
         }
       },
-      "section_1_text": "Dry and place in incubating/brooding houses, or plant around the poultry house (rosemary works too)",
+      "section_1_text": "* Dry and place in incubating/brooding houses \n * Plant around the poultry house",
       "section_2_title": "Rosemary",
-      "section_2_text": "Prepare as a tea for drinking water or dry and mix into feed; hanging inside the house helps the air quality"
+      "section_2_text": "* Prepare as a tea for drinking water\n * Dry and mix into feed\n * Hang inside the house to help the air quality"
     },
     {
       "id": "remedies_3",
       "category_id": "remedies",
       "module_id": "livestock",
-      "section_1_image_asset": "images/topic/Livestock_images/bush_clearing.png",
-      "section_2_image_asset": "images/topic/Livestock_images/hygine.png",
+      "section_1_image_asset": "images/topic/Livestock_images/Marigold.jpg",
+      "section_1_title": "African/Mexican Marigold",
+      "_translations": {
+        "section_1_title": {},
+        "section_1_text": {}
+      },
+      "_translatedFields": {
+        "section_1_title": {
+          "eng": "African/Mexican Marigold"
+        },
+        "section_1_text": {
+          "eng": "* Hang inside the poultry house \n * Use as bedding."
+        }
+      },
+      "section_1_text": "* Hang inside the poultry house \n * Use as bedding."
+    },
+    {
+      "id": "remedies_4",
+      "category_id": "remedies",
+      "module_id": "livestock",
+      "section_1_image_asset": "images/topic/Livestock_images/bush_clearing.jpeg",
+      "section_2_image_asset": "images/topic/Livestock_images/hygine.jpeg",
       "text_1": "Some ways of ensuring proper poultry health through general management practices and environmental sanitation are:",
       "_translations": {
         "text_1": {},
@@ -424,7 +433,7 @@
           "eng": "Keep vegetation short around poultry houses to reduce hiding spots for pests."
         },
         "section_2_title": {
-          "eng": "Maintain Hygiene"
+          "eng": "Maintain hygiene"
         },
         "section_2_text": {
           "eng": "Clean houses regularly to prevent disease."
@@ -432,96 +441,54 @@
       },
       "section_1_title": "Clear Bushes",
       "section_1_text": "Keep vegetation short around poultry houses to reduce hiding spots for pests.",
-      "section_2_title": "Maintain Hygiene",
+      "section_2_title": "Maintain hygiene",
       "section_2_text": "Clean houses regularly to prevent disease."
     },
     {
       "id": "factors_consider",
       "category_id": "factors_consider",
       "module_id": "livestock",
-      "section_1_title": "Breed/Species",
+      "media_type": "audio",
+      "media_asset": "audios/feeding-factors.mp3",
+      "media_transcript": "Factors to consider when feeding livestock.\n\nBreed or species:\nDifferent animals, such as poultry, cows, and goats, require different types of feed.\n\nAge:\nChicks, growers, layers, calves, and adult cows each have specific feeding requirements.\n\nProduction purpose:\nAnimals kept for meat production or egg production require different nutrients.\n\nHealth status:\nSick, pregnant, and breeding animals require special attention in feeding.\n\nSex:\nMale animals generally consume more feed than females.",
       "_translations": {
-        "section_1_title": {},
-        "section_1_text": {},
-        "section_2_title": {},
-        "section_2_text": {},
-        "section_3_title": {},
-        "section_3_text": {},
-        "section_4_title": {},
-        "section_4_text": {},
-        "section_5_title": {},
-        "section_5_text": {}
+        "media_transcript": {}
       },
       "_translatedFields": {
-        "section_1_title": {
-          "eng": "Breed/Species"
-        },
-        "section_1_text": {
-          "eng": "Different animals (poultry, cows, goats) need different feed."
-        },
-        "section_2_title": {
-          "eng": "Age"
-        },
-        "section_2_text": {
-          "eng": "Chicks, growers, layers, calves, and adult cows all eat differently."
-        },
-        "section_3_title": {
-          "eng": "Production Purpose"
-        },
-        "section_3_text": {
-          "eng": "Animals kept for meat or eggs require different nutrients."
-        },
-        "section_4_title": {
-          "eng": "Health Status"
-        },
-        "section_4_text": {
-          "eng": "Sick, pregnant, and breeding animals need special attention."
-        },
-        "section_5_title": {
-          "eng": "Sex"
-        },
-        "section_5_text": {
-          "eng": "Male animals generally eat more than females"
+        "media_transcript": {
+          "eng": "Factors to consider when feeding livestock.\n\nBreed or species:\nDifferent animals, such as poultry, cows, and goats, require different types of feed.\n\nAge:\nChicks, growers, layers, calves, and adult cows each have specific feeding requirements.\n\nProduction purpose:\nAnimals kept for meat production or egg production require different nutrients.\n\nHealth status:\nSick, pregnant, and breeding animals require special attention in feeding.\n\nSex:\nMale animals generally consume more feed than females."
         }
-      },
-      "section_1_text": "Different animals (poultry, cows, goats) need different feed.",
-      "section_2_title": "Age",
-      "section_2_text": "Chicks, growers, layers, calves, and adult cows all eat differently.",
-      "section_3_title": "Production Purpose",
-      "section_3_text": "Animals kept for meat or eggs require different nutrients.",
-      "section_4_title": "Health Status",
-      "section_4_text": "Sick, pregnant, and breeding animals need special attention.",
-      "section_5_title": "Sex",
-      "section_5_text": "Male animals generally eat more than females"
+      }
     },
     {
       "id": "how_1",
       "category_id": "how",
       "module_id": "livestock",
-      "text_1": "These are types of livestock feeds that can be prepared at home using locally available farm and simple household materials, mainly aimed at reducing the cost of feeding livestock",
+      "section_1_text": "It includes preparing different types of livestock feeds at home using locally available farm and simple household materials, mainly aimed at reducing the cost of feeding livestock",
       "_translations": {
-        "text_1": {},
-        "text_2": {}
+        "section_1_text": {},
+        "section_2_text": {}
       },
       "_translatedFields": {
-        "text_1": {
-          "eng": "These are types of livestock feeds that can be prepared at home using locally available farm and simple household materials, mainly aimed at reducing the cost of feeding livestock"
+        "section_1_text": {
+          "eng": "It includes preparing different types of livestock feeds at home using locally available farm and simple household materials, mainly aimed at reducing the cost of feeding livestock"
         },
-        "text_2": {
-          "eng": "Ensure to watch videos at the 'Practical Section' on how to make these feeds and the ingredents used."
+        "section_2_text": {
+          "eng": "Watch the videos in the 'Practical Section' on how to make these feeds and the ingredents used."
         }
       },
-      "text_2": "Ensure to watch videos at the 'Practical Section' on how to make these feeds and the ingredents used."
+      "section_2_text": "Watch the videos in the 'Practical Section' on how to make these feeds and the ingredents used."
     },
     {
       "id": "how_2",
       "category_id": "how",
       "module_id": "livestock",
+      "image_asset": "images/topic/Livestock_images/fermentation.jpeg",
       "title": "Fermented Feeds",
       "_translations": {
         "title": {},
         "text_1": {},
-        "text_2": {}
+        "image_text": {}
       },
       "_translatedFields": {
         "title": {
@@ -530,12 +497,12 @@
         "text_1": {
           "eng": "Fermented feeds are prepared without air (anaerobic conditions) using microorganisms. This process improves nutrient absorption and digestibility."
         },
-        "text_2": {
+        "image_text": {
           "eng": "We use locally available materials, following the Go–Grow–Glow ratio:\n * 70% Go (Carbohydrates)\n * 25% Grow (Proteins)\n * 5% Glow (Vitamins & Minerals)"
         }
       },
       "text_1": "Fermented feeds are prepared without air (anaerobic conditions) using microorganisms. This process improves nutrient absorption and digestibility.",
-      "text_2": "We use locally available materials, following the Go–Grow–Glow ratio:\n * 70% Go (Carbohydrates)\n * 25% Grow (Proteins)\n * 5% Glow (Vitamins & Minerals)"
+      "image_text": "We use locally available materials, following the Go–Grow–Glow ratio:\n * 70% Go (Carbohydrates)\n * 25% Grow (Proteins)\n * 5% Glow (Vitamins & Minerals)"
     },
     {
       "id": "how_3",
@@ -579,7 +546,7 @@
           "eng": "Examples"
         },
         "section_1_extra_text": {
-          "eng": "* yellow maize\n * finger millet\n * sorghum\n * any maize variety"
+          "eng": "* Wheat\n * Finger millet\n * Sorghum\n * Any maize variety"
         },
         "section_2_text": {
           "eng": "Grain by‑products"
@@ -588,7 +555,7 @@
           "eng": "Examples"
         },
         "section_2_extra_text": {
-          "eng": "* maize bran\n * wheat bran\n * rice bran\n * wheat pollard"
+          "eng": "* Maize bran\n * Wheat bran\n * Rice bran\n * Wheat pollard"
         },
         "section_3_text": {
           "eng": "Root crops"
@@ -597,7 +564,7 @@
           "eng": "Examples"
         },
         "section_3_extra_text": {
-          "eng": "* cassava\n * arrowroot\n * sweet potatoes"
+          "eng": "* Cassava\n * Arrowroot\n * Sweet potatoes"
         },
         "section_4_text": {
           "eng": "Cooked fruits"
@@ -606,7 +573,7 @@
           "eng": "Examples"
         },
         "section_4_extra_text": {
-          "eng": "* cooked banana variety"
+          "eng": "* Cooked banana variety"
         },
         "section_5_text": {
           "eng": "Molasses"
@@ -615,26 +582,26 @@
           "eng": "Examples"
         },
         "section_5_extra_text": {
-          "eng": "* Sugarcane juice molasses\n * Sugar beet molasses"
+          "eng": "* Sugarcane juice molasses\n * Sugar beet molasses\n * Overripe bananas"
         }
       },
       "text_1": "Examples of Go foods",
       "section_1_title": "",
       "section_1_text": "Cereals",
       "section_1_button_text": "Examples",
-      "section_1_extra_text": "* yellow maize\n * finger millet\n * sorghum\n * any maize variety",
+      "section_1_extra_text": "* Wheat\n * Finger millet\n * Sorghum\n * Any maize variety",
       "section_2_text": "Grain by‑products",
       "section_2_button_text": "Examples",
-      "section_2_extra_text": "* maize bran\n * wheat bran\n * rice bran\n * wheat pollard",
+      "section_2_extra_text": "* Maize bran\n * Wheat bran\n * Rice bran\n * Wheat pollard",
       "section_3_text": "Root crops",
       "section_3_button_text": "Examples",
-      "section_3_extra_text": "* cassava\n * arrowroot\n * sweet potatoes",
+      "section_3_extra_text": "* Cassava\n * Arrowroot\n * Sweet potatoes",
       "section_4_text": "Cooked fruits",
       "section_4_button_text": "Examples",
-      "section_4_extra_text": "* cooked banana variety",
+      "section_4_extra_text": "* Cooked banana variety",
       "section_5_text": "Molasses",
       "section_5_button_text": "Examples",
-      "section_5_extra_text": "* Sugarcane juice molasses\n * Sugar beet molasses"
+      "section_5_extra_text": "* Sugarcane juice molasses\n * Sugar beet molasses\n * Overripe bananas"
     },
     {
       "id": "how_4",
@@ -671,7 +638,7 @@
           "eng": "Examples"
         },
         "section_1_extra_text": {
-          "eng": "* soya beans\n * lablab \n * beanspigeon peas\n * horse beans\n * chickpeas\n * cowpeas\n * mucuna"
+          "eng": "* Soya beans\n * Lablab \n * Beans\n * Pigeon peas\n * Horse beans\n * Chickpeas\n * Cowpeas\n * Mucuna"
         },
         "section_2_text": {
           "eng": "Fodder crops"
@@ -680,7 +647,7 @@
           "eng": "Examples"
         },
         "section_2_extra_text": {
-          "eng": "* gliricidia\n * calliandra\n * sesbania\n * mulberry\n * lucaena\n * lablab leaves\n * cowpea leaves\n * potato vines\n * desmodium\n * lucerne\n * clovers\n * mucuna leaves\n * azolla\n * cassava leaves"
+          "eng": "* Gliricidia\n * Calliandra\n * Sesbania\n * Mulberry\n * Lucaena\n * Lablab leaves\n * Cowpeas leaves\n * Potato vines\n * Desmodium\n * Lucerne\n * Clovers\n * Mucuna leaves\n * Azolla\n * Cassava leaves"
         },
         "section_3_text": {
           "eng": "Other protein sources"
@@ -689,7 +656,7 @@
           "eng": "Examples"
         },
         "section_3_extra_text": {
-          "eng": "* brewery waste\n * blood meal\n * soya meal\n * sunflower seed\n * cotton seed\n * flax seed\n * melon seeds\n * pumpkin seeds"
+          "eng": "* Brewery waste\n * Blood meal\n * Soya meal\n * Sunflower seed\n * Cotton seeds\n * Flax seeds\n * Melon seeds\n * Pumpkin seeds"
         },
         "section_4_text": {
           "eng": "Fats & oils"
@@ -698,22 +665,22 @@
           "eng": "Examples"
         },
         "section_4_extra_text": {
-          "eng": "* coconut oil\n * palm oil\n * cooking oil\n * sunflower oil\n * castor oil\n * avocado oil"
+          "eng": "* Coconut oil\n * Palm oil\n * Cooking oil\n * Sunflower oil\n * Castor oil\n * Avocado oil"
         }
       },
       "text_1": "Examples of Grow foods",
       "section_1_text": "Legumes",
       "section_1_button_text": "Examples",
-      "section_1_extra_text": "* soya beans\n * lablab \n * beanspigeon peas\n * horse beans\n * chickpeas\n * cowpeas\n * mucuna",
+      "section_1_extra_text": "* Soya beans\n * Lablab \n * Beans\n * Pigeon peas\n * Horse beans\n * Chickpeas\n * Cowpeas\n * Mucuna",
       "section_2_text": "Fodder crops",
       "section_2_button_text": "Examples",
-      "section_2_extra_text": "* gliricidia\n * calliandra\n * sesbania\n * mulberry\n * lucaena\n * lablab leaves\n * cowpea leaves\n * potato vines\n * desmodium\n * lucerne\n * clovers\n * mucuna leaves\n * azolla\n * cassava leaves",
+      "section_2_extra_text": "* Gliricidia\n * Calliandra\n * Sesbania\n * Mulberry\n * Lucaena\n * Lablab leaves\n * Cowpeas leaves\n * Potato vines\n * Desmodium\n * Lucerne\n * Clovers\n * Mucuna leaves\n * Azolla\n * Cassava leaves",
       "section_3_text": "Other protein sources",
       "section_3_button_text": "Examples",
-      "section_3_extra_text": "* brewery waste\n * blood meal\n * soya meal\n * sunflower seed\n * cotton seed\n * flax seed\n * melon seeds\n * pumpkin seeds",
+      "section_3_extra_text": "* Brewery waste\n * Blood meal\n * Soya meal\n * Sunflower seed\n * Cotton seeds\n * Flax seeds\n * Melon seeds\n * Pumpkin seeds",
       "section_4_text": "Fats & oils",
       "section_4_button_text": "Examples",
-      "section_4_extra_text": "* coconut oil\n * palm oil\n * cooking oil\n * sunflower oil\n * castor oil\n * avocado oil"
+      "section_4_extra_text": "* Coconut oil\n * Palm oil\n * Cooking oil\n * Sunflower oil\n * Castor oil\n * Avocado oil"
     },
     {
       "id": "how_5",
@@ -747,7 +714,7 @@
           "eng": "Examples"
         },
         "section_1_extra_text": {
-          "eng": "* kales\n * spinach\n * lettuce\n * cabbage\n * amaranth"
+          "eng": "* Kales\n * Spinach\n * Lettuce\n * Cabbage\n * Amaranth"
         },
         "section_2_text": {
           "eng": "Other vitamin sources"
@@ -756,7 +723,7 @@
           "eng": "Examples"
         },
         "section_2_extra_text": {
-          "eng": "* carrots\n * tomatoes\n * pumpkins\n * squashes\n * butternuts"
+          "eng": "* Carrots\n * Tomatoes\n * Pumpkins\n * Squashes\n * Butternuts"
         },
         "section_3_text": {
           "eng": "Indigenous vitamin sources"
@@ -765,102 +732,128 @@
           "eng": "Examples"
         },
         "section_3_extra_text": {
-          "eng": "* molasses + ripe fruits (banana, pawpaw)\n * watermelon\n * guava\n * white sapote"
+          "eng": "* Molasses + ripe fruits (banana, pawpaw)\n * Watermelon\n * Guava\n * White sapote"
         }
       },
       "text_1": "Examples of Glow foods",
       "section_1_text": "Leafy vegetables",
       "section_1_button_text": "Examples",
-      "section_1_extra_text": "* kales\n * spinach\n * lettuce\n * cabbage\n * amaranth",
+      "section_1_extra_text": "* Kales\n * Spinach\n * Lettuce\n * Cabbage\n * Amaranth",
       "section_2_text": "Other vitamin sources",
       "section_2_button_text": "Examples",
-      "section_2_extra_text": "* carrots\n * tomatoes\n * pumpkins\n * squashes\n * butternuts",
+      "section_2_extra_text": "* Carrots\n * Tomatoes\n * Pumpkins\n * Squashes\n * Butternuts",
       "section_3_text": "Indigenous vitamin sources",
       "section_3_button_text": "Examples",
-      "section_3_extra_text": "* molasses + ripe fruits (banana, pawpaw)\n * watermelon\n * guava\n * white sapote"
+      "section_3_extra_text": "* Molasses + ripe fruits (banana, pawpaw)\n * Watermelon\n * Guava\n * White sapote"
     },
     {
       "id": "how_6",
       "category_id": "how",
       "module_id": "livestock",
+      "media_type": "audio",
+      "media_asset": "audios/useful_additives.mp3",
       "title": "Fermented Feeds",
       "_translations": {
         "title": {},
-        "text_1": {},
-        "section_1_text": {}
+        "media_title": {},
+        "media_transcript": {}
       },
       "_translatedFields": {
         "title": {
           "eng": "Fermented Feeds"
         },
-        "text_1": {
+        "media_title": {
           "eng": "Other useful additives"
         },
-        "section_1_text": {
-          "eng": "* Cooked rice (for indigenous microbes)\n * Organic manure (microbe starter)\n * Poultry microbes / EM\n * Banana stems & leaves\n * Weeds: blackjack, gallant soldier, wandering jew\n * Napier grass, arrowroot leaves, pumpkin leaves"
+        "media_transcript": {
+          "eng": "Other useful additives… that can be included in fermented feed:\n\nCooked rice… for indigenous microbes.\nOrganic manure… used as a microbe starter.\nPoultry microbes… or effective microorganisms.\nBanana stems and leaves.\nWeeds… such as blackjack, gallant soldier, and wandering jew.\nNapier grass… arrowroot leaves… and pumpkin leaves."
         }
       },
-      "text_1": "Other useful additives",
-      "section_1_text": "* Cooked rice (for indigenous microbes)\n * Organic manure (microbe starter)\n * Poultry microbes / EM\n * Banana stems & leaves\n * Weeds: blackjack, gallant soldier, wandering jew\n * Napier grass, arrowroot leaves, pumpkin leaves"
+      "media_title": "Other useful additives",
+      "media_transcript": "Other useful additives… that can be included in fermented feed:\n\nCooked rice… for indigenous microbes.\nOrganic manure… used as a microbe starter.\nPoultry microbes… or effective microorganisms.\nBanana stems and leaves.\nWeeds… such as blackjack, gallant soldier, and wandering jew.\nNapier grass… arrowroot leaves… and pumpkin leaves."
     },
     {
       "id": "how_7",
       "category_id": "how",
       "module_id": "livestock",
+      "media_type": "audio",
+      "media_asset": "audios/fermented_feeds_benefits.mp3",
       "title": "Fermented Feeds",
       "_translations": {
         "title": {},
-        "section_1_title": {},
-        "section_1_text": {}
+        "media_title": {},
+        "media_transcript": {}
       },
       "_translatedFields": {
         "title": {
           "eng": "Fermented Feeds"
         },
-        "section_1_title": {
+        "media_title": {
           "eng": "Benefits of Fermenting Animal Feed"
         },
-        "section_1_text": {
-          "eng": "* Improves birds’ gut health.\n * Lowers feeding costs by using local materials and weeds.\n * Fermentation starts digestion, making feed easier to digest and nutrients easier to absorb.\n * Adds probiotics that boost immunity.\n * Preserves feed during seasons of plenty for use in dry periods.\n * Reduces anti-nutritional factors in certain ingredients (e.g., fodder trees, soya), thereby increasing nutrient availability."
+        "media_transcript": {
+          "eng": "Benefits of fermenting animal feed:\n\nImproves birds’ gut health\nLowers feeding costs by using local materials and weeds.\nFermentation starts digestion… making feed easier to digest… and nutrients easier to absorb.\nAdds probiotics that boost immunity.\nPreserves feed during seasons of plenty… for use in dry periods.\nReduces anti-nutritional factors in certain ingredients — such as fodder trees and soya — thereby increasing nutrient availability."
         }
       },
-      "section_1_title": "Benefits of Fermenting Animal Feed",
-      "section_1_text": "* Improves birds’ gut health.\n * Lowers feeding costs by using local materials and weeds.\n * Fermentation starts digestion, making feed easier to digest and nutrients easier to absorb.\n * Adds probiotics that boost immunity.\n * Preserves feed during seasons of plenty for use in dry periods.\n * Reduces anti-nutritional factors in certain ingredients (e.g., fodder trees, soya), thereby increasing nutrient availability."
+      "media_title": "Benefits of Fermenting Animal Feed",
+      "media_transcript": "Benefits of fermenting animal feed:\n\nImproves birds’ gut health\nLowers feeding costs by using local materials and weeds.\nFermentation starts digestion… making feed easier to digest… and nutrients easier to absorb.\nAdds probiotics that boost immunity.\nPreserves feed during seasons of plenty… for use in dry periods.\nReduces anti-nutritional factors in certain ingredients — such as fodder trees and soya — thereby increasing nutrient availability."
     },
     {
       "id": "how_8",
       "category_id": "how",
       "module_id": "livestock",
-      "image_asset": "images/topic/pest_images/poultry_feed.jpeg",
+      "image_asset": "images/topic/Livestock_images/poultry_feed.jpeg",
       "title": "Homemade Poultry Feed",
       "_translations": {
         "title": {},
-        "text_1": {},
-        "image_text": {}
+        "text_1": {}
       },
       "_translatedFields": {
         "title": {
           "eng": "Homemade Poultry Feed"
         },
         "text_1": {
-          "eng": "It is feed you formulate and mix yourself to meet the nutritional needs of your animals."
-        },
-        "image_text": {
-          "eng": "* The main purpose of homemade feed is to:\n\n * Reduce feeding costs*\n * Use locally available resources*\n * Control the quality of feed given to animals*"
+          "eng": "It is feed you prepare yourself by mixing locally available ingredients to meet the nutritional needs of your animals"
         }
       },
-      "text_1": "It is feed you formulate and mix yourself to meet the nutritional needs of your animals.",
-      "image_text": "* The main purpose of homemade feed is to:\n\n * Reduce feeding costs*\n * Use locally available resources*\n * Control the quality of feed given to animals*"
+      "text_1": "It is feed you prepare yourself by mixing locally available ingredients to meet the nutritional needs of your animals"
     },
     {
       "id": "how_9",
       "category_id": "how",
       "module_id": "livestock",
+      "media_type": "audio",
+      "media_asset": "audios/homemade_benefits.mp3",
+      "title": "Homemade Poultry Feed",
+      "_translations": {
+        "title": {},
+        "media_title": {},
+        "media_transcript": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Homemade Poultry Feed"
+        },
+        "media_title": {
+          "eng": "Benefits of homemade feed"
+        },
+        "media_transcript": {
+          "eng": "Benefits of homemade feed:\n\nReduces feeding costs.\nUses locally available resources.\nAllows farmers to control the quality of feed given to animals."
+        }
+      },
+      "media_title": "Benefits of homemade feed",
+      "media_transcript": "Benefits of homemade feed:\n\nReduces feeding costs.\nUses locally available resources.\nAllows farmers to control the quality of feed given to animals."
+    },
+    {
+      "id": "how_10",
+      "category_id": "how",
+      "module_id": "livestock",
+      "image_asset": "images/topic/Livestock_images/silage_definition.jpeg",
       "title": "Silage Making",
       "_translations": {
         "title": {},
         "text_1": {},
-        "text_2": {}
+        "image_text": {}
       },
       "_translatedFields": {
         "title": {
@@ -869,12 +862,12 @@
         "text_1": {
           "eng": "Silage making is the process of preserving fresh green plant material such as maize, sorghum, or grass by creating conditions that allow it to ferment naturally in the absence of air."
         },
-        "text_2": {
+        "image_text": {
           "eng": "It is a method of preserving animal feed during seasons of plenty, so it can be used when feed is scarce."
         }
       },
       "text_1": "Silage making is the process of preserving fresh green plant material such as maize, sorghum, or grass by creating conditions that allow it to ferment naturally in the absence of air.",
-      "text_2": "It is a method of preserving animal feed during seasons of plenty, so it can be used when feed is scarce."
+      "image_text": "It is a method of preserving animal feed during seasons of plenty, so it can be used when feed is scarce."
     }
   ],
   "_source": {

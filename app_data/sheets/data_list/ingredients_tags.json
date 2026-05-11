@@ -279,6 +279,75 @@
       },
       "text": "Fermented feeds Ingredients",
       "description": "Ingredients used in preparing fermented feeds"
+    },
+    {
+      "id": "mulching",
+      "name": "mulching",
+      "title": "Mulching",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Mulching"
+        },
+        "text": {
+          "eng": "Ingredients in Mulching"
+        },
+        "description": {
+          "eng": "Ingredients used to make Mulch"
+        }
+      },
+      "text": "Ingredients in Mulching",
+      "description": "Ingredients used to make Mulch"
+    },
+    {
+      "id": "zai_pit",
+      "name": "zai_pit",
+      "title": "Zai Pit",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Zai Pit"
+        },
+        "text": {
+          "eng": "Ingredients in Zai Pits"
+        },
+        "description": {
+          "eng": "Ingredients used in preparing Zai pits"
+        }
+      },
+      "text": "Ingredients in Zai Pits",
+      "description": "Ingredients used in preparing Zai pits"
+    },
+    {
+      "id": "sunken_bed",
+      "name": "sunken_bed",
+      "title": "Sunken Bed",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Sunken Bed"
+        },
+        "text": {
+          "eng": "Ingredients in Sunken Bed"
+        },
+        "description": {
+          "eng": "Ingredients used in making Sunken Beds"
+        }
+      },
+      "text": "Ingredients in Sunken Bed",
+      "description": "Ingredients used in making Sunken Beds"
     }
   ],
   "_source": {

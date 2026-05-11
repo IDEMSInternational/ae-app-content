@@ -6,7 +6,7 @@
   "rows": [
     {
       "id": "about",
-      "icon_asset": "images/icons/about_ae.svg",
+      "icon_asset": "images/icons/categories/about.png",
       "title": "About",
       "_translations": {
         "title": {}
